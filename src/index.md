@@ -1,3 +1,5 @@
-# F-100D Super Sabre Manual
+# F-100D Manual
 
-[Weapons System](./Weapon%20System/a-4-gunsight.md)
+## Contents
+
+1. [Weapons System](./Weapon%20System/a-4-gunsight.md)

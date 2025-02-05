@@ -6,7 +6,7 @@ plugins:
     #    headless_chrome_path: C:/Program Files/Google/Chrome/Application/chrome.exe
     #    render_js: true
     - print-site:
-        print_page_title: 'DCS F-100D Manual'
+        print_page_title: 'Manual'
         enumerate_headings: false
         toc_depth: 1
 

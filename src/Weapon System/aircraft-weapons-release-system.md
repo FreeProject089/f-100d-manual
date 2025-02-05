@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The AWRS provides selectable weapons release quantity and intervals. The AWRS is active any time the release quantity switch is not in the off position. When the AWRS is active any bomb pulse by the [bomb-button]() or [Low Altitude Bombing System]() will result in the AWRS being used to sequence bomb or rocket release.
+The AWRS provides selectable weapons release quantity and intervals. The AWRS is active any time the release quantity switch is not in the off position. When the AWRS is active any bomb pulse by the [bomb-button]() or [Low Altitude Bombing System]() will result in the AWRS being used to sequence and time bomb or rocket release.
 
-When the AWRS is not active the [basic armament system circuitry]() is instead used.
+When the AWRS is not active ([Quantity Switch in OFF](#quantity-selector-switch)) the [basic armament system circuitry]() is instead used.
 
 ## Modes
 
@@ -50,7 +50,7 @@ Rockets pods cannot send an empty signal so once the outer rocket pods are empty
 
 ## Controls
 
-### AWRS Quantity Selector Switch
+### Quantity Selector Switch
 
 With the Quantity Selector Switch in the OFF position electrical power is removed from the AWRS system making it inactive. With the Quantity Selector Switch set to any numbered position the AWRS is active and energized.
 

@@ -10,7 +10,6 @@ The sidewinder is a passive infrared guided missile. The missile is aimed using 
 
 The missile generates a tone based on received infrared radiation into its seeker. This tone is transmitted to the pilot headphones. A low growl indicates little to none infrared radiation detected and a high/louder growl indicates a heat source and a possible detected target. The growl only indicates the ability for the seeker to track and does not indicate anything about range or whether the missile is able to maneuver to the target.
 
-
 ### Sidewinder Types
 
 The F-100D can carry 3 different variants of the AIM-9 sidewinder listed below.
@@ -49,6 +48,6 @@ Sidewinder volume can be adjusted using the Missile Control [Volume Control]().
 
 To arm the missiles check the [Gun-Missile Switch]() is in the Missile position and put the [Missile Master Switch]() into the READY position.
 
-A Sidewinder tone should be hear and the [status display lights]() should indicate a Sidewinder ready to be fired.
+A Sidewinder tone should be heard and the [status display lights]() should indicate a Sidewinder ready to be fired.
 
 ### Jettison

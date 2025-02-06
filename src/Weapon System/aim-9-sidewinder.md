@@ -6,7 +6,7 @@ The AIM-9 sidewinder is a short range infrared guided missile, introduced in 195
 
 The F-100D can carry two Sidewinder Missiles on a Type IX launcher on each of the inboard pylons, for a total of four Sidewinders.
 
-The sidewinder is a passive infrared guided missile. The missile is aimed using the [A-4 Gunsight](./a-4-gunsight.md#a-4-gunsight) with the sight [mechanically caged](./a-4-gunsight.md#mechanical-cage).
+The sidewinder is a passive infrared guided missile. The missile is aimed using the [A-4 Gunsight](./a-4-gunsight.md#a-4-gunsight) with the sight [mechanically or electrically caged](./a-4-gunsight.md#mechanical-cage-lever).
 
 The missile generates a tone based on received infrared radiation into its seeker. This tone is transmitted to the pilot headphones. A low growl indicates little to none infrared radiation detected and a high/louder growl indicates a heat source and a possible detected target. The growl only indicates the ability for the seeker to track and does not indicate anything about range or whether the missile is able to maneuver to the target.
 

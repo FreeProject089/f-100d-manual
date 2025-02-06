@@ -1,2 +1,0 @@
-# Basic Armament System Circuitry
-

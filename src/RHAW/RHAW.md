@@ -4,7 +4,6 @@
 
 The AN/APR-25 is a Radar Warning and Homing Receiever. This is a piece of equipment which is designed to detect incoming radar and guidance signals and inform the pilot of any threats.
 
-
 ## Theory of Operation
 
 ### Theory of Radar
@@ -33,29 +32,46 @@ Whenever radar is refered to be in any of these bands it simply means that the r
 
 #### Pulse Repetition Frequency (PRF)
 
-It is not enough to send one pulse of radiation as the energy contained within one pulse is very small so it can be difficult to detect. To improve this and to continually update what the radar is detecting the radar will send a stream of pulses.
+It is not enough to send one pulse of radiation as the energy contained within one pulse is very small so it can be difficult to detect. To improve this and to continually update what the radar is detecting the radar will send a stream of pulses. The rate at which these pulses are transmitted is known as the pulse repetition frequency.
 
-The rate at which these pulses are transmitted is known as the pulse repetition frequency. Along with the band the pulse repetition frequency  
+![Image of Radar Pulse Train]()
 
-### Equipement
+Below the various types of pulse repetition frequency are described.
 
-The AN/APR-25 uses four antennas to detect incoming radiation. There are two antennas on the nose to detect incoming radiation from the front half and two antennas on the tail to detect incoming radiation from the rear half.
-
-The antennas route to three amplifiers - one for each band. The AN/APR-25 cannot detect 
-
-The band is the first category the AN/APR-25 uses to sort threats. Different detected threats are displayed based on their band.
-
-### Pulse Repetition Frequency (PRF)
-
-It is important to discuss pulse repetition frequency as it is important for categorising threats and is important to radar operation.
-
-The pulse repetition frequency of an radar is the frequency at which a radar sends pulses. There are three broad ranges of pulse repetition frequency.
 
 | Category | Pulse Repetition Frequency Range (kHz) | Description
 |----------|----------------------------------------|-------------
 | HIGH     | 30 - 300+                              | Primarily used in pulse doppler radars. Older pulse doppler radars only have high pulse repetition frequency modes. These saturate the AN/APR-25 and give a constant tone at the maximum frequency the AN/APR-25 audio generator can create.
-| MEDIUM   | 3 - 30                                 | Used in modern pulse doppler radars. Medium pulse repetition frequencies are modulated this means the pulse repetition frequnecy is quickly varied giving them complex patterns. This can give complex digital sounding tones from the audio generator of the AN/APR-25.
+| MEDIUM   | 3 - 30                                 | Used in modern pulse doppler radars. Medium pulse repetition frequencies are modulated this means the pulse repetition frequency is quickly varied giving them complex patterns. This can give complex digital sounding tones from the audio generator of the AN/APR-25.
 | LOW      | <3                                     | Used in older pulse and moving target indicator radars. This frequency is also commonly used for ground mapping radars. Older radars use something called pulse repetition frequency jittering to reduce un-wanted clutter, this jitter is the random changing of the pulse repetition frequency and can result in a buzzing sound being heard in the AN/APR-25 audio.
+
+The AN/APR-25 was only designed to deal with Low Pulse Repetition Frequency threats and thus only these can be correctly categorised. However because of the multiple frequencies used in medium pulse repetition frequency beat frequencies are created which can be heard in the low pulse repetition frequency range. High pulse repetition frequency radars have no such complexity and therefore they simply max the frequency of the AN/APR-25 audio generator.
+
+### Equipement
+
+#### Antennas
+
+The AN/APR-25 uses four antennas to detect incoming radiation. There are two antennas on the nose to detect incoming radiation from the front half and two antennas on the tail to detect incoming radiation from the rear half.
+
+The four antennas are angled at 45 degrees each as shown below.
+
+![Picture of AN/APR-25 Antennas]()
+
+Each antenna covers approximately a 90 degree cone. The relative strength between the antennas can be used to determine threat detection. Due to the antennas being fixed to the aircraft as the aircraft rolls and pitches the relative direction of the radiation will change and the apparent azimuth on the scope will change also.
+
+#### Amplifiers
+
+Each antenna routes to three amplifiers - one for each band that the AN/APR-25 can detect. The amplifiers increase the signal to a usable level so it can be passed to the logic analyser.
+
+#### Logic Analysers
+
+There is a logic analyser for each band. In general the logic analysers have complex circuitry to measure characteristics about the incoming signals.
+
+The primary characteristics which can be measured are the pulse repetition frequency and the scan pattern of the incoming signals. If the pulse repetition frequency and scan pattern match that of the threat on this band then the respective [light](#sam-indications-bands-ige) is triggered on the billboard.
+
+#### Audio Generator
+
+The pulses from the amplifiers are directly translated to audio. This can result in a noisey environment when there are lots of radars operating - although the [band disable](#sam-indications-bands-ige) and [aaa defeat](#aaa-defeat) can both be used to reduce unwanted threat indications and their respective audio.
 
 ## Billboard
 
@@ -125,6 +141,15 @@ The launch indication is given when Charlie band guidance activity is detected a
 
 This button blanks out the lower half of the Echo band effectively disabling Anti-Aircraft Artillary Radars commonly found in this band.
 
+### Audio Knob
+
+Sets the volume of the audio produced by the AN/APR-25
+
+### Brightness Knob
+
+Sets the brightness of the indications on the billboard.
+
 ## Azimuth Display
+
 
 

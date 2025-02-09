@@ -1,7 +1,5 @@
 # DCS F-100D Super Sabre
 
-## Introduction
-
 The F-100D Super Saber was made by North American Aviation and first flown in 1956. Being a supersonic fighter and bomber, the Sabre was the primier aircraft used by the United States Air Force. The F-100 family alone flew over 360,000 combat sorties during the war where it specialized in fighter-bomber penetration and escort missions.
 
 The Sabre features a 45 degree swept wing, supersonic level flight and in flight ariel refueling capability. Underwing stations can be utilized to maximize range with fuel tanks or add additional ordnance.

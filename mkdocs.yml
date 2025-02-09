@@ -19,6 +19,12 @@ theme:
 docs_dir: src
 
 nav:
+    - Introduction:
+      - Overview: ./Introduction/introduction.md
+    - General Systems:
+      - Hydraulics:
+        - Introduction: ./Hydraulics/introduction.md
+        - Utility: ./Hydraulics/utility.md
     - Defensive Systems:
       - AN/APR-25 RHAW: ./RHAW/RHAW.md
     - Weapon Systems:
@@ -27,7 +33,9 @@ nav:
       - Aircraft Weapons Release System: ./Weapon System/aircraft-weapons-release-system.md
       - A-4 Gunsight: ./Weapon System/a-4-gunsight.md
       - AIM-9 Sidewinder: ./Weapon System/aim-9-sidewinder.md
-      - Procedures:
+
+    - Procedures:
+      - Weapons Employment:
         - Manual Delivery: ./Weapon System/Procedures/manual-delivery.md
         - Sidewinders: ./Weapon System/Procedures/sidewinder.md
 

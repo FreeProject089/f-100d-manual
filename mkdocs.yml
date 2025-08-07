@@ -17,6 +17,7 @@ theme:
     - navigation.instant
 
 docs_dir: src
+use_directory_urls: false
 
 nav:
     - Introduction:
@@ -29,15 +30,15 @@ nav:
     - Defensive Systems:
       - AN/APR-25 RHAW: ./RHAW/RHAW.md
     - Weapon Systems:
-      - Armament Control Panels: ./Weapon System/armament-control-panels.md
-      - Basic Armament Control Circuitry: ./Weapon System/basic-armament-control-circuitry.md
-      - Aircraft Weapons Release System: ./Weapon System/aircraft-weapons-release-system.md
-      - A-4 Gunsight: ./Weapon System/a-4-gunsight.md
-      - AIM-9 Sidewinder: ./Weapon System/aim-9-sidewinder.md
+      - Armament Control Panels: ./Weapon_System/armament-control-panels.md
+      - Basic Armament Control Circuitry: ./Weapon_System/basic-armament-control-circuitry.md
+      - Aircraft Weapons Release System: ./Weapon_System/aircraft-weapons-release-system.md
+      - A-4 Gunsight: ./Weapon_System/a-4-gunsight.md
+      - AIM-9 Sidewinder: ./Weapon_System/aim-9-sidewinder.md
 
     - Procedures:
       - Weapons Employment:
-        - Manual Delivery: ./Weapon System/Procedures/manual-delivery.md
-        - Sidewinders: ./Weapon System/Procedures/sidewinder.md
+        - Manual Delivery: ./Weapon_System/Procedures/manual-delivery.md
+        - Sidewinders: ./Weapon_System/Procedures/sidewinder.md
 
     

@@ -10,7 +10,7 @@ Be sure to make use of links wherever possible to make it easy to navigate and p
 
 The exact structure is to be discussed.
 
-![gif-test](src/Weapon%20System/gunsight.gif)
+![gif-test](src/Weapon_System/gunsight.gif)
 
 ## Install
 

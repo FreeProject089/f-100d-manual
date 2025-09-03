@@ -1,6 +1,8 @@
 project(f100_manual)
 file(GLOB_RECURSE site_sources "${CMAKE_CURRENT_SOURCE_DIR}/src/*.md")
 
+LIST(APPEND site_sources "${CMAKE_CURRENT_SOURCE_DIR}/mkdocs.yml")
+
 find_program(MKDOCS mkdocs DOC "manual generator")
 
 set(site_output

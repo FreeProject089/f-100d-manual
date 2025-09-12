@@ -26,10 +26,11 @@ This control regulates the volume of the signal to the headset.
 
 The power switch has four positions: **OFF**, **REC**, **T/R**, **A/A**.
 
-- Selecting either the **REC** or **T/R** position turns on the set.
-
-- In the **REC** position, only bearing information and station identification are available. 
-
-- In the **T/R** position, bearing/distance information and station identification are available.
+| Power Switch Selection | Description |
+|------------------------|-------------|
+| **OFF**                | Set is inoperative. |
+| **REC**                | Bearing information and station identification are available. |
+| **T/R**                | Bearing and distance information and station identification are available. |
+| **A/A**                | TODO |
 
 ## Normal Operation

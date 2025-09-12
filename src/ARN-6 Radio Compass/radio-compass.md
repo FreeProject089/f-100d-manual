@@ -42,52 +42,52 @@ The tuning crank is used to tune the desired station for maximum signal strength
 
 This five-position switch controls the operation of the radio compass. 
 
-- In the **OFF** position, the receiver is inoperative.
-
-- In the **COMP/ ADF** position, the sensing and loop antennas and loop control circuits are selected. In this position, the loop is automatically rotated so that the bearing pointer points to the station. The **COMP/ ADF** position is the only one which provides automatic volume control to maintain an even level of volume in the headset.
-
-- In the **ANT** position, only the sensing antenna is selected and the radio compass is used as a low-frequency receiver.
-
-- In the **LOOP** position, only the loop antenna is selected. Signal reception depends upon the position of the loop in relation to the station.
-
-- The **CONT** position is inoperative in F-100D aircraft.
+| Function Selection | Description |
+|--------------------|-------------|
+| **OFF**            | The receiver is inoperative. |
+| **COMP/ ADF**      | The sensing and loop antennas and loop control circuits are selected. In this position, the loop is automatically rotated so that the bearing pointer points to the station. The **COMP/ ADF** position is the only one which provides automatic volume control to maintain an even level of volume in the headset. |
+| **ANT**            | The sensing antenna is selected and the radio compass is used as a low-frequency receiver. |
+| **LOOP**           | The loop antenna is selected. Signal reception depends upon the position of the loop in relation to the station. |
+| **CONT**           | This function is inoperative in F-100D aircraft. |
 
 ## Normal Operation
 
-- **Preflight**
-  - Ensure the **Function Switch** is set to **OFF** before applying power.
-  - Verify that frequency cards and station lists are available for the area of operation.
+1. **Preflight**
+    - Ensure the **Function Switch** is set to **OFF** before applying power.
+    - Verify that frequency cards and station lists are available for the area of operation.
 
-- **Power On**
-  - Set the **Function Switch** to **COMP/ADF**.
-  - Adjust the **Volume Control Knob** for comfortable headset audio level.
+2. **Power On**
+    - Set the **Function Switch** to **COMP/ADF**.
+    - Adjust the **Volume Control Knob** for comfortable headset audio level.
 
-- **Tuning**
-  - Use the **Band Selector Switch** to select the appropriate frequency band for the desired station.
-  - Rotate the **Tuning Crank** until maximum signal strength is obtained.
-  - If receiving a CW station, place the **CW/Voice Switch** in **CW** and fine-tune with the crank for best tone.
+3. **Tuning**
+    - Use the **Band Selector Switch** to select the appropriate frequency band for the desired station.
+    - Rotate the **Tuning Crank** until maximum signal strength is obtained.
+    - If receiving a CW station, place the **CW/Voice Switch** in **CW** and fine-tune with the crank for best tone.
 
-- **Direction Finding**
-  - With the **Function Switch** in **COMP/ADF**, the loop antenna will rotate automatically and the bearing pointer will indicate the station’s direction.
-  - For manual loop operation, set the **Function Switch** to **LOOP** and use the **Loop L-R Switch** to rotate the loop antenna.
+4. **Direction Finding**
+    - With the **Function Switch** in **COMP/ADF**, the loop antenna will rotate automatically and the bearing pointer will indicate the station’s direction.
+    - For manual loop operation, set the **Function Switch** to **LOOP** and use the **Loop L-R Switch** to rotate the loop antenna.
 
-- **Monitoring**
-  - To use the radio compass strictly as a receiver, set the **Function Switch** to **ANT**.
-  - Adjust the **Volume Control Knob** as required for clear reception.
+5. **Monitoring**
+    - To use the radio compass strictly as a receiver, set the **Function Switch** to **ANT**.
+    - Adjust the **Volume Control Knob** as required for clear reception.
 
-- **Shutdown**
-  - Return the **Function Switch** to **OFF** after use.
+6. **Shutdown**
+    - Return the **Function Switch** to **OFF** after use.
 
 ## How a Beat Frequency Oscillator Works
 
-A Beat Frequency Oscillator (BFO) is used in radio receivers to make continuous wave (CW) signals audible. When a CW signal is received, it consists of a steady carrier with no modulation. On its own, this signal produces no sound in the headset. The BFO solves this by introducing a locally generated frequency that is slightly offset from the received carrier.
+A Beat Frequency Oscillator (BFO) is used in radio receivers to make continuous wave (CW) signals audible allowing the operator to accurately tune the receiver using the produced tone. When a CW signal is received, it consists of a steady carrier with no modulation. On its own, this signal produces no sound in the headset. The BFO solves this by introducing a locally generated frequency that is slightly offset from the received carrier.
 
-- **Beating Frequencies**  
-    When the incoming carrier frequency and the BFO frequency are combined, the difference between them produces an audible tone in the audio range (typically around 400–1000 Hz).
+### Beating Frequencies
 
-    For example, if the station signal is at 300.0 kHz and the BFO is set to 300.9 kHz, the difference is 900 Hz which is heard as a steady tone.
+When the incoming carrier frequency and the BFO frequency are combined, the difference between them produces an audible tone in the audio range (typically around 400–1000 Hz).
 
-- **Fine Tuning to Zero Beat**  
-    By carefully adjusting the tuning crank, the operator brings the receiver frequency closer to the exact frequency of the station carrier. As the difference between the two signals decreases, the tone lowers in pitch. When the received signal and BFO frequency become exactly equal, the tone disappears, this is called zero beat.  
-  
-    Zero beating allows precise tuning to the station’s exact carrier frequency, which is essential for accurate direction finding and signal clarity.
+For example, if the station signal is at 300.0 kHz and the BFO is set to 300.9 kHz, the difference is 900 Hz which is heard as a steady tone.
+
+### Fine Tuning to Zero Beat
+
+By carefully adjusting the tuning crank, the operator brings the receiver frequency closer to the exact frequency of the station carrier. As the difference between the two signals decreases, the tone lowers in pitch. When the received signal and BFO frequency become exactly equal, the tone disappears, this is called zero beat.  
+
+Zero beating allows precise tuning to the station’s exact carrier frequency, which is essential for accurate direction finding and signal clarity.

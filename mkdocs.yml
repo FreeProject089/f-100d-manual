@@ -10,6 +10,9 @@ plugins:
         enumerate_headings: false
         toc_depth: 1
 
+#https://www.mkdocs.org/user-guide/customizing-your-theme/
+# see extra css (simplify this later)
+# markdown -> ![gunsight](images/AH-1G_M73Reticle.png){:.restricted-img} - thanks hayds
 theme:
   name: readthedocs
   custom_dir: 'custom_theme/'  # or any other theme

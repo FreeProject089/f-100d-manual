@@ -31,6 +31,10 @@ Manual Topic List:
 - APX-72 IFF
 - J-4 Compass
 - B-26 Navigation Computer
+- Cameras:
+  - Gun Camera
+  - Strike Camera
+- Ejection Seat
 
 Additional Things:
 

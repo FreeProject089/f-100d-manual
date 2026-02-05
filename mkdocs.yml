@@ -29,6 +29,8 @@ nav:
       - Special Options: ./Introduction/special-options.md
       - Research Series: ./Introduction/research-series.md
       - Official Soundtrack: ./Introduction/official-soundtrack.md
+    - DCS:
+      - Checklist: ./Meta/checklist.md
     - General Systems:
       - Electrical: ./Electrical/electrical.md
       - Hydraulics:

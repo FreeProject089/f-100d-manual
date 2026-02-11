@@ -29,6 +29,8 @@ nav:
       - Special Options: ./Introduction/special-options.md
       - Research Series: ./Introduction/research-series.md
       - Official Soundtrack: ./Introduction/official-soundtrack.md
+    - DCS:
+      - Checklist: ./Meta/checklist.md
     - General Systems:
       - Electrical: ./Electrical/electrical.md
       - Hydraulics:
@@ -37,15 +39,19 @@ nav:
       - MD-1 Oxygen Regulator: ./Oxygen System/oxygen.md
       - AN/APX-72 IFF: ./APX-72 IFF/iff.md
       - Lighting Control Panel: ./Lighting Control Panel/lighting-control-panel.md
+      - Ejection Seat: ./Ejection Seat/ejection_seat.md
     - Navigation Systems:
       - Direction Gyro and Compass: ./DirectionGyroCompass/direction-gyro-and-compass.md
       - B-26 Navigation Computer: ./Navigation Computer/navigation-computer.md
     - Radio Systems:
-        - ARC-34 UHF Command Radio: ./ARC-34 Command Radio/command-radio.md
-        - ARA-50 ADF System: ./ARA-50 ADF/adf-radio.md
-        - ARN-6 Radio Compass: ./ARN-6 Radio Compass/radio-compass.md
-        - ARN-72 TACAN: ./ARN-72 TACAN/tacan.md
-        - Seek Silence System: ./Seek Silence System/seek-silence.md 
+      - ARC-34 UHF Command Radio: ./ARC-34 Command Radio/command-radio.md
+      - ARA-50 ADF System: ./ARA-50 ADF/adf-radio.md
+      - ARN-6 Radio Compass: ./ARN-6 Radio Compass/radio-compass.md
+      - ARN-72 TACAN: ./ARN-72 TACAN/tacan.md
+      - Seek Silence System: ./Seek Silence System/seek-silence.md 
+    - Camera Systems:
+      - Gun Camera: ./Gun Camera/gun_camera.md
+      - Strike Camera: ./Strike Camera/strike_camera.md
     - Defensive Systems:
       - AN/APR-25 RHAW: ./RHAW/RHAW.md
     - Weapon Systems:

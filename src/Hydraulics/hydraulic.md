@@ -60,7 +60,7 @@ If the pump is no longer needed it must be shut down manually using the [lever](
 
 Utility hydraulic pressure is required to open the RAT however in case of utility failure stored energy in the Ram Air Turbine door emergency accumulator is used.
 
-Automatic deployment of the Ram Air Turbine can be tested when shutting the aircraft down by using the [Ram Air Turbine Test Button](#ram-air-turbine-test-button).
+Deployment of the Ram Air Turbine can be tested in flight using the [flight control hydraulic system test switch](#flight-control-hydraulic-system-test-switch).
 
 ### Emergency Wheel Brake Pump
 
@@ -72,11 +72,17 @@ In case of utility hydraulic pressure loss an electrical driven pump is used to 
 
 This is used to deploy the [Ram Air Turbine](#ram-air-turbine-rat) manually, this lever will automatically actuate when the Ram Air Turbine is deployed automatically.
 
-### Ram Air Turbine Test Button
+### Flight Control Hydraulic System Test Switch
 
-Holding this test button during shut down will test automatic deployment of the [Ram Air Turbine](#ram-air-turbine-rat). This switch overrides the nose gear load switch allowing automatic deployment when engine RPM falls below 40%.
+Holding this switch at the `SYS 2 OFF` position will close the test valve removing hydraulic pressure for this system. Moving the switch to `RAM TURB ON SYS 2 OFF` will continue to remove hydraulic pressure from the number 2 system and provide utility hydraulic power to the ram air turbine causing the [ram air turbine door lever](#ram-air-turbine-door-lever) to automatically move to the open position.
 
 After testing the [lever](#ram-air-turbine-door-lever) must be manually moved aft to close the Ram Air Turbine Doors.
+
+!!! note
+    Since this test is to be carried out during flight: there is a pressure switch preventing the test valve from being actuated if the number 1 system pressure is lower than 650 psi so as to not cause primary flight control power loss.
+
+!!! note
+    A nose gear load switch prevents the number 2 system from being shut off on the ground.
 
 ### Rudder Hydraulic Test Switch
 

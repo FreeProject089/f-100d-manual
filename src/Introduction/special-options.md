@@ -1,17 +1,15 @@
-# DCS F-100D Super Sabre
+# Special Options
 
-## Special Options
+## Gameplay
 
-### Gameplay
+## Weapon Options
 
-### Weapon Options
+## External Customization Options
 
-### External Customization Options
+## Cockpit Customization Options
 
-### Cockpit Customization Options
+## Strike Camera Options
 
-### Camera Options
-
-### Strike Camera Settings
+## Strike Camera Settings
 
 ![special options image](./img/special_options.PNG) <!-- REPLACE THIS IMAGE -->

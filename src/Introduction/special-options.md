@@ -3,6 +3,8 @@ Various special options have been added for user quality of life and customizati
 
 These options are located in the xx of DCS World with the DCS: F-100D Super Sabre Selected from the left side module tray.
 
+![special options image](./img/special_options.PNG)
+
 ## Gameplay
 
 ### Cockpit Camera Shake
@@ -95,4 +97,4 @@ This setting will change the playback rate of the output footage. 100% is real-t
 !!! warning
     Lower playback rates increase RAM usage of rear camera.
 
-![special options image](./img/special_options.PNG) <!-- REPLACE THIS IMAGE -->
+

@@ -18,7 +18,7 @@ The nose wheel steering button is located near the pinky. Pressing the nose whee
 ### Radar Reject Button
 
 ### Trigger and Bomb Button
-The trigger and bomb buttons are used to release weapons. Specifically, the triggeris used for air-to-air missiles and guns and the bomb button is used to release air-to-ground ordnance. 
+The trigger and bomb buttons are used to release weapons. Specifically, the triggers used for air-to-air missiles and guns and the bomb button is used to release air-to-ground ordnance. 
 
 !!! note
     The trigger consists of two stages. The first stage activates the gun camera and can later be viewed. The second stage fires the gun.

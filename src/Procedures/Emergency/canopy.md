@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Canopy
 
 ### Canopy Jettison

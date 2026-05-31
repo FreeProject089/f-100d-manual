@@ -14,7 +14,7 @@ The three-position indicator light dimmer switch controls the brightness of the 
 
 ## Indicator, Caution, and Warning Light Panel
 
-![replace image](./img/wp_test.JPG) <!-- REPLACE THIS IMAGE -->
+![replace image](./img/indicatorlights.PNG)
 
 | Light | Category | Cause | Procedure |
 |-------|-------|-----------|----------|

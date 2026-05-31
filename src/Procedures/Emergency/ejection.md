@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Ejection
 The following information should be observed, when
 ejection must be accomplished:

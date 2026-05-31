@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Illumination of the Fuel Valve Fail Light
 Steady or flickering illumination of the fuel valve fail light
 indicates a failure or impending failure of the fuel system

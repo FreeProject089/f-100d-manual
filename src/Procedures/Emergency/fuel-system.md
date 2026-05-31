@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Fuel System
 
 ### Fuel System Failure

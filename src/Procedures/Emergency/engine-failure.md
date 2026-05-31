@@ -1,3 +1,5 @@
+<script src="../../hatch.js"></script>
+
 ## Engine Failure
 Failures of jet engines may be the result of improper fuel
 scheduling, caused by a malfunction of the fuel control

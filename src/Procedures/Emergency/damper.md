@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Yaw and Pitch Damper Emergency
 In an emergency, the dampers can be disengaged by
 pressing the damper emergency disconnect switch lever on

@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Wheel Brakes Overheated
 At the first indication of brake malfunction, or if brakes
 are suspected to be overheated after excessive use, the

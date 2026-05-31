@@ -137,7 +137,7 @@ nav:
           - Utility Hydraulic System Failure: ./Procedures/Emergency/utility-hydraulic.md
           - Yaw and Pitch Damper Emergency: ./Procedures/Emergency/damper.md
         - Landing Emergencies:
-          - Precautionary Landing Pattern (PEL): ./Procedures/Emergency/pel.md
+          - Precautionary Landing Pattern (PLP): ./Procedures/Emergency/pel.md
           - Recommended Glide: ./Procedures/Emergency/glide.md
           - Landing Gear Emergency Operation: ./Procedures/Emergency/gear.md
           - Landing With Arresting Hook Extended: ./Procedures/Emergency/hook.md

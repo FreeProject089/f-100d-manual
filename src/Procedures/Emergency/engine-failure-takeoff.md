@@ -1,3 +1,5 @@
+<script src="../../hatch.js"></script>
+
 ## Engine Failure During Takeoff
 1. ABORT. If engine failure occurs on takeoff before the
 landing gear handle is raised and a barrier engagement/

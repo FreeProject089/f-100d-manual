@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## AC Generator RESET
 Any actual generator failure or generator over-voltage
 causes the generator to be removed from the ac system

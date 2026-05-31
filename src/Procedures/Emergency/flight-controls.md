@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Flight Controls
 
 ### Flight Control Artificial-feel System Failure

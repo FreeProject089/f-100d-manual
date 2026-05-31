@@ -1,6 +1,7 @@
 # Cockpit Right Side
 
-![replace image](./img/replace-image.PNG) <!-- REPLACE THIS IMAGE -->
+![replace image](./img/rightside.PNG)
+
 ## Stand-By Instrument Inverter Switch
 
 ## Console Floodlight

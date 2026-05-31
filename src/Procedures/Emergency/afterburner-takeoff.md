@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Afterburner Failure During Takeoff
 1. THROTTLE — INBOARD. Immediately move throttle
 inboard out of AFTERBURNER range to MILITARY to

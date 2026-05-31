@@ -1,4 +1,6 @@
 
+<script src="../../hatch.js"></script>
+
 ## Landing Gear Emergency Operation
 
 ### Landing Gear Unsafe Indications

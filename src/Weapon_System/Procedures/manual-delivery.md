@@ -6,9 +6,9 @@ The procedure below will setup the weapons so that the bomb-button will fire a s
 
 ### 1. Rocket Arming
 
-1. Armament Control Panel: [Stores Selector](../armament-control-panels.md#controls) - RKTS
-2. Armament Control Panel: [Mode Selector](../armament-control-panels.md#controls) - MANUAL
-3. Set All Armament Control Panel: [Station Release Selection Switches](../armament-control-panels.md#controls) - NORM
+1. Armament Control Panel: [Stores Selector](../armament-control-panels.md#stores-selector) - RKTS
+2. Armament Control Panel: [Mode Selector](../armament-control-panels.md#mode-selector) - MANUAL
+3. Set All Armament Control Panel: [Station Release Selection Switches](../armament-control-panels.md#station-release-selection-switches) - NORM
 
 ### 2. Aircraft Weapons Release System (AWRS) Setup
 
@@ -30,11 +30,11 @@ The procedure below will setup the weapons so that the bomb-button will drop a s
 
 ### 1. Bomb Arming
 
-1. Armament Control Panel: [Stores Selector](../armament-control-panels.md#controls) - BOMBS
-2. Armament Control Panel: [Mode Selector](../armament-control-panels.md#controls) - MANUAL
-3. Set All Armament Control Panel: [Station Release Selection Switches](../armament-control-panels.md#controls) - NORM
+1. Armament Control Panel: [Stores Selector](../armament-control-panels.md#stores-selector) - BOMBS
+2. Armament Control Panel: [Mode Selector](../armament-control-panels.md#mode-selector) - MANUAL
+3. Set All Armament Control Panel: [Station Release Selection Switches](../armament-control-panels.md#station-release-selection-switches) - NORM
 
-4. Set All Armament Control Panel: [Bomb Arm Switch](../armament-control-panels.md#controls) - NOSE & TAIL (NOSE only if using high drag bombs to be dropped in low drag mode)
+4. Set All Armament Control Panel: [Bomb Arm Switch](../armament-control-panels.md#bomb-arm-switch) - NOSE & TAIL (NOSE only if using high drag bombs to be dropped in low drag mode)
 
 ### 2. Aircraft Weapons Release System (AWRS) Setup
 

@@ -215,3 +215,49 @@ td, th {
 .wy-table-responsive {
     overflow : visible !important;
 }
+
+
+
+/* EMERG LINES */
+/* EMERG LINES */
+:root {
+  --border-thickness: 32px;
+}
+
+.wy-nav-content {
+  max-width: 1080px !important;
+  position: relative;
+}
+
+.wy-nav-content::before,
+.wy-nav-content::after,
+body.hatch-border .wy-nav-content .hatch-left,
+body.hatch-border .wy-nav-content .hatch-right {
+  display: none;
+}
+
+body.hatch-border .wy-nav-content::before,
+body.hatch-border .wy-nav-content::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: var(--border-thickness);
+  z-index: 9999;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    45deg,
+    #1a1a1a 0px,
+    #1a1a1a 10px,
+    #ffffff 10px,
+    #ffffff 20px
+  );
+}
+
+body.hatch-border .wy-nav-content::before {
+  top: 0;
+}
+
+body.hatch-border .wy-nav-content::after {
+  bottom: 0;
+}

@@ -1,14 +1,14 @@
 # Credits
 
 Joe Grinnelli - Team Lead
-Brandon Gore - Aerodynamicist
+Aero - Aerodynamicist
 Thomas - Lead Artist
 Josh Nelson - Lead Programmer
 Sloan Phillippi - Programmer
 Haydn Boul - Programmer
 
 Partario Flynn - Sound Design
-Andrei N - Artist
+Andrei (Warped-Studios) - Artist
 Daniel Clark - Artist
 JJ Kirby - Video Producer
 Sean Strike - Artist & Research

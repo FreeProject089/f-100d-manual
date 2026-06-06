@@ -49,7 +49,20 @@ The drag chute (in real life) has been tested up to 180 KIAS without failure. Th
 The tail skid is installed only for the purpose of protecting the airplane from serious damage in the tail area during landing. Occasional contact of the tail skid is normal operation. However, the tail skid may not protect the aircraft under high sink rates. 
 
 ### Landing Pattern
-**SOMETHING WITH THE GRAPHICS MAYBE (PG 2-28 of dash 1)
+![landing pattern](../img/landingpattern.PNG)  
+
+| Step | Explanation |
+|------|-------------|
+| 1.   | Initial - 300 KIAS |
+| 2.   | Speed brake - AS DESIRED. Position throttle to maintain pattern speed and altitude |
+| 3.   | Gear - DOWN. Checked for down-and-locked indications. |
+| 4.   | Flaps - DOWN. |
+| 5.   | Throttle - IDLE. Touchdown at recommended speed |
+| 6.   | Wheel brakes - CHECK. |
+| 7.   | Flaps - UP. |
+| 8.   | Nose wheel steering - ENGAGE. |
+| 9.   | Drag chute - Deploy. |
+| 10.  | Speed brake - UP. |
 
 ### Landing Without a Drag Chute
 Sufficient braking will be available without the drag chute on a dry runway. Aerodynamic braking can also be used to dissipate energy down to a speed where mechanical braking is much more effective with less energy absorption. 

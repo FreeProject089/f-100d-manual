@@ -49,7 +49,8 @@ The drag chute (in real life) has been tested up to 180 KIAS without failure. Th
 The tail skid is installed only for the purpose of protecting the airplane from serious damage in the tail area during landing. Occasional contact of the tail skid is normal operation. However, the tail skid may not protect the aircraft under high sink rates. 
 
 ### Landing Pattern
-![landing pattern](../img/landingpattern.PNG)  
+
+![landingpattern](./../img/landingpattern.PNG)  
 
 | Step | Explanation |
 |------|-------------|

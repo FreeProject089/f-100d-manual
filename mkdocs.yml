@@ -10,10 +10,10 @@ plugins:
     #- with-pdf:
     #    headless_chrome_path: C:/Program Files/Google/Chrome/Application/chrome.exe
     #    render_js: true
-    # - print-site:
-    #     print_page_title: 'Manual'
-    #     enumerate_headings: false
-    #     toc_depth: 1
+    - print-site:
+        print_page_title: 'Manual'
+        enumerate_headings: false
+        toc_depth: 1
 
 #https://www.mkdocs.org/user-guide/customizing-your-theme/
 # see extra css (simplify this later)

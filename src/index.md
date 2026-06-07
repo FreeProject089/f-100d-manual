@@ -1,4 +1,6 @@
-# F-100D Manual
+# DCS: F-100D Manual
+
+![radio image](./Introduction/img/stroke.svg)
 
 ## Contents
 

@@ -5,11 +5,11 @@ This section will cover general items on the left side of the cockpit. More spec
 
 | Reference | Name |
 |-----------|------|
-| 1         | RHAW Vector Indicator and Control Panel |
-| 2         | Drag Chute Handle |
-| 3         | A-4 Gunsight |
-| 4         | Status Display Lights |
-| 5         | Wet Magnetic Compass |
+| 1         | [RHAW Vector Indicator and Control Panel](../RHAW/RHAW.md#controls-and-indicators) |
+| 2         | [Drag Chute Handle] |
+| 3         | [A-4 Gunsight](../Weapon_System/a-4-gunsight.md) |
+| 4         | [Status Display Lights](../Weapon_System/armament-control-panels.md#status-display-lights) |
+| 5         | [Wet Magnetic Compass](#wet-magnetic-compass) |
 
 ## Wet Magnetic Compass
 

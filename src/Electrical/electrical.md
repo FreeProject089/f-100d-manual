@@ -48,3 +48,9 @@ The primary bus powers the most essential equipment to the aircraft. Under norma
 ### Three-Phase AC Instrument Bus (115V)
 
 ### Single-Phase AC Instrument Bus (26V)
+
+### AC Load Meter
+
+## DC System
+
+### DC Load Meter

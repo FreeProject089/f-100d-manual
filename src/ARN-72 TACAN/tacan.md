@@ -34,3 +34,5 @@ The power switch has four positions: **OFF**, **REC**, **T/R**, **A/A**.
 | **A/A**                | TODO |
 
 ## Normal Operation
+
+### Tacan Range Indicator

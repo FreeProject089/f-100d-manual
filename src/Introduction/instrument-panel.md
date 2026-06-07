@@ -7,23 +7,23 @@ In this section, the primary flight instruments needed for basic operation of th
 
 | Reference | Name |
 |-----------|------|
-| 1         | [Command Radio Remote Channel Indicator] |
+| 1         | [Command Radio Remote Channel Indicator](../ARC-34%20Command%20Radio/command-radio.html#remote-channel-indicator) |
 | 2         | [Standby Attitude Indicator] |
 | 3         | [Clock] |
 | 4         | [Sight Selector Unit] |
-| 5         | [Tacan Range Indicator] |
+| 5         | [Tacan Range Indicator](../ARN-72%20TACAN/tacan.html#tacan-range-indicator) |
 | 6         | [Master Heading Indicator] |
 | 7         | [Airspeed and Mach Indicator](#airspeed-and-mach-indicator) |
-| 8         | [AC Load Meter] |
-| 9         | [DC Load Meter] |
-| 10        | [Master Caution Light] |
+| 8         | [AC Load Meter](../Electrical/electrical.md#ac-load-meter) |
+| 9         | [DC Load Meter](../Electrical/electrical.html#dc-load-meter) |
+| 10        | [Master Caution Light](./lights-overview.md#master-caution-light) |
 | 11        | [Attitude Indicator](#attitude-indicator) |
 | 12        | [Radio Magnetic Indicator]|
 | 13        | [Course Indicator] |
 | 14        | [Tacan ILS Light] |
 | 15        | [Altimeter](#altimeter) |
 | 16        | [Vertical Velocity Indicator](#vertical-velocity-indicator) |
-| 17        | [Gun Missile Switch] |
+| 17        | [Gun Missile Switch](../Weapon_System/armament-control-panels.md#gun-missile-switch) |
 | 18        | [Attitude Indicator Fast Erection Button] |
 | 19        | [Fire and Overheat Warning Lights] |
 | 20        | [Turn and Slip Indicator](#turn-and-slip-indicator) |
@@ -36,9 +36,9 @@ In this section, the primary flight instruments needed for basic operation of th
 | 27        | [Exhaust Temperature Gauge] |
 | 28        | [Tachometer (RPM)] |
 | 29        | [Engine Pressure Ration Gauge] |
-| 30        | [Fuel Flow Indicator] |
-| 31        | [Fuel Quantity Gauges] |
-| 32        | [Fuel Boost Pump INOP Light] |
+| 30        | [Fuel Flow Indicator](../Fuel/fuel.md#fuel-flow-indicator) |
+| 31        | [Fuel Quantity Gauges](../Fuel/fuel.md#forward-fuel-quantity-gauge) |
+| 32        | [Fuel Boost Pump INOP Light](../Fuel/fuel.md#fuel-boot-pump-light) |
 
 ## Airspeed and Mach Indicator
 The aircraft's air data computer (ADC) computes the velocity based on temperature and pressure signals received by the pitot-static system. Specifically, it takes the difference between measured total and static pressure to compute dynamic pressure. Loss of either the pitot tube or static ports will manifest in inaccurate  airspeed readings. 

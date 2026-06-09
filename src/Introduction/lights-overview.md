@@ -24,9 +24,9 @@ The three-position indicator light dimmer switch controls the brightness of the 
 | ENG OIL OVERHEATED | Caution | Engine oil temperature is higher than 127°C (260°F)| |
 | EMER FUEL REG ON | Caution | Fuel flow is being scheduled by the emergency fuel regulator| |
 | FLIGHT SYS FAIL | Caution | One or both flight control hydraulic systems have failed (system 1 or 2) | |
-| ISNT A.C. POWER OFF | Caution | | |
-| A.C. GENERATOR OFF | Caution | | |
-| D.C. GENERATOR OFF | Caution | | |
+| INST A.C. POWER OFF | Caution | AC Instrument Buses are not Receiving sufficient electrical power | |
+| A.C. GENERATOR OFF | Caution | AC generator is off the line | |
+| D.C. GENERATOR OFF | Caution | DC generator is off the line | |
 | EQUIP AIR OVERHEAT | Caution | The aft electronic equipment compartment has overheated\n Indicates possible failure of the equipment cooling or compartment turbine, failure of the turbine control system, or the ram air is not cooling the compartment | |
 | SEL. DROP TANK EMPTY | Indicator | 450 gallon drop tanks are empty ** CHECK **| |
 | AIR REFUEING READY | Indicator | Air refueling switch is in the ready position, does not indicate that all components in the system are operational| |

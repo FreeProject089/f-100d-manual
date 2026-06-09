@@ -5,7 +5,7 @@
 | Reference | Name |
 |-----------|------|
 | 1         | [Indicator and Caution Light Panel] |
-| 2         | [Standby Insturment Inverter Switch] |
+| 2         | [Standby Insturment Inverter Switch](../Electrical/electrical.md#standby-instrument-inverter) |
 | 3         | [Navigation Computer] |
 | 4         | [Electrical Control Panel] |
 | 5         | [Oxygen Regulator Control Panel] |

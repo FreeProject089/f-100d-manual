@@ -56,7 +56,7 @@ When there is a valid shrike powered and selected the course and glideslope need
 
 ### Sidewinder Volume Knob
 
-
+The sidewinder volume knob can be used to adjust the Shrike audio heard in the headset.
 
 ## Operation
 

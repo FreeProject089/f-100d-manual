@@ -2,6 +2,10 @@
 
 ![plane](./Introduction/img/stroke.svg)
 
+## Disclaimer
+
+This manual is work in progress. Not all items may be completed, however included information should be accurate. If you find any inaccuracies please report them on our [github](https://github.com/grinnellidesigns/f-100d-manual).
+
 ## Contents
 
 1. Introduction

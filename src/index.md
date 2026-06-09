@@ -39,3 +39,7 @@
 6. Extras
     - [Research Series](./Introduction/research-series.md)
     - [Official Soundtrack](./Introduction/official-soundtrack.md)
+
+## Contributions
+
+This manual is open source and open for community contributions, if you wish to contribute please see the [repository here](https://github.com/grinnellidesigns/f-100d-manual).

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Armament Control Panels - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Armament Control Panels";
+        var mkdocs_page_input_path = "Weapon_System/armament-control-panels.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Aircraft Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Radio Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Weapon Systems</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Armament Control Panels</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#armament-selector-panel">Armament Selector Panel</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#stores-selector">Stores Selector</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#mode-selector">Mode Selector</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#bomb-arm-switch">Bomb Arm Switch</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#station-release-selection-switches">Station Release Selection Switches</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pylon-loading-control-panel">Pylon Loading Control Panel</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gun-missile-switch">Gun Missile Switch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#status-display-lights">Status Display Lights</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Systems</li>
+          <li class="breadcrumb-item">Weapon Systems</li>
+      <li class="breadcrumb-item active">Armament Control Panels</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="weapon-selection-circuitry">Weapon Selection Circuitry</h1>
+<p>The F-100D has a novel method of selecting weapons for the time. The pilot selects the release mode and then the weapon type. The system will automatically select the correct pylons provided those pylons are armed. This is facilitated by the <a href="#pylon-loading-control-panel">pylon loading control panel</a> which stores the weapon type mounted on each pylon by method of a multiposition switch.</p>
+<p>Selecting release modes and weapons is achieved by using the <a href="#armament-selector-panel">armament selector panel</a>.</p>
+<h2 id="armament-selector-panel">Armament Selector Panel</h2>
+<p>This panel is responsible for:</p>
+<ul>
+<li>Selecting weapons</li>
+<li>Sight and Bombing Modes</li>
+<li>Fuzing Options</li>
+<li>Pylon Selection</li>
+</ul>
+<p><img alt="Armament Selector Panel" src="img/armament_controls.png" /></p>
+<ol>
+<li><a href="#stores-selector">Stores Selector</a></li>
+<li><a href="#mode-selector">Mode Selector</a></li>
+<li><a href="#bomb-arm-switch">Bomb Arm Switch</a></li>
+<li><a href="#station-release-selection-switches">Station Release Selection Switches</a></li>
+</ol>
+<h3 id="stores-selector">Stores Selector</h3>
+<p>This selects the desired weapons to be released. When a store type is selected the pylons selected for release are determined by the <a href="#pylon-loading-control-panel">Pylon Loading Control Panel</a> settings. Stores with matching types are armed for release.</p>
+<h3 id="mode-selector">Mode Selector</h3>
+<p>This determines the release type for air-to-ground weapons. The sight and radar are powered in any position other than OFF.</p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OFF</td>
+<td>Weapons, Sight and Radar are unpowered.</td>
+</tr>
+<tr>
+<td>SIGHT &amp; RADAR</td>
+<td>Sight and Radar are Powered and can be used with guns or missiles. Bomb button is energized for release using the <a href="a-4-gunsight.html#bomb-air-to-ground-automatic">gunsight bomb release mode</a>.</td>
+</tr>
+<tr>
+<td>MANUAL</td>
+<td>Sight and Radar are Powered. Bomb-button is energized and can send release pulses to either the <a href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a> if on, otherwise the <a href="aircraft-weapons-release-system.html#basic-armament-control-circuitry">Basic Armament Control Circuitry</a>. This mode directly sends pulses to release weapons.</td>
+</tr>
+<tr>
+<td>LABS</td>
+<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the normal LABS mode (LOFT).</td>
+</tr>
+<tr>
+<td>LABS ALT</td>
+<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the alternate LABS mode (Over-the-Shoulder).</td>
+</tr>
+<tr>
+<td>LADD</td>
+<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the low altitude drouge delivery LABS mode.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bomb-arm-switch">Bomb Arm Switch</h3>
+<p>This controls the bomb-arming solenoids in the pylons. This only affects bomb and napalm arming.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Fuzes</th>
+<th>High Drag Tail Kit Deployed (if bomb has one)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SAFE</td>
+<td>NONE</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>NOSE</td>
+<td>NOSE, CENTER</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>TAIL</td>
+<td>TAIL, CENTER</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>NOSE &amp; TAIL</td>
+<td>NOSE, CENTER, TAIL</td>
+<td>YES</td>
+</tr>
+</tbody>
+</table>
+<h3 id="station-release-selection-switches">Station Release Selection Switches</h3>
+<p>These 7 switches simply break the circuit between the aircraft systems and the pylon firing or jettisoning circuitry. When a pylon is in the NORM position the release circuitry is used. When a pylon is in the JETT position the jettison circuitry is instead used.  It is advisable to turn all switches to NORM when arming the weapons system as the <a href="#stores-selector">stores selector</a> will select the correct weapons for drop.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Turning these switches off do not remove them from the <a href="aircraft-weapons-release-system.html#station-release-selection-switches">Aircraft Weapons Release System Circuit</a> firing order.</strong> Thus disabling some of these while using the AWRS can result in a hung weapon release sequence.</p>
+</div>
+<h2 id="pylon-loading-control-panel">Pylon Loading Control Panel</h2>
+<p>This panel stores the weapon type information mounted on each pylon as a 7 position switch such that the <a href="#armament-selector-panel">Armament Selector Panel</a> can correctly select pylons by weapon type.</p>
+<p><img alt="Pylon Loading Control Panel" src="img/pylon_loading_panel.png" /></p>
+<ol>
+<li>Left Inboard Weapon Setting</li>
+<li>Left Intermidiate Weapon Setting</li>
+<li>Left Outboard Weapon Setting</li>
+<li>Right Inboard Weapon Setting</li>
+<li>Right Intermidiate Weapon Setting</li>
+<li>Right Outboard Weapon Setting</li>
+<li>Pylon Loading Control Panel Latch and Cover</li>
+</ol>
+<p>The controls 1-6 all control what the wiring considers mounted to the aircraft. These are automatically set by ground grew upon re-arm or spawn (by default see <a href="../Introduction/special-options.html#pylon-control-armament-assistance">special options</a>).</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Setting any of these to incorrect loading may result in in-advertant release of weapons.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If automatic pylon loading control panel setting is set in the <a href="../Introduction/special-options.html">special options</a> then these will be set by the ground crew when the rearming complete radio message is received.</p>
+</div>
+<p>There are 1-9 possible weapon mountings. These mostly match the weapon types found on the <a href="#stores-selector">Stores Selector</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Ordinance</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Empty</td>
+<td>Nothing Loaded</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Fuel Tanks</td>
+<td>Important for G-Limit and Jettison</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bombs</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Dispensers</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Rockets</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Special Weapons</td>
+<td>Nuclear Ordinance</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Missiles</td>
+<td>This is functionally the same as empty as the missiles are not control by the armament control panels</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Napalm</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Inoperative</td>
+<td>Functionally the same as Empty</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gun-missile-switch">Gun Missile Switch</h2>
+<p>The gun missile switch controls electrical power for the upper, lower guns and the missiles.</p>
+<p><img alt="Gun Missile Switch" src="img/gun_missile_switch.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MISSILES</td>
+<td>The missile selection provides power to the <a href="aim-9-sidewinder.html#controls">Missile Control Panel</a> and thus the missiles. Reference <a href="aim-9-sidewinder.html">AIM-9 Sidewinder Section</a> for missile operation.</td>
+</tr>
+<tr>
+<td>SAFE</td>
+<td>Removes power from the weapons system rendering it <strong>safe</strong>.</td>
+</tr>
+<tr>
+<td>UPPER</td>
+<td>Energises the second trigger detent and <strong>arms</strong> upper guns.</td>
+</tr>
+<tr>
+<td>ALL</td>
+<td>Energises the second trigger detent and <strong>arms</strong> upper and lower guns (all).</td>
+</tr>
+<tr>
+<td>LOWER</td>
+<td>Energises the second trigger detent and <strong>arms</strong> lower guns.</td>
+</tr>
+<tr>
+<td>POD</td>
+<td>Pod selection is unused on the F-100D</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note: Gun missile firing circuits are inhibited when weight is on the wheels.</strong></p>
+<p>With the gun missile switch in any position the gun camera can be actuated by using the first trigger detent. See the <a href="">Gun Camera Section</a> for details.</p>
+<h2 id="status-display-lights">Status Display Lights</h2>
+<p>The status display lights indicate various information about the current state of the weapon system.</p>
+<p><img alt="Status Display Lights Image" src="img/status_display_lights.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Light</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TER EMPTY</td>
+<td>This indicates (if a TER is mounted on an inner pylon) if a TER is empty of bombs</td>
+</tr>
+<tr>
+<td>CBU EMPTY</td>
+<td>This indicates (if a CBU Dispenser is mounted) if the CBU dispenser is fully depleted</td>
+</tr>
+<tr>
+<td>Missile</td>
+<td>This indicates if a missile is ready to be fired. The missiles are listed in firing order.</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="aircraft-weapons-release-system.html" class="btn btn-neutral float-right" title="Aircraft Weapons Release System">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="introduction.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="aircraft-weapons-release-system.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Electrical - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Electrical";
+        var mkdocs_page_input_path = "Electrical/electrical.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Aircraft Systems</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Electrical</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#controls">Controls</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#dc-system">DC System</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#battery-bus">Battery Bus</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#primary-bus">Primary Bus</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#secondary-bus">Secondary Bus</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tertiary-bus">Tertiary Bus</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ac-system">AC System</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#main-three-phase-ac-bus-115v">Main Three-Phase AC Bus (115V)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#three-phase-ac-instrument-bus-115v">Three-Phase AC Instrument Bus (115V)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#single-phase-ac-instrument-bus-26v">Single-Phase AC Instrument Bus (26V)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#ac-load-meter">AC Load Meter</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#dc-system_1">DC System</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#dc-load-meter">DC Load Meter</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Radio Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapon Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/armament-control-panels.html">Armament Control Panels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Systems</li>
+          <li class="breadcrumb-item">Aircraft Systems</li>
+      <li class="breadcrumb-item active">Electrical</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="electrical-system">Electrical System</h1>
+<p><img alt="electrical system diagram" src="img/electrical_system.png" /></p>
+<h2 id="introduction">Introduction</h2>
+<p>The F-100D features two mostly separated electrical systems: the <a href="#ac-system">AC System</a> powered by the AC Generator or external power, the <a href="#dc-system">DC System</a> powered by the DC Generator, Battery or external power.</p>
+<p>These systems are powered independently however in the event of failures it's possible to partially power failed system using the still working system.</p>
+<h2 id="controls">Controls</h2>
+<h2 id="dc-system">DC System</h2>
+<p>The DC System receives power from the battery and DC generator. Optionally power can also be received from external power if connected.</p>
+<h3 id="battery-bus">Battery Bus</h3>
+<p>The battery bus is connected directly to the battery, so that essential equipement powered by this bus is operable as long as battery power is available, <strong>regardless of battery switch position</strong>.</p>
+<p>The battery is 24 Volt, 24 ampere hour battery. The DC Generator nominally outputs 28 Volts.</p>
+<p>The battery bus is connected to the battery bus through the primary bus tie in relay. This relay is energised by the battery bus connecting the battery bus to the primary bus.</p>
+<p>If there is not enough power on the battery bus the battery will not be connected, however if the primary bus is being energised from elsewhere (DC generator or External Power) the battery bus can be kept connected even if the battery has insufficient power to keep the relay energised. Turning the battery switch off under this condition will disconnect the primary bus from the battery bus and the battery will no longer be able to be charged.</p>
+<h3 id="primary-bus">Primary Bus</h3>
+<p>The primary bus powers the most essential equipment to the aircraft. Under normal operation it is powered by the DC Generator, but can be powered by the battery or </p>
+<table>
+<thead>
+<tr>
+<th>Power Source</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DC Generator</td>
+<td>Normal Operation</td>
+</tr>
+<tr>
+<td>External Power</td>
+<td>Ground Power Connected</td>
+</tr>
+<tr>
+<td>Battery Bus</td>
+<td>Battery has enough voltage and battery switch is on</td>
+</tr>
+<tr>
+<td>Rectifier</td>
+<td>DC Generator Failure</td>
+</tr>
+</tbody>
+</table>
+<h3 id="secondary-bus">Secondary Bus</h3>
+<h3 id="tertiary-bus">Tertiary Bus</h3>
+<h2 id="ac-system">AC System</h2>
+<h3 id="main-three-phase-ac-bus-115v">Main Three-Phase AC Bus (115V)</h3>
+<h3 id="three-phase-ac-instrument-bus-115v">Three-Phase AC Instrument Bus (115V)</h3>
+<h3 id="single-phase-ac-instrument-bus-26v">Single-Phase AC Instrument Bus (26V)</h3>
+<h3 id="ac-load-meter">AC Load Meter</h3>
+<h2 id="dc-system_1">DC System</h2>
+<h3 id="dc-load-meter">DC Load Meter</h3>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Engine/engine.html" class="btn btn-neutral float-left" title="Engine"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Hydraulics/hydraulic.html" class="btn btn-neutral float-right" title="Hydraulics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Engine/engine.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Hydraulics/hydraulic.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

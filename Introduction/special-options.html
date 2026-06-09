@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Special Options - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Special Options";
+        var mkdocs_page_input_path = "Introduction/special-options.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Special Options</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#gameplay">Gameplay</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cockpit-camera-shake">Cockpit Camera Shake</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pylon-control-armament-assistance">Pylon Control Armament Assistance</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#autostart-mode">Autostart Mode</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#external-customization-options">External Customization Options</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#victory-kill-markings">Victory Kill Markings</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cockpit-configuration-options">Cockpit Configuration Options</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#seat-position">Seat Position</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#air-start-gun-selector">Air Start Gun Selector</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gun-camera-selector">Gun Camera Selector</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cockpit-customization-options">Cockpit Customization Options</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gun-camera-settings">Gun Camera Settings</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#disable-gun-camera-recording">Disable Gun Camera Recording</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gun-camera-effects">Gun Camera Effects</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#overrun-time">Overrun Time</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#start-delay-adjust">Start Delay Adjust</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#preset-run-time">Preset Run Time</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#strike-camera-settings">Strike Camera Settings</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#disable-strike-camera-recording">Disable Strike Camera Recording</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#strike-camera-effects">Strike Camera Effects</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#overrun-time_1">Overrun Time</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#forward-camera-elevation">Forward Camera Elevation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#forward-camera-focal-length">Forward Camera Focal Length</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rear-camera-start-delay">Rear Camera Start Delay</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rear-camera-elevation-mode">Rear Camera Elevation Mode</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rear-camera-upper-elevation">Rear Camera Upper Elevation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rear-camera-lower-elevation">Rear Camera Lower Elevation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rear-camera-focal-length">Rear Camera Focal Length</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rear-camera-speed">Rear Camera Speed</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Aircraft Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Radio Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapon Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/armament-control-panels.html">Armament Control Panels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">DCS</li>
+      <li class="breadcrumb-item active">Special Options</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="special-options">Special Options</h1>
+<p>Various special options have been added for user quality of life and customization. The following parts below will explain each special option in depth. </p>
+<p>These options are located in the xx of DCS World with the DCS: F-100D Super Sabre Selected from the left side module tray.</p>
+<p><img alt="special options image" src="img/special_options.png" /></p>
+<h2 id="gameplay">Gameplay</h2>
+<h3 id="cockpit-camera-shake">Cockpit Camera Shake</h3>
+<p>The cockpit camera shake can be adjusted on this slider as an overall multiplier to global cockpit camera shake.</p>
+<h3 id="pylon-control-armament-assistance">Pylon Control Armament Assistance</h3>
+<p>This decides how the <a href="../Weapon_System/armament-control-panels.html#pylon-loading-control-panel">pylon loading control panel</a> is setup.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Pylon Loading Assistance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OFF</td>
+<td>None - up to pilot</td>
+</tr>
+<tr>
+<td>ON SPAWN</td>
+<td>Set automatically on spawn. After rearming it is up to the pilot to set</td>
+</tr>
+<tr>
+<td>FULL</td>
+<td>Set automatically on spawn and after rearming complete.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="autostart-mode">Autostart Mode</h3>
+<p>FULL will opt out of any auto start assistance for a complete cold-and-dark start. ENGINE ONLY sets all other switches, knobs, and settings for start; thus, the engine is the only required item for a complete start.</p>
+<h2 id="external-customization-options">External Customization Options</h2>
+<h3 id="victory-kill-markings">Victory Kill Markings</h3>
+<p>Aircraft victory kill markings on the side of the nose portion of the fuselage account (currently) for single player air-to-air and air-to-ground kills. </p>
+<p>Enable Kill/Victory Markings will turn off this feature if unchecked.</p>
+<h2 id="cockpit-configuration-options">Cockpit Configuration Options</h2>
+<h3 id="seat-position">Seat Position</h3>
+<p>Adjusting this slide will move the default seat height (and viewpoint). 0 is lowered, while 100 is raised.</p>
+<h3 id="air-start-gun-selector">Air Start Gun Selector</h3>
+<p>This option will adjust the default setting of the Gun Selector Knob. Options are SAFE, GUNS UPPER, GUNS LOWER, GUNS ALL, or MISSILE.</p>
+<h3 id="gun-camera-selector">Gun Camera Selector</h3>
+<p>To set the default position of the gun camera selector knob, change to Off, GUN CAM ONLY, STRIKE CAM ONLY, OR BOTH. </p>
+<h2 id="cockpit-customization-options">Cockpit Customization Options</h2>
+<p>In order to enable dynamic instrument panel gauge positions, check Enable Custom Instrument Panel. You can then either randomize between known historical layouts, or enter your own custom panel ID. Visit www.GrinnelliDesigns.com/Customize to create a unique layout ID and paste it in the Custom Instrument Panel ID text field.</p>
+<h2 id="gun-camera-settings">Gun Camera Settings</h2>
+<h3 id="disable-gun-camera-recording">Disable Gun Camera Recording</h3>
+<p>Turning the option to off will disable all gun recording and not generate video files.</p>
+<h3 id="gun-camera-effects">Gun Camera Effects</h3>
+<p>To adjust the default gun camera effects, select between off (to remove entirely), or vintage.</p>
+<h3 id="overrun-time">Overrun Time</h3>
+<p>This slider will adjust how long the gun cameras will continue to recored after trigger release. Adjust between 0 and 3 seconds.</p>
+<h3 id="start-delay-adjust">Start Delay Adjust</h3>
+<p>This slider will adjust the time between trigger release and the start of the preset run time. Adjust between 4 to 30 seconds.</p>
+<h3 id="preset-run-time">Preset Run Time</h3>
+<p>Adjusts the run time of the gun camera after start delay. Adjust from 2 to 30 seconds.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Total Camera run time after the release of the trigger is the total of both time interval settings (6 to 63 seconds) including the preset overrun time of 0 to 3 seconds.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Cameras will save AVI recordings in "SAVED GAMES/DCS F-100D/GUNSIGHT CAMERA/"</p>
+</div>
+<h2 id="strike-camera-settings">Strike Camera Settings</h2>
+<h3 id="disable-strike-camera-recording">Disable Strike Camera Recording</h3>
+<p>Turning the option to off will disable all gun recording and not generate video files.</p>
+<h3 id="strike-camera-effects">Strike Camera Effects</h3>
+<p>To adjust the default Strike camera effects, select between off (to remove entirely), or vintage.</p>
+<h3 id="overrun-time_1">Overrun Time</h3>
+<p>This slider will adjust how long the gun cameras will continue to recored after pickle release. Adjust between 0 and 3 seconds.</p>
+<h3 id="forward-camera-elevation">Forward Camera Elevation</h3>
+<p>The forward camera elevation can be adjusted from 0 degrees to 20 degrees down.</p>
+<h3 id="forward-camera-focal-length">Forward Camera Focal Length</h3>
+<p>The forward camera uses a variable focal length lens, adjustable from 20mm (wide) to 80mm (narrow).</p>
+<h3 id="rear-camera-start-delay">Rear Camera Start Delay</h3>
+<p>The delay of the start of the rear camera recording after pickle press.</p>
+<h3 id="rear-camera-elevation-mode">Rear Camera Elevation Mode</h3>
+<p>The rear camera elevation can be adjusted from 0-25 degrees for the upper range, or 45-60 degrees for the lower range.</p>
+<h3 id="rear-camera-upper-elevation">Rear Camera Upper Elevation</h3>
+<p>Change the camera elevation from 0-25 degrees down.</p>
+<h3 id="rear-camera-lower-elevation">Rear Camera Lower Elevation</h3>
+<p>Change the camera elevation from 45-60 degrees down.</p>
+<h3 id="rear-camera-focal-length">Rear Camera Focal Length</h3>
+<p>The rear camera uses a variable focal length lens, adjustable from 17mm (wide) to 68mm (narrow).</p>
+<h3 id="rear-camera-speed">Rear Camera Speed</h3>
+<p>This setting will change the playback rate of the output footage. 100% is real-time.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Lower playback rates increase RAM usage of rear camera.</p>
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Meta/checklist.html" class="btn btn-neutral float-left" title="Checklist"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Meta/parameters.html" class="btn btn-neutral float-right" title="Parameters">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Meta/checklist.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Meta/parameters.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

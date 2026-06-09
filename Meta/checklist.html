@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Checklist - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Checklist";
+        var mkdocs_page_input_path = "Meta/checklist.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Checklist</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#procedures">Procedures</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#procedure-page">Procedure Page</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#checklist-button">Checklist Button</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#navigation-bar">Navigation Bar</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#show-me">Show Me</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#checklist-detail">Checklist Detail</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#advance-checklist-command">Advance Checklist Command</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#customising-the-checklist">Customising the Checklist</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#finding-clickables">Finding Clickables</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#conditions">Conditions</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#number-integer">Number (Integer)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#string">String</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#once">Once</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Aircraft Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Radio Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapon Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/armament-control-panels.html">Armament Control Panels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">DCS</li>
+      <li class="breadcrumb-item active">Checklist</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="checklist">Checklist</h1>
+<h2 id="usage">Usage</h2>
+<p>The checklist can by default be opened with <code>LShift + C</code>.</p>
+<h3 id="procedures">Procedures</h3>
+<p><img alt="procedures" src="img/categories.png" /></p>
+<p>This page displays the procedures split into their different categories. Clicking on a procedure will navigate there.</p>
+<h3 id="procedure-page">Procedure Page</h3>
+<p><img alt="checked-items" src="img/checked-items.png" /></p>
+<p>This is an example showing the procedure page with some procedures already completed.</p>
+<h3 id="checklist-button">Checklist Button</h3>
+<p><img alt="checklist" src="img/checklist.png" /></p>
+<p>This acts as a home button navigating to the procedures page.</p>
+<h3 id="navigation-bar">Navigation Bar</h3>
+<p><img alt="navigation-bar" src="img/navigation-bar.png" /></p>
+<p>The navigation bar shows the current procedure in the centre and the previous (left) and next (right) procedures either side. The next and previous procedures can be clicked to navigate to them.</p>
+<h3 id="show-me">Show Me</h3>
+<p><img alt="show-me" src="img/show-me.png" /></p>
+<p>The show me button will highlight the current item in the cockpit.</p>
+<h3 id="checklist-detail">Checklist Detail</h3>
+<p><img alt="checklist-detail" src="img/detail.png" /></p>
+<p>This toggles between the three types of detail.</p>
+<table>
+<thead>
+<tr>
+<th>Detail</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mandatory</td>
+<td>Required to complete the current checklist procedure.</td>
+</tr>
+<tr>
+<td>Abbreviated</td>
+<td>Includes checks that would be completed in reality but can be also checked in game.</td>
+</tr>
+<tr>
+<td>Realistic</td>
+<td>Includes checks that would be completed in reality but are not possible to check in game: harness tight for example.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="advance-checklist-command">Advance Checklist Command</h3>
+<p>Advance checklist command is used to manually check items which are not automatically checked or to bypass an item. The advance checklist command will manually check the highest unchecked item (current item) on the checklist. Once all items are check the advance checklist command will switch to the next procedure. If there is no next procedure then in this case the advance checklist command will do nothing.</p>
+<p><img alt="checked-items" src="img/checked-items.png" /></p>
+<h2 id="customising-the-checklist">Customising the Checklist</h2>
+<p>The checklist structure is made from a json file listing the procedures and categories. When a <code>checklist.json</code> is provided in <code>C:/users/&lt;you username&gt;/Saved Games/DCS F-100D</code> this custom checklist will be used. As a starting point you can copy the built-in checklist which is found <code>DCS World/Mods/Aircraft/f-100d/checklist/default.json</code>.</p>
+<p>If this checklist fails to load because of a syntax error then that error will be reported in your DCS log located in <code>C:/users/&lt;you username&gt;/Saved Games/DCS/Logs/dcs.log</code>. Example error may look like</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ERROR   F100 (Main): [Checklist Load Error]: [json.exception.parse_error.101] parse error at line 26, column 35: syntax error while parsing object - unexpected string literal; expected &#39;}&#39;
+</span></code></pre></div>
+<p>The general file structure for <code>checklist.json</code> is as follows.</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">[</span><span class="w"> </span><span class="c1">// list of categories</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="c1">// category</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your category name 1&quot;</span><span class="p">,</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="nt">&quot;procedures&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">            </span><span class="p">{</span><span class="w"> </span><span class="c1">// procedure</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your procedure name 1&quot;</span><span class="p">,</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">                </span><span class="nt">&quot;items&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">                    </span><span class="c1">// list of items</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">                </span><span class="p">]</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">        </span><span class="p">]</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="p">]</span>
+</span></code></pre></div>
+<p>There can be any number of categories, any number of procedures in each category and any number of items in each procedure. The structure of an item is shown below.</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;text&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Item to be set&quot;</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;value&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;State pilot should set: On or Off etc&quot;</span><span class="p">,</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;priority&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) 1,2,3 for mandatory, abbreviated, realistic respectively. With this key/value ommitted the priority will default to 1.</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">&quot;clickable&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PNT_FLAP_SELECT&quot;</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) the clickable point for show me, for how to find these see below.</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">&quot;condition&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) either a number or string, see the conditions section</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">&quot;once&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="c1">// (optional) applies to only conditions see conditions section</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="finding-clickables">Finding Clickables</h3>
+<p>The easiest way to find clickables is to use a tool to inspect the cockpit model known as model viewer. This can be found in the DCS install files. Running <code>DCS World/bin/ModelViewer2.exe</code> and then <code>File &gt;&gt; Load Model</code>, the F-100D cockpit model can be found <code>DCS World/Mods/Aircraft/f-100d/cockpit/shape/cockpit_f100.edm</code>.</p>
+<p>Once loaded the connectors must be displayed.</p>
+<p><img alt="show connectors" src="img/show-connectors.png" /></p>
+<p>This will display all the connectors on each switch. Hovering your mouse of the switch for which you wish to add a condition will then display its connector name. This is the name to be used in the <code>"clickable"</code> entry in the item.</p>
+<h3 id="conditions">Conditions</h3>
+<p>Conditions check if the current item has been completed. Once a condition is completed it will be marked as completed by being stricken through on the checklist.</p>
+<p>The condition entry can either be a <a href="#number-integer">number (integer)</a> or a <a href="#string">string</a>. When the condition is a number</p>
+<p>In case of failure for either method of condition due to incorrect configuration the condition will just simply remain false and have to be manually checked.</p>
+<h4 id="number-integer">Number (Integer)</h4>
+<p>This represents the position of the switch. There <strong>must</strong> be a corresponsing correct <a href="#finding-clickables">clickable</a> for this to function. The position of any switch is it's integer position counted from its minimum value, this will usually fully aft, or fully down, or fully anti-clockwise. Exceptions to this rule exist but this should work for most switches. </p>
+<p>An example is shown below.</p>
+<p><img alt="mode-sel" src="img/mode-sel.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OFF</td>
+<td>0</td>
+</tr>
+<tr>
+<td>SIGHT RADAR</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MANUAL</td>
+<td>2</td>
+</tr>
+<tr>
+<td>LABS</td>
+<td>3</td>
+</tr>
+<tr>
+<td>LABS ALT</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>The conditions can easily tested by seeing at which position the checklist automatically checks off your item, this can then be used to confirm your index is correct.</p>
+<h4 id="string">String</h4>
+<p>These are pre-programmed special conditions that can be used. All these conditions are shown below.</p>
+<ul>
+<li><code>"cartridge_installed"</code></li>
+<li><code>"engine_running"</code></li>
+<li><code>"engine_spooling"</code></li>
+<li><code>"air_connected"</code></li>
+<li><code>"air_applied"</code></li>
+<li><code>"chocks_removed"</code></li>
+</ul>
+<h4 id="once">Once</h4>
+<p>There are two methods of condition checking, the default method always checks the conditions no matter the current item in the checklist. If once is set to true then the condition is only checked when this item is the current item. This is useful for items which must happen once and then are reset. An example is the starter cartridge.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Starter Cartridge</td>
+<td>Install</td>
+</tr>
+<tr>
+<td>Engine Master Switch</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Start and Ignition</td>
+<td>Press Momentarily</td>
+</tr>
+</tbody>
+</table>
+<p>The cartridge is burned when the ignition button is pressed so if we checked it continuously then it would uncheck itself. So we add the <code>"once" : true</code> key-value pair to this item. The same applies to the Start and Ignition button.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Introduction/ejection-seat.html" class="btn btn-neutral float-left" title="Ejection Seat"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Introduction/special-options.html" class="btn btn-neutral float-right" title="Special Options">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Introduction/ejection-seat.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Introduction/special-options.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

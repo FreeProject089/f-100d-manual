@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Hydraulics - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Hydraulics";
+        var mkdocs_page_input_path = "Hydraulics/hydraulic.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" >Aircraft Systems</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Hydraulics</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#utility-system">Utility System</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#emergency-flap-accumulator">Emergency Flap Accumulator</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#emergency-nose-wheel-accumulator">Emergency Nose Wheel Accumulator</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#flight-controls-1-2-systems">Flight Controls 1 &amp; 2 Systems</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#ram-air-turbine-rat">Ram Air Turbine (RAT)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#emergency-wheel-brake-pump">Emergency Wheel Brake Pump</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">Controls and Indicators</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#ram-air-turbine-door-lever">Ram Air Turbine Door Lever</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#flight-control-hydraulic-system-test-switch">Flight Control Hydraulic System Test Switch</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#rudder-hydraulic-test-switch">Rudder Hydraulic Test Switch</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#emergency-speed-brake-dump-lever">Emergency Speed Brake Dump Lever</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#emergency-gear-release">Emergency Gear Release</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#emergency-flap-switch">Emergency Flap Switch</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Radio Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapon Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/armament-control-panels.html">Armament Control Panels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Systems</li>
+          <li class="breadcrumb-item">Aircraft Systems</li>
+      <li class="breadcrumb-item active">Hydraulics</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="hydraulic-system">Hydraulic System</h1>
+<h2 id="introduction">Introduction</h2>
+<p>The aircraft has three sepparate constant-pressure type hydraulic systems: utility and two flight control systems. Each one of the three systems is individually pressurised by a engine driven hydraulic pump to 3000 psi.</p>
+<p>In case of engine driven pump failure the secondary flight control system can be driven by a deployable <a href="#ram-air-turbine-rat">Ram Air Turbine</a> (RAT).</p>
+<h2 id="utility-system">Utility System</h2>
+<p>This system has a 2.7 gallon reservoir and is pressurised by an engine pump. It supplies hydraulic power to the following units:</p>
+<ul>
+<li>Rudder</li>
+<li>Landing Gear &amp; Doors</li>
+<li>Wheel Brakes</li>
+<li>Wing Flaps</li>
+<li>Nose Wheel Steering</li>
+<li>Speed Brake</li>
+<li>Automatic Flight Control System</li>
+<li>Gun and Purge Door</li>
+<li>The <a href="#ram-air-turbine-rat">Ram Air Turbine</a> Door</li>
+</ul>
+<p>If the pressure in this system drops too low to power the rudder then a valve is triggered automatically to power the rudder from the number 2 flight control system.</p>
+<h3 id="emergency-flap-accumulator">Emergency Flap Accumulator</h3>
+<p>In case of utility hydraulic failure or flap control failure the flaps can be lowered for landing using the <a href="#emergency-flap-switch">emergency flap switch</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There is only sufficient stored energy to lower the flaps once using this method.</p>
+</div>
+<h3 id="emergency-nose-wheel-accumulator">Emergency Nose Wheel Accumulator</h3>
+<p>In case of utility hydraulic failure the <a href="#emergency-gear-release">emergency gear release</a> can be used to drop the main gear by gravity, the nose gear on its own cannot soley be dropped by gravity as such an emergency accumulator is provided to drop the nose gear.</p>
+<h2 id="flight-controls-1-2-systems">Flight Controls 1 &amp; 2 Systems</h2>
+<p>Two complete independent and simultaneously operating hydraulic systems (Number 1 and Number 2) actuate the primary flight control surfaces. Both of these systems are powered by their own sepparate engine pump and are completely independent. Each system supplies half the demand of power to the control surface.</p>
+<p>Failure of one of these systems does not affect the other. In case of frozen engine or engine pump failure number 2 hydraulic pressure can be maintained by a deployable <a href="#ram-air-turbine-rat">Ram Air Turbine</a>.</p>
+<p>In the case of <a href="#utility-system">utility system</a> failure the number 2 system can also provide power to the rudder.</p>
+<p>The following items are powered by these systems.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>System(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ailerons</td>
+<td>1 &amp; 2</td>
+</tr>
+<tr>
+<td>Horizontal Stabilizer</td>
+<td>1 &amp; 2</td>
+</tr>
+<tr>
+<td>Horizontal Stabilizer Trim</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Rudder (in case of utility failure)</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ram-air-turbine-rat">Ram Air Turbine (RAT)</h3>
+<p>This acts as an emergency hydraulic pump for the number 2 system. When engine RPM drops below 40% the centrifugal switch triggers the deployment of the RAT automatically provided there is no weight on the nose gear. The RAT can also be deployed manually using the <a href="#ram-air-turbine-door-lever">lever</a> in the cockpit.</p>
+<p>If the RAT door is open an audible warning tone can be heard in the pilots headset along with the landing gear handle knob light.</p>
+<p>If the pump is no longer needed it must be shut down manually using the <a href="#ram-air-turbine-door-lever">lever</a> in the cockpit.</p>
+<p>Utility hydraulic pressure is required to open the RAT however in case of utility failure stored energy in the Ram Air Turbine door emergency accumulator is used.</p>
+<p>Deployment of the Ram Air Turbine can be tested in flight using the <a href="#flight-control-hydraulic-system-test-switch">flight control hydraulic system test switch</a>.</p>
+<h3 id="emergency-wheel-brake-pump">Emergency Wheel Brake Pump</h3>
+<p>In case of utility hydraulic pressure loss an electrical driven pump is used to pressurise the wheel brake accumulators anytime the pressure drops below 750 psi. This pump can be checked for correct function by listening for the pump when the aircraft is cold and dark by depressing the wheel brakes.</p>
+<h2 id="controls-and-indicators">Controls and Indicators</h2>
+<h3 id="ram-air-turbine-door-lever">Ram Air Turbine Door Lever</h3>
+<p>This is used to deploy the <a href="#ram-air-turbine-rat">Ram Air Turbine</a> manually, this lever will automatically actuate when the Ram Air Turbine is deployed automatically.</p>
+<h3 id="flight-control-hydraulic-system-test-switch">Flight Control Hydraulic System Test Switch</h3>
+<p>Holding this switch at the <code>SYS 2 OFF</code> position will close the test valve removing hydraulic pressure for this system. Moving the switch to <code>RAM TURB ON SYS 2 OFF</code> will continue to remove hydraulic pressure from the number 2 system and provide utility hydraulic power to the ram air turbine causing the <a href="#ram-air-turbine-door-lever">ram air turbine door lever</a> to automatically move to the open position.</p>
+<p>After testing the <a href="#ram-air-turbine-door-lever">lever</a> must be manually moved aft to close the Ram Air Turbine Doors.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Since this test is to be carried out during flight: there is a pressure switch preventing the test valve from being actuated if the number 1 system pressure is lower than 650 psi so as to not cause primary flight control power loss.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A nose gear load switch prevents the number 2 system from being shut off on the ground.</p>
+</div>
+<h3 id="rudder-hydraulic-test-switch">Rudder Hydraulic Test Switch</h3>
+<p>This springloaded switch is used to test if the hydraulic summing valve is functioning correctly for the rudder actuator so that, in case of insufficient utility pressure, the rudder can continue to function using the number 2 system pressure.</p>
+<p>To test this valve the switch is held in the ALTERNATE RUDDER position to shut off utility pressure, then the rudder can be moved and it should be observed that the rudder pressure jumps from its nominal pressure up to 3000 psi to match the pressure of the number 2 hydraulic system.</p>
+<h3 id="emergency-speed-brake-dump-lever">Emergency Speed Brake Dump Lever</h3>
+<p>In case of utility hydraulics failure with the speed brake in the open position it will be necessary to retract the speedbrake. Without hydraulic pressure this is not possible so the dump lever can be used to release any hydraulic pressure allowing the speed brake to be retracted by the airflow.</p>
+<h3 id="emergency-gear-release">Emergency Gear Release</h3>
+<p>This deploys the gear using gravity in case of hydraulic failure. The nose gear is still deployed using hydraulic pressure stored in the <a href="#emergency-nose-wheel-accumulator">emergency nose wheel accumulator</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>After this system is used the aircraft must be repaired in order to reset this system.</p>
+</div>
+<h3 id="emergency-flap-switch">Emergency Flap Switch</h3>
+<p>This deploys the flaps to the landing position in case of electrical flap control failure or utility hydraulic failure.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There is only sufficient stored energy in the <a href="#emergency-flap-accumulator">emergency flap accumulator</a> to lower the flaps once using this method.</p>
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Electrical/electrical.html" class="btn btn-neutral float-left" title="Electrical"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Fuel/fuel.html" class="btn btn-neutral float-right" title="Fuel">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Electrical/electrical.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Fuel/fuel.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

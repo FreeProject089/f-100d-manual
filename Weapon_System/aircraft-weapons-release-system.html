@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Aircraft Weapons Release System - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Aircraft Weapons Release System";
+        var mkdocs_page_input_path = "Weapon_System/aircraft-weapons-release-system.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Aircraft Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Radio Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Weapon Systems</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="armament-control-panels.html">Armament Control Panels</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Aircraft Weapons Release System</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#basic-armament-control-circuitry">Basic Armament Control Circuitry</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#anawe-1-aircraft-weapons-release-system-awrs">AN/AWE-1 Aircraft Weapons Release System (AWRS)</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#station-release-selection-switches">Station Release Selection Switches</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#controls">Controls</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#modes">Modes</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#station-priority-and-sequencing">Station Priority and Sequencing</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Systems</li>
+          <li class="breadcrumb-item">Weapon Systems</li>
+      <li class="breadcrumb-item active">Aircraft Weapons Release System</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="weapon-release-circuitry">Weapon Release Circuitry</h1>
+<h2 id="basic-armament-control-circuitry">Basic Armament Control Circuitry</h2>
+<p>The basic armament control circuitry is used to send release signals to the pylons to release rockets, bombs and dispenser. The basic armament system circuitry is used when the <a href="#anawe-1-aircraft-weapons-release-system-awrs">Aircraft Weapons Release System</a> is <strong>off</strong>.</p>
+<p>The basic armament control circuitry can receive bomb pulses from either the <a href="armament-control-panels.html#mode-selector">manual delivery mode</a>, <a href="a-4-gunsight.html#bomb-air-to-ground-automatic">automatic sight release</a> release cue, or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> release cue. When a bomb pulse is received like the <a href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a> it is up to the <a href="armament-control-panels.html#weapon-selection-circuitry">weapons selection circuitry</a> forward the pulses to the correct pylons to release ordinance.</p>
+<p>All stations which have their respective <a href="armament-control-panels.html">Station Release Selection Switch</a> armed will receive the forwarded bomb pulse. Any stations which instead have jettison selected will instead convert that bomb pulse to a jettison signal jettisoning the ordinance from the pylon (if it can be jettisoned).</p>
+<h2 id="anawe-1-aircraft-weapons-release-system-awrs">AN/AWE-1 Aircraft Weapons Release System (AWRS)</h2>
+<h3 id="introduction">Introduction</h3>
+<p>The AWRS provides selectable weapons release quantity and intervals. The AWRS is active any time the release quantity switch is not in the off position. When the AWRS is active any bomb pulse by the <a href="">bomb-button</a> or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> will result in the AWRS being used to sequence and time bomb or rocket release.</p>
+<p>When the AWRS is not active (<a href="#quantity-selector-switch">Quantity Switch in OFF</a>) the <a href="#basic-armament-control-circuitry">basic armament system circuitry</a> is instead used.</p>
+<h3 id="station-release-selection-switches">Station Release Selection Switches</h3>
+<p><strong>For the Aircraft Weapons Release System to function correctly all <a href="armament-control-panels.html#station-release-selection-switches">Station Release Selection Switches</a> for the desired weapon type should be moved into either NORM or JETT (depending if armed release or jettison is required).</strong> Failure to do so may result in the Aircraft Weapons Release System getting stuck on a pylon where the ordinance is unable to be released due to the Station Release Selection Switch disconnecting the pylon circuitry.</p>
+<h3 id="controls">Controls</h3>
+<p><img alt="Aircraft Weapons Release System Panel" src="img/awrs_panel.png" /></p>
+<ol>
+<li><a href="#quantity-selector-switch">Quantity Selector Switch</a></li>
+<li>Power Indicator Light</li>
+<li><a href="#release-interval-switch">Release Interval Switch</a></li>
+<li><a href="#multiplier-switch-x10">Multiplier Switch (x10)</a></li>
+<li><a href="#modes">Mode Select Switch</a></li>
+</ol>
+<h4 id="quantity-selector-switch">Quantity Selector Switch</h4>
+<p>With the Quantity Selector Switch in the OFF position electrical power is removed from the AWRS system making it inactive. With the Quantity Selector Switch set to any numbered position the AWRS is active and energized.</p>
+<p>The selected number provides the AWRS with the quantity of release pulses in ripple modes: Ripple - Single, Ripple - Pairs, and Ripple - Salvo. See <a href="#operation">operation</a>.</p>
+<h4 id="release-interval-switch">Release Interval Switch</h4>
+<p>The release interval switch selects the time interval in miliseconds between subsequent pulses from the AWRS. The release interval can be multiplied by ten using the <a href="#multiplier-switch-x10">Multiplier Switch</a></p>
+<h4 id="multiplier-switch-x10">Multiplier Switch (x10)</h4>
+<p>The multiplier switch multiplies the <a href="#release-interval-switch">release interval</a> by ten with x10 set and x1 otherwise.</p>
+<h3 id="modes">Modes</h3>
+<h4 id="operation">Operation</h4>
+<p>Release modes are responsible for producing pulses which are then distributed to pylons according to the release type. The table below describes how pulses are produced and forwarded to the release type circuitry upon receiving each input signal - either from the <a href="">manual delivery mode</a> or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> release cue.</p>
+<table>
+<thead>
+<tr>
+<th>Release Mode</th>
+<th>Number of Pulses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Step</td>
+<td>Input signal produces only one pulse</td>
+</tr>
+<tr>
+<td>Ripple</td>
+<td>Input signal produces a sequence of pulses with intervals specified by the <a href="#release-interval-switch">Release Interval Switch</a> and <a href="#multiplier-switch-x10">Multiplier Switch</a>. The sequence length is the setting on the <a href="#quantity-selector-switch">Quantity Selector Switch</a> provided the input signal is held on the entire duration of the sequence. If the input signal is released early (ie bomb-button released) the sequence immediately stops.</td>
+</tr>
+</tbody>
+</table>
+<p>There are 3 possible release types. Each type acts on sequence pulses.</p>
+<table>
+<thead>
+<tr>
+<th>Release Type</th>
+<th>Pulse Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single</td>
+<td>Single bomb being released from the next valid pylon in the release sequence if one exists.</td>
+</tr>
+<tr>
+<td>Pairs</td>
+<td>Pair of bombs/rockets will be released from the next valid pair of pylons in the sequence if one exists.</td>
+</tr>
+<tr>
+<td>Salvo</td>
+<td>Every valid/selected pylon will release a bomb/rocket if the pylon is not empty.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="examples">Examples</h4>
+<p>To assist in understanding the AWRS, below a few examples are shown. Each example assumes there are enough bombs on the plane in the correct configuration to drop the correct number of bombs/rockets.</p>
+<table>
+<thead>
+<tr>
+<th>Release Mode</th>
+<th>Release Type</th>
+<th>Quantity Selector Switch</th>
+<th>Interval (ms)</th>
+<th>Multiplier Switch</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ripple</td>
+<td>Single</td>
+<td>4</td>
+<td>60</td>
+<td>x1</td>
+<td>4 bombs will be dropped with an interval of 60 ms between them.</td>
+</tr>
+<tr>
+<td>Ripple</td>
+<td>Single</td>
+<td>6</td>
+<td>100</td>
+<td>x10</td>
+<td>6 bombs will be dropped with an interval of 1000 ms (due to x10 switch) between them</td>
+</tr>
+<tr>
+<td>Ripple</td>
+<td>Pairs</td>
+<td>3</td>
+<td>150</td>
+<td>x1</td>
+<td>3 pairs of bombs will be dropped (total 6) with an interval of 150 ms between each pair.</td>
+</tr>
+<tr>
+<td>Ripple</td>
+<td>Salvo</td>
+<td>3</td>
+<td>45 ms</td>
+<td>x1</td>
+<td>Assuming the plane is armed with a 1,1,3,3,1,1 MK-82 on each pylon. The first salvo will drop 6 bombs, leaving 0,0,2,2,0,0 on the aircraft. 45 ms later 2 more bombs will drop leaving 0,0,1,1,0,0 and again 45 ms later the remaining 2 bombs will drop. Resulting in a total of 10 bombs being dropped.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="station-priority-and-sequencing">Station Priority and Sequencing</h3>
+<p>Bombs/rockets will drop in order of priority alternating sides if two valid pylons of equal priority exist. The further out from the centre the higher the priority the pylon has. This means the outer wing pylons have the highest priority and the inner wing pylons the lowest. The AWRS does not consider any pylons which are not active: either because they do not have the correct weapon type. Once a pylon is empty it is no longer considered valid.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Rockets pods cannot send an empty signal</strong> so once the outer rocket pods are empty the AWRS will not automatically step to the inner rocket pods as it still assumes they are valid. To use the inner rocket pods either Ripple/Step Salvo can be used instead.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong><a href="#station-release-selection-switches">Station Release Selection Switches</a> do not effect the Aircraft Weapons Release System pylon validity. These switches simply break the circuit between the Aircraft Weapons Release System and the pylon circuitry. This has the unintended side effect of causing the Aircraft Weapons Release System to get stuck if any of these pylons are set to OFF.</strong></p>
+</div>
+<p>Below is the priority of each station with a lower number indicating higher priority.</p>
+<table>
+<thead>
+<tr>
+<th>Left Outer</th>
+<th>Left Middle</th>
+<th>Left Inner</th>
+<th>Right Inner</th>
+<th>Right Middle</th>
+<th>Right Outer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>5</td>
+<td>6</td>
+<td>4</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="armament-control-panels.html" class="btn btn-neutral float-left" title="Armament Control Panels"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="a-4-gunsight.html" class="btn btn-neutral float-right" title="A-4 Gunsight">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="armament-control-panels.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="a-4-gunsight.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

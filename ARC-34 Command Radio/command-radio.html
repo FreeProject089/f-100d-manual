@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>ARC-34 UHF Command Radio - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "ARC-34 UHF Command Radio";
+        var mkdocs_page_input_path = "ARC-34 Command Radio/command-radio.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Systems</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Aircraft Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Oxygen%20System/oxygen.html">MD-1 Oxygen Regulator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Navigation Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Navigation%20Computer/navigation-computer.html">B-26 Navigation Computer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Radio Systems</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">ARC-34 UHF Command Radio</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#controls">Controls</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#frequency-knobs">Frequency Knobs</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#manual-preset-guard-sliding-selector">Manual-Preset-Guard Sliding Selector</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#volume-control">Volume Control</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#preset-channel-selector-switch">Preset Channel Selector Switch</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#function-switch">Function Switch</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tone-button">Tone Button</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#frequency-card">Frequency Card</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#remote-channel-indicator">Remote Channel Indicator</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#default-preset-channels">Default Preset Channels</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#normal-operation">Normal Operation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#emergency-operation">Emergency Operation</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#sudden-loss-of-transmission-and-reception">Sudden Loss of Transmission and Reception</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#channel-selection-after-engine-shutdown">Channel Selection After Engine Shutdown</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#radio-not-operating">Radio Not Operating</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Lighting Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/indicator-caution-light-panel.html">Indicator and Caution Light Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Camera Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Defensive Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapon Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/introduction.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/armament-control-panels.html">Armament Control Panels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/a-4-gunsight.html">A-4 Gunsight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/guns.html">Guns</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Normal Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Weapons Employment</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/manual-delivery.html">Manual Delivery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/Procedures/sidewinder.html">Sidewinders</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Emergency Procedures</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Systems</li>
+          <li class="breadcrumb-item">Radio Systems</li>
+      <li class="breadcrumb-item active">ARC-34 UHF Command Radio</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="arc-34-uhf-command-radio">ARC-34 UHF Command Radio</h1>
+<h2 id="introduction">Introduction</h2>
+<!-- Link the AN/AIC-10 Amp to its own page -->
+<p>The onboard radio, powered by the aircraft’s primary bus, enables voice communication within the 225.0 to 399.9 MHz frequency range. Audio signals are processed through the AN/AIC-10 communication amplifier. The system features a control panel with access to 20 preset channels, while also allowing manual frequency selection without altering any preset values.</p>
+<p>This radio system employs two receivers: a primary receiver responsible for standard communications, and a guard receiver fixed to a dedicated emergency frequency. The guard frequency is factory-set and cannot be changed without removing the remote-control unit from the aircraft. When selecting a new frequency, an automatic tuning mechanism synchronizes both the transmitter and receiver, completing the tuning cycle in approximately four seconds.</p>
+<h2 id="controls">Controls</h2>
+<p><img alt="radio image" src="img/command_radio.png" /></p>
+<ol>
+<li><a href="#frequency-knobs">Frequency Knobs</a></li>
+<li><a href="#manual-preset-guard-sliding-selector">Manual-Preset-Guard Sliding Selector</a></li>
+<li><a href="#volume-control">Volume Control</a></li>
+<li><a href="#preset-channel-selector-switch">Preset Channel Selector Switch</a></li>
+<li><a href="#function-switch">Function Switch</a></li>
+<li><a href="#tone-button">Tone Button</a></li>
+<li><a href="#frequency-card">Frequency Card</a></li>
+</ol>
+<h3 id="frequency-knobs">Frequency Knobs</h3>
+<p>At the top of the radio panel, just below the four frequency display windows, are four small frequency selector knobs. Each knob, when turned, adjusts the numeral in its corresponding window, changing the overall frequency. This system allows manual selection of any of the 1,750 available frequencies within the 225.0 to 399.9 MHz range. The frequency 243.0 MHz is reserved as a guard channel.</p>
+<h3 id="manual-preset-guard-sliding-selector">Manual-Preset-Guard Sliding Selector</h3>
+<p>The sliding selector controls the method of command radio frequency selection. It is operated by sliding the control through a limited arc across the face of the panel. This control has three positions, <strong>MANUAL</strong>, <strong>PRESET</strong>, and <strong>GUARD</strong>, and is arranged so that when it is in any one position, the other two positions are masked by a semitransparant green glass.</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MANUAL</strong></td>
+<td>The preset channel is deactivated and a mask is removed from in front of the four small windows acress the top of the panel, revealing the numerals that make up an operating frequency set by the <a href="#frequency-knobs">frequency knobs</a>.</td>
+</tr>
+<tr>
+<td><strong>PRESET</strong></td>
+<td>Masks the 4 small windows above the <a href="#frequency-knobs">frequency knobs</a> and deactivates the manually selected frequency. This activates the <a href="#default-preset-channels">20 preset channels</a> controlled by the channel selector switch.</td>
+</tr>
+<tr>
+<td><strong>GUARD</strong></td>
+<td>Automatically tunes the transmitter and main reciever to the default guard frequency 243.0 MHz.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="volume-control">Volume Control</h3>
+<p>The volume control regulates the sound level of the signal being heard in the headphones from both command recivers. Adequate control of volume is provided, but the volume may not be reduced below a fixed level.</p>
+<h3 id="preset-channel-selector-switch">Preset Channel Selector Switch</h3>
+<p>The channel selector switch controls the selection of <a href="#default-preset-channels">20 preset frequencies</a> by channel number. When the switch is rotated, channel numbers from 1 through 20 appear in the channel indicator window, above the selector. This window is masked when the <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> is placed in any position other than <strong>Preset</strong>.</p>
+<h3 id="function-switch">Function Switch</h3>
+<p>Rotating the command radio function switch from <strong>OFF</strong> turns the command radio on. When the switch is at <strong>MAIN</strong>, only the main receiver is audible in the headphones. In the <strong>BOTH</strong> position, the guard receiver and the main receiver are heard simultaneously. The <strong>ADF</strong> position is operable only with the ADF system and will disconnect the signal from the AN/ARN-6.</p>
+<!-- Perhaps we should better describe the ADF operation?? -->
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OFF</strong></td>
+<td>The radio is inoperative</td>
+</tr>
+<tr>
+<td><strong>MAIN</strong></td>
+<td>Only the main receiver is audible in the headphones.</td>
+</tr>
+<tr>
+<td><strong>BOTH</strong></td>
+<td>The guard receiver and the main receiver are heard simultaneously in the headphones.</td>
+</tr>
+<tr>
+<td><strong>ADF</strong></td>
+<td>Direction finding is enabled and will disconnect the signal from the <a href="../ARN-6%20Radio%20Compass/radio-compass.html">AN/ARN-6 Radio Compass</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tone-button">Tone Button</h3>
+<p>When the command radio is operating, a continuous tone signal may be transmitted by pressing the tone button. This occures on the frequency that is set on the transmitter, and it interrupts reception. A side tone is audible in the headphones while the button is depressed. This feature may be used for direction-finding operations in conjunction with other airplanes and ground stations.</p>
+<h3 id="frequency-card">Frequency Card</h3>
+<p>TODO: THIS WILL BE AN INDICATOR CARD BUT REMAINS TO BEEN SEEN IF WE DO THE PRESET WHEEL UNDER THE COVER</p>
+<h2 id="remote-channel-indicator">Remote Channel Indicator</h2>
+<p><img alt="radio image" src="img/remote-channel-indicator.png" /></p>
+<!-- IDK where I should put this yet... -->
+<p>The remote channel indicator is synchronized to the command radio control panel. The face of the indicator has four windows for display of channel number and frequency. When the <a href="#manual-preset-guard-sliding-selector">selector control</a> is at <strong>PRESET</strong>, two of the indicator windows are used to display the number of the preset command radio channel. When the selector control is at <strong>MANUAL</strong>, the four indicator windows display the frequency (in MHz) of the selected channel. With the selector control at <strong>GUARD</strong>, the two center windows show the letters "GD". All indicator windows are blank when power is off.</p>
+<h2 id="default-preset-channels">Default Preset Channels</h2>
+<!-- NOTE: There is an invisible character used to space the table -->
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Preset Channel</th>
+<th style="text-align: center;">Frequency (MHz)</th>
+<th style="text-align: center;">⠀⠀⠀⠀</th>
+<th style="text-align: center;">Preset Channel</th>
+<th style="text-align: center;">Frequency (MHz)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Channel 1</td>
+<td style="text-align: center;">225.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 11</td>
+<td style="text-align: center;">235.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 2</td>
+<td style="text-align: center;">226.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 12</td>
+<td style="text-align: center;">236.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 3</td>
+<td style="text-align: center;">227.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 13</td>
+<td style="text-align: center;">237.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 4</td>
+<td style="text-align: center;">228.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 14</td>
+<td style="text-align: center;">238.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 5</td>
+<td style="text-align: center;">229.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 15</td>
+<td style="text-align: center;">239.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 6</td>
+<td style="text-align: center;">230.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 16</td>
+<td style="text-align: center;">240.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 7</td>
+<td style="text-align: center;">231.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 17</td>
+<td style="text-align: center;">241.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 8</td>
+<td style="text-align: center;">232.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 18</td>
+<td style="text-align: center;">242.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 9</td>
+<td style="text-align: center;">233.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 19</td>
+<td style="text-align: center;">243.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Channel 10</td>
+<td style="text-align: center;">234.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Channel 20</td>
+<td style="text-align: center;">244.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="normal-operation">Normal Operation</h2>
+<p>A complete operational check of the command radio may
+be made as follows:</p>
+<ol>
+<li>
+<p>Before takeoff, check frequencies to be used against
+those listed on <a href="#frequency-card">frequency card</a>.</p>
+</li>
+<li>
+<p>Check settings of buttons on frequency control drum
+with frequency card. To do this, open door to which frequency card is attached. The channel number which corresponds to the preset frequency appears in a window at the left of the buttons. The frequency numbers of this channel are listed above the buttons.</p>
+</li>
+<li>
+<p>Check operation of transmitter and main receiver with <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> in each position.</p>
+</li>
+<li>
+<p>Check operation of the guard receiver using the BOTH position of <a href="#function-switch">function switch</a>.</p>
+</li>
+<li>
+<p>For initial channel selection, select a channel other than the one to be used until warm-up is completed, or after warm-up, switch to another channel and then back to the one desired. If the desired channel is selected before warm-up is completed, reduced performance due to mistuning may result.</p>
+</li>
+<li>
+<p>Adjust <a href="#volume-control">volume</a> as desired.</p>
+</li>
+<li>
+<p>For manual selection of a frequency that is not included in the preset channels, moving <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> to MANUAL. Use frequency knobs across top of panel to establish desired frequency. (The function switch
+must be at MAIN or BOTH for this operation.)</p>
+</li>
+<li>
+<p>To obtain transmission and reception of guard frequency only, move <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> to GUARD, and turn <a href="#function-switch">function switch</a> to MAIN. This will prevent unequal or garbled reception by cutting out the guard receiver that operates when the <a href="#function-switch">function switch</a> is at BOTH.</p>
+</li>
+</ol>
+<h2 id="emergency-operation">Emergency Operation</h2>
+<h3 id="sudden-loss-of-transmission-and-reception">Sudden Loss of Transmission and Reception</h3>
+<p>If transmission or reception is unsatisfactory, adjust aircraft attitude or heading to improve line-of-sight alignment with the antenna.</p>
+<h3 id="channel-selection-after-engine-shutdown">Channel Selection After Engine Shutdown</h3>
+<p>If it is necessary to select another frequency channel, selection should be done as soon as possible after engine shutdown or engine failure, so that
+electrical power is available to complete selection.</p>
+<h3 id="radio-not-operating">Radio Not Operating</h3>
+<p>In the case of apparent failure of command radio, attempt operation in alternate positions of <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> and/or alternate positions of <a href="#function-switch">function switch</a>. Turn equipment off for several minutes; then turn <a href="#function-switch">function switch</a> to type of operation desired. If the protective relay in the tuning mechanism was responsible, this action will restore operation. Check circuitbreaker panel for tripped condition of the AN/AIC-10 amplifier.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Navigation%20Computer/navigation-computer.html" class="btn btn-neutral float-left" title="B-26 Navigation Computer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ARA-50%20ADF/adf-radio.html" class="btn btn-neutral float-right" title="ARA-50 ADF System">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Navigation%20Computer/navigation-computer.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../ARA-50%20ADF/adf-radio.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

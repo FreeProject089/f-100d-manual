@@ -8,32 +8,6 @@ The A-4 Gunsight is a lead computing optical sight. This system has a gyro to as
 
 The system can also be used for ground attack using either a fixed sight where pre-calculated depression tables can be used or the inbuilt automatic bombing mode.
 
-### Sight Lines
-
-#### Fuselage Reference Line (FRL)
-
-The defined reference line for pitch for the aircraft. Every other line is referenced from this line.
-
-#### Mean Fixed Bore Line (MFBL)
-
-The mean fixed bore line is a line drawn from the average position of the gun muzzles drawn parallel to the average boresight of the guns.
-
-![Mean Fixed Bore Line Image](./img/mean_fixed_bore_line.png)
-
-#### True 0 Prediction Sight Line (T0PSL)
-
-The line drawn from the A-4 sight position parallel to the [Mean Fixed Bore Line](#mean-fixed-bore-line-mfbl).
-
-#### 0 Prediction Sight Line (0PSL)
-
-A line depressed by some angle from the [True 0 Prediction Sight Line](#true-0-prediction-sight-line-t0psl) to harmonize this line and the [Mean Fixed Bore Line](#mean-fixed-bore-line-mfbl) at some distance usually 2000 ft.
-
-#### Electrically Caged Sight Line (ECSL)
-
-A line depressed by 1.1 mils from the [0 Predication Sight Line](#0-prediction-sight-line-0psl) to account for bullet drop at approximately 850 feet.
-
-This sight line is what is used when the sight is electrically or mechanically caged.
-
 ## Controls
 
 ### Mechanical Cage Lever
@@ -79,23 +53,21 @@ To return the ranging to automatic operation simply rotate the throttle full cou
 
 The wingspan lever changes the size of the reticule to match the angular size of a target at the current indicated range. Setting this to the wingspan of the target can either confirm the radar ranging is correct or be used to manually range by changing the manual ranging until the pipper width matches the target.
 
-Due to the added equipement in the F-100D there is a mechanical linkage which connects the interactable wingspan lever with the actual wingspan lever of the A-4 sight.
+Due to the added equipment in the F-100D there is a mechanical linkage which connects the interactive wingspan lever with the actual wingspan lever of the A-4 sight.
 
-![Wingspan Lever Image]()
+![Wingspan Lever Image](./img/wingspan-lever.png)
 
 ### Radar Lock-On Light
 
 When the radar range gate has achieved lock-on the lock light will illuminate.
 
-![Radar Lock-On Light Image]()
+![Radar Lock-On Light Image](./img/lock-on.png)
 
 ### Radar Reject Button
 
-If the pilot wishes to reject the current radar lock (for example the current range is much lower or higher than the desired target range) the pilot can press the radar reject button. The radar will continue to increase scan range until it either finds a target or reaches max range where it will then begin the scan again at minimum range.
+The radar reject button is found on the control stick. If the pilot wishes to reject the current radar lock (for example the current range is much lower or higher than the desired target range) the pilot can press the radar reject button. The radar will continue to increase scan range until it either finds a target or reaches max range where it will then begin the scan again at minimum range.
 
 Pressing the radar reject button will cause the [Sight Selector Switch](#1-sight-selector-switch) to move to the guns position.
-
-![Radar Reject Button Image]()
 
 ### Sight Selector
 
@@ -145,8 +117,6 @@ The radar automatically locks onto any sufficiently strong reflections including
 
 The range can be validated in radar ranging or calculated in manual ranging mode by using the [wingspan lever](#wingspan-lever) to set the wingspan of the current target on the gunsight. Then the target is at the correct range when the wingspan matches the inside radius of gunsight reticule tick marks.
 
-![image of target matching reticule]()
-
 #### Gunnery
 
 In order to achieve accurate air-to-air gunnery the sight must be allowed to stabilise. The sight must be kept on the target for 1 - 2 seconds. This allows the gyro to settle on the correct solution for the current attack geometry, firing before the sight is stabilised will result in a miss.
@@ -164,3 +134,29 @@ The A-4 sight has a mode for automatic bombing. This method makes use of the inb
 The bombsight works the principle that the line of sight rate corresponds to the slant range to the target. To facilitate this the pipper is automatically depressed by 10 degrees in the bomb mode. The pilot must then keep this on the target for the system to measure the line of sight rate. One the parameters are met the sight extinguishes and the bomb is released.
 
 Note that the electrical cage must be held up until the target is in the sight to protect the gyros. Then the target must be _smoothly_ followed under the pipper to get an accurate measurement. Any jerks or bumps may cause the bombs to release prematurely.
+
+## Sight Lines Definitions
+
+### Fuselage Reference Line (FRL)
+
+The defined reference line for pitch for the aircraft. Every other line is referenced from this line.
+
+### Mean Fixed Bore Line (MFBL)
+
+The mean fixed bore line is a line drawn from the average position of the gun muzzles drawn parallel to the average boresight of the guns.
+
+![Mean Fixed Bore Line Image](./img/mean_fixed_bore_line.png)
+
+### True 0 Prediction Sight Line (T0PSL)
+
+The line drawn from the A-4 sight position parallel to the [Mean Fixed Bore Line](#mean-fixed-bore-line-mfbl).
+
+### 0 Prediction Sight Line (0PSL)
+
+A line depressed by some angle from the [True 0 Prediction Sight Line](#true-0-prediction-sight-line-t0psl) to harmonize this line and the [Mean Fixed Bore Line](#mean-fixed-bore-line-mfbl) at some distance usually 2000 ft.
+
+### Electrically Caged Sight Line (ECSL)
+
+A line depressed by 1.1 mils from the [0 Predication Sight Line](#0-prediction-sight-line-0psl) to account for bullet drop at approximately 850 feet.
+
+This sight line is what is used when the sight is electrically or mechanically caged.

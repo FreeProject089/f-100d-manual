@@ -5,6 +5,7 @@
         "INOP",
         "pitot",
         "Tacan",
-        "zeroize"
+        "zeroize",
+        "zeroizing"
     ]
 }

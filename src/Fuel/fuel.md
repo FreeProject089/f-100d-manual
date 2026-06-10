@@ -95,7 +95,14 @@ This light simply indicates if the [air to air refueling switch](#air-to-air-ref
 
 ### Fuel Flow Indicator
 
-### Fuel Boot Pump Light
+The fuel flow indicator shows the rate of fuel flow from the fuel control unit to the engine in pounds per hour.
+
+!!! warning
+    This gauge does not show fuel flow from the afterburner
+
+This gauge is powered by the 26 V AC instrument bus.
+
+### Fuel Boost Pump Light
 
 This illuminates if there is less than 5 psi fuel pressure to the engine indicating a condition where one or more fuel boost pumps are non-functional.
 

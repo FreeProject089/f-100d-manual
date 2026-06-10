@@ -9,11 +9,18 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
+        <link href="../css/print-site.css" rel="stylesheet" />
+        <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Instrument Panel";
-        var mkdocs_page_input_path = "Introduction/instrument-panel.md";
+        var mkdocs_page_input_path = "Introduction\\instrument-panel.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -67,6 +74,12 @@
     <li class="toctree-l2"><a class="reference internal" href="#altimeter">Altimeter</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#vertical-velocity-indicator">Vertical Velocity Indicator</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#clock">Clock</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#standby-attitude-indicator">Standby Attitude Indicator</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</a>
     </li>
     </ul>
                   </li>
@@ -321,11 +334,11 @@
 </tr>
 <tr>
 <td>2</td>
-<td>[Standby Attitude Indicator]</td>
+<td><a href="#standby-attitude-indicator">Standby Attitude Indicator</a></td>
 </tr>
 <tr>
 <td>3</td>
-<td>[Clock]</td>
+<td><a href="#clock">Clock</a></td>
 </tr>
 <tr>
 <td>4</td>
@@ -337,7 +350,7 @@
 </tr>
 <tr>
 <td>6</td>
-<td>[Master Heading Indicator]</td>
+<td><a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Master Heading Indicator</a></td>
 </tr>
 <tr>
 <td>7</td>
@@ -361,7 +374,7 @@
 </tr>
 <tr>
 <td>12</td>
-<td>[Radio Magnetic Indicator]</td>
+<td><a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Radio Magnetic Indicator</a></td>
 </tr>
 <tr>
 <td>13</td>
@@ -385,11 +398,11 @@
 </tr>
 <tr>
 <td>18</td>
-<td>[Attitude Indicator Fast Erection Button]</td>
+<td><a href="#attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</a></td>
 </tr>
 <tr>
 <td>19</td>
-<td>[Fire and Overheat Warning Lights]</td>
+<td><a href="lights-overview.html#other">Fire and Overheat Warning Lights</a></td>
 </tr>
 <tr>
 <td>20</td>
@@ -464,6 +477,14 @@
 <p>To set the altimeter into servoed mode hold the reset switch on the face of the altimeter to the reset position until the standby flag is no longer shown.</p>
 <h2 id="vertical-velocity-indicator">Vertical Velocity Indicator</h2>
 <p>The vertical velocity indicator computes the aircraft's vertical velocity, in feet per minute, via static pressure signals from the ADC. Lag is an inherent consequence of the design of the indicator and can result in readings often delayed up to 6 seconds. Much like the airspeed indicator, the vertical velocity indicator suffers from substantial positional and gauge installation errors and can often read up to 500 feet per minute.</p>
+<h2 id="clock">Clock</h2>
+<p>The ABU-11 clock has two ways of keeping time. On the clock face, you have two hands that work as a regular 12 hour clock with no AM or PM setting. Another set of hands will act as a stopwatch showing you seconds and minutes.</p>
+<p>On the clock, you have two dials. The dial to the bottom left works as time adjustment and the one at the top right works as a START/STOP/RESET function for the stopwatch.</p>
+<h2 id="standby-attitude-indicator">Standby Attitude Indicator</h2>
+<p>The Standby Attitude Indicator is a backup to the <a href="#attitude-indicator">Attitude Indicator</a>. The systems work identically to each other however, they are using independent gyros.</p>
+<p>Like the Attitude Indicator, it has an adjustment knob on the gauge.</p>
+<h2 id="attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</h2>
+<p>This button marked <strong>"PUSH VGI ERECT"</strong>, permits fast erection of the attitude gyros only when the button is depressed. Please note, you may have to hold the button a while depending on how misaligned the gyro has become.</p>
               
             </div>
           </div><footer>
@@ -503,6 +524,7 @@
     <script>var base_url = "..";</script>
     <script src="../js/theme_extra.js"></script>
     <script src="../js/theme.js"></script>
+      <script src="../js/print-site.js"></script>
       <script src="../search/main.js"></script>
     <script>
         jQuery(function () {

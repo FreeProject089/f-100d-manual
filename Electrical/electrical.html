@@ -9,11 +9,18 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
+        <link href="../css/print-site.css" rel="stylesheet" />
+        <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Electrical";
-        var mkdocs_page_input_path = "Electrical/electrical.md";
+        var mkdocs_page_input_path = "Electrical\\electrical.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -350,7 +357,7 @@
 <p>The DC generator only needs to be reset if an electrical fault causes it to trip off the line.</p>
 </div>
 <h3 id="battery-bus">Battery Bus</h3>
-<p>The battery bus is connected directly to the battery, so that essential equipement powered by this bus is operable as long as battery power is available, <strong>regardless of battery switch position</strong>.</p>
+<p>The battery bus is connected directly to the battery, so that essential equipment powered by this bus is operable as long as battery power is available, <strong>regardless of battery switch position</strong>.</p>
 <p>The battery is 24 Volt, 24 ampere hour battery. The DC Generator nominally outputs 28 Volts.</p>
 <p>The battery bus is connected to the battery bus through the primary bus tie in relay. This relay is energized by the battery bus connecting the battery bus to the primary bus.</p>
 <p>If there is not enough power on the battery bus the battery will not be connected, however if the primary bus is being energized from elsewhere (DC generator or External Power) the battery bus can be kept connected even if the battery has insufficient power to keep the relay energized. Turning the battery switch off under this condition will disconnect the primary bus from the battery bus and the battery will no longer be able to be charged.</p>
@@ -429,6 +436,7 @@
     <script>var base_url = "..";</script>
     <script src="../js/theme_extra.js"></script>
     <script src="../js/theme.js"></script>
+      <script src="../js/print-site.js"></script>
       <script src="../search/main.js"></script>
     <script>
         jQuery(function () {

@@ -11,7 +11,7 @@ The control stick is mechanically connected to the aircraft's hydraulic systems 
 | 1         | [Damper Emergency Disconnect Switch Lever] |
 | 2         | [Nose Wheel Steering Button](#nose-wheel-steering) |
 | 3         | [Trigger] |
-| 4         | [Radar Reject Button] |
+| 4         | [Radar Reject Button](../Weapon_System/a-4-gunsight.md#radar-reject-button) |
 | 5         | [Pickle Button] |
 | 6         | [Trim Hat](#trim-hat) |
 
@@ -43,7 +43,7 @@ Fuel flow to the engine is mechanically controlled by the pilot via the throttle
 | 1         | [Throttle Friction Lever] |
 | 2         | [Speed Brake Switch](#speed-brake-switch) |
 | 3         | [Interphone Call Button](#interphone-call-button) |
-| 4         | [Sight Electrical Caging Button and LABS Vertical Gyro Caging Button] |
+| 4         | [Sight Electrical Caging Button and LABS Vertical Gyro Caging Button](../Weapon_System/a-4-gunsight.md#electrical-cage-button) |
 
 ### Speed Brake Switch
 A speed brake switch *** BLAH BLAH **

@@ -1,5 +1,7 @@
 # Weapon Selection Circuitry
 
+The weapon release circuitry handle all weapon releases from the aircraft both armed and jettison.
+
 The F-100D has a novel method of selecting weapons for the time. The pilot selects the release mode and then the weapon type. The system will automatically select the correct pylons provided those pylons are armed. This is facilitated by the [pylon loading control panel](#pylon-loading-control-panel) which stores the weapon type mounted on each pylon by method of a multiposition switch.
 
 Selecting release modes and weapons is achieved by using the [armament selector panel](#armament-selector-panel).
@@ -72,7 +74,7 @@ This panel stores the weapon type information mounted on each pylon as a 7 posit
 The controls 1-6 all control what the wiring considers mounted to the aircraft. These are automatically set by ground grew upon re-arm or spawn (by default see [special options](../Introduction/special-options.md#pylon-control-armament-assistance)).
 
 !!! caution
-    Setting any of these to incorrect loading may result in in-advertant release of weapons.
+    Setting any of these to incorrect loading may result in in-advertent release of weapons.
 
 !!! note
     If automatic pylon loading control panel setting is set in the [special options](../Introduction/special-options.md) then these will be set by the ground crew when the rearming complete radio message is received.
@@ -89,26 +91,7 @@ There are 1-9 possible weapon mountings. These mostly match the weapon types fou
 | 6      | Special Weapons   | Nuclear Ordinance
 | 7      | Missiles          | This is functionally the same as empty as the missiles are not control by the armament control panels
 | 8      | Napalm            |
-| 9      | Inoperative       | Functionally the same as Empty
-
-## Gun Missile Switch
-
-The gun missile switch controls electrical power for the upper, lower guns and the missiles.
-
-![Gun Missile Switch](./img/gun_missile_switch.png)
-
-| Position | Description
-|----------|-------------
-| MISSILES | The missile selection provides power to the [Missile Control Panel](./aim-9-sidewinder.md#controls) and thus the missiles. Reference [AIM-9 Sidewinder Section](aim-9-sidewinder.md) for missile operation.
-| SAFE     | Removes power from the weapons system rendering it **safe**.
-| UPPER    | Energises the second trigger detent and **arms** upper guns.
-| ALL      | Energises the second trigger detent and **arms** upper and lower guns (all).
-| LOWER    | Energises the second trigger detent and **arms** lower guns.
-| POD      | Pod selection is unused on the F-100D
-
-**Note: Gun missile firing circuits are inhibited when weight is on the wheels.**
-
-With the gun missile switch in any position the gun camera can be actuated by using the first trigger detent. See the [Gun Camera Section](../Gun%20Camera/gun_camera.md) for details.
+| 9      | Inoperative       | Functionally the same as Empty. With the exception of the inner pylons where this indicates the presence of shrikes.
 
 ## Status Display Lights
 

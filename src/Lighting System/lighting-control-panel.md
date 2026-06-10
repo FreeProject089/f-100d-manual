@@ -33,18 +33,32 @@ to reduce the blinding effects of lightning. A standard (Type G-4A) utility ligh
 
 ### Thunderstorm Lights Rheostat
 
+This controls two white thunderstorm lights powered by the primary bus.
+
 ### Instrument Lights Rheostat
+
+The outer position controls the flood light for the instrument panel. The inner position controls the indirect lights on the instruments themselves.
 
 ### Console Lights Rheostat
 
+The outer position controls the flood light for the side consoles. The inner position controls the console back lighting.
+
 ### Position Lights Switch
 
+This controls the illumination of the position and recognition lights. When flash is selected the position lights flash at a rate of 40 cycles per minute.
+
 ### Position Lights Dimmer Switch
+
+This controls the brilliance of the position and recognition lights.
 
 ### Refueling Probe Light
 
 ### Indicator Light Test Switch
 
+This switch can be used to test all indicator lights in the aircraft however when the switch is released from either position the dimming is reset to the bright position.
+
 ### Indicator Light Dimmer Switch
+
+This switch controls the dimming state for the indicator lights.
 
 ### Fuel Quantity and Magnetic Compass Light Switch

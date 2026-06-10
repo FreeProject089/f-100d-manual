@@ -38,11 +38,3 @@ This gauge is powered by the 26 V AC instrument bus.
 
 The exhaust temperature gauge shows engine exhaust temperature in degrees celsius. Gauge indications are self-generating type thermocouples which does not need power from the electrical system.
 
-### Fuel Flow Indicator
-
-The fuel flow indicator shows the rate of fuel flow from the fuel control unit to the engine in pounds per hour.
-
-!!! warning
-    This gauge does not show fuel flow from the afterburner
-
-This gauge is powered by the 26 V AC instrument bus.

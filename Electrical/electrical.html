@@ -88,10 +88,10 @@
     <ul class="current">
     <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#controls">Controls</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="#dc-system">DC System</a>
         <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#dc-generator">DC Generator</a>
+    </li>
     <li class="toctree-l4"><a class="reference internal" href="#battery-bus">Battery Bus</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#primary-bus">Primary Bus</a>
@@ -104,19 +104,25 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#ac-system">AC System</a>
         <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#ac-generator">AC Generator</a>
+    </li>
     <li class="toctree-l4"><a class="reference internal" href="#main-three-phase-ac-bus-115v">Main Three-Phase AC Bus (115V)</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#three-phase-ac-instrument-bus-115v">Three-Phase AC Instrument Bus (115V)</a>
+    <li class="toctree-l4"><a class="reference internal" href="#ac-instrument-buses-115v-and-26v">AC Instrument Buses (115V and 26V)</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#single-phase-ac-instrument-bus-26v">Single-Phase AC Instrument Bus (26V)</a>
+    <li class="toctree-l4"><a class="reference internal" href="#controls-and-indications">Controls and Indications</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#ac-load-meter">AC Load Meter</a>
     </li>
-        </ul>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#dc-system_1">DC System</a>
-        <ul>
     <li class="toctree-l4"><a class="reference internal" href="#dc-load-meter">DC Load Meter</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#inst-ac-power-off-light">INST A.C. POWER OFF Light</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#ac-generator-off">A.C. GENERATOR OFF</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#dc-generator-off">D.C. GENERATOR OFF</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#standby-instrument-inverter">Standby Instrument Inverter</a>
     </li>
         </ul>
     </li>
@@ -331,51 +337,59 @@
 <h2 id="introduction">Introduction</h2>
 <p>The F-100D features two mostly separated electrical systems: the <a href="#ac-system">AC System</a> powered by the AC Generator or external power, the <a href="#dc-system">DC System</a> powered by the DC Generator, Battery or external power.</p>
 <p>These systems are powered independently however in the event of failures it's possible to partially power failed system using the still working system.</p>
-<h2 id="controls">Controls</h2>
 <h2 id="dc-system">DC System</h2>
-<p>The DC System receives power from the battery and DC generator. Optionally power can also be received from external power if connected.</p>
+<p>The DC System normally receives power from the battery and DC generator. Optionally power can also be received from external power if connected.</p>
+<h3 id="dc-generator">DC Generator</h3>
+<p>The engine driven DC generator provides power to the DC systems under normal operation.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The DC generator connects at approximately 40% engine RPM.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The DC generator only needs to be reset if an electrical fault causes it to trip off the line.</p>
+</div>
 <h3 id="battery-bus">Battery Bus</h3>
 <p>The battery bus is connected directly to the battery, so that essential equipement powered by this bus is operable as long as battery power is available, <strong>regardless of battery switch position</strong>.</p>
 <p>The battery is 24 Volt, 24 ampere hour battery. The DC Generator nominally outputs 28 Volts.</p>
-<p>The battery bus is connected to the battery bus through the primary bus tie in relay. This relay is energised by the battery bus connecting the battery bus to the primary bus.</p>
-<p>If there is not enough power on the battery bus the battery will not be connected, however if the primary bus is being energised from elsewhere (DC generator or External Power) the battery bus can be kept connected even if the battery has insufficient power to keep the relay energised. Turning the battery switch off under this condition will disconnect the primary bus from the battery bus and the battery will no longer be able to be charged.</p>
+<p>The battery bus is connected to the battery bus through the primary bus tie in relay. This relay is energized by the battery bus connecting the battery bus to the primary bus.</p>
+<p>If there is not enough power on the battery bus the battery will not be connected, however if the primary bus is being energized from elsewhere (DC generator or External Power) the battery bus can be kept connected even if the battery has insufficient power to keep the relay energized. Turning the battery switch off under this condition will disconnect the primary bus from the battery bus and the battery will no longer be able to be charged.</p>
 <h3 id="primary-bus">Primary Bus</h3>
-<p>The primary bus powers the most essential equipment to the aircraft. Under normal operation it is powered by the DC Generator, but can be powered by the battery or </p>
-<table>
-<thead>
-<tr>
-<th>Power Source</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>DC Generator</td>
-<td>Normal Operation</td>
-</tr>
-<tr>
-<td>External Power</td>
-<td>Ground Power Connected</td>
-</tr>
-<tr>
-<td>Battery Bus</td>
-<td>Battery has enough voltage and battery switch is on</td>
-</tr>
-<tr>
-<td>Rectifier</td>
-<td>DC Generator Failure</td>
-</tr>
-</tbody>
-</table>
+<p>Primary bus powers the most essential equipment. Energized by battery bus when battery switch is ON, or energized by DC generator or external power. Energized by transformer-rectifier if DC generator fails.</p>
 <h3 id="secondary-bus">Secondary Bus</h3>
+<p>Secondary bus powers less essential equipment. Energized by primary bus when DC generator power, DC ground power or transformer-rectifier power is available to close the secondary bus tie-in relay, where then it is powered by the primary bus.</p>
 <h3 id="tertiary-bus">Tertiary Bus</h3>
+<p>Tertiary bus powers non-essential equipment. Energized by primary bus when external power or DC generator power is available to close bus tie-in relay, where then it is powered by the primary bus.</p>
 <h2 id="ac-system">AC System</h2>
+<h3 id="ac-generator">AC Generator</h3>
+<p>The engine driven AC generator provides power to the AC systems under normal operation. The AC generator is driven by a constant speed drive driven by the engine.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The constant speed drive takes up to a minute at idle power to come up to speed so that the AC generator can come on the line. To expedite this process the pilot can advance the throttle up to 72% (or until the generator comes online).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The AC generator needs to be reset if an electrical fault causes it to trip off the line or the AC generator switch is placed into the off position.</p>
+</div>
 <h3 id="main-three-phase-ac-bus-115v">Main Three-Phase AC Bus (115V)</h3>
-<h3 id="three-phase-ac-instrument-bus-115v">Three-Phase AC Instrument Bus (115V)</h3>
-<h3 id="single-phase-ac-instrument-bus-26v">Single-Phase AC Instrument Bus (26V)</h3>
+<p>Main three-phase AC bus powers essential equipment which demands AC power. Power is provided by the engine driven AC generator.</p>
+<h3 id="ac-instrument-buses-115v-and-26v">AC Instrument Buses (115V and 26V)</h3>
+<p>There are two instrument buses which power vital instrument equipment. Due to their important these AC buses can both be powered by the <a href="#primary-bus">DC primary bus</a> using the <a href="#standby-instrument-inverter">standby instrument inverter</a></p>
+<h3 id="controls-and-indications">Controls and Indications</h3>
 <h3 id="ac-load-meter">AC Load Meter</h3>
-<h2 id="dc-system_1">DC System</h2>
+<p>Current AC generator load as a percentage of its maximum load.</p>
+<p><img alt="image" src="todo" /></p>
 <h3 id="dc-load-meter">DC Load Meter</h3>
+<p>Current DC generator load as a percentage of its maximum load.</p>
+<p><img alt="image" src="todo" /></p>
+<h3 id="inst-ac-power-off-light">INST A.C. POWER OFF Light</h3>
+<p>Indicates when instrument AC buses are not receiving sufficient electrical power. </p>
+<h3 id="ac-generator-off">A.C. GENERATOR OFF</h3>
+<p>Indicates when the AC generator is off the line either because of insufficient drive RPM or a fault has tripped the generator.</p>
+<h3 id="dc-generator-off">D.C. GENERATOR OFF</h3>
+<p>Indicates when the DC generator is off the line either because of insufficient drive RPM or a fault has tripped the generator.</p>
+<h3 id="standby-instrument-inverter">Standby Instrument Inverter</h3>
+<p>Transfers <a href="#ac-instrument-buses-115v-and-26v">AC instrument bus power</a> over to the standby instrument inverter. The is a small power interruption as the standby instrument inverter comes up to speed.</p>
               
             </div>
           </div><footer>

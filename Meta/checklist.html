@@ -9,18 +9,13 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
         <link href="../css/print-site.css" rel="stylesheet" />
         <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Checklist";
-        var mkdocs_page_input_path = "Meta\\checklist.md";
+        var mkdocs_page_input_path = "Meta/checklist.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -98,7 +93,7 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#customising-the-checklist">Customising the Checklist</a>
+    <li class="toctree-l2"><a class="reference internal" href="#customizing-the-checklist">Customizing the Checklist</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#finding-clickables">Finding Clickables</a>
     </li>
@@ -200,6 +195,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/bomb-rockets.html">Weapon Release Tables</a>
                 </li>
     </ul>
                   </li>
@@ -378,7 +375,7 @@
 <h3 id="advance-checklist-command">Advance Checklist Command</h3>
 <p>Advance checklist command is used to manually check items which are not automatically checked or to bypass an item. The advance checklist command will manually check the highest unchecked item (current item) on the checklist. Once all items are check the advance checklist command will switch to the next procedure. If there is no next procedure then in this case the advance checklist command will do nothing.</p>
 <p><img alt="checked-items" src="img/checked-items.png" /></p>
-<h2 id="customising-the-checklist">Customising the Checklist</h2>
+<h2 id="customizing-the-checklist">Customizing the Checklist</h2>
 <p>The checklist structure is made from a json file listing the procedures and categories. When a <code>checklist.json</code> is provided in <code>C:/users/&lt;you username&gt;/Saved Games/DCS F-100D</code> this custom checklist will be used. As a starting point you can copy the built-in checklist which is found <code>DCS World/Mods/Aircraft/f-100d/checklist/default.json</code>.</p>
 <p>If this checklist fails to load because of a syntax error then that error will be reported in your DCS log located in <code>C:/users/&lt;you username&gt;/Saved Games/DCS/Logs/dcs.log</code>. Example error may look like</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ERROR   F100 (Main): [Checklist Load Error]: [json.exception.parse_error.101] parse error at line 26, column 35: syntax error while parsing object - unexpected string literal; expected &#39;}&#39;
@@ -402,7 +399,7 @@
 <div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;text&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Item to be set&quot;</span><span class="p">,</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;value&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;State pilot should set: On or Off etc&quot;</span><span class="p">,</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;priority&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) 1,2,3 for mandatory, abbreviated, realistic respectively. With this key/value ommitted the priority will default to 1.</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;priority&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) 1,2,3 for mandatory, abbreviated, realistic respectively. With this key/value omitted the priority will default to 1.</span>
 </span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">&quot;clickable&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PNT_FLAP_SELECT&quot;</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) the clickable point for show me, for how to find these see below.</span>
 </span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">&quot;condition&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="c1">// (optional) either a number or string, see the conditions section</span>
 </span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">&quot;once&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="c1">// (optional) applies to only conditions see conditions section</span>

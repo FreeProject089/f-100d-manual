@@ -9,18 +9,13 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
         <link href="../css/print-site.css" rel="stylesheet" />
         <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Aircraft Weapons Release System";
-        var mkdocs_page_input_path = "Weapon_System\\aircraft-weapons-release-system.md";
+        var mkdocs_page_input_path = "Weapon_System/aircraft-weapons-release-system.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -183,6 +178,8 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="bomb-rockets.html">Weapon Release Tables</a>
+                </li>
     </ul>
                   </li>
               </ul>
@@ -339,7 +336,7 @@
 <p>With the Quantity Selector Switch in the OFF position electrical power is removed from the AWRS system making it inactive. With the Quantity Selector Switch set to any numbered position the AWRS is active and energized.</p>
 <p>The selected number provides the AWRS with the quantity of release pulses in ripple modes: Ripple - Single, Ripple - Pairs, and Ripple - Salvo. See <a href="#operation">operation</a>.</p>
 <h4 id="release-interval-switch">Release Interval Switch</h4>
-<p>The release interval switch selects the time interval in miliseconds between subsequent pulses from the AWRS. The release interval can be multiplied by ten using the <a href="#multiplier-switch-x10">Multiplier Switch</a></p>
+<p>The release interval switch selects the time interval in milliseconds between subsequent pulses from the AWRS. The release interval can be multiplied by ten using the <a href="#multiplier-switch-x10">Multiplier Switch</a></p>
 <h4 id="multiplier-switch-x10">Multiplier Switch (x10)</h4>
 <p>The multiplier switch multiplies the <a href="#release-interval-switch">release interval</a> by ten with x10 set and x1 otherwise.</p>
 <h3 id="modes">Modes</h3>
@@ -438,7 +435,7 @@
 <p>Bombs/rockets will drop in order of priority alternating sides if two valid pylons of equal priority exist. The further out from the centre the higher the priority the pylon has. This means the outer wing pylons have the highest priority and the inner wing pylons the lowest. The AWRS does not consider any pylons which are not active: either because they do not have the correct weapon type. Once a pylon is empty it is no longer considered valid.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>Rockets pods cannot send an empty signal</strong> so once the outer rocket pods are empty the AWRS will not automatically step to the inner rocket pods as it still assumes they are valid. To use the inner rocket pods either Ripple/Step Salvo can be used instead.</p>
+<p><strong>Rockets/dispenser pods cannot send an empty signal</strong> so once the outer rocket/dispenser pods are empty the AWRS will not automatically step to the inner rocket/dispenser pods as it still assumes they are valid. To use the inner rocket/dispenser pods either Ripple/Step Salvo can be used instead.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>

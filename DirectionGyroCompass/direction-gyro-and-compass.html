@@ -9,18 +9,13 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
         <link href="../css/print-site.css" rel="stylesheet" />
         <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Direction Gyro and Compass";
-        var mkdocs_page_input_path = "DirectionGyroCompass\\direction-gyro-and-compass.md";
+        var mkdocs_page_input_path = "DirectionGyroCompass/direction-gyro-and-compass.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -194,6 +189,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/bomb-rockets.html">Weapon Release Tables</a>
                 </li>
     </ul>
                   </li>
@@ -418,9 +415,9 @@ the elements on said control in the order of logical use in practice. i.e. power
 <h3 id="thermal-relay">Thermal Relay</h3>
 <p>A thermal relay is incorporated into the slaving circuit to control the fast-slave cycle. When the system is switched to the <strong>MAG</strong> position, the relay heats and closes after a brief delay, supplying high voltage to the slaving torque motor for rapid alignment of the gyro to magnetic north. After the fast-slave period ends, the relay cools and reopens, returning the system to its normal slaving rate. Because the relay must cool fully before another fast-slave cycle can occur, repeated switching between <strong>MAG</strong> and <strong>DG</strong> without sufficient cooling time may prevent proper slaving and result in heading errors.</p>
 <h3 id="remote-compass-transmitter-j-4-compass">Remote Compass Transmitter (J-4 Compass)</h3>
-<p>The remote compass is a magnetic field sensing device which detects the current magnetic north relative to the aircraft heading. As described <a href="#direction-gyro">above</a> this signal on average will give an accurate indication of magnetic north and as such can be used to slowly adjust (slave) the direction gyro towards magnetic north if it has incured any errors.</p>
+<p>The remote compass is a magnetic field sensing device which detects the current magnetic north relative to the aircraft heading. As described <a href="#direction-gyro">above</a> this signal on average will give an accurate indication of magnetic north and as such can be used to slowly adjust (slave) the direction gyro towards magnetic north if it has incurred any errors.</p>
 <p>The remote compass is pendulously suspended in fluid to damp excess movement. The remote compass pendulum is limited to 30° max angle in any direction. The result is that under normal operation the pendulum will find the level and give an accurate indication of the magnetic north.</p>
-<p>Under turning, acceleration or pitch attitudes exceeding ±30° the pendulum will be displaced from the correct value leading to erroneous heading indications for magnetic north. These errors can be observed by looking at the <a href="#annunciator">annuciator window</a> to see how the measured error swings as the aircraft maneuvers.</p>
+<p>Under turning, acceleration or pitch attitudes exceeding ±30° the pendulum will be displaced from the correct value leading to erroneous heading indications for magnetic north. These errors can be observed by looking at the <a href="#annunciator">annunciator window</a> to see how the measured error swings as the aircraft maneuvers.</p>
 <h2 id="controls">Controls</h2>
 <p><img alt="j4 image" src="img/j4compass.png" /> <!-- REPLACE THIS IMAGE --></p>
 <ol>
@@ -451,7 +448,7 @@ the elements on said control in the order of logical use in practice. i.e. power
 <h3 id="latitude-correction-knob">Latitude Correction Knob</h3>
 <p>The latitude correction knob provides a manual latitude input to the gyro system to counteract apparent drift due to the earth's rotation rate. This should be set to the aircraft’s approximate latitude.</p>
 <h3 id="hemisphere-switch">Hemisphere Switch</h3>
-<p>The hemisphere switch is set by the ground crew and is not accessable to the pilot.</p>
+<p>The hemisphere switch is set by the ground crew and is not accessible to the pilot.</p>
 <h2 id="normal-operation">Normal Operation</h2>
 <ol>
 <li>
@@ -461,16 +458,16 @@ the elements on said control in the order of logical use in practice. i.e. power
 <p>Turn the <a href="#function-selector-switch">function selector switch</a> to <strong>MAG</strong> for normal, slaved operation.</p>
 </li>
 <li>
-<p>Maintain straight and level flight for at least 15 seconds to allow the remore compass transmitter and gyro to stabilize.</p>
+<p>Maintain straight and level flight for at least 15 seconds to allow the remote compass transmitter and gyro to stabilize.</p>
 </li>
 <li>
-<p>If the heading indication is incorrect, rotate the <a href="#synchronizer-control-knob">syncronizer switch</a> in the direction indicated by the <a href="#annunciator">annunciator</a> until the heading pointer aligns with the magnetic heading.</p>
+<p>If the heading indication is incorrect, rotate the <a href="#synchronizer-control-knob">synchronizer switch</a> in the direction indicated by the <a href="#annunciator">annunciator</a> until the heading pointer aligns with the magnetic heading.</p>
 </li>
 <li>
 <p>Adjust the <a href="#latitude-correction-knob">latitude correction knob</a> to the aircraft's current latitude to minimize direction gyro drift.</p>
 </li>
 <li>
-<p>If switching between <strong>MAG</strong> and <strong>DG</strong> allow 2 minutes to elapse before returning the switch to <strong>MAG</strong> to ensure the thermal relay cools and the flast-slave cycle can operate correctly.</p>
+<p>If switching between <strong>MAG</strong> and <strong>DG</strong> allow 2 minutes to elapse before returning the switch to <strong>MAG</strong> to ensure the thermal relay cools and the fast-slave cycle can operate correctly.</p>
 </li>
 </ol>
               

@@ -9,18 +9,13 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
         <link href="../css/print-site.css" rel="stylesheet" />
         <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Guns";
-        var mkdocs_page_input_path = "Weapon_System\\guns.md";
+        var mkdocs_page_input_path = "Weapon_System/guns.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -161,9 +156,9 @@
     <ul class="current">
     <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#controls">Controls</a>
+    <li class="toctree-l3"><a class="reference internal" href="#gun-missile-switch">Gun Missile Switch</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#operation">Operation</a>
+    <li class="toctree-l3"><a class="reference internal" href="#firing-the-guns">Firing the Guns</a>
     </li>
     </ul>
                 </li>
@@ -172,6 +167,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="agm-45-shrike.html">AIM-45 Shrike</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="bomb-rockets.html">Weapon Release Tables</a>
                 </li>
     </ul>
                   </li>
@@ -307,10 +304,48 @@
               
                 <h1 id="guns">Guns</h1>
 <h2 id="introduction">Introduction</h2>
-<p>The F-100D has four Pontiac M-39 20 mm revolving cannons. Each cannon can fire at 1500 rounds per minute for a total combined firerate of 6000 rounds per minute. Each cannon has 200 rounds for a total of 800 rounds.
-M-39 Init.</p>
-<h2 id="controls">Controls</h2>
-<h2 id="operation">Operation</h2>
+<p>The F-100D has four Pontiac M-39 20 mm revolving cannons. Each cannon can fire at 1500 rounds per minute for a total combined fire-rate of 6000 rounds per minute. Each cannon has 200 rounds for a total of 800 rounds.</p>
+<h2 id="gun-missile-switch">Gun Missile Switch</h2>
+<p>The gun missile switch controls electrical power for the upper, lower guns and the missiles.</p>
+<p><img alt="Gun Missile Switch" src="img/gun_missile_switch.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MISSILES</td>
+<td>The missile selection provides power to the <a href="aim-9-sidewinder.html#controls">Missile Control Panel</a> and thus the missiles. Reference <a href="aim-9-sidewinder.html">AIM-9 Sidewinder Section</a> for missile operation.</td>
+</tr>
+<tr>
+<td>SAFE</td>
+<td>Removes power from the weapons system rendering it <strong>safe</strong>.</td>
+</tr>
+<tr>
+<td>UPPER</td>
+<td>Energizes the second trigger detent and <strong>arms</strong> upper guns.</td>
+</tr>
+<tr>
+<td>ALL</td>
+<td>Energizes the second trigger detent and <strong>arms</strong> upper and lower guns (all).</td>
+</tr>
+<tr>
+<td>LOWER</td>
+<td>Energizes the second trigger detent and <strong>arms</strong> lower guns.</td>
+</tr>
+<tr>
+<td>POD</td>
+<td>Pod selection is unused on the F-100D</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note: Gun missile firing circuits are inhibited when weight is on the wheels.</strong></p>
+<p>With the gun missile switch in any position the gun camera can be actuated by using the first trigger detent. See the <a href="../Gun%20Camera/gun_camera.html">Gun Camera Section</a> for details.</p>
+<h2 id="firing-the-guns">Firing the Guns</h2>
+<p>Once the <a href="#gun-missile-switch">gun missile switch</a> is positioned then the UPPER,LOWER or ALL position, weight is off wheels and the aircraft has electrical power, the gun can be fired with the trigger second stage detent.</p>
               
             </div>
           </div><footer>

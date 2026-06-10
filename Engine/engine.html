@@ -9,18 +9,13 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
         <link href="../css/print-site.css" rel="stylesheet" />
         <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Engine";
-        var mkdocs_page_input_path = "Engine\\engine.md";
+        var mkdocs_page_input_path = "Engine/engine.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -91,6 +86,18 @@
     <ul class="current">
                 <li class="toctree-l2 current"><a class="reference internal current" href="#">Engine</a>
     <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#indications">Indications</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#engine-pressure-ratio-gauge">Engine Pressure Ratio Gauge</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tachometer">Tachometer</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#oil-pressure-gauge">Oil Pressure Gauge</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#exhaust-temperature-gauge">Exhaust Temperature Gauge</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
@@ -166,6 +173,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Weapon_System/bomb-rockets.html">Weapon Release Tables</a>
                 </li>
     </ul>
                   </li>
@@ -300,10 +309,30 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="engine">Engine</h1>
+<p><img alt="fuel system" src="img/banner1.png" /></p>
+<p>The F-100D is fitted with the Pratt &amp; Whitney J-57 turbojet engine featuring the J-57-P-21 and J-57-P-23 afterburner nozzles. The -21 was the legacy nozzle that suffered from extensive afterburner ignition issues, reliability, and efficiency problems. The -23 nozzle, taken from the F-102, fixed these issues.</p>
+<p>At full military power, the J-57 produces roughly 10,200 pounds of thrust under standard conditions, and 16,000 pounds in maximum afterburner.</p>
+<p>The F-100D Super Sabre requires external air to rotate the core in order to start the engine. Otherwise, pilot's utilized a cartridge start mechanism to rotate the core at sufficient speeds without the use of external air.</p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p>The ignitors will be damaged if operated continuously for more than 5 minutes. They should not be energized longer than required to complete an engine start.</p>
 </div>
+<h2 id="indications">Indications</h2>
+<h3 id="engine-pressure-ratio-gauge">Engine Pressure Ratio Gauge</h3>
+<p>The engine pressure ratio gauge shows the ratio between the turbine discharge pressure and the pitot pressure. </p>
+<p>The gauge shows two adjustable values for takeoff and cruise pressure ratios. Pushing in and adjusting the knob adjusts the takeoff setting. Pulling out and adjusting the knob adjusts the cruise setting.</p>
+<p>This gauge is powered by the main AC bus.</p>
+<h3 id="tachometer">Tachometer</h3>
+<p>The tachometer registers engine speed in percentage of approximate maximum RPM (9980) of the high-speed compressor rotor. The tachometer receives power from a tachometer generator and is therefore independent of the aircraft electrical system.</p>
+<h3 id="oil-pressure-gauge">Oil Pressure Gauge</h3>
+<p>The oil pressure gauge indicates oil pump discharge pressure above the gear case pressure in pounds per square inch.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Oil pressure will have a tendency to follow the throttle. This condition is normal provided the pressure remains within the limits.</p>
+</div>
+<p>This gauge is powered by the 26 V AC instrument bus.</p>
+<h3 id="exhaust-temperature-gauge">Exhaust Temperature Gauge</h3>
+<p>The exhaust temperature gauge shows engine exhaust temperature in degrees celsius. Gauge indications are self-generating type thermocouples which does not need power from the electrical system.</p>
               
             </div>
           </div><footer>

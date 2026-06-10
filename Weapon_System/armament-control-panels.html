@@ -9,18 +9,13 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
-        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
         <link href="../css/print-site.css" rel="stylesheet" />
         <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Armament Control Panels";
-        var mkdocs_page_input_path = "Weapon_System\\armament-control-panels.md";
+        var mkdocs_page_input_path = "Weapon_System/armament-control-panels.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -167,8 +162,6 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#pylon-loading-control-panel">Pylon Loading Control Panel</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#gun-missile-switch">Gun Missile Switch</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="#status-display-lights">Status Display Lights</a>
     </li>
     </ul>
@@ -184,6 +177,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="agm-45-shrike.html">AIM-45 Shrike</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="bomb-rockets.html">Weapon Release Tables</a>
                 </li>
     </ul>
                   </li>
@@ -318,6 +313,7 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="weapon-selection-circuitry">Weapon Selection Circuitry</h1>
+<p>The weapon release circuitry handle all weapon releases from the aircraft both armed and jettison.</p>
 <p>The F-100D has a novel method of selecting weapons for the time. The pilot selects the release mode and then the weapon type. The system will automatically select the correct pylons provided those pylons are armed. This is facilitated by the <a href="#pylon-loading-control-panel">pylon loading control panel</a> which stores the weapon type mounted on each pylon by method of a multiposition switch.</p>
 <p>Selecting release modes and weapons is achieved by using the <a href="#armament-selector-panel">armament selector panel</a>.</p>
 <h2 id="armament-selector-panel">Armament Selector Panel</h2>
@@ -369,7 +365,7 @@
 </tr>
 <tr>
 <td>LADD</td>
-<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the low altitude drouge delivery LABS mode.</td>
+<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the low altitude drogue delivery LABS mode.</td>
 </tr>
 </tbody>
 </table>
@@ -417,17 +413,17 @@
 <p><img alt="Pylon Loading Control Panel" src="img/pylon_loading_panel.png" /></p>
 <ol>
 <li>Left Inboard Weapon Setting</li>
-<li>Left Intermidiate Weapon Setting</li>
+<li>Left Intermediate Weapon Setting</li>
 <li>Left Outboard Weapon Setting</li>
 <li>Right Inboard Weapon Setting</li>
-<li>Right Intermidiate Weapon Setting</li>
+<li>Right Intermediate Weapon Setting</li>
 <li>Right Outboard Weapon Setting</li>
 <li>Pylon Loading Control Panel Latch and Cover</li>
 </ol>
 <p>The controls 1-6 all control what the wiring considers mounted to the aircraft. These are automatically set by ground grew upon re-arm or spawn (by default see <a href="../Introduction/special-options.html#pylon-control-armament-assistance">special options</a>).</p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>Setting any of these to incorrect loading may result in in-advertant release of weapons.</p>
+<p>Setting any of these to incorrect loading may result in in-advertent release of weapons.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -486,49 +482,10 @@
 <tr>
 <td>9</td>
 <td>Inoperative</td>
-<td>Functionally the same as Empty</td>
+<td>Functionally the same as Empty. With the exception of the inner pylons where this indicates the presence of shrikes.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="gun-missile-switch">Gun Missile Switch</h2>
-<p>The gun missile switch controls electrical power for the upper, lower guns and the missiles.</p>
-<p><img alt="Gun Missile Switch" src="img/gun_missile_switch.png" /></p>
-<table>
-<thead>
-<tr>
-<th>Position</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MISSILES</td>
-<td>The missile selection provides power to the <a href="aim-9-sidewinder.html#controls">Missile Control Panel</a> and thus the missiles. Reference <a href="aim-9-sidewinder.html">AIM-9 Sidewinder Section</a> for missile operation.</td>
-</tr>
-<tr>
-<td>SAFE</td>
-<td>Removes power from the weapons system rendering it <strong>safe</strong>.</td>
-</tr>
-<tr>
-<td>UPPER</td>
-<td>Energises the second trigger detent and <strong>arms</strong> upper guns.</td>
-</tr>
-<tr>
-<td>ALL</td>
-<td>Energises the second trigger detent and <strong>arms</strong> upper and lower guns (all).</td>
-</tr>
-<tr>
-<td>LOWER</td>
-<td>Energises the second trigger detent and <strong>arms</strong> lower guns.</td>
-</tr>
-<tr>
-<td>POD</td>
-<td>Pod selection is unused on the F-100D</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note: Gun missile firing circuits are inhibited when weight is on the wheels.</strong></p>
-<p>With the gun missile switch in any position the gun camera can be actuated by using the first trigger detent. See the <a href="../Gun%20Camera/gun_camera.html">Gun Camera Section</a> for details.</p>
 <h2 id="status-display-lights">Status Display Lights</h2>
 <p>The status display lights indicate various information about the current state of the weapon system.</p>
 <p><img alt="Status Display Lights Image" src="img/status_display_lights.png" /></p>

@@ -1,5 +1,7 @@
 # Manual Delivery
 
+For specific delivery profiles see the [weapon release tables](../bomb-rockets.md)
+
 ## Rockets
 
 The procedure below will setup the weapons so that the bomb-button will fire a salvo of rockets.

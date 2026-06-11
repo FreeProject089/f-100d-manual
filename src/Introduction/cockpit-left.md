@@ -63,7 +63,7 @@ The Wing Flap Handle is a three position lever that actuates the Flaps. The thre
 
 
 
-# Landing Gear Control Panel
+## Landing Gear Control Panel
 
 ![replace image](./img/landinggearcontrolpanel.png)
 

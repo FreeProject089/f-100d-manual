@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Environmental - DCS F-100D Manual</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/print-site-enum-headings2.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings3.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings4.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings5.css" rel="stylesheet" />
+        <link href="../css/print-site-enum-headings6.css" rel="stylesheet" />
+        <link href="../css/print-site.css" rel="stylesheet" />
+        <link href="../css/print-site-readthedocs.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Environmental";
+        var mkdocs_page_input_path = "ECS\\ecs.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> DCS F-100D Manual
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">DCS: F-100D Manual</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/introduction.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/definitions.html">Definitions and Abbreviations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits.html">Credits</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cockpit</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/instrument-panel.html">Instrument Panel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-left.html">Cockpit Left Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/cockpit-right.html">Cockpit Right Side</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/glare-shield.html">Glare Shield and Above</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/lights-overview.html">Indicator, Caution, & Warning Lights</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/stick-and-throttle.html">Stick and Throttle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/ejection-seat.html">Ejection Seat</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DCS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/checklist.html">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/special-options.html">Special Options</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Meta/parameters.html">Parameters</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Aircraft Systems</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Engine/engine.html">Engine</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Electrical/electrical.html">Electrical</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Hydraulics/hydraulic.html">Hydraulics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Fuel/fuel.html">Fuel</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Environmental</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#controls">Controls</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cockpit-pressure-selector-switch">Cockpit Pressure Selector Switch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cockpit-pressure-schedule">Cockpit Pressure Schedule</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#console-airflow-lever">Console Airflow Lever</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#canopy-and-windshield-defrost-lever">Canopy and Windshield Defrost Lever</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#iff-antenna-selector-switch">IFF Antenna Selector Switch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cockpit-temperature-rheostat">Cockpit Temperature Rheostat</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cockpit-temperature-master-switch">Cockpit Temperature Master Switch</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cockpit-pressure-altitude-indicator">Cockpit Pressure Altitude Indicator</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Oxygen%20System/oxygen.html">Oxygen System (MD-1 Oxygen Regulator)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Lighting%20System/lighting-control-panel.html">Lighting Control Panel</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Navigation Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../DirectionGyroCompass/direction-gyro-and-compass.html">Direction Gyro and Compass</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Radio Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../ARC-34%20Command%20Radio/command-radio.html">ARC-34 UHF Command Radio</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ARA-50%20ADF/adf-radio.html">ARA-50 ADF System</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ARN-6%20Radio%20Compass/radio-compass.html">ARN-6 Radio Compass</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ARN-72%20TACAN/tacan.html">ARN-72 TACAN</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Seek%20Silence%20System/seek-silence.html">Seek Silence System</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../APX-72%20IFF/iff.html">AN/APX-72 IFF</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Camera Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Gun%20Camera/gun_camera.html">Gun Camera</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Strike%20Camera/strike_camera.html">Strike Camera</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Defensive Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../RHAW/RHAW.html">AN/APR-25 RHAW</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Weapon Systems</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/introduction.html">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/armament-control-panels.html">Armament Control Panels</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/aircraft-weapons-release-system.html">Weapons Release Systems</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/a-4-gunsight.html">A-4 Gunsight</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/guns.html">Guns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/aim-9-sidewinder.html">AIM-9 Sidewinder</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/agm-45-shrike.html">AIM-45 Shrike</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/low-altitude-bombing-system.html">AN/AJB-1 Low Altitude Bombing System</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/bomb-rockets.html">Weapon Release Tables</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Normal Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/descent.html">Descent</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/landing.html">Landing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/go-around.html">Go-Around</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/shutdown.html">Engine Shutdown</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Weapons Employment</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/Procedures/manual-delivery.html">Manual Delivery</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Weapon_System/Procedures/sidewinder.html">Sidewinders</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Emergency Procedures</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Takeoff Emergencies</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/afterburner-takeoff.html">Afterburner Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/engine-failure-takeoff.html">Engine Failure During Takeoff</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/fuel-valve.html">Illumination of the Fuel Valve Fail Light</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >In-flight Emergencies</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/air-start.html">Air Start</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/afterburner.html">Afterburner Failure</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/ejection.html">Ejection</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/canopy.html">Canopy</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/engine-failure.html">Engine Failure</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/acgen.html">AC Generator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/flight-controls.html">Flight Controls</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/fuel-system.html">Fuel System</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/heat-vent.html">Heat and Vent Emergency</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/jettison.html">Jettison of External Load</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/rat.html">Ram-Air Turbine Doors Open</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/spin.html">Spin Recovery</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/utility-hydraulic.html">Utility Hydraulic System Failure</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/damper.html">Yaw and Pitch Damper Emergency</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Landing Emergencies</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/pel.html">Precautionary Landing Pattern (PLP)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/glide.html">Recommended Glide</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/gear.html">Landing Gear Emergency Operation</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/hook.html">Landing With Arresting Hook Extended</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/tire.html">Tire Failure</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Procedures/Emergency/brakes.html">Wheel Brakes Overheated</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Extras</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/research-series.html">Research Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/official-soundtrack.html">Official Soundtrack</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DCS F-100D Manual</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Aircraft Systems</li>
+      <li class="breadcrumb-item active">Environmental</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="environmental-control-system">Environmental Control System</h1>
+<p><img alt="ECS System Image" src="img/ecs_diagram.png" /></p>
+<h2 id="introduction">Introduction</h2>
+<p>The Environmental Control System is everything that keeps the cabin comfortable and pressurized for the pilot. </p>
+<h2 id="controls">Controls</h2>
+<p><img alt="ECS panel image" src="img/ecs_panel.png" /></p>
+<ol>
+<li><a href="#cockpit-pressure-selector-switch">Cockpit Pressure Selector Switch</a></li>
+<li><a href="#console-airflow-lever">Console Airflow Lever</a></li>
+<li><a href="#canopy-and-windshield-defrost-lever">Canopy and Windshield Defrost Lever</a></li>
+<li><a href="#iff-antenna-selector-switch">IFF Antenna Selector Switch</a></li>
+<li><a href="#cockpit-temperature-rheostat">Cockpit Temperature Rheostat</a></li>
+<li><a href="#cockpit-temperature-master-switch">Cockpit Temperature Master Switch</a></li>
+<li>Marker Beacon Volume Knob <strong><em>INOP</em></strong></li>
+</ol>
+<h3 id="cockpit-pressure-selector-switch">Cockpit Pressure Selector Switch</h3>
+<p>The Cockpit Pressure Selector Switch has four positions. RAM AIR ON, OFF, 2.75 PSI and 5.00 PSI. </p>
+<p>When the selector is set to 2.75 psi or 5 psi, the main system shutoff valve opens to direct air to some cockpit air outlets and the emergency ram air valve closes. </p>
+<p>When the selector is set to RAM AIR ON, the main system shutoff valve closes and the emergency ram air valve opens to admit ram air to the cockpit.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Selecting the Cockpit Pressure Selector Switch to RAM AIR ON will depressurize the cockpit.</p>
+</div>
+<p>Moving the pressure selector switch to OFF closes the main system shutoff valve, the emergency ram-air valve, and the cockpit dump valve, and the cockpit pressure regulator is
+set to 2.75 psi position.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The OFF position is also used to prevent rapid decompression of the cockpit.</p>
+</div>
+<h3 id="cockpit-pressure-schedule">Cockpit Pressure Schedule</h3>
+<p>Reference image below for how pressure scheduling works.</p>
+<p><img alt="Schedule Image" src="img/schedule.png" /></p>
+<h3 id="console-airflow-lever">Console Airflow Lever</h3>
+<p>The Console Airflow Lever controls the flow of air to the outlets along the console and to the outlet behind the seat. Moving the lever forward increases the airflow while moving it back reduces the airflow.</p>
+<h3 id="canopy-and-windshield-defrost-lever">Canopy and Windshield Defrost Lever</h3>
+<p>Similarly to the <a href="#console-airflow-lever">Console Airflow Lever</a>, the Canopy and Windshield Defrost Lever controls the distribution of heat to the canopy and windshield.</p>
+<h3 id="iff-antenna-selector-switch">IFF Antenna Selector Switch</h3>
+<p>The IFF Antenna Selector Switch has three position, TOP/BOTH/BOTTOM.</p>
+<p>When the switch is positioned in the TOP position, it will only utilize the upper antenna.</p>
+<p>When the switch is positioned in the BOTH position, it will utilize both the upper and lower antenna.</p>
+<p>When the switch is positioned in the BOTTOM position, it will only utilize the lower antenna.</p>
+<p>Reference <a href="../ARN-72%20TACAN/tacan.html">ARN-72 Tacan</a> for more information.</p>
+<h3 id="cockpit-temperature-rheostat">Cockpit Temperature Rheostat</h3>
+<p>The Cockpit Temperature Rheostat will change the temperature of the cockpit only when the <a href="#cockpit-temperature-master-switch">Cockpit Temperature Master Switch</a> is set to AUTO. It also has a small range that will control the pilots suit temperature.</p>
+<h3 id="cockpit-temperature-master-switch">Cockpit Temperature Master Switch</h3>
+<p>The Cockpit Temperature Master Switch has four positions, AUTO/OFF/COLD/HOT</p>
+<p>Setting this switch to either position except for OFF will control the temperature of the cockpit.</p>
+<h2 id="cockpit-pressure-altitude-indicator">Cockpit Pressure Altitude Indicator</h2>
+<p>This gauge will tell you what the current cockpit pressure is.</p>
+<p><img alt="Cockpit Pressure Alt Gauge" src="img/cockpit_press.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Fuel/fuel.html" class="btn btn-neutral float-left" title="Fuel"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Oxygen%20System/oxygen.html" class="btn btn-neutral float-right" title="Oxygen System (MD-1 Oxygen Regulator)">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Fuel/fuel.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Oxygen%20System/oxygen.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../js/print-site.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 
 <script src="../../hatch.js"></script>
 
-## Fuel System
+# Fuel System
 
-### Fuel System Failure
+## Fuel System Failure
 This fuel system transfers fuel so that no single pump
 failure above 25,000 feet will affect Military Thrust operation,
 as long as the forward tank gage indicates fuel. A
@@ -12,7 +12,7 @@ quantity gage relationship shows an abnormal decrease in
 the forward tank gage reading at fuel flow rates less than
 4000 pounds per hour.
 
-### Inflight Operation
+## Inflight Operation
 If the BOOST PUMP INOP light comes on, fuel pressure to
 the engine has dropped below 5 psi, probably as a result of
 failure of one or more boost pumps. The following actions
@@ -30,7 +30,7 @@ should be taken to prevent flameout:
 keeping the aircraft loading as near as possible to 1G. Avoid
 steep (20 degrees or more) nose-down attitudes.
 4. Land as soon as practical.
-With fucl flows below 4000 pounds per hour, Military
+With fuel flows below 4000 pounds per hour, Military
 Thrust operation can be maintained above 25,000 feet
 with the most critical single pump failure, even though
 the forward tank gage approaches or indicates zero, provided

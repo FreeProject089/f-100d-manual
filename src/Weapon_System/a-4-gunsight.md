@@ -26,11 +26,11 @@ If this button is depressed the [Sight Selector Switch](#1-sight-selector-switch
 
 The range dial indicates the current target range in feet being used by the sight. The source of this range can either be the radar or manually if the manual range setting is used.
 
-![Range Dial Image](./img/range_dial.png)
+![Range Dial Image](./img/A4_sight_range_dial.png)
 
 ### Radar Range Sweep Knob
 
-This is used to reduce the maximum lock-on distance for the radar to prevent the radar from locking onto undesirable objects.
+The Range Sweep Knob labeled dial 6 below, is found next to the Auxiliary Release Buttons and is used to reduce the maximum lock-on distance for the radar to prevent the radar from locking onto undesirable objects such as the ground or ground objects. During normal operation at altitudes 6000 feet or more above the terrain, the rheostat should be at MAX.
 
 | Range Limit | Setting (feet)
 |-------------|--------
@@ -38,6 +38,16 @@ This is used to reduce the maximum lock-on distance for the radar to prevent the
 | MAX         | 9000
 
 The value linearly changes between the min and max settings.
+
+### Sight Dimmer
+
+The brightness of the sight pipper can be adjusted using the Sight Dimmer rheostat labeled dial 7 below.
+
+### Sight Filament Selector Switch
+
+The primary or secondary filament in the dual-filament sight reticle bulb
+can be selected by the sight filament selector switch labeled 1 in the image below. It
+should be moved to SECONDARY if the primary filament fails. The switch is powered by the secondary bus and the tertiary bus.
 
 ![Radar Range Sweep Knob Image](./img/aux_panel.png)
 
@@ -83,7 +93,7 @@ There are three options rocket, gun, bomb.
 | Rocket | fixed 850     | Caged to [ECSL](#electrically-caged-sight-line-ecsl) + Depression Angle
 | Bomb   | fixed 850     | Caged to [ECSL](#electrically-caged-sight-line-ecsl) + 10 degrees - used with [automatic bombing mode](#bomb-air-to-ground-automatic)
 
-If the [radar reject button](#radar-reject-button) is depressed this switch automatically moves to the gun postion.
+If the [radar reject button](#radar-reject-button) is depressed this switch automatically moves to the gun position.
 
 #### 2. Sight Depression
 
@@ -119,7 +129,7 @@ The range can be validated in radar ranging or calculated in manual ranging mode
 
 #### Gunnery
 
-In order to achieve accurate air-to-air gunnery the sight must be allowed to stabilise. The sight must be kept on the target for 1 - 2 seconds. This allows the gyro to settle on the correct solution for the current attack geometry, firing before the sight is stabilised will result in a miss.
+In order to achieve accurate air-to-air gunnery the sight must be allowed to stabilize. The sight must be kept on the target for 1 - 2 seconds. This allows the gyro to settle on the correct solution for the current attack geometry, firing before the sight is stabilized will result in a miss.
 
 ### Rocket (Air-to-Ground Manual)
 

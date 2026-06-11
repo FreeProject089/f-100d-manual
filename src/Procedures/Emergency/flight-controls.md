@@ -1,9 +1,9 @@
 
 <script src="../../hatch.js"></script>
 
-## Flight Controls
+# Flight Controls
 
-### Flight Control Artificial-feel System Failure
+## Flight Control Artificial-feel System Failure
 The aztificial-feel system failure can be indicated by a
 lightening of stick forces (resulting in over-control), lack
 of trim response, and poor stick-centering characteristics.
@@ -13,10 +13,10 @@ proceed as follows:
 1. Airspeed — Reduce. Reduction of airspeed may
 relieve severe oscillation of the airplane.
 2. If adequate control cannot be maintained — Eject.
-Ejection is recommended whenever failure of the artificialfeel
+Ejection is recommended whenever failure of the artificial-feel
 system is evident by loss of adequate control.
 
-### Flight Control Hydraulic System Failure.
+## Flight Control Hydraulic System Failure.
 Failure of one flight control hydraulic system does not affect
 the operation of the other system, which assumes the entire
 load of flight control operation. (Refer to Flight Control
@@ -70,7 +70,7 @@ turbine for emergency pump operation. (The pump lever
 must be returned to OFF manually, to shut down the
 pump, if it is no longer needed.)
 
-    !!! warining
+    !!! warning
         Because of the reduced total output,
         unnecessary control movement should be
         kept to a minimum when the emergency

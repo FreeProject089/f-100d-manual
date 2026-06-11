@@ -10,9 +10,9 @@ The control stick is mechanically connected to the aircraft's hydraulic systems 
 |-----------|------|
 | 1         | [Damper Emergency Disconnect Switch Lever] |
 | 2         | [Nose Wheel Steering Button](#nose-wheel-steering) |
-| 3         | [Trigger] |
+| 3         | [Trigger](../Weapon_System/guns.md) |
 | 4         | [Radar Reject Button](../Weapon_System/a-4-gunsight.md#radar-reject-button) |
-| 5         | [Pickle Button] |
+| 5         | [Pickle Button](../Weapon_System/introduction.md#air-to-ground) |
 | 6         | [Trim Hat](#trim-hat) |
 
 !!! note

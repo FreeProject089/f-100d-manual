@@ -12,7 +12,7 @@ The missile generates a tone based on received infrared radiation into its seeke
 
 ### Sidewinder Types
 
-The F-100D historically carried 3 different variants of the AIM-9 sidewinder listed below (although later variants are backwards compatible).
+The F-100D historically carried 3 different variants of the AIM-9 sidewinder listed below (although some later variants are backwards compatible and the L,M variants are compatible with minor rail modifications that were made to other aircraft in the 90s).
 
 #### AIM-9B
 
@@ -76,13 +76,13 @@ Pressing this switch will fire all sidewinders safe (no fuzing or guidance) in t
 TODO Gun-Missile Switch
 -->
 
-The [Gun-Missile Switch](./armament-control-panels.md#gun-missile-switch) in the Missile position provides warmup and gyro power to the missiles. The [Missile Master Switch](#missile-master) sets the ready state of the missiles. In the STBY the sidewinder is kept warmed up and ready. In this position missile audio can be heard but the firing circuits are not armed.
+The [Gun-Missile Switch](./guns.md#gun-missile-switch) in the Missile position provides warmup and gyro power to the missiles. The [Missile Master Switch](#missile-master) sets the ready state of the missiles. In the STBY the sidewinder is kept warmed up and ready. In this position missile audio can be heard but the firing circuits are not armed.
 
 Sidewinder volume can be adjusted using the Missile Control [Volume Control](#missile-volume-control).
 
 ### Firing
 
-To arm the missiles check the [Gun-Missile Switch](./armament-control-panels.md#gun-missile-switch) is in the Missile position and put the [Missile Master Switch](#missile-master) into the READY position. A Sidewinder tone should be heard and the [status display lights](./armament-control-panels.md#status-display-lights) should indicate a Sidewinder ready to be fired.
+To arm the missiles check the [Gun-Missile Switch](./guns.md#gun-missile-switch) is in the Missile position and put the [Missile Master Switch](#missile-master) into the READY position. A Sidewinder tone should be heard and the [status display lights](./armament-control-panels.md#status-display-lights) should indicate a Sidewinder ready to be fired.
 
 Below is the order in which sidewinders are fired, this also corresponds to the light displayed on the [status display lights](./armament-control-panels.md#status-display-lights).
 

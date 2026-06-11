@@ -23,7 +23,7 @@ In this section, the primary flight instruments needed for basic operation of th
 | 14        | Tacan ILS Light - inoperative |
 | 15        | [Altimeter](#altimeter) |
 | 16        | [Vertical Velocity Indicator](#vertical-velocity-indicator) |
-| 17        | [Gun Missile Switch](../Weapon_System/armament-control-panels.md#gun-missile-switch) |
+| 17        | [Gun Missile Switch](../Weapon_System/guns.md#gun-missile-switch) |
 | 18        | [Attitude Indicator Fast Erection Button](#attitude-indicator-fast-erection-button) |
 | 19        | [Fire and Overheat Warning Lights](./lights-overview.md#other) |
 | 20        | [Turn and Slip Indicator](#turn-and-slip-indicator) |
@@ -32,13 +32,13 @@ In this section, the primary flight instruments needed for basic operation of th
 | 23        | [Accelerometer](#accelerometer) |
 | 24        | [Hydraulic Pressure Gauge Selector Switch](../Hydraulics/hydraulic.md#hydraulic-pressure-indicator-and-knob) |
 | 25        | [Hydraulic Pressure Gauge](../Hydraulics/hydraulic.md#hydraulic-pressure-indicator-and-knob) |
-| 26        | [Oil Pressure Gauge] |
-| 27        | [Exhaust Temperature Gauge] |
-| 28        | [Tachometer (RPM)] |
-| 29        | [Engine Pressure Ration Gauge] |
+| 26        | [Oil Pressure Gauge](../Engine/engine.md#oil-pressure-gauge) |
+| 27        | [Exhaust Temperature Gauge](../Engine/engine.md#exhaust-temperature-gauge) |
+| 28        | [Tachometer (RPM)](../Engine/engine.md#tachometer) |
+| 29        | [Engine Pressure Ratio Gauge](../Engine/engine.md#engine-pressure-ratio-gauge) |
 | 30        | [Fuel Flow Indicator](../Fuel/fuel.md#fuel-flow-indicator) |
 | 31        | [Fuel Quantity Gauges](../Fuel/fuel.md#forward-fuel-quantity-gauge) |
-| 32        | [Fuel Boost Pump INOP Light](../Fuel/fuel.md#fuel-boot-pump-light) |
+| 32        | [Fuel Boost Pump INOP Light](../Fuel/fuel.md#fuel-boost-pump-light) |
 
 ## Airspeed and Mach Indicator
 The aircraft's air data computer (ADC) computes the velocity based on temperature and pressure signals received by the pitot-static system. Specifically, it takes the difference between measured total and static pressure to compute dynamic pressure. Loss of either the pitot tube or static ports will manifest in inaccurate  airspeed readings. 
@@ -86,3 +86,6 @@ Like the Attitude Indicator, it has an adjustment knob on the gauge.
 
 ## Attitude Indicator Fast Erection Button
 This button marked **"PUSH VGI ERECT"**, permits fast erection of the attitude gyros only when the button is depressed. Please note, you may have to hold the button a while depending on how misaligned the gyro has become.
+
+!!! caution
+    You should only use fast erect when the aircraft is flying level and is not accelerating otherwise error will result.

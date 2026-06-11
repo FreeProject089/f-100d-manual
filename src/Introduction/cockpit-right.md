@@ -30,20 +30,20 @@
 
 ## Canopy Alternate Emergency Jettison Handle
 
-The Canopy Alternate Emergency Jettison Handle is a "T" shaped handle that will jettison the canopy without arming the seat catapult. It has a spring clip over the top which must be released before the handle can be pulled.
+The Canopy Alternate Emergency Jettison Handle is a T-shaped handle that jettisons the canopy without arming the seat catapult. The spring clip over the top must be released before the handle can be pulled.
 
 ## Canopy Internal Manual Emergency Release Handle
 
-The Canopy Internal Manual Emergency Release Handle is used to unlock and open the canopy manually when the airplane is on the ground.
+The Canopy Internal Manual Emergency Release Handle unlocks and open the canopy manually when the aircraft is on the ground.
 
 ## Cockpit Utility Light
 
-The Cockpit Utility Light can be used in case of an electrical failure at night. It will provide light for the pilot if all other systems fail.
+The Cockpit Utility Light can be used in the event of an electrical failure at night.
 
 ## Map Case
 
-The Map Case is used to store any charts or publications used in flight.
+The Map Case stores maps, charts, and literature used in flight.
 
 ## Interphone Switch
 
-The Interphone Switch is used to contact the ground crew. It is a spring loaded switch that allows direct communication to the crew chief during preflight or postflight operations.
+This spring-loaded switch allows direct communication to the ground crew and chief during preflight or postflight operations.

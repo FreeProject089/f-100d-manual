@@ -31,7 +31,7 @@ The power switch has four positions: **OFF**, **REC**, **T/R**, **A/A**.
 | **OFF**                | Set is inoperative. |
 | **REC**                | Bearing information and station identification are available. |
 | **T/R**                | Bearing and distance information and station identification are available. |
-| **A/A**                | TODO |
+| **A/A**                | Bearing information and station identification and available. |
 
 
 ### Tacan Range Indicator

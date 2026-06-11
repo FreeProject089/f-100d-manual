@@ -5,13 +5,13 @@
 Forward and aft photographic documentation of weapon impacts is provided by two motion-picture cameras installed in a nonjettisonable pod on the underside of
 the left wing, approximately midway between the fuselage and inboard wing station.
 
-![Strike Camera](./img/replace-image.png) <!-- REPLACE THIS IMAGE -->
+![Strike Camera](./img/strike_cam.png)
 
 ## Enable Camera Recording
 
 In order to generate recordings you must first enable recording in the F-100D Special options menu.
 
-![Strike Camera Enable](./img/replace-image.png) <!-- REPLACE THIS IMAGE -->
+![Strike Camera Enable](./img/special_opt_strike.png)
 
 ## Controls
 
@@ -25,7 +25,7 @@ To access the settings menu the default keybind is Right Ctrl + C.
 
 ### Type N-9 Forward Camera Settings
 
-The forward camera is a Type N-9, identical to the Type N-9 that is mounted on the sight, except that the pod camera has a 20 to 80 mm variable focal length lens and a larger film magazine. The forward camera is mounted on an adjustable base that permits various clevation adjustments from zero (straight forward) to 20 degrees down. 
+The forward camera is a Type N-9, identical to the Type N-9 that is mounted on the sight, except that the pod camera has a 20 to 80 mm variable focal length lens and a larger film magazine. The forward camera is mounted on an adjustable base that permits various elevation adjustments from zero (straight forward) to 20 degrees down.
 
 ### DBM-4C Aft Camera Settings
 

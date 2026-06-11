@@ -1,6 +1,6 @@
 # Bomb and Rockets
 
-Below is a table describing release parameters for different weapon types.
+The following tables provide baseline release parameters for different weapon types.
 
 ## MK-82 Low Drag
 

@@ -6,7 +6,7 @@ The AIMS system, which utilizes an AN/APX-72 receiver/transmitter (transponder),
 
 <!-- REWORD THIS AND FIGURE OUT WHERE TO PUT IT!!! -->
 !!! note
-    Due to engine limitations, the settings on the panel have no effect in DCS. However, they are exposed to external tools, such as SRS.
+    Settings on the IFF panel have no effect in DCS, but they can be exposed to external tools (for example, SRS).
 
 ## Controls
 

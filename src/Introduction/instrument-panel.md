@@ -41,7 +41,7 @@ This section covers flight instruments needed for basic aircraft operation. For 
 | 32        | [Fuel Boost Pump INOP Light](../Fuel/fuel.md#fuel-boost-pump-light) |
 
 !!! caution
-    If you enable the custom dashboard layout in the F-100D's special options menu, you can randomize the instrument panel layout each flight, or select one of your preference using the [Grinelli Designs F-100D Dash Creator](https://grinnellidesigns.com/dash-creator/) and entering the code into the menu.
+    If you enable the custom dashboard layout in the F-100D [Special Options](special-options.md), you can randomize the instrument panel layout each flight, or select one of your preference using the [Grinelli Designs F-100D Dash Creator](https://grinnellidesigns.com/dash-creator/) and entering the code into the menu.
 
 ## Airspeed and Mach Indicator
 The aircraft's air data computer (ADC) computes velocity based on temperature and pressure signals received by the pitot-static system. Specifically, it takes the difference between measured total and static pressure to compute dynamic pressure. Loss of either the pitot tube or static ports creates inaccurate readings. 

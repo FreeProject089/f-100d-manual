@@ -48,7 +48,7 @@ The aircraft's air data computer (ADC) computes velocity based on temperature an
 
 The airspeed indicator also introduces installation and position errors up to 10 knots.
 
-The Mach number is computed in the same manner, displayin aircraft velocity as a multiple of the speed of sound at local pressure altitude.
+The Mach number is computed in the same manner, displaying aircraft velocity as a multiple of the speed of sound at local pressure altitude.
 
 These two readings are displayed as a combined Airspeed and Mach indicator. The inner reading displays the airspeed in knots, and the outer reading displays the Mach number. The plot can set an index marker via a push-and-rotate actuation of the instrument's knob.
 

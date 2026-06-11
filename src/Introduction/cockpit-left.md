@@ -28,17 +28,20 @@ This section will cover general items on the left side of the cockpit. More spec
 
 ## Anti-G Suit Pressure-Regulating Valve
 
-The Anti-G Suit Pressure-Regulating Value regulates air pressure to the G-Suit and permits automatic inflation of the suit when positive-G is encountered.
+The Anti-G Suit Pressure-Regulating Value regulates air pressure to the G-Suit, and permits automatic inflation of the suit in positive-G situations.
 
-Pressing the button on top of valve will test the G-Suit.
+Pressing the button atop of valve tests the G-Suit.
 
 ## Spare Lamps
 
-The Spare Lamps are stored in this panel and are used to replace any burnt out lights around the cockpit.
+The spare lamps stored in this panel can replace burnt-out lights in the cockpit.
 
 ## Wing Flap Handle
 
-The Wing Flap Handle is a three position lever that actuates the Flaps. The three positions indicate UP, INTERMEDIATE and DOWN.
+This three-position lever actuates the flaps until they reach one of three positions:
+- UP - Raise flaps
+- HALF - Intermediate flaps
+- DOWN - Lower flaps
 
 ## Engine and Flight Control Panel
 
@@ -72,43 +75,49 @@ The Wing Flap Handle is a three position lever that actuates the Flaps. The thre
 | 1         | [Landing Gear Handle](#landing-gear-handle) |
 | 2         | [Landing/Taxi Light Switch](#landingtaxi-light-switch) |
 | 3         | [Landing Gear Indicator](#landing-gear-indicator) |
-| 4         | [Emergency Jettison](#emergency-jettison) |
+| 4         | [Emergency Jettison Button](#emergency-jettison-button) |
 | 5         | [Landing Gear Warning Cutout](#landing-gear-warning-cutout) |
 | 6         | [Fuel System Shutoff Valve Fail Light](../Fuel/fuel.md#fuel-system-shutoff-valve-fail-light) |
 | 7         | [Fire Detector System Test](#fire-detector-system-test) |
 
 ### Landing Gear Handle
 
-The Landing Gear Handle controls the gear UP/DOWN function. The Landing Gear has Weight On Wheel switches that prevent the gear from being raised while sitting on the ground.
+Landing gear can't be retracted while the aircraft has has weight on the wheel.
+
+- UP - Retract landing gear
+- DOWN - Extend landing gear
 
 ### Landing/Taxi Light Switch
 
-The Landing/Taxi Light Switch will turn on the Landing/Taxi lights. When Weight On Wheels, the Landing/Taxi Lights will extend farther to the taxi position providing properly directed beams for taxiing.
+Illuminates the Landing/Taxi lights. When the aircraft has weight on wheels, the lights extend farther, providing properly directed beams for taxi.
 
 ### Landing Gear Indicator
 
-The Landing Gear Indicator Lights will illuminate green when the gear are in the down and locked position.
+These three lights illuminate when the landing gear assemblies fully extended in the down and locked position.
 
-### Emergency Jettison
+### Emergency Jettison Button
 
-The Emergency Jettison Button will jettison all ordinance regardless of the position of the [Bomb Arm Switch](../Weapon_System/armament-control-panels.md#bomb-arm-switch) and [Station Release Selection Switches](../Weapon_System/armament-control-panels.md#station-release-selection-switches).
-
-There is a timed delay for this system and may require the button to be held down to release all ordinance.
+Pressing and holding this button jettisons all ordinance after a timed delay, regardless of the position of the [Bomb Arm Switch](../Weapon_System/armament-control-panels.md#bomb-arm-switch) and [Station Release Selection Switches](../Weapon_System/armament-control-panels.md#station-release-selection-switches).
 
 ### Landing Gear Warning Cutout
 
-The Landing Gear Warning Cutout Button will suppress the Landing Gear Audio Warning Signal when all of the following conditions are met. Landing gear not down and lock, altitude below 10,000 feet, airspeed below 205 (±5) knots IAS and throttle retarded below 85% rpm.
+Suppresses the landing gear audio warning signal when:
+
+- Landing gear is not down and locked
+- Altitude is less than 10,000 feet
+- Airspeed is less than 205 (±5) knots IAS
+- Throttle is retarded below 85% RPM
 
 ### Fire Detector System Test
 
-The Fire Detector System Test Button will test the continuity of the fire and overheat-warning system.
+Tests the continuity of the red fire and overheat-warning system on the instrument panel.
 
 Reference [Fire and Overheat Warning Lights](./lights-overview.md#other)
 
 ## Arresting Hook Release Button
 
-The Arresting Hook Release Button will release the Hook when pressed. The Arresting Hook can only be stored once on the ground by ground personnel.
+Press to release the arresting hook. Once the arresting hook is released, the ground crew must reset it.
 
 ## Canopy Switch
 
-The Canopy Switch is a three position, spring loaded switch that centers to the OFF position. The other two positions, OPEN/CLOSED, will actuate the canopy when held.
+The Canopy Switch is a three-position, spring-loaded switch that centers to the OFF position. Holding the switch in the OPEN or CLOSED positions actuates the canopy motor toward the desired position.

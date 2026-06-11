@@ -42,6 +42,7 @@ Definitions and abbreviations used in the manual are covered here.
 | [AC](../Electrical/electrical.md) | Alternating Current |
 | ADC | Air Data Computer |
 | [ADF](../ARA-50%20ADF/adf-radio.md) | Automatic Direction Finding |
+| AGL | Above Ground Level |
 | [AGM-45](../Weapon_System/agm-45-shrike.md) | Shrike Anti-Radiation Missile |
 | AIM | Air Intercept Missile |
 | [AIM-9](../Weapon_System/aim-9-sidewinder.md) | Sidewinder Infrared Guided Missile |

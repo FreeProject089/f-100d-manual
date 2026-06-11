@@ -10,19 +10,19 @@ and target simultaneously.
 
 ## Controls
 
-![Gun Camera](./img/replace-image.png) <!-- REPLACE THIS IMAGE -->
+![Gun Camera](./img/strike_cam_controls.png)
 
-1. [Camera Shutter Selector Switch](#camera-shutter-selector-switch)
+1. [Camera Selection Dial](#camera-shutter-selector-switch)
 2. [Camera Timer](#camera-timer)
 
-### Camera Shutter Selector Switch
+### Camera Selection Dial
 
-The shutter setting of the camera is adjusted through a tertiary-bus powered rotary selector switch. Turning the switch to OFF disconnects power to the camera, camera heaters, and shutter control. Turning the switch to BRIGHT, HAZY, or DULL, depending on lighting conditions, positions the shutter aperture of the gun camera and turns on the camera heaters.
+This dial was originally the control for adjusting lighting conditions for bright, hazy, and dull but was repurposed for ease of gameplay and changed to which camera you would like to record with. The options of strike, gun, or both are available.
 
 ### Camera Timer
 
-When the gun camera is used during missile firing, a camera timer with two adjustable time intervals controls continued camera operation after the trigger is released. The first time interval, set before missile launch with the large timer knob, labeled **START DELAY ADJUST**, represents camera running time (from 4 to 30 seconds) from trigger release to start of the second time interval. The second time interval represents camera running time (from 2 to 30 seconds) after completion of the first time interval, and must be set by the ground crew with the small timer knob, labeled **PRESET RUN TIME**. Total camera run time after release of the trigger is the total of both time interval settings (6 to 63 seconds) including the preset overrun time of 0 to 3 seconds.
+When the gun camera is used during missile firing, a camera timer with two adjustable time intervals controls continued camera operation after the trigger is released. The first time interval, set before missile launch with the large timer knob, labeled **START DELAY ADJUST**, represents camera running time (from 4 to 30 seconds) from trigger release to start of the second time interval. The second time interval represents camera running time (from 2 to 30 seconds) after completion of the first time interval, and is usually set by the ground crew with the small timer knob, labeled **PRESET RUN TIME**. Total camera run time after release of the trigger is the total of both time interval settings (6 to 63 seconds) including the preset overrun time of 0 to 3 seconds. You can turn these dials to adjust the setting or change them in the special options menu.
 
-### Ground Crew Operation
+<!--### Ground Crew Operation
 
-TODO - How to change film, does film refresh when rearming?
+TODO - How to change film, does film refresh when rearming? -->

@@ -20,7 +20,7 @@ This section covers flight instruments needed for basic aircraft operation. For 
 | 11        | [Attitude Indicator](#attitude-indicator) |
 | 12        | [Radio Magnetic Indicator](../DirectionGyroCompass/direction-gyro-and-compass.md#direction-gyro) |
 | 13        | [Course Indicator](../ARN-72%20TACAN/tacan.md) |
-| 14        | Tacan ILS Light - inoperative |
+| 14        | _Tacan ILS Light (Inoperative)_ |
 | 15        | [Altimeter](#altimeter) |
 | 16        | [Vertical Velocity Indicator](#vertical-velocity-indicator) |
 | 17        | [Gun Missile Switch](../Weapon_System/guns.md#gun-missile-switch) |

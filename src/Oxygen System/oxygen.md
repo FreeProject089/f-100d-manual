@@ -58,6 +58,6 @@ The supply lever is used to turn the regulator **ON** and **OFF**.
 
 
 ## Liquid Oxygen Quantity Gauge
-![MD-1 Oxygen Regulator](./img/loxquantity.png)
+![Liquid Oxygen Quantity Gauge](./img/loxquantity.png)
 
-The liquid oxygen quantity gauge is located at the top of the right side console and indicates the total quantity of liquid oxygen in liters. The liquid oxygen is stored in an insulated "thermos-bottle" type converter storage tank that is located forward of the cockpit on the right side. 
+The liquid oxygen quantity gauge is located at the top of the right side console and indicates the total quantity of liquid oxygen in liters. The liquid oxygen is stored in an insulated "thermos-bottle" type converter storage tank that is located forward of the cockpit on the right side.

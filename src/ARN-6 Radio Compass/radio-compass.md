@@ -8,7 +8,7 @@ The system employs a Beat Frequency Oscillator (BFO) in both Antenna and Loop mo
 - Band 1 uses a fixed intermediate frequency of 455.9 kHz
 - Bands 2-4 operate at 143.4 kHz
 
-When the equipment is in compass mode, a 900 Hz tone oscillator is modulates the CW signal as it passes through the IF stages, enabling precise direction-finding capability.
+When the equipment is in compass mode, a 900 Hz tone oscillator modulates the CW signal as it passes through the IF stages, enabling precise direction-finding capability.
 
 ## Controls
 

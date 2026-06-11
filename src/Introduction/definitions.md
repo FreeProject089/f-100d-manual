@@ -66,7 +66,7 @@ Definitions and abbreviations used in the manual are covered here.
 | KIAS | Knots Indicated Airspeed |
 | kHz | Kilohertz |
 | [LABS](../Weapon_System/low-altitude-bombing-system.md) | Low Altitude Bombing System |
-| LADD | Low Altitude Drogue Delivery |
+| [LADD](../Weapon_System/low-altitude-bombing-system.md#low-altitude-drogue-delivery-ladd) | Low Altitude Drogue Delivery |
 | LORO | Lobe-On-Receive-Only |
 | LWR | Lower |
 | MAIN | Main Receiver Mode |

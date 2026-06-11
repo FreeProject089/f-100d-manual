@@ -80,7 +80,7 @@
 |------|------|
 | Joe Grinnelli | Team Lead |
 | Aero | Aerodynamicist |
-| Thomas | Lead Artist |
+| Thomas | Cockpit Artist |
 | Josh Nelson | Lead Programmer |
 
 ## Programming
@@ -94,7 +94,6 @@
 
 | Name | Role |
 |------|------|
-| Thomas | Lead Artist |
 | Andrei (Warped-Studios) | Artist |
 | Daniel Clark | Artist |
 | Sean Strike | Artist, Research, and Skins |

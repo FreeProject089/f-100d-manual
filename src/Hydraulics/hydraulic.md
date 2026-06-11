@@ -70,7 +70,9 @@ In case of utility hydraulic pressure loss an electrical driven pump is used to 
 
 ### Hydraulic Pressure Indicator and Knob
 
-This knob and gauge indicate the pressure in the selected position.
+![hydraulic-pressure-gauge](./img/pressure-gauge.png)
+
+This knob and gauge indicate the pressure of the selected system.
 
 ### Ram Air Turbine Door Lever
 

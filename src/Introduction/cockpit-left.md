@@ -40,7 +40,7 @@ The Spare Lamps are stored in this panel and are used to replace any burnt out l
 
 The Wing Flap Handle is a three position lever that actuates the Flaps. The three positions indicate UP, INTERMEDIATE and DOWN.
 
-# Engine and Flight Control Panel
+## Engine and Flight Control Panel
 
 ![engine flight control panel](./img/enginecontrolpanel.png)
 

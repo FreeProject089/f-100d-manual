@@ -72,83 +72,81 @@ nav:
       - Checklist: ./Meta/checklist.md
       - Special Options: ./Introduction/special-options.md
       - Parameters: ./Meta/parameters.md
-    - Systems:
-      - Aircraft Systems:
-        - Engine: ./Engine/engine.md
-        - Electrical: ./Electrical/electrical.md
-        - Hydraulics: ./Hydraulics/hydraulic.md
-        - Fuel: ./Fuel/fuel.md
-        - Environmental: ./ECS/ecs.md
-        - Oxygen System (MD-1 Oxygen Regulator): ./Oxygen System/oxygen.md
-        - Lighting Control Panel: ./Lighting System/lighting-control-panel.md
-      - Navigation Systems:
-        - Direction Gyro and Compass: ./DirectionGyroCompass/direction-gyro-and-compass.md
-        #- B-26 Navigation Computer: ./Navigation Computer/navigation-computer.md
-      - Radio Systems:
-        - ARC-34 UHF Command Radio: ./ARC-34 Command Radio/command-radio.md
-        - ARA-50 ADF System: ./ARA-50 ADF/adf-radio.md
-        - ARN-6 Radio Compass: ./ARN-6 Radio Compass/radio-compass.md
-        - ARN-72 TACAN: ./ARN-72 TACAN/tacan.md
-        - Seek Silence System: ./Seek Silence System/seek-silence.md        
-        - AN/APX-72 IFF: ./APX-72 IFF/iff.md
-      - Camera Systems:
-        - Gun Camera: ./Gun Camera/gun_camera.md
-        - Strike Camera: ./Strike Camera/strike_camera.md
-      - Defensive Systems:
-        - AN/APR-25 RHAW: ./RHAW/RHAW.md
-      - Weapon Systems:
-        - Introduction: ./Weapon_System/introduction.md
-        - Armament Control Panels: ./Weapon_System/armament-control-panels.md
-        - Weapons Release Systems: ./Weapon_System/aircraft-weapons-release-system.md
-        - A-4 Gunsight: ./Weapon_System/a-4-gunsight.md
-        - Guns: ./Weapon_System/guns.md
-        - AIM-9 Sidewinder: ./Weapon_System/aim-9-sidewinder.md
-        - AIM-45 Shrike: ./Weapon_System/agm-45-shrike.md
-        - AN/AJB-1 Low Altitude Bombing System: ./Weapon_System/low-altitude-bombing-system.md
-        - Weapon Release Tables: ./Weapon_System/bomb-rockets.md
+    - Aircraft Systems:
+      - Engine: ./Engine/engine.md
+      - Electrical: ./Electrical/electrical.md
+      - Hydraulics: ./Hydraulics/hydraulic.md
+      - Fuel: ./Fuel/fuel.md
+      - Environmental: ./ECS/ecs.md
+      - Oxygen System (MD-1 Oxygen Regulator): ./Oxygen System/oxygen.md
+      - Lighting Control Panel: ./Lighting System/lighting-control-panel.md
+    - Navigation Systems:
+      - Direction Gyro and Compass: ./DirectionGyroCompass/direction-gyro-and-compass.md
+      #- B-26 Navigation Computer: ./Navigation Computer/navigation-computer.md
+    - Radio Systems:
+      - ARC-34 UHF Command Radio: ./ARC-34 Command Radio/command-radio.md
+      - ARA-50 ADF System: ./ARA-50 ADF/adf-radio.md
+      - ARN-6 Radio Compass: ./ARN-6 Radio Compass/radio-compass.md
+      - ARN-72 TACAN: ./ARN-72 TACAN/tacan.md
+      - Seek Silence System: ./Seek Silence System/seek-silence.md        
+      - AN/APX-72 IFF: ./APX-72 IFF/iff.md
+    - Camera Systems:
+      - Gun Camera: ./Gun Camera/gun_camera.md
+      - Strike Camera: ./Strike Camera/strike_camera.md
+    - Defensive Systems:
+      - AN/APR-25 RHAW: ./RHAW/RHAW.md
+    - Weapon Systems:
+      - Introduction: ./Weapon_System/introduction.md
+      - Armament Control Panels: ./Weapon_System/armament-control-panels.md
+      - Weapons Release Systems: ./Weapon_System/aircraft-weapons-release-system.md
+      - A-4 Gunsight: ./Weapon_System/a-4-gunsight.md
+      - Guns: ./Weapon_System/guns.md
+      - AIM-9 Sidewinder: ./Weapon_System/aim-9-sidewinder.md
+      - AIM-45 Shrike: ./Weapon_System/agm-45-shrike.md
+      - AN/AJB-1 Low Altitude Bombing System: ./Weapon_System/low-altitude-bombing-system.md
+      - Weapon Release Tables: ./Weapon_System/bomb-rockets.md
 
-    - Procedures:
-      - Normal Procedures:
-        - Cruise: ./Procedures/Normal/cruise.md
-        - Preflight Check: ./Procedures/Normal/preflight.md
-        - Startup: ./Procedures/Normal/start.md
-        - Taxiing: ./Procedures/Normal/taxi.md
-        - Takeoff: ./Procedures/Normal/takeoff.md
-        - Afterburner (AB) Operation During Flight: ./Procedures/Normal/afterburner.md
-        - Descent: ./Procedures/Normal/descent.md
-        - Landing: ./Procedures/Normal/landing.md
-        - Go-Around: ./Procedures/Normal/go-around.md
-        - Engine Shutdown: ./Procedures/Normal/shutdown.md
-      - Weapons Employment:
-        - Manual Delivery: ./Weapon_System/Procedures/manual-delivery.md
-        - Sidewinders: ./Weapon_System/Procedures/sidewinder.md
-      - Emergency Procedures:
-        - Takeoff Emergencies:
-          - Afterburner Failure During Takeoff: ./Procedures/Emergency/afterburner-takeoff.md
-          - Engine Failure During Takeoff: ./Procedures/Emergency/engine-failure-takeoff.md
-          - Illumination of the Fuel Valve Fail Light: ./Procedures/Emergency/fuel-valve.md
-        - In-flight Emergencies:
-          - Air Start: ./Procedures/Emergency/air-start.md
-          - Afterburner Failure: ./Procedures/Emergency/afterburner.md
-          - Ejection: ./Procedures/Emergency/ejection.md
-          - Canopy: ./Procedures/Emergency/canopy.md
-          - Engine Failure: ./Procedures/Emergency/engine-failure.md
-          - AC Generator: ./Procedures/Emergency/acgen.md
-          - Flight Controls: ./Procedures/Emergency/flight-controls.md
-          - Fuel System: ./Procedures/Emergency/fuel-system.md
-          - Heat and Vent Emergency: ./Procedures/Emergency/heat-vent.md
-          - Jettison of External Load: ./Procedures/Emergency/jettison.md
-          - Ram-Air Turbine Doors Open: ./Procedures/Emergency/rat.md
-          - Spin Recovery: ./Procedures/Emergency/spin.md
-          - Utility Hydraulic System Failure: ./Procedures/Emergency/utility-hydraulic.md
-          - Yaw and Pitch Damper Emergency: ./Procedures/Emergency/damper.md
-        - Landing Emergencies:
-          - Precautionary Landing Pattern (PLP): ./Procedures/Emergency/pel.md
-          - Recommended Glide: ./Procedures/Emergency/glide.md
-          - Landing Gear Emergency Operation: ./Procedures/Emergency/gear.md
-          - Landing With Arresting Hook Extended: ./Procedures/Emergency/hook.md
-          - Tire Failure: ./Procedures/Emergency/tire.md
-          - Wheel Brakes Overheated: ./Procedures/Emergency/brakes.md
+    - Normal Procedures:
+      - Cruise: ./Procedures/Normal/cruise.md
+      - Preflight Check: ./Procedures/Normal/preflight.md
+      - Startup: ./Procedures/Normal/start.md
+      - Taxiing: ./Procedures/Normal/taxi.md
+      - Takeoff: ./Procedures/Normal/takeoff.md
+      - Afterburner (AB) Operation During Flight: ./Procedures/Normal/afterburner.md
+      - Descent: ./Procedures/Normal/descent.md
+      - Landing: ./Procedures/Normal/landing.md
+      - Go-Around: ./Procedures/Normal/go-around.md
+      - Engine Shutdown: ./Procedures/Normal/shutdown.md
+    - Weapons Employment:
+      - Manual Delivery: ./Weapon_System/Procedures/manual-delivery.md
+      - Sidewinders: ./Weapon_System/Procedures/sidewinder.md
+    - Emergency Procedures:
+      - Takeoff Emergencies:
+        - Afterburner Failure During Takeoff: ./Procedures/Emergency/afterburner-takeoff.md
+        - Engine Failure During Takeoff: ./Procedures/Emergency/engine-failure-takeoff.md
+        - Illumination of the Fuel Valve Fail Light: ./Procedures/Emergency/fuel-valve.md
+      - In-flight Emergencies:
+        - Air Start: ./Procedures/Emergency/air-start.md
+        - Afterburner Failure: ./Procedures/Emergency/afterburner.md
+        - Ejection: ./Procedures/Emergency/ejection.md
+        - Canopy: ./Procedures/Emergency/canopy.md
+        - Engine Failure: ./Procedures/Emergency/engine-failure.md
+        - AC Generator: ./Procedures/Emergency/acgen.md
+        - Flight Controls: ./Procedures/Emergency/flight-controls.md
+        - Fuel System: ./Procedures/Emergency/fuel-system.md
+        - Heat and Vent Emergency: ./Procedures/Emergency/heat-vent.md
+        - Jettison of External Load: ./Procedures/Emergency/jettison.md
+        - Ram-Air Turbine Doors Open: ./Procedures/Emergency/rat.md
+        - Spin Recovery: ./Procedures/Emergency/spin.md
+        - Utility Hydraulic System Failure: ./Procedures/Emergency/utility-hydraulic.md
+        - Yaw and Pitch Damper Emergency: ./Procedures/Emergency/damper.md
+      - Landing Emergencies:
+        - Precautionary Landing Pattern (PLP): ./Procedures/Emergency/pel.md
+        - Recommended Glide: ./Procedures/Emergency/glide.md
+        - Landing Gear Emergency Operation: ./Procedures/Emergency/gear.md
+        - Landing With Arresting Hook Extended: ./Procedures/Emergency/hook.md
+        - Tire Failure: ./Procedures/Emergency/tire.md
+        - Wheel Brakes Overheated: ./Procedures/Emergency/brakes.md
 
     - Extras:
       - Research Series: ./Introduction/research-series.md

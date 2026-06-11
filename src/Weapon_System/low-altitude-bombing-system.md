@@ -1,59 +1,58 @@
-# AN/AJB-1 Low Altitude Bombing System
+# AN/AJB-1 Low Altitude Bombing System (LABS)
 
 ## Introduction
 
-The low altitude bombing system was introduced to assist with nuclear weapons delivery. It helps the pilots follow a pre-determined trajectory to delivery nuclear weapons with delivery profiles to assist with escape from the effects of the blast.
+The Low Altitude Bombing System (LABS) was introduced to assist with nuclear weapons delivery, providing a pre-determined trajectory with delivery profiles to assist with escaping blast effects.
 
 ## Controls and Indicators
 ![labs](./img/labs.png)
 
 ### Pullup Light
 
-Active when LABS is active before the pullup. Once pullup occurs this light goes out.
+Illuminates when LABS is active before the pullup. Once pullup occurs, this light extinguishes.
 
 ### Roll Indicator
 
-Indicates the current desired roll by the system.
+Indicates the desired roll by the system.
 
 ### Pitch Indicator
 
-Indicates desired G load in pullup mode and desired pitch angle in pre-pullup mode.
+- In pre-pullup mode, indicates desired pitch angle 
+- In pullup mode, indicates desired G load
 
 ## Operation
 
-All LABS delivery modes share the pullup timer. The pullup timer is the time set by the pilot to indicate the time taken for the aircraft to fly from a know identification point (IP) to the pullup point.
+LABS delivery modes share a pullup timer. The pullup timer is set by the pilot, indicating time taken for the aircraft to fly from a known identification point (IP) to the pullup point.
 
-There are two variables which determine pullup timer:
+The pullup timer is determined by:
 
-- ground speed
-- bomb travel distance
-- distance from IP to target
+- Ground speed
+- Bomb travel distance
+- Distance from IP to target
 
-The formula:
+`pullup timer = (distance from IP to target - bomb travel distance) / ground speed`
 
-`pullup timer = (distance from ip to target - bomb travel distance) / ground speed`
+Both ground speed and distance from IP to target are determined during mission planning. A good identification point (IP) is something near the target area the pilot can easily locate and navigate to.
 
-can then be used to figure out what should be set for the pullup timer. Both ground speed and distance from IP to target can be easily chosen during mission planning. The identification point (IP) is chosen to be something that is easy to find and navigate to from the air and near the target area.
+Bomb travel distance is determined by the bomb's release parameters, including:
 
-Bomb travel distance is determined by the exact release parameters of the bomb: including release angle, true airspeed, target altitude, aircraft altitude, bomb type and wind.
+- Release angle
+- True airspeed
+- Target altitude
+- Aircraft altitude
+- Bomb type
+- Wind
 
 ### LABS (Loft)
 
-The LABS mode is the one of the normal delivery types for the labs. It is intended for lofting nuclear weapons long distances. The release angle is 50 degrees which lofts the weapon a long distance towards the target.
+The LABS mode is the normal mode, lofting the bomb towards the target over long distances, at a release angle of 50 degrees.
 
 ### LABS ALT (Over the Shoulder)
 
-The LABS ALT mode is the alternate method for a loft type delivery. It is intended for lofting a nuclear weapon vertically over the target.
-
-The LABS and LABS ALT mode are identical with the exception of the angle of release. Below is a table of release angles:
-
-| Mode     | Delivery Angle (degree)
-|----------|-------------------------
-| LABS     | 50 (LOFT)
-| LABS ALT | 120 (OVER THE SHOULDER)
+The LABS ALT mode is the alternate method lofts the bomb vertically over the target, at a release angle of 120 degrees.
 
 ![Image of Loft Release](./img/labs_loft_delivery.png)
 
 ### Low Altitude Drogue Delivery (LADD)
 
-Low Altitude drogue Delivery is for delivery drogue assisted nuclear weapons. At the pullup point the pilot is commanded into a 40 degree climb. The release timer determines the release. Once a period longer than the release timer has passed since the pullup point the bombs will be released.
+Low Altitude Drogue Delivery (LADD) is for delivery drogue assisted nuclear weapons. At the pullup point, the pilot is commanded into a 40 degree climb. The release timer determines the release. The release timer begins at the pullup point. When the timer runs out, the bomb is released.

@@ -2,33 +2,31 @@
 
 ## Introduction
 
-The AIM-9 sidewinder is a short range infrared guided missile, introduced in 1956. It is the primary air-to-air weapon for the F-100D.
+The AIM-9 sidewinder is a short range infrared guided missile introduced in 1956. It is the primary air-to-air weapon for the F-100D.
 
-The F-100D can carry two Sidewinder Missiles on a Type IX launcher on each of the inboard pylons, for a total of four Sidewinders.
+The Sidewinder is a passive infrared guided missile. The missile is aimed using the [A-4 Gunsight](./a-4-gunsight.md#a-4-gunsight) with the sight [mechanically or electrically caged](./a-4-gunsight.md#mechanical-cage-lever).
 
-The sidewinder is a passive infrared guided missile. The missile is aimed using the [A-4 Gunsight](./a-4-gunsight.md#a-4-gunsight) with the sight [mechanically or electrically caged](./a-4-gunsight.md#mechanical-cage-lever).
+The missile generates a tone based on received infrared radiation into its seeker, which is transmitted to the pilot headphones. A low growl indicates little to no infrared radiation detected, and a higher-and-louder growl indicates a heat source, indicated a possible detected target. The growl only indicates the ability for the seeker to track, but not anything about range, or whether the missile can maneuver to the target.
 
-The missile generates a tone based on received infrared radiation into its seeker. This tone is transmitted to the pilot headphones. A low growl indicates little to no infrared radiation detected and a high/louder growl indicates a heat source and a possible detected target. The growl only indicates the ability for the seeker to track and does not indicate anything about range or whether the missile is able to maneuver to the target.
+The F-100D can carry two Sidewinders on a Type IX launcher on each of the inboard pylons, for a total of four missiles.
 
 ### Sidewinder Types
 
-The F-100D historically carried 3 different variants of the AIM-9 sidewinder listed below (although some later variants are backwards compatible and the L,M variants are compatible with minor rail modifications that were made to other aircraft in the 90s).
+The F-100D historically carried 3 different variants of the AIM-9 Sidewinder, although some later variants are backwards compatible: AIM-9L and AIM-9M Sidewinders are compatible with minor rail modifications that were made to other aircraft in the 1990s.
 
 #### AIM-9B
 
-Introduced in 1957 this is the first sidewinder to be put into service. Seeing significant action in Vietnam.
+Introduced in 1957 this is the first sidewinder to be put into service. It saw significant use during the Vietnam War.
 
 #### AIM-9E
 
-This variant was introduced in 1969. It had a small increase in maneuverability and seeker track rate. The seeker gimbal-limit was improved from 25 degrees to 40 degrees making it much more effective against maneuvering targets.
+Introduced in 1969, this variant boasted peltier cooled seeker for better thermal sensitivity, increased seeker track rate, and improved maneuverability. The seeker gimbal-limit was improved from 25 degrees to 40 degrees, making it significantly more effective against maneuvering targets.
 
-This variant also used a peltier cooled seeker allowing for better thermal sensitivity.
-
-Importantly the max launch G was increased from 2 G to 7.33 G to allow launching while maneuvering something which plagued the early use of the AIM-9B.
+Additionally, the max launch G was increased from 2 G to 7.33 G, allowing launches during maneuvering, overcoming a key shortcoming that plagued the AIM-9B.
 
 #### AIM-9J
 
-This variant was introduced in 1972 and improved on the AIM-9E by increasing the seeker max track rate again. The time between launch and missile maneuver was reduced to 0.3 seconds from 0.5 in previous versions.
+Introduced in 1972, the J contniued to improve the seeker max track rate, and a time between launch and missile maneuvering reduced from 0.5 to 0.3 seconds.
 
 ## Controls
 
@@ -48,11 +46,11 @@ This panel is responsible for:
 
 ### Missile Volume Control
 
-This adjust the volume of the sidewinder in the headset.
+This adjust the volume of the Sidewinder in the headset.
 
 ### Station Bypass
 
-In the event of a defective sidewinder the store can be stepped to the next sidewinder by using the station bypass switch.
+In the event of a defective Sidewinder the store can be stepped to the next Sidewinder by using the station bypass switch.
 
 ### Missile Master
 
@@ -60,13 +58,13 @@ This three position switch is normally in the standby position with it spring lo
 
 | Position             | Description
 |----------------------|-------------
-| Reset (sprungloaded) | Resets the firing order of the sidewinders moving the firing order back to the first sidewinder (left pylon right sub-pylon).
-| Standby              | Maintains the sidewinder in a warmed up state while keeping the missile safe. The audio can still be heard in this position.
-| Ready                | Arms the sidewinder for launch bringing it to the ready state.
+| Reset (sprungloaded) | Resets the firing order of the sidewinders moving the firing order back to the first Sidewinder (left pylon right sub-pylon).
+| Standby              | Maintains the Sidewinder in a warmed up state while keeping the missile safe. The audio can still be heard in this position.
+| Ready                | Arms the Sidewinder for launch bringing it to the ready state.
 
-### Safe Launch
+### Safe Launch (Jettison)
 
-Pressing this switch will fire all sidewinders safe (no fuzing or guidance) in their firing order with a 0.5 second delay.
+Pressing and holding this button starts the Sidewinder [jettison](#Jettison) process, firing all Sidewinders (without fuzing or guidance) in their [firing](#Firing) order with a 0.5 second delay between each.
 
 ## Operation
 
@@ -76,21 +74,17 @@ Pressing this switch will fire all sidewinders safe (no fuzing or guidance) in t
 TODO Gun-Missile Switch
 -->
 
-The [Gun-Missile Switch](./guns.md#gun-missile-switch) in the Missile position provides warmup and gyro power to the missiles. The [Missile Master Switch](#missile-master) sets the ready state of the missiles. In the STBY the sidewinder is kept warmed up and ready. In this position missile audio can be heard but the firing circuits are not armed.
+The [Gun-Missile Switch](./guns.md#gun-missile-switch) in the MISSILE position provides warmup and gyro power to the missiles. The [Missile Master Switch](#missile-master) sets the ready state of the missiles. In STBY mode, the Sidewinder is kept warmed up and ready. In this position missile audio can be heard but the firing circuits are not armed.
 
-Sidewinder volume can be adjusted using the Missile Control [Volume Control](#missile-volume-control).
+Sidewinder volume is adjusted using the Missile Control [Volume Control](#missile-volume-control).
 
 ### Firing
 
-To arm the missiles check the [Gun-Missile Switch](./guns.md#gun-missile-switch) is in the Missile position and put the [Missile Master Switch](#missile-master) into the READY position. A Sidewinder tone should be heard and the [status display lights](./armament-control-panels.md#status-display-lights) should indicate a Sidewinder ready to be fired.
+To arm the missiles, confirm the [Gun-Missile Switch](./guns.md#gun-missile-switch) is in the MISSILE position, and set the [Missile Master Switch](#missile-master) to the READY position. A Sidewinder tone should be heard, and the [status display lights](./armament-control-panels.md#status-display-lights) should indicate a Sidewinder is ready for firing.
 
-Below is the order in which sidewinders are fired, this also corresponds to the light displayed on the [status display lights](./armament-control-panels.md#status-display-lights).
+Sidewinders are fired in the following order, and correspond to [status display lights](./armament-control-panels.md#status-display-lights).
 
 ![Sidewinder Firing Order](./img/sidewinder_firing_order.png)
 
 !!! warning
-    Releasing the trigger before the launch sequence is complete will cause the missile to be **trashed**. This is because once the trigger is pressed the seeker is uncaged and the gas generator is fired. These are an irreversible process. This missile will need to be bypassed in future using the [station bypass](#station-bypass) switch.
-
-### Jettison
-
-Jettison of sidewinders is not possible the conventional way due to them being mounted on a rail. Thus to be jettisoned they must be fired un-armed without guidance. To do this simply press and hold the [Safe Launch](#safe-launch) for the duration of the jettison process. This will cause the sidewinders to launch one by one with 0.5 second intervals until all the sidewinders are safely jettisoned.
+    Releasing the trigger before the launch sequence is complete will cause the missile to be **trashed**. Once the trigger is pressed, an irreversible process begins: the seeker is uncaged and the gas generator is fired, expending the missile's usability. Bypass unusable missiles using the [station bypass](#station-bypass) switch.

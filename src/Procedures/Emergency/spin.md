@@ -22,12 +22,12 @@ during recovery.
 5. FULL OPPOSITE RUDDER, FULL AILERONS
 WITH SPIN, AND FULL AFT STICK.
 6. When rotation stops — Initiate stall recovery procedures.
-When rotation stops, airplane will be in a stall
+When rotation stops, aircraft is in a stall
 attitude; therefore, use prescribed stall recovery technique.
 
     !!! warning
         Do not hold recovery controls after rotation
-        stops; otherwise, the airplane will
+        stops; otherwise, the aircraft will
         spin in the opposite direction.
 
     !!! warning

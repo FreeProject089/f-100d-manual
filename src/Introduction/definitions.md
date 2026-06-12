@@ -36,6 +36,7 @@ Definitions and abbreviations used in the manual are covered here.
 ## Abbreviations
 | Abbreviation | Meaning |
 |-------------|----------|
+| 0PSL | Zero Prediction Sight Line |
 | A/A | Air-to-Air |
 | AAA | Anti-Aircraft Artillery |
 | [AB](../Procedures/Normal/afterburner.md) | Afterburner |
@@ -77,8 +78,10 @@ Definitions and abbreviations used in the manual are covered here.
 | [PLP](../Procedures/Emergency/pel.md) | Precautionary Landing Pattern |
 | POD | Gun Pod Selection |
 | PRF | Pulse Repetition Frequency |
+| psi | Pounds per square inch |
 | PWR | Power |
 | RAM | Ram Air |
+| RAT | Ram Air Turbine |
 | [RHAW](../RHAW/RHAW.md) | Radar Homing and Warning |
 | RKTS | Rockets |
 | RPM | Revolutions Per Minute |
@@ -92,4 +95,3 @@ Definitions and abbreviations used in the manual are covered here.
 | USAF | United States Air Force |
 | VGI | Vertical Gyro Indicator |
 | WX | Weather |
-| 0PSL | Zero Prediction Sight Line |

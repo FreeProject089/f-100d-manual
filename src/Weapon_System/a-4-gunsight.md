@@ -89,7 +89,7 @@ There are three options rocket, gun, bomb.
 |--------|---------------|-------------------
 | Gun    | range from radar or manual | Free to move unless electrical cage is depressed
 | Rocket | fixed 850     | Caged to [ECSL](#electrically-caged-sight-line-ecsl) + Depression Angle
-| Bomb   | fixed 850     | Caged to [ECSL](#electrically-caged-sight-line-ecsl) + 10 degrees - used with [automatic bombing mode](#bomb-air-to-ground-automatic)
+| Bomb   | fixed 850     | Caged to [ECSL](#electrically-caged-sight-line-ecsl) + 10°—used with [automatic bombing mode](#bomb-air-to-ground-automatic)
 
 If the [radar reject button](#radar-reject-button) is depressed, this switch automatically moves to the GUN position.
 
@@ -143,7 +143,7 @@ In this mode, the sight can be used in this for manual bombing or rocket attacks
 
 The A-4 sight can use the inbuilt gyroscope to calculate target position. By using information such as airspeed to calculate bomb trajectory, an inbuilt mechanical computer determines when bomb trajectory coincides with the target position, and sense the bomb release signal once a solution is found.
 
-The bombsight works on the principle that the line of sight rate corresponds to the slant range to the target. To facilitate this the reticle is automatically depressed 10 degrees in the bomb mode. Keep the reticle on the target and allow the system to measure the line of sight rate. Once parameters are met, the reticle extinguishes and the bomb is released.
+The bombsight works on the principle that the line of sight rate corresponds to the slant range to the target. To facilitate this the reticle is automatically depressed 10° in the bomb mode. Keep the reticle on the target and allow the system to measure the line of sight rate. Once parameters are met, the reticle extinguishes and the bomb is released.
 
 To protect the gyros, the electrical cage must be held up until the target is in the sight. Then, _smoothly_ follow the target under the pipper to get an accurate measurement. Kerks or bumps can cause bombs to release prematurely.
 

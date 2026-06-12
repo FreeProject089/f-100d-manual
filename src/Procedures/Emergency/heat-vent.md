@@ -8,7 +8,7 @@
 permit.
 3. Emergency ram-air lever* — Between CLOSED and
 OPEN.
-4. Cockpit pressure selector switch - RAM AIR ONT
+4. Cockpit pressure selector switch—RAM AIR ONT
 (emergency ram-air lever — OPEN), if resultant temperature
 is too cold or too hot.
 
@@ -18,7 +18,7 @@ is too cold or too hot.
         to RAM AIR ON or the emergency ram-air
         lever* is moved from the CLOSED position.
 
-5. Cockpit pressure selector switch - OFF, and emergency
+5. Cockpit pressure selector switch—OFF, and emergency
 ram-air lever — CLOSED, if no airflow or pressurization is necessary.
 
     !!! warning
@@ -33,7 +33,7 @@ ram-air lever — CLOSED, if no airflow or pressurization is necessary.
         the emergency ram-air lever must be at
         CLOSED (cockpit pressure selector switch
         moved out of RAM AIR ON position on
-        “ other airplanes), to permit normal operation
+        “ other aircraft), to permit normal operation
         of the pressurization system.
 
 ## Emergency Depressurization (Unintentional)

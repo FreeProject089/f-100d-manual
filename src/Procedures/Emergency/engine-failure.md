@@ -15,9 +15,9 @@ be reduced and as a last resort cycle the fuel system shutoff
 switch in an attempt to open the valve and extinguish the
 light. Regardless of light indication, attempt an air start.
 
-In case of obvious mechanical failure within the engine, air
+In the event of obvious mechanical failure within the engine, air
 starts should not be attempted. When a frozen engine is
-suspected because of zero rpm indication but no obvious
+suspected because of zero RPM indication but no obvious
 mechanical failure has occurred, normal utility hydraulic
 pressure and engine oil pressure will indicate the engine is
 rotating and the accessory drive is operating, and an air
@@ -25,9 +25,9 @@ start should be attempted. If there is no indication of
 utility pressure or oil pressure, a successful air start is
 unlikely.
 
-In case of obvious mechanical failure within the engine, air
+In the event of obvious mechanical failure within the engine, air
 starts should not be attempted. When a frozen engine is
-suspected because of zero rpm indication but no obvious
+suspected because of zero RPM indication but no obvious
 mechanical failure has occurred, normal utility hydraulic
 pressure and engine oil pressure will indicate the engine is
 rotating and the accessory drive is operating, and an air
@@ -60,7 +60,7 @@ pump.
 all nonessential electrical equipment to reduce battery load.
 
     !!! caution
-        At engine speeds below about 40% rpm,
+        At engine speeds below about 40% RPM,
         de generator output is not available,
         and the battery becomes the only source
         of electrical power. Usable battery

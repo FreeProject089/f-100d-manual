@@ -20,11 +20,9 @@ A flush-type antenna is installed in the lower surface of the fuselage centerlin
 
 ## Normal Operation
 
-1. With the command radio on and warmed up, select a common frequency with the ground station or airplane to be homed on.
-
+1. With the command radio on and warmed up, select a common frequency with the ground station or aircraft to be homed on.
 2. Turn the [AN/ARC-34 function switch](../ARC-34%20Command%20Radio/command-radio.md#function-switch) to ADF, and the [AN/ARN-72 TACAN function switch](../ARN-72%20TACAN/tacan.md) to A/A.
-
-3. The ADF bearing pointer will move in response to the UHF signal to indicate the bearing, and the [TACAN range indicator](../ARN-72%20TACAN/tacan.md) will indicate the range to the ground station or to the airplane.
+3. The ADF bearing pointer moves in response to the UHF signal to indicate the bearing, and the [TACAN range indicator](../ARN-72%20TACAN/tacan.md) indicates range to the ground station or to the aircraft.
 
 !!! note
   For normal UHF communication, the [function switch](../ARC-34%20Command%20Radio/command-radio.md#function-switch) should be returned to MAIN or BOTH. However, transmission is possible when the switch is at ADF.

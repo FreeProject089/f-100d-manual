@@ -32,7 +32,7 @@ The three-position indicator light dimmer switch controls the brightness of the 
 | AIR REFUELING READY | Indicator | Air refueling switch is in the ready position, does not indicate that all components in the system are operational| |
 
 ## Indicator Light Test Circuit
-The indicator light test circuit is a means of merely testing the integrity and operation of the bulbs. All indicator, caution, and warning lights will illuminate simultaneously to exclude the engine compartment fire "FIRE ENG COMP" and overheat "OVERHEAT ENG BURN" warning lights, of which have a separate test circuit. All lights in the test circuit are powered by the primary bus. 
+The indicator light test circuit is a means of merely testing the integrity and operation of the bulbs. All indicator, caution, and warning lights illuminate simultaneously to exclude the engine compartment fire **FIRE ENG COMP** and overheat **OVERHEAT ENG BURN** warning lights, of which have a separate test circuit. All lights in the test circuit are powered by the primary bus. 
 
 ## Master Caution Light
 The master caution light indicated certain indicator or caution lights have illuminated. The master caution light must be put out in order to not inhibit the illumination of additional lights. To extinguish the master caution light, the pilot must press the respective indicator or caution light that caused the master caution to become illuminated.
@@ -51,7 +51,7 @@ The master caution light indicated certain indicator or caution lights have illu
 
 | Light | Category | Cause | Procedure |
 |-------|----------|-------|-----------|
-| CANOPY NOT LOCKED | Warning | The canopy is not fully closed and locked | |
-| FIRE ENG COMP | Warning | An overhead or fire has been detected in the forward engine compartment or the fire system is being tested | |
-| OVERHEAT ENG BURN | Warning | An overheat or fire has been detected in the aft engine compartment or the fire system is being tested | |
-| TRIMMED FOR TAKEOFF | Indicator | The aircraft is trimmed for take off (260 KIAS condition) | |
+| CANOPY NOT LOCKED | Warning | The canopy is not fully closed and locked. | |
+| FIRE ENG COMP | Warning | An overhead or fire has been detected in the forward engine compartment or the fire system is being tested. | |
+| OVERHEAT ENG BURN | Warning | An overheat or fire has been detected in the aft engine compartment or the fire system is being tested. | |
+| TRIMMED FOR TAKEOFF | Indicator | The aircraft is trimmed for take off (260 KIAS condition). | |

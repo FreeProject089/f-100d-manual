@@ -2,19 +2,15 @@
 
 # F-100D Super Sabre
 
+## Welcome
 
+**Grinnelli Designs is proud to present our DCS: F-100D Super Sabre.**
 
-### Welcome Letter
-
-Dear Community,
-
-We are proud to present the DCS: F-100D Super Sabre by Grinnelli Designs.
-
-The North American F-100D Super Sabre occupies a unique place in aviation history. As the first United States Air Force fighter capable of sustained supersonic level flight, it represented a major leap beyond the legendary F-86 Sabre. Designed during the dawn of the supersonic age and refined through years of operational experience, the F-100D evolved into one of the most important fighter-bombers of the Cold War and became a mainstay of U.S. Air Force operations during the Vietnam War.
+The North American F-100D Super Sabre occupies a unique place in aviation history. As the first United States Air Force fighter capable of sustained supersonic level flight, it represented a major leap beyond the legendary F-86 Sabre. Designed during the dawn of the supersonic age, and refined through years of operational experience, the F-100D evolved into one of the most important fighter-bombers of the Cold War, and became a mainstay of U.S. Air Force operations during the Vietnam War.
 
 Our goal with the DCS: F-100D has been to recreate not only the appearance and performance of the Super Sabre, but also the experience of operating one. To achieve this, we began with an extensively researched cockpit and external model created from thousands of photographs, photogrammetry data, and laser scans of a preserved museum aircraft. Every switch, gauge, panel, and surface has been recreated with meticulous attention to detail, allowing you to step into a faithful representation of one of aviation's most iconic aircraft.
 
-Beyond the visual model, we sought to capture the character of the Super Sabre itself. The F-100 was a pioneering aircraft that demanded skill and respect from its pilots. Its powerful swept-wing design delivered exceptional performance, but it also introduced handling characteristics that rewarded proper technique and punished complacency. Our flight model has been developed using actual short and long-period stability reports and validated against the experiences of real F-100 pilots. From high-speed maneuvering to the unique low-speed behaviors that gave rise to the infamous "Sabre Dance" every effort has been made to reproduce the aircraft's handling as accurately as possible.
+Beyond the visual model, we sought to capture the character of the Super Sabre itself. The F-100 was a pioneering aircraft that demanded skill and respect from its pilots. Its powerful swept-wing design delivered exceptional performance, but it also introduced handling characteristics that rewarded proper technique and punished complacency. Our flight model has been developed using actual short and long-period stability reports, and validated against the experiences of real F-100 pilots. From high-speed maneuvering to the unique low-speed behaviors that gave rise to the infamous "Sabre Dance", every effort has been made to reproduce the aircraft's handling as accurately as possible.
 
 The DCS: F-100D goes far beyond a traditional aircraft simulation. Beneath the cockpit lies a deeply interconnected simulation of the aircraft's systems. The electrical system models realistic voltages, currents, and power consumption throughout the aircraft. The hydraulic system simulates hydro-mechanical fluid flow and physically modeled actuators. The thermodynamic engine model reproduces compressor stalls, surges, ignition characteristics, gearbox behavior, oil systems, and afterburner operation. Multiple engine and probe configurations are available, allowing pilots to experience the distinct operational characteristics of different Super Sabre variants.
 
@@ -30,10 +26,9 @@ The F-100D is not an aircraft that can be mastered overnight. It demands discipl
 
 We hope you enjoy learning, flying, and mastering the DCS: F-100D Super Sabre as much as we have enjoyed bringing it to life. Whether you are exploring Cold War operations, reliving the skies over Vietnam, or simply experiencing one of the most significant fighters ever built, we wish you success and many memorable flights ahead.
 
-*The Grinnelli Designs Team*
+*-The Grinnelli Designs F-100D Development Team*
 
-
-### History
+## History
 
 ![special options image](./img/tanking.png)
 
@@ -43,7 +38,7 @@ Building on the legacy and performance of its predecessor, the F-100's distincti
 
 The Super Sabre is equipped with four 20 mm Pontiac M39 cannons mounted in the lower fuselage beneath the cockpit, providing formidable firepower. It is capable of carrying up to four AIM-9 Sidewinder air-to-air, infrared-guided missiles for targeting enemy aircraft. The aircraft also features six underwing hardpoints that can carry a total payload of up to 7,040 lb of conventional bombs, rockets, napalm, and the AGM-45 Shrike anti-radiation missile used to attack radar installations. To support both aerial gunnery and air-to-ground bombing, the aircraft is equipped with a fire control system that helps the pilot accurately aim and release weapons.
 
-The Sabre features a 45 degree swept wing, supersonic level flight and in flight aerial refueling capability. Underwing stations can be utilized to maximize range with fuel tanks or add additional ordnance.
+The Sabre features a 45-degree swept wing, supersonic level flight and in flight aerial refueling capability. Underwing stations can be used to maximize range with fuel tanks or add additional ordnance.
 
 ### Project High Wire
 ![radio image](./img/banner2.png)

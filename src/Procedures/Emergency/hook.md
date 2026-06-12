@@ -7,7 +7,7 @@ landing can be made with the hook extended. However,
 the following conditions must be considered:
 1. With a normal 3-degree final approach in normal
 landing attitude, the tail hook extends approximately
-13 feet below the CG of the airplane, and will contact the
+13 feet below the CG of the aircraft, and will contact the
 runway approximately 76 feet before the main landing
 gear touchdown.
 2. Location and type of barriers on the approach end

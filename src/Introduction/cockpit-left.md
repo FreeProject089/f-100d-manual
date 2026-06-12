@@ -1,7 +1,7 @@
 # Cockpit Left Side
 ![replace image](./img/leftside.png)
 
-This section will cover general items on the left side of the cockpit. More specific items will be covered in the respective systems section.
+This section covers items on the left side of the cockpit. Specifics are covered in other sections about a given panel's related systems.
 
 | Reference | Name |
 |-----------|------|
@@ -39,9 +39,9 @@ The spare lamps stored in this panel can replace burnt-out lights in the cockpit
 ## Wing Flap Handle
 
 This three-position lever actuates the flaps until they reach one of three positions:
-- UP - Raise flaps
-- HALF - Intermediate flaps
-- DOWN - Lower flaps
+- UP—Raise flaps
+- HALF—Intermediate flaps
+- DOWN—Lower flaps
 
 ## Engine and Flight Control Panel
 
@@ -84,8 +84,8 @@ This three-position lever actuates the flaps until they reach one of three posit
 
 Landing gear can't be retracted while the aircraft has has weight on the wheel.
 
-- UP - Retract landing gear
-- DOWN - Extend landing gear
+- UP—Retract landing gear
+- DOWN—Extend landing gear
 
 ### Landing/Taxi Light Switch
 

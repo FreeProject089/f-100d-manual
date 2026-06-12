@@ -54,7 +54,7 @@ safe condition, but the arming of the special store is
 determined by the special store control panel.
 
 1. Special store unlock handle — Unlock. Rotate the
-special store unlock handle approximately 30 degrees
+special store unlock handle approximately 30°
 clockwise to break the safety wire, and pull handle aft
 to the full stop position to ensure that the special store
 unlock system is unlocked. Then rotate the handle
@@ -62,12 +62,12 @@ counterclockwise to lock the handle in the extended
 position.
 2. Special store emergency jettison button — Lift guard
 and press.
-3. External load emergency jettison button - Press.
+3. External load emergency jettison button—Press.
 4. External load emergency jettison handle — Pull.
 Pulling this handle jettisons only low-blow stores and
 275/335-gallon drop tanks.
 5. Station selector switches* — JETT.
-6. Armament selector switch - JETTISON ALL
+6. Armament selector switch—JETTISON ALL
 (PYLON JETT*) — Press bomb button.
 7. External load auxiliary release buttons — Press one
 at a time at intervals of one second or more.
@@ -96,8 +96,8 @@ emergency jettison handle is used, only loads not
 requiring forced ejection can be jettisoned. External
 loads (conventional weapons) are jettisoned safe.
 
-1. Special store unlock handle - Unlock. Rotate the
-special store handle approximately 30 degrees clockwise
+1. Special store unlock handle—Unlock. Rotate the
+special store handle approximately 30° clockwise
 to break safety wire, and pull handle aft to the full stop
 position to ensure that the special store unlock system
 is unlocked. Then rotate the handle counterclockwise

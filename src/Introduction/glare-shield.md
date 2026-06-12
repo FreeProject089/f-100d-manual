@@ -15,7 +15,7 @@ This section covers general items on the above the glare shield in the cockpit. 
 
 Although not necessarily a primary flight instrument, the wet magnetic compass can be used during system failures that degrade the heading indicators operation. 
 
-In the northern hemisphere, when turning the aircraft north and lead turning towards north, the compass will lag. In the southern hemisphere, opposite behavior occurs. For accelerations in the northmen hemisphere, the compass turns north. In the southern hemisphere, the compass will turn south. The opposite is true for decelerations.
+In the northern hemisphere, when turning the aircraft north and lead turning towards north, the compass lags. In the southern hemisphere, opposite behavior occurs. For accelerations in the northmen hemisphere, the compass turns north. In the southern hemisphere, the compass turns south. The opposite is true for decelerations.
 
 The compass card can tilt slightly, but if the compass is not perfectly level with the magnetic field of earth, error is introduced. Some small amuont of misalignment error is always a factor in readings.
 

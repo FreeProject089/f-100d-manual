@@ -8,7 +8,7 @@ The checklist can by default be opened with `LShift + C`.
 
 ![procedures](./img/categories.png)
 
-This page displays the procedures split into their different categories. Clicking on a procedure will navigate there.
+This page displays the procedures split into their different categories. Clicking on a procedure navigates there.
 
 ### Procedure Page
 
@@ -32,7 +32,7 @@ The navigation bar shows the current procedure in the centre and the previous (l
 
 ![show-me](./img/show-me.png)
 
-The show me button will highlight the current item in the cockpit.
+The show me button highlights the current item in the cockpit.
 
 ### Checklist Detail
 
@@ -48,15 +48,15 @@ This toggles between the three types of detail.
 
 ### Advance Checklist Command
 
-Advance checklist command is used to manually check items which are not automatically checked or to bypass an item. The advance checklist command will manually check the highest unchecked item (current item) on the checklist. Once all items are check the advance checklist command will switch to the next procedure. If there is no next procedure then in this case the advance checklist command will do nothing.
+Advance checklist command is used to manually check items which are not automatically checked or to bypass an item. The advance checklist command manually checks the highest unchecked item (current item) on the checklist. Once all items are check the advance checklist command switches to the next procedure. If there is no next procedure then in this case the advance checklist command does nothing.
 
 ![checked-items](./img/checked-items.png)
 
 ## Customizing the Checklist
 
-The checklist structure is made from a json file listing the procedures and categories. When a `checklist.json` is provided in `C:/users/<you username>/Saved Games/DCS F-100D` this custom checklist will be used. As a starting point you can copy the built-in checklist which is found `DCS World/Mods/Aircraft/f-100d/checklist/default.json`.
+The checklist structure is made from a json file listing the procedures and categories. When a `checklist.json` is provided in `C:/users/<you username>/Saved Games/DCS: F-100D` this custom checklist is used. As a starting point you can copy the built-in checklist which is found `DCS World/Mods/Aircraft/f-100d/checklist/default.json`.
 
-If this checklist fails to load because of a syntax error then that error will be reported in your DCS log located in `C:/users/<you username>/Saved Games/DCS/Logs/dcs.log`. Example error may look like
+If this checklist fails to load because of a syntax error then that error is reported in your DCS log located in `C:/users/<you username>/Saved Games/DCS/Logs/dcs.log`. Example error may look like
 
 ```text
 ERROR   F100 (Main): [Checklist Load Error]: [json.exception.parse_error.101] parse error at line 26, column 35: syntax error while parsing object - unexpected string literal; expected '}'
@@ -86,7 +86,7 @@ There can be any number of categories, any number of procedures in each category
 {
     "text" : "Item to be set",
     "value" : "State pilot should set: On or Off etc",
-    "priority" : 1, // (optional) 1,2,3 for mandatory, abbreviated, realistic respectively. With this key/value omitted the priority will default to 1.
+    "priority" : 1, // (optional) 1,2,3 for mandatory, abbreviated, realistic respectively. With this key/value omitted the priority defaults to 1.
     "clickable" : "PNT_FLAP_SELECT", // (optional) the clickable point for show me, for how to find these see below.
     "condition" : 0, // (optional) either a number or string, see the conditions section
     "once" : true // (optional) applies to only conditions see conditions section
@@ -101,19 +101,19 @@ Once loaded the connectors must be displayed.
 
 ![show connectors](./img/show-connectors.png)
 
-This will display all the connectors on each switch. Hovering your mouse of the switch for which you wish to add a condition will then display its connector name. This is the name to be used in the `"clickable"` entry in the item.
+This displays all the connectors on each switch. Hovering your mouse of the switch for which you wish to add a condition then displays its connector name. This is the name to be used in the `"clickable"` entry in the item.
 
 ### Conditions
 
-Conditions check if the current item has been completed. Once a condition is completed it will be marked as completed by being stricken through on the checklist.
+Conditions check if the current item has been completed. Once a condition is completed it is marked as completed by being stricken through on the checklist.
 
 The condition entry can either be a [number (integer)](#number-integer) or a [string](#string). When the condition is a number
 
-In case of failure for either method of condition due to incorrect configuration the condition will just simply remain false and have to be manually checked.
+In the event of failure for either method of condition due to incorrect configuration the condition remains false and must be manually checked.
 
 #### Number (Integer)
 
-This represents the position of the switch. There **must** be a corresponding correct [clickable](#finding-clickables) for this to function. The position of any switch is it's integer position counted from its minimum value, this will usually fully aft, or fully down, or fully anti-clockwise. Exceptions to this rule exist but this should work for most switches. 
+This represents the position of the switch. There **must** be a corresponding correct [clickable](#finding-clickables) for this to function. The position of any switch is it's integer position counted from its minimum value (usually fully aft, down, or  anti-clockwise). Exceptions to this rule exist, but this should work for most switches. 
 
 An example is shown below.
 
@@ -121,11 +121,11 @@ An example is shown below.
 
 | Position | Condition
 |----------|-----------
-| OFF      | 0
-| SIGHT RADAR | 1
-| MANUAL | 2
-| LABS | 3
-| LABS ALT | 4
+| **OFF**      | 0
+| **SIGHT RADAR** | 1
+| **MANUAL** | 2
+| **LABS** | 3
+| **LABS ALT** | 4
 
 The conditions can easily tested by seeing at which position the checklist automatically checks off your item, this can then be used to confirm your index is correct.
 

@@ -26,9 +26,9 @@ The carrier frequency can be broadly categorized into bands. The bands for the A
 
 | BAND  | Frequency (GHz)
 |-------|----------------
-| India | 7 - 11
-| Golf  | 4.4 - 5.8
-| Echo  | 2.4 - 3.6
+| India | 7–11
+| Golf  | 4.4–5.8
+| Echo  | 2.4–3.6
 
 Whenever radar is referred to be in any of these bands it simply means that the radiation it emits falls within the limits of the band.
 
@@ -46,8 +46,8 @@ Below the various types of pulse repetition frequency are described.
 
 | Category | Pulse Repetition Frequency Range (kHz) | Description
 |----------|----------------------------------------|-------------
-| HIGH     | 30 - 300+                              | Primarily used in pulse doppler radars. Older pulse doppler radars only have high pulse repetition frequency modes. These saturate the AN/APR-25 and give a constant tone at the maximum frequency the AN/APR-25 audio generator can create.
-| MEDIUM   | 3 - 30                                 | Used in modern pulse doppler radars. Medium pulse repetition frequencies are modulated this means the pulse repetition frequency is quickly varied giving them complex patterns. This can give complex digital sounding tones from the audio generator of the AN/APR-25.
+| HIGH     | 30–300+                              | Primarily used in pulse doppler radars. Older pulse doppler radars only have high pulse repetition frequency modes. These saturate the AN/APR-25 and give a constant tone at the maximum frequency the AN/APR-25 audio generator can create.
+| MEDIUM   | 3–30                                 | Used in modern pulse doppler radars. Medium pulse repetition frequencies are modulated this means the pulse repetition frequency is quickly varied giving them complex patterns. This can give complex digital sounding tones from the audio generator of the AN/APR-25.
 | LOW      | <3                                     | Used in older pulse and moving target indicator radars. This frequency is also commonly used for ground mapping radars. Older radars use something called pulse repetition frequency jittering to reduce un-wanted clutter, this jitter is the random changing of the pulse repetition frequency and can result in a buzzing sound being heard in the AN/APR-25 audio.
 
 The AN/APR-25 was only designed to deal with Low Pulse Repetition Frequency threats and thus only these can be correctly categorized. However because of the multiple frequencies used in medium pulse repetition frequency beat frequencies are created which can be heard in the low pulse repetition frequency range. High pulse repetition frequency radars have no such complexity and therefore they simply max the frequency of the AN/APR-25 audio generator.
@@ -58,7 +58,7 @@ The AN/APR-25 was only designed to deal with Low Pulse Repetition Frequency thre
 
 The AN/APR-25 uses four antennas to detect incoming radiation. There are two antennas on the nose to detect incoming radiation from the front half and two antennas on the tail to detect incoming radiation from the rear half.
 
-The four antennas are angled at 45 degrees.
+The four antennas are angled at 45 .
 
 There are two antennas on the nose:
 ![nose-antennas](./img/front-antennas.png)
@@ -66,11 +66,11 @@ There are two antennas on the nose:
 and two antennas on the tail:
 ![tail-antennas](./img/rear-antennas.png)
 
-Each antenna covers approximately a 90 degree cone. The relative strength between the antennas can be used to determine threat detection. Due to the antennas being fixed to the aircraft as the aircraft rolls and pitches the relative direction of the radiation will change and the apparent azimuth on the scope will change also.
+Each antenna covers approximately a 90-degree cone. The relative strength between the antennas can be used to determine threat detection. Due to the antennas being fixed to the aircraft as the aircraft rolls and pitches the relative direction of the radiation will change and the apparent azimuth on the scope will change also.
 
 #### Amplifiers
 
-Each antenna routes to three amplifiers - one for each band that the AN/APR-25 can detect. The amplifiers increase the signal to a usable level so it can be passed to the logic analyzer.
+Each antenna routes to three amplifiers—one for each band that the AN/APR-25 can detect. The amplifiers increase the signal to a usable level so it can be passed to the logic analyzer.
 
 #### Logic Analyzers
 
@@ -80,7 +80,7 @@ The primary characteristics which can be measured are the pulse repetition frequ
 
 #### Audio Generator
 
-The pulses from the amplifiers are directly translated to audio. This can result in a noisy environment when there are lots of radars operating - although the [x band disable](#x-band-disable-button) and [aaa defeat](#aaa-defeat) can both be used to reduce unwanted threat indications and their respective audio.
+The pulses from the amplifiers are directly translated to audio. This can result in a noisy environment when there are lots of radars operating—although the [x band disable](#x-band-disable-button) and [aaa defeat](#aaa-defeat) can both be used to reduce unwanted threat indications and their respective audio.
 
 ## Controls and Indicators
 
@@ -123,7 +123,7 @@ Each threat indicated for each band are listed below.
 
 | Band  | Upper Button | Lower Button | Upper Button Threat | Lower Button Threats
 |-------|--------------|--------------|---------------------|----------------------
-| India | I SAM        | AI           | Low Blow (SA-3)     | AI WX (All weather interceptors - with conical scanning radars) and AI DAY (Day interceptors with range only radars)
+| India | I SAM        | AI           | Low Blow (SA-3)     | AI WX (All weather interceptors—with conical scanning radars) and AI DAY (Day interceptors with range only radars)
 | Golf  | G SAM        | G LORO       | Fan-Song E (SA-2)   | Fan-Song E (SA-2) in lobe on receive only (LORO) mode
 | Echo  | E SAM        | AAA/AI       | Fan-Song (A-D) (SA-2) | Anti-Aircraft-Artillery or E band range only air interceptors
 
@@ -160,9 +160,9 @@ Pressing this button begins the [Golf Band LORO build-in-test](#built-in-tests-b
 
 This indicates if there is an India band airborne intercept radar detected and what type the system has categorized.
 
-AI WX - This illuminates when a radar with a conical scanning type radar is detected. This is usually indicative of an all weather fighter.
+AI WX—This illuminates when a radar with a conical scanning type radar is detected. This is usually indicative of an all weather fighter.
 
-AI DAY - This is supposed to represent day fighters with range only radars, like that the of the Super Sabre's Radar. However this RHAW equipment was invented before the widespread use of monopulse radars as such these more advanced radars do not trip the AI WX detection circuitry leading them to be incorrectly classified as AI DAY fighters despite having much more advanced radars capable of all weather intercept.
+AI DAY—This is supposed to represent day fighters with range only radars, like that the of the Super Sabre's Radar. However this RHAW equipment was invented before the widespread use of monopulse radars as such these more advanced radars do not trip the AI WX detection circuitry leading them to be incorrectly classified as AI DAY fighters despite having much more advanced radars capable of all weather intercept.
 
 #### ACT/PWR (Activity/Power)
 
@@ -206,7 +206,7 @@ The azimuth indicator displays threats as lines on their relative azimuth to the
 | Golf  | Dotted
 | Echo  | Solid
 
-The top of the indicator corresponds to the front signals received from the front of the aircraft. The other directions left, right, bottom represent, left, right, aft respectively. There are etched markings at 15 degree intervals to give the pilot an indication of the exact relative azimuth of each incoming signal.
+The top of the indicator corresponds to the front signals received from the front of the aircraft. The other directions left, right, bottom represent, left, right, aft respectively. There are etched markings at 15-degree intervals to give the pilot an indication of the exact relative azimuth of each incoming signal.
 
 Unlike modern equipment the AN/APR-25 has no memory of incoming signals and thus signals are only displayed when they are being actively received through the antennas. When a signal is received the corresponding audio can be heard.
 
@@ -216,7 +216,7 @@ The AN/APR-25 has a series of built-in-tests to verify at any moment the equipme
 
 ### India Band
 
-Pressing and then releasing the I SAM button will begin the India Band test. The test starts with a short low PRF India signal and then high PRF signal for 3 seconds followed by a short low PRF India signal. For each part of the test the corresponding G SAM indication (HI or LO) should illuminate on the billboard.
+Pressing and then releasing the I SAM button starts the India Band test. The test starts with a short low PRF India signal and then high PRF signal for 3 seconds followed by a short low PRF India signal. For each part of the test the corresponding G SAM indication (HI or LO) should illuminate on the billboard.
 
 During the test a **flashing or solid X shape** made of dashed lines (and accompanying audio) should be displayed with all 4 arms of the X being equal length reaching at least to the third ring of the display as shown below.
 
@@ -228,7 +228,7 @@ The Golf Band test has two different modes one for the regular Fan-Song E operat
 
 #### G SAM Test
 
-Pressing and then releasing the G SAM button will begin the Golf Band test. The test starts with a short low PRF Golf signal and then high PRF signal for 3 seconds followed by a short low PRF Golf signal. For each part of the test the corresponding G SAM indication (HI or LO) should illuminate on the billboard.
+Pressing and then releasing the G SAM button starts the Golf Band test. The test starts with a short low PRF Golf signal and then high PRF signal for 3 seconds followed by a short low PRF Golf signal. For each part of the test the corresponding G SAM indication (HI or LO) should illuminate on the billboard.
 
 During the test a **flashing X shape** made of pearl shaped dots (and accompanying rattlesnake audio) should be displayed with all 4 arms of the X being equal length reaching at least to the third ring of the display as shown below.
 
@@ -236,13 +236,13 @@ During the test a **flashing X shape** made of pearl shaped dots (and accompanyi
 
 #### G LORO Test
 
-Pressing and then releasing the G LORO button will begin the Golf Band test. The test will display a solid high PRF Golf Band signal (and steady accompanying audio) for about 3 seconds. For each part of the test the corresponding G SAM indication (HI) should illuminate on the billboard.
+Pressing and then releasing the G LORO button starts the Golf Band test. The test will display a solid high PRF Golf Band signal (and steady accompanying audio) for about 3 seconds. For each part of the test the corresponding G SAM indication (HI) should illuminate on the billboard.
 
 During the test a **solid X shape** made of pearl shaped dots (and accompanying rattlesnake audio) should be displayed with all 4 arms of the X being equal length reaching at least to the third ring the same as the [G SAM Test](#g-sam-test).
 
 ### Echo Band
 
-Pressing and then releasing the E SAM button will begin the Echo Band test. The test starts with a short low PRF Echo signal and then high PRF signal for 3 seconds followed by a low PRF Echo signal for 3 seconds, however this signal should be blanked by the AAA defeat circuit which is automatically enabled during this test. For each part of the test the corresponding E SAM indication (HI or LO) should illuminate on the billboard.
+Pressing and then releasing the E SAM button starts the Echo Band test. The test starts with a short low PRF Echo signal and then high PRF signal for 3 seconds followed by a low PRF Echo signal for 3 seconds, however this signal should be blanked by the AAA defeat circuit which is automatically enabled during this test. For each part of the test the corresponding E SAM indication (HI or LO) should illuminate on the billboard.
 
 During the first part of the a **flashing X shape** made of solid lines (and accompanying rattlesnake audio) should be displayed with all 4 arms of the X being equal length reaching at least to the third ring of the display as shown below. During the second part of the test no indications should be present on the azimuth indicator and no audio should be heard however the E SAM LO indication should illuminate.
 

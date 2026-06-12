@@ -9,7 +9,7 @@ hydraulic pump, as follows:
 
 1. Emergency hydraulic pump lever (RAT) -- Aft (OFF).
 2. If unable to move RAT lever aft:
-a. Airspeed - Reduce to below 250 knots IAS.
+a. Airspeed—Reduce to below 250 knots IAS.
 b. Ram-air turbine (RAT) circuit breaker — Pull.
 c. Emergency hydraulic pump lever (RAT) — Aft
 (OFF).

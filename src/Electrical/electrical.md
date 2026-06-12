@@ -4,13 +4,17 @@
 
 ## Introduction
 
-The F-100D features two mostly separated electrical systems: the [AC System](#ac-system) powered by the AC Generator or external power, the [DC System](#dc-system) powered by the DC Generator, Battery or external power.
+The F-100D features two mostly separated electrical systems:
 
-These systems are powered independently however in the event of failures it's possible to partially power failed system using the still working system.
+- An [AC System](#ac-system) powered by the AC Generator or external power
+- A [DC System](#dc-system) powered by the DC Generator
+- Battery (or external) power
+
+Each system is powered independently, but in the event of failures, it is possible to partially power a failed system using a functioning system.
 
 ## DC System
 
-The DC System normally receives power from the battery and DC generator. Optionally power can also be received from external power if connected.
+The DC System normally receives power from the battery and DC generator. Alternatively, power can also be received externally.
 
 ### DC Generator
 
@@ -30,19 +34,19 @@ The battery is 24 Volt, 24 ampere hour battery. The DC Generator nominally outpu
 
 The battery bus is connected to the battery bus through the primary bus tie in relay. This relay is energized by the battery bus connecting the battery bus to the primary bus.
 
-If there is not enough power on the battery bus the battery will not be connected, however if the primary bus is being energized from elsewhere (DC generator or External Power) the battery bus can be kept connected even if the battery has insufficient power to keep the relay energized. Turning the battery switch off under this condition will disconnect the primary bus from the battery bus and the battery will no longer be able to be charged.
+If there is insufficient power on the battery bus, the battery isn't connected, but if the primary bus is being energized from elsewhere (for example, the DC generator or external power), the battery bus can be kept energized. Turning the battery switch off under this condition disconnects the primary bus from the battery bus, and the battery won't be charged.
 
 ### Primary Bus
 
-Primary bus powers the most essential equipment. Energized by battery bus when battery switch is ON, or energized by DC generator or external power. Energized by transformer-rectifier if DC generator fails.
+Primary bus powers the aircraft's most essential equipment. It is energized by the battery bus when battery switch is **ON**, or energized by DC generator or external power. Energized by transformer-rectifier if DC generator fails.
 
 ### Secondary Bus
 
-Secondary bus powers less essential equipment. Energized by primary bus when DC generator power, DC ground power or transformer-rectifier power is available to close the secondary bus tie-in relay, where then it is powered by the primary bus.
+Secondary bus powers less essential equipment. It is energized by primary bus when DC generator power, DC external power, or transformer-rectifier power is available to close the secondary bus tie-in relay, where then it is powered by the primary bus.
 
 ### Tertiary Bus
 
-Tertiary bus powers non-essential equipment. Energized by primary bus when external power or DC generator power is available to close bus tie-in relay, where then it is powered by the primary bus.
+Tertiary bus powers non-essential equipment. It is energized by the primary bus when external power or DC generator power is available to close bus tie-in relay, where then it is powered by the primary bus.
 
 ## AC System
 

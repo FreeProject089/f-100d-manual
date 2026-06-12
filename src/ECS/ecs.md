@@ -18,59 +18,64 @@ The Environmental Control System is everything that keeps the cabin comfortable 
 
 ### Cockpit Pressure Selector Switch
 
-The Cockpit Pressure Selector Switch has four positions. RAM AIR ON, OFF, 2.75 PSI and 5.00 PSI. 
+The Cockpit Pressure Selector Switch has four positions:
 
-When the selector is set to 2.75 psi or 5 psi, the main system shutoff valve opens to direct air to some cockpit air outlets and the emergency ram air valve closes. 
-
-When the selector is set to RAM AIR ON, the main system shutoff valve closes and the emergency ram air valve opens to admit ram air to the cockpit.
-
-!!! note
-    Selecting the Cockpit Pressure Selector Switch to RAM AIR ON will depressurize the cockpit.
-
-Moving the pressure selector switch to OFF closes the main system shutoff valve, the emergency ram-air valve, and the cockpit dump valve, and the cockpit pressure regulator is
-set to 2.75 psi position.
+| Selection | Description |
+|-----------|-------------|
+| **RAM AIR ON** | Main system shutoff valve closes, and the emergency ram air valve opens to admit ram air to the cockpit. |
+| **OFF** | Closes the main system shutoff valve, the emergency ram-air valve, and the cockpit dump valve, and the cockpit pressure regulator is set to 2.75 psi. |
+| **2.75 PSI** | Main system shutoff valve opens to direct air to the cockpit, and air outlets and the emergency ram air valve closes. |
+| **5.00 PSI** | Main system shutoff valve opens to direct air to the cockpit, and air outlets and the emergency ram air valve closes. |
 
 !!! note
-    The OFF position is also used to prevent rapid decompression of the cockpit.
+    The **OFF** position prevents rapid decompression of the cockpit.
+
+!!! caution
+    Selecting ***RAM AIR ON** depressurizes the cockpit.
 
 ### Cockpit Pressure Schedule
 
-Reference image below for how pressure scheduling works.
+This figure describes how pressure scheduling works:
 
 ![Schedule Image](./img/schedule.png)
 
 ### Console Airflow Lever
 
-The Console Airflow Lever controls the flow of air to the outlets along the console and to the outlet behind the seat. Moving the lever forward increases the airflow while moving it back reduces the airflow.
+Controls the flow of air to the outlets along the console and to the outlet behind the seat. Moving the lever forward increases the airflow, and moving it aft reduces the airflow.
 
 ### Canopy and Windshield Defrost Lever
 
-Similarly to the [Console Airflow Lever](#console-airflow-lever), the Canopy and Windshield Defrost Lever controls the distribution of heat to the canopy and windshield.
+Similaly to the [Console Airflow Lever](#console-airflow-lever), this lever controls the distribution of heat to the canopy and windshield, preventing canopy fogging and condensation during descent.
 
 ### IFF Antenna Selector Switch
 
-The IFF Antenna Selector Switch has three position, TOP/BOTH/BOTTOM.
+The IFF Antenna Selector Switch has three position:
 
-When the switch is positioned in the TOP position, it will only utilize the upper antenna.
+| Selection  | Description |
+|------------|-------------|
+| **TOP**    | Use only the upper antenna. |
+| **BOTH**   | Use both upper and lower antennae. |
+| **BOTTOM** | Use only the lower antenna. |
 
-When the switch is positioned in the BOTH position, it will utilize both the upper and lower antenna.
-
-When the switch is positioned in the BOTTOM position, it will only utilize the lower antenna.
-
-Reference [ARN-72 Tacan](../ARN-72%20TACAN/tacan.md) for more information.
+_See also: [ARN-72 Tacan](../ARN-72%20TACAN/tacan.md)_
 
 ### Cockpit Temperature Rheostat
 
-The Cockpit Temperature Rheostat will change the temperature of the cockpit only when the [Cockpit Temperature Master Switch](#cockpit-temperature-master-switch) is set to AUTO. It also has a small range that will control the pilots suit temperature.
+Change the temperature of the cockpit when the [Cockpit Temperature Master Switch](#cockpit-temperature-master-switch) is set to the **AUTO** position. It also has a small range that controls pilot suit temperature.
 
 ### Cockpit Temperature Master Switch
 
-The Cockpit Temperature Master Switch has four positions, AUTO/OFF/COLD/HOT
+The Cockpit Temperature Master Switch has four positions. Setting this switch to any position except **OFF** controls cockpit airflow temperature.
 
-Setting this switch to either position except for OFF will control the temperature of the cockpit.
+| Selection  | Description |
+|------------|-------------|
+| **AUTO**   | |
+| **OFF**    | |
+| **COLD**   | |
+| **HOT**    | |
 
 ## Cockpit Pressure Altitude Indicator
 
-This gauge will tell you what the current cockpit pressure is.
+Indicates cockpit pressure.
 
 ![Cockpit Pressure Alt Gauge](./img/cockpit_press.png)

@@ -2,20 +2,25 @@
 
 ![banner1](./img/banner1.png)
 
-The F-100D is fitted with the Pratt & Whitney J-57 turbojet engine featuring the J-57-P-21 and J-57-P-23 afterburner nozzles. The -21 was the legacy nozzle that suffered from extensive afterburner ignition issues, reliability, and efficiency problems. The -23 nozzle, taken from the F-102, fixed these issues.
+The F-100D is fitted with the Pratt & Whitney J-57 turbojet engine featuring the J-57-P-21 and J-57-P-23 afterburner nozzles. The -21 was the legacy nozzle that suffered from extensive afterburner ignition issues, reliability, and efficiency problems. The -23 nozzle (originally produced for the F-102) fixed these issues.
 
-At full military power, the J-57 produces roughly 10,200 pounds of thrust under standard conditions, and 16,000 pounds in maximum afterburner.
+At full military power, the J-57 produces apoproximately 10,200 pounds of thrust under standard conditions, and 16,000 pounds in maximum afterburner.
 
-The F-100D Super Sabre requires external air to rotate the core in order to start the engine. Otherwise, pilot's utilized a cartridge start mechanism to rotate the core at sufficient speeds without the use of external air.
+The F-100D Super Sabre requires external air to rotate the core in order to start the engine. Otherwise, pilots used a cartridge start mechanism to rotate the core at sufficient speeds without the use of external air.
 
 !!! caution
-    The ignitors will be damaged if operated continuously for more than 5 minutes. They should not be energized longer than required to complete an engine start.
+    Engine ignitors can be damaged damaged if operated continuously for more than 5 minutes. Reserve their use only during the time it takes to complete an engine start.
 
 ## Indications
+
+Monitor the engine's status by reading the following four gauges toward the bottom-right of the [instrument panel](../Introduction/instrument-panel.md):
+
+- [Engine Pressure Ratio](#engine-pressure-ratio-gauge)
+- [Tachometer (RPM)](#tachometer-RPM)
+- [Oil Pressure](#oil-pressure-gauge)
+- [Exhaust Gas Temperature (EGT)](#exhaust-gas-temperature-RPM-gauge)
+
 ![engstack](./img/gaugestack.png)
-
-The engine can be monitored using the stack of gauges highlighted above. These include the engine pressure ratio, tachometer (RPM), oil pressure, and exhaust temperature gauge.
-
 
 ### Engine Pressure Ratio Gauge
 
@@ -25,13 +30,17 @@ The engine pressure ratio gauge shows the ratio between the turbine discharge pr
 
 The gauge shows two adjustable values for takeoff and cruise pressure ratios. Pushing in and adjusting the knob adjusts the takeoff setting. Pulling out and adjusting the knob adjusts the cruise setting.
 
-This gauge is powered by the main AC bus.
+!!! note
+    The EPR gauge is powered by the main AC bus.
 
-### Tachometer
+### Tachometer (RPM)
 
 ![tach](./img/tach.png)
 
-The tachometer registers engine speed in percentage of approximate maximum RPM (9980) of the high-speed compressor rotor. The tachometer receives power from a tachometer generator and is therefore independent of the aircraft electrical system.
+The tachometer registers engine speed in percentage of approximate maximum RPM (9980) of the high-speed compressor rotor.
+
+!!! note
+    The tachometer receives power from a tachometer generator and is therefore independent of the aircraft electrical system.
 
 ### Oil Pressure Gauge
 
@@ -40,13 +49,16 @@ The tachometer registers engine speed in percentage of approximate maximum RPM (
 The oil pressure gauge indicates oil pump discharge pressure above the gear case pressure in pounds per square inch.
 
 !!! note
-    Oil pressure will have a tendency to follow the throttle. This condition is normal provided the pressure remains within the limits.
+    Oil pressure tends to follow the throttle. This is normal, provided the pressure remains within the limits.
 
-This gauge is powered by the 26 V AC instrument bus.
+!!! note
+    This gauge is powered by the 26 V AC instrument bus.
 
-### Exhaust Temperature Gauge
+### Exhaust Gas Temperature (EGT) Gauge
 
 ![exhtemp](./img/exhtemp.png)
 
-The exhaust temperature gauge shows engine exhaust temperature in degrees celsius. Gauge indications are self-generating type thermocouples which does not need power from the electrical system.
+The exhaust temperature gauge shows engine exhaust temperature in ° C.
 
+!!! note
+    Exhaust temperatue gauge indications are self-generating type thermocouples, and don't need power from the electrical system.

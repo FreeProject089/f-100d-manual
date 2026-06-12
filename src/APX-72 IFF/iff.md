@@ -2,11 +2,7 @@
 
 ## Introduction
 
-The AIMS system, which utilizes an AN/APX-72 receiver/transmitter (transponder), is used to automatically identify the airplane in response to coded interrogations. Depending on interrogation mode, the reply is transmitted in modes 1, 2, 3/A, 4, or airplane altitude reporting in mode C.
-
-<!-- REWORD THIS AND FIGURE OUT WHERE TO PUT IT!!! -->
-!!! note
-    Settings on the IFF panel have no effect in DCS, but they can be exposed to external tools (for example, SRS).
+The AIMS system, which utilizes an AN/APX-72 receiver/transmitter (transponder), is used to automatically identify the aircraft in response to coded interrogations. Depending on interrogation mode, the reply is transmitted in modes 1, 2, 3/A, 4, or aircraft altitude reporting in mode C.
 
 ## Controls
 
@@ -26,30 +22,34 @@ The AIMS system, which utilizes an AN/APX-72 receiver/transmitter (transponder),
 10. [Mode 1 Code Selectors](#mode-1-code-selectors)
 11. [Mode 3/A Code Selectors](#mode-3a-code-selectors)
 
+!!! note
+    Settings on the IFF panel have no effect in DCS, but they can be exposed to external tools (for example, SRS).
+
 ### Mode 4 Function Switch
 
 The mode 4 CODE selector has the following positions:
-| Selection | Function
-|-----------|---------
-| A         | Code A
-| B         | Code B
-| HOLD      | Provide a means of retaining the mode 4 code for an additional flight (unless intentionally retained, the code is automatically returned to zero when power is removed after landing)
-| ZERO      | Manually zeroize mode 4 code
+| Selection     | Function
+|---------------|---------
+| **A**         | Code A
+| **B**         | Code B
+| **HOLD**      | Provide a means of retaining the mode 4 code for an additional flight (unless intentionally retained, the code is automatically returned to zero when power is removed after landing)
+| **ZERO**      | Manually zeroize mode 4 code
 
 !!! note
     The mode 4 code selector knob must be pulled out to be moved to ZERO.
 
 ### Master Switch
-| Selection | Function |
-|------------------------|----------|
-| OFF       | System off |
-| STDBY     | Powered on, in standby |
-| NORM      | Normal receiver sensetivity |
-| LOW       | Low receiver sensitivity |
-| EMER      | Activates emergency operation |
+
+| Selection     | Function |
+|---------------|----------|
+| **OFF**       | System off |
+| **STDBY**     | Powered on, in standby |
+| **NORM**      | Normal receiver sensetivity |
+| **LOW**       | Low receiver sensitivity |
+| **EMER**      | Activates emergency operation |
 
 !!! note
-    The master switch knob must be pulled out to be moved to the EMER position.
+    The master switch knob must be pulled out to be moved to the **EMER** position.
 
 ### Reply Light
 
@@ -57,37 +57,37 @@ When the transmitter-reciever responds properly to a mode 4 interrogation, the m
 
 ### Test Light
 
-A green TEST light illuminates to indicate proper operation of each tested mode during the self-test, or when the (radiation) monitor switch is set to the MON (monitor) position.
+A green **TEST** light illuminates to indicate proper operation of each tested mode during the self-test, or when the (radiation) monitor switch is set to the **MON** (monitor) position.
 
 ### Mode 4 Indication Switch
 
-The audio/light switch has been moved from OFF to AUDIO or LIGHT (no audio signal provided).
+The audio/light switch has been moved from **OFF** to **AUDIO** or **LIGHT** (no audio signal provided).
 
 ### Mode Selection Switches
 
 The mode selection switches M-1, M-2, M-3/A, and M-C have three positions:
 
-| Selection                 | Description |
-|---------------------------|-------------|
-| TEST (forward, momentary) | Initiates a self-test of the mode (provided the airborne test set is installed) |
-| ON (center)               |  |
-| OUT (aft)                 |  |
+| Selection                     | Description |
+|-------------------------------|-------------|
+| **TEST** (forward, momentary) | Initiates a self-test of the mode (provided the airborne test set is installed) |
+| **ON** (center)               |  |
+| **OUT** (aft)                 |  |
 
 ### Monitor-Radiation Test Switch
 
-The RAD TEST position is used by maintenance personnel during ground checks. In flight, leave this switch in the OFF position.
+The **RAD TEST** position is used by maintenance personnel during ground checks. In flight, leave this switch in the **OFF** position.
 
 ### Mode 4 Selector Switch
 
-Mode 4 is selected by placing the mode 4 enable switch from OUT to ON. Mode 4 codes are preset in the mode 4 computer prior to missions via a code changer key.
+Mode 4 is selected by placing the mode 4 enable switch from **OUT** to **ON**. Mode 4 codes are preset in the mode 4 computer prior to missions via a code changer key.
 
 ### Identification Switch
 
-The identifier switch enables transmission of identification of position (I/P) signals in response to interrogations in modes 1, 2, or 3/A, for 15-30 seconds. Transmission of I/P signals can be accomplished in three ways:
+The identifier switch enables transmission of identification of position (I/P) signals in response to interrogations in modes 1, 2, or 3/A, for 15–30 seconds. Transmission of I/P signals can be accomplished in three ways:
 
-- When the switch is momentarily placed in the IDENT position
-- When the switch is at MIC and the microphone button is momentarily pressed
-- When the switch is at MIC and the command radio tone button is pressed (while command radio is on)
+- When the switch is momentarily placed in the **IDENT** position
+- When the switch is in the **MIC** position, and the microphone button is momentarily pressed
+- When the switch is in the **MIC** position, and the command radio tone button is pressed (while command radio is on)
 
 ### Mode 1 Code Selectors
 

@@ -22,13 +22,13 @@ In addition to the radio seekers. the Shrike has two guidance modes that affect 
 
 ![seeker loft screen](./img/shrike_attack_mode.png)
 
-#### Loft - Dive Bypass (disabled)
+#### Loft—Dive Bypass (disabled)
 
 When launched, guidance is initially disabled. If the missile climbs above 18,000 feet (barometric), and then descends below 18,000 feet will the seeker and guidance then be activated. At this point, the missile tracks anything in its field of vision and within the seeker band.
 
 This mode is intended for stand-off, but without additional computer assistance (for example, what was added later in the F-4D), this mode is difficult to attain accuracy.
 
-#### Dive Bypass - Dive Bypass (enabled)
+#### Dive Bypass—Dive Bypass (enabled)
 
 Due to the aforementioned difficulty, a solution was developed to improve the Shrike accuracy in the field. The dive bypass modification enables radio seeker and guidance at launch, sacrificing range for improved accuracy.
 
@@ -50,7 +50,7 @@ Any audio indicates incoming signals detected by the radio seeker. These signals
 
 ### Course and Glideslope Needles
 
-When a Shrike is powered and selected, the [course and glideslope needles](#course-and-glideslope-needles) will indicate the error in pitch and yaw between the seeker boresight and the detected incoming radiation. This allows the pilot to steer the aircraft onto the source of the radiation and by keeping the vertical and horizontal deviations bars centered you will be pointed at the detected signal.
+When a Shrike is powered and selected, the [course and glideslope needles](#course-and-glideslope-needles) will indicate the error in pitch and yaw between the seeker boresight and the detected incoming radiation. This allows the pilot to steer the aircraft onto the source of the radiation and by keeping the vertical and horizontal deviations bars centered you is pointed at the detected signal.
 
 ![shrike course needles](./img/shrike_course_gauge.png)
 
@@ -62,9 +62,9 @@ The sidewinder volume knob on the missile control panel adjusts Shrike audio in 
 
 ### Setup & Firing
 
-1. [Sight Mode]() - Manual
-2. [Armament Mode]() - Shrike
-3. [Pylon Arm]() - Armed for each pylon
+1. [Sight Mode]()—Manual
+2. [Armament Mode]()—Shrike
+3. [Pylon Arm]()—Armed for each pylon
 
 One the Shrike is set up, point the aircraft at a radiation source to hear the radiation through the Shrike, indicating a good track. The [needles](#course-and-glideslope-needles) will activate and provide additional guidance toward the source.
 

@@ -28,7 +28,7 @@ should be taken to prevent flameout:
 2. Descend to below 25,000 feet.
 3. All aircraft maneuvers should be as gentle as possible
 keeping the aircraft loading as near as possible to 1G. Avoid
-steep (20 degrees or more) nose-down attitudes.
+steep (20° or more) nose-down attitudes.
 4. Land as soon as practical.
 With fuel flows below 4000 pounds per hour, Military
 Thrust operation can be maintained above 25,000 feet

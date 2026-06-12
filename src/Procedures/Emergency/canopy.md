@@ -14,4 +14,4 @@ lockspring on the canopy alternate
 emergency handle must be removed
 before the canopy is jettisoned.
 
-2. Canopy alternate emergency handle - Pull.
+2. Canopy alternate emergency handle—Pull.

@@ -11,7 +11,7 @@ If failure of flight control artificial-feel is encountered,
 proceed as follows:
 
 1. Airspeed — Reduce. Reduction of airspeed may
-relieve severe oscillation of the airplane.
+relieve severe oscillation of the aircraft.
 2. If adequate control cannot be maintained — Eject.
 Ejection is recommended whenever failure of the artificial-feel
 system is evident by loss of adequate control.
@@ -47,14 +47,14 @@ safe ejection altitude as long as practical). Reduce rate of
 descent to below 1000 feet per minute just before flare.
 5. Emergency hydraulic pump lever (RAT) — ON. The
 emergency pump will automatically come on when engine
-rpm drops below 40% rpm. Otherwise, it must be turned on
+RPM drops below 40% RPM. Otherwise, it must be turned on
 manually. Place emergency hydraulic pump lever in ON position
 to supplement output of the engine-driven hydraulic
 pump during landing. Keep control movements to a minimum
 during entry onto final approach and on final.
 6. Use minimum throttle movements.
 7. Use minimum control movements.
-In case of engine failure, the ram-air, turbine-driven flight
+In the event of engine failure, the ram-air, turbine-driven flight
 control emergency pump must be started during the
 landing approach to supplement the output of the enginedriven
 hydraulic pumps, to ensure effective control action
@@ -92,7 +92,7 @@ pump, if it is no longer needed.)
         pumps, or because of malfunctions in
         the systems), stick forces become
         extremely high. As a result, control of
-        the airplane in cruising flight is very
+        the aircraft in cruising flight is very
         difficult, and control at high speeds or
         during maneuvers is impossible. Therefore,
         if such a failure is encountered, try to

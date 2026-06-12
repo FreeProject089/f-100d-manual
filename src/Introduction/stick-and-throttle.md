@@ -1,8 +1,10 @@
 # Stick and Throttle
+
 This section covers basic controls of the stick and throttle, for more in depth controls visit the respective system's section.
 
 ## Stick
-The control stick is mechanically connected to the aircraft's hydraulic systems for the aileron and horizontal stabilizer hydraulic actuators. 
+
+The flight stick is mechanically connected to the aircraft's hydraulic systems for the aileron and horizontal stabilizer hydraulic actuators. 
 
 ![replace image](./img/stick.png)
 
@@ -16,43 +18,57 @@ The control stick is mechanically connected to the aircraft's hydraulic systems 
 | 6         | [Trim Hat](#trim-hat) |
 
 !!! note
-    Hide the stick by clicking the base.
+    Hide the flight stick by clicking the base.
 
 ### Trim Hat
-A trim hat actuates the lateral and longitudinal trim servos. 
+
+Actuates the lateral and longitudinal trim servos.
 
 ### Nose Wheel Steering 
-The nose wheel steering button is located near the pinky. Pressing the nose wheel steering button engages the nose wheel steering and drops the mechanical link into the nose wheel assembly. 
 
-!!! note
-    If the nosewheel is not currently aligned with the mechanical linkage, the pilot may need to move the linkage to the current nose wheel rotation by applying the rudder pedals in the desired direction until the system connects.
+The nose wheel steering button is located near your pinky finger on the flight stick. Pressing the button engages the nose wheel steering drops the mechanical link into the nose wheel assembly. Pressing it again disengages the system.
+
+!!! caution
+    If the nosewheel is not currently aligned with the mechanical linkage, move the linkage to the current nose wheel rotation by applying the rudder pedals in the desired direction until the system connects.
 
 ### Trigger and Bomb Button
+
 The trigger and bomb buttons are used to release weapons. Specifically, the triggers used for air-to-air missiles and guns and the bomb button is used to release air-to-ground ordnance. 
 
 !!! note
-    The trigger consists of two stages. The first stage activates the gun camera and can later be viewed. The second stage fires the gun.
+    The trigger two stages. The first stage activates the [Gun Camera](../Gun%20Camera/gun_camera.md). The second stage fires armed [guns](../Weapon_System/guns.md).
 
 ## Throttle
-Fuel flow to the engine is mechanically controlled by the pilot via the throttle. The engine fuel control system merely delivers and regulates the fuel.
+
+Mechanically controls fuel flow to the engine. The engine fuel control system then delivers and regulates fuel.
 
 ![replace image](./img/throttle.png)
 
 | Reference | Name |
 |-----------|------|
-| 1         | [Throttle Friction Lever](#throttle-friction-lever)|
-| 2         | [Speed Brake Switch](#speed-brake-switch) |
-| 3         | [Microphone Button](#microphone-button) |
-| 4         | [Sight Electrical Caging Button and LABS Vertical Gyro Caging Button](../Weapon_System/a-4-gunsight.md#electrical-cage-button) |
+| 1  | [Throttle Friction Lever](#throttle-friction-lever)|
+| 2  | [Speed Brake Switch](#speed-brake-switch) |
+| 3  | [Microphone Button](#microphone-button) |
+| 4  | [Sight Electrical Caging Button and LABS Vertical Gyro Caging Button](../Weapon_System/a-4-gunsight.md#electrical-cage-button) |
 
 ### Throttle Friction Lever
-The Throttle Friction Lever adjust how much friction the throttle has. Moving the lever forward increases the friction on the throttle
+
+Adjusts how much friction the throttle has. Moving the lever forward increases the friction on the throttle.
 
 ### Speed Brake Switch
-The speed brake switch will actuate the speed brake. It has 3 positions, OUT/OFF/IN. The OUT position will deploy the speed brake. The OFF position will stop all movement of the speed brake. The IN position will retract the speed brake
+
+Actuates the speed brake. It has 3 positions:
+
+| Selection | Description |
+|-----------|-------------|
+| **OUT**   | Deploys the speed brake. |
+| **OFF**   | Stops all movement of the speed brake. |
+| **IN**    | Retracts the speed brake. |
 
 ### Microphone Button
-The microphone button is a press-to-talk actuation that turns the pilots microphone hot over the aircraft's radio.
+
+The microphone button is a push-to-talk actuation that broadcasts input from the headset microphone using the aircraft's radio transmitter.
 
 ### Sight Electrical Caging Button and LABS Vertical Gyro Caging Button
-Pressing the sight electrical caging button stabilizes the sight gyro reticle image by caging the sight gyros. This button also serves as the LABS vertical gyro caging button.
+
+Press to stabilize the sight gyro reticle one the [A-4 Gunsight](../Weapon_System/a-4-gunsight.md) image by caging the sight gyros. This button also serves as the [LABS](../Weapon_System/low-altitude-bombing-system.md) vertical gyro caging button.

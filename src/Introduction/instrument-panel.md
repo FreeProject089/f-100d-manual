@@ -1,5 +1,5 @@
 # Instrument Panel
-The instrument panel of the F-100D contains a careful selection of essential gauges for basic operation, navigation, and system monitoring. All gauges suffer from installation error and other errors as a result of wear and tear. During the F-100D's service lifetime, it was common to leave a majority of the aircraft's gauges unmaintained. Thus, the pilot will notice occasional frictional spikes and slight reading errors modeled in this simulation.
+The instrument panel of the F-100D contains a careful selection of essential gauges for basic operation, navigation, and system monitoring. All gauges suffer from installation error and other errors as a result of wear and tear. During the F-100D's service lifetime, it was common to leave a majority of the aircraft's gauges unmaintained. You might notice occasional frictional spikes and slight reading errors modeled by the simulation.
 
 ![replace image](./img/mainpanel.png)
 

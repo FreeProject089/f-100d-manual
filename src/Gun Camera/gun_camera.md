@@ -25,4 +25,4 @@ When the gun camera is used during missile firing, a camera timer with two adjus
 
 <!--### Ground Crew Operation
 
-TODO - How to change film, does film refresh when rearming? -->
+TODO—How to change film, does film refresh when rearming? -->

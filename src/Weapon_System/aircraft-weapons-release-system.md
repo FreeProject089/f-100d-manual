@@ -60,7 +60,7 @@ There are 3 possible release types. Each type acts on sequence pulses.
 | Release Type | Pulse Result |
 |--------------|--------------|
 | SINGLE | A single bomb is released from the next valid pylon in the release sequence if one exists. |
-| PAIRS | A pair of bombs or rockets will be released from the next valid pair of pylons in the sequence. |
+| PAIRS | A pair of bombs or rockets is released from the next valid pair of pylons in the sequence. |
 | SALVO | Every valid selected pylon releases a bomb or rocket if the pylon is not empty.
 
 #### Examples
@@ -69,9 +69,9 @@ To assist in understanding the AWRS, below a few examples are shown. Each exampl
 
 | Release Mode | Release Type | Quantity Selector Switch | Interval (ms) |  Multiplier Switch  | Result |
 |--------------|--------------|--------------------------|---------------|---------------------|--------|
-| RIPPLE       | SINGLE       | 4                        | 60            | x1                  | 4 bombs will be dropped with an interval of 60 ms between them. |
-| RIPPLE       | SINGLE       | 6                        | 100           | x10                 | 6 bombs will be dropped with an interval of 1000 ms (due to x10 switch) between them |
-| RIPPLE       | PAIRS        | 3                        | 150           | x1                  | 3 pairs of bombs will be dropped (total 6) with an interval of 150 ms between each pair. |
+| RIPPLE       | SINGLE       | 4                        | 60            | x1                  | 4 bombs is dropped with an interval of 60 ms between them. |
+| RIPPLE       | SINGLE       | 6                        | 100           | x10                 | 6 bombs is dropped with an interval of 1000 ms (due to x10 switch) between them |
+| RIPPLE       | PAIRS        | 3                        | 150           | x1                  | 3 pairs of bombs is dropped (total 6) with an interval of 150 ms between each pair. |
 | RIPPLE       | SALVO        | 3                        | 45 ms         | x1                  | For example, let's say the aircraft is armed with a 1, 1, 3, 3, 1, 1 MK-82 on each pylon. The first salvo drops 6 bombs, leaving 0, 0, 2, 2, 0, 0 on the aircraft. 45 ms later, 2 more bombss  drop, leaving 0, 0, 1, 1, 0, 0. 45 ms later again, the remaining 2 bombs will drop, resulting in a total of 10 dropped bombs. |
 
 ### Station Priority and Sequencing

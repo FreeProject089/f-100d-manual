@@ -4,11 +4,11 @@
 
 The aircraft has three separate constant-pressure type hydraulic systems: utility, and two flight control systems. Each system is individually pressurized by a engine-driven hydraulic pump to 3000 psi.
 
-In case of engine-driven pump failure, the secondary flight control system can be driven by a deployable [Ram Air Turbine](#ram-air-turbine-rat) (RAT).
+In the event of engine-driven pump failure, the secondary flight control system can be driven by a deployable [Ram Air Turbine](#ram-air-turbine-rat) (RAT).
 
 ## Utility System
 
-This system has a 2.7 gallon reservoir pressurized by an engine pump. It supplies hydraulic power to the following:
+This system has a 2.7-gallon reservoir pressurized by an engine pump. It supplies hydraulic power to the following:
 
 - Rudder
 - Landing gear and doors
@@ -64,7 +64,7 @@ You can test deployment of the Ram Air Turbine in flight with the [flight contro
 
 ### Emergency Wheel Brake Pump
 
-In case of utility hydraulic pressure loss, an electrically-driven pump pressurizes wheel brake accumulators if the pressure drops below 750 psi. When the aircraft is cold and dark, if you depress the wheel brake, the pump can be checked for correct function by listening for its sound.
+In the event of utility hydraulic pressure loss, an electrically-driven pump pressurizes wheel brake accumulators if the pressure drops below 750 psi. When the aircraft is cold and dark, if you depress the wheel brake, the pump can be checked for correct function by listening for its sound.
 
 ## Controls and Indicators
 
@@ -98,7 +98,7 @@ Hold the switch in the ALTERNATE RUDDER position to shut off utility pressure, t
 
 ### Emergency Speed Brake Dump Lever
 
-In the event of utility hydraulics failure with the speed brake in the open position, it will be necessary to retract the speed brake. Without hydraulic pressure, this is not possible. The dump lever releases any hydraulic pressure, allowing the speed brake to be retracted by airflow.
+In the event of utility hydraulics failure with the speed brake in the open position, retract the speed brake. Without hydraulic pressure, this isn't possible. The dump lever releases any hydraulic pressure, allowing the speed brake to be retracted by airflow.
 
 ### Emergency Gear Release
 

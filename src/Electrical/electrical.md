@@ -70,36 +70,38 @@ There are two instrument buses which power vital instrument equipment. Due to th
 
 ### Controls and Indications
 
-### AC Load Meter
+#### AC Load Meter
 
 Current AC generator load as a percentage of its maximum load.
 
 ![acload](./img/acload.png)
 
-### DC Load Meter
+#### DC Load Meter
 
 Current DC generator load as a percentage of its maximum load.
 
 ![dcload](./img/dcload.png)
 
-### INST A.C. POWER OFF Light
-
-![instacoff](./img/instacpowerofflight.png)
+#### INST A.C. POWER OFF Light
 
 Indicates when instrument AC buses are not receiving sufficient electrical power. 
 
-### A.C. GENERATOR OFF
+![instacoff](./img/instacpowerofflight.png)
 
-![acoff](./img/acgenoff.png)
+#### A.C. GENERATOR OFF
 
 Indicates when the AC generator is off the line either because of insufficient drive RPM or a fault has tripped the generator.
 
-### D.C. GENERATOR OFF
-![dcoff](./img/dcgenoff.png)
+![acoff](./img/acgenoff.png)
+
+#### D.C. GENERATOR OFF
 
 Indicates when the DC generator is off the line either because of insufficient drive RPM or a fault has tripped the generator.
 
-### Standby Instrument Inverter
-![stbyinv](./img/stbyinv.png)
+![dcoff](./img/dcgenoff.png)
+
+#### Standby Instrument Inverter
 
 Transfers [AC instrument bus power](#ac-instrument-buses-115v-and-26v) over to the standby instrument inverter. The is a small power interruption as the standby instrument inverter comes up to speed.
+
+![stbyinv](./img/stbyinv.png)

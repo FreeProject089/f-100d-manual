@@ -55,7 +55,7 @@ This three-position lever actuates the flaps until they reach one of three posit
 4. Air Start Switch
 5. Engine Master Switch
 6. Pitch/Yaw Damper Switch
-7. [Air Refueling Switch](../Fuel/fuel.md#air-to-air-refueling-switch)
+7. [Air Refueling Switch](../Fuel/fuel.md#air-refueling-switch)
 8. [Drop Tank Fuel Selector](../Fuel/fuel.md#drop-tank-selector-switch)
 9. Fuel Regulator Switch
 10. Alternate Rudder Switch

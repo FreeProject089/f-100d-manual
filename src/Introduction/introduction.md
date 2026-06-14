@@ -38,7 +38,7 @@ Building on the legacy and performance of its predecessor, the F-100's distincti
 
 The Super Sabre is equipped with four 20 mm Pontiac M39 cannons mounted in the lower fuselage beneath the cockpit, providing formidable firepower. It is capable of carrying up to four AIM-9 Sidewinder air-to-air, infrared-guided missiles for targeting enemy aircraft. The aircraft also features six underwing hardpoints that can carry a total payload of up to 7,040 lb of conventional bombs, rockets, napalm, and the AGM-45 Shrike anti-radiation missile used to attack radar installations. To support both aerial gunnery and air-to-ground bombing, the aircraft is equipped with a fire control system that helps the pilot accurately aim and release weapons.
 
-The Sabre features a 45° swept wing, supersonic level flight and in flight aerial refueling capability. Underwing stations can be used to maximize range with fuel tanks or add additional ordnance.
+The Sabre features a 45° swept wing, supersonic level flight and in flight air refuelingcapability. Underwing stations can be used to maximize range with fuel tanks or add additional ordnance.
 
 ### Project High Wire
 ![radio image](./img/banner2.png)

@@ -67,7 +67,7 @@ This controls the brilliance of the position and recognition lights.
 
 ### Refueling Probe Light
 
-Controls illumination of the refueling probe area. Used to assist in aerial refueling operations during low visibility conditions.
+Controls illumination of the refueling probe area. Used to assist in air refuelingoperations during low visibility conditions.
 
 ### Indicator Light Test Switch
 

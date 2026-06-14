@@ -82,7 +82,7 @@ This indicates there is no longer any fuel pressure from the drop tanks. Because
 
 This light illuminates if the fuel system shutoff valve is stuck as this could restrict fuel flow to the engine.
 
-### Air to Air Refueling Switch
+### Air Refueling Switch
 
 This de-energizes the transfer control valves for the internal wing and external fuel tanks, allowing the single point pressure refueling system to refuel these tanks correctly.
 
@@ -91,7 +91,7 @@ This de-energizes the transfer control valves for the internal wing and external
 
 ### Air Refueling Indicator Light
 
-This light simply indicates if the [air to air refueling switch](#air-to-air-refueling-switch) is in the ready position. It does not indicate if all the systems are functional.
+This light simply indicates if the [air refueling switch](#air-refueling-switch) is in the ready position. It does not indicate if all the systems are functional.
 
 ### Fuel Flow Indicator
 

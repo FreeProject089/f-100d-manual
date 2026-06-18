@@ -47,6 +47,7 @@ Mechanically controls fuel flow to the engine. The engine fuel control system th
 3. [Sight Electrical Caging Button and LABS Vertical Gyro Caging Button](../Weapon_System/a-4-gunsight.md#electrical-cage-button)
 4. [Microphone Button](#microphone-button)
 
+
 ### Throttle Friction Lever
 
 Adjusts how much friction the throttle has. Moving the lever forward increases the friction on the throttle.

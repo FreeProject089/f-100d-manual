@@ -1,4 +1,4 @@
-# DCS F-100D Super Sabre
+# DCS: F-100D Super Sabre
 
 ## F-100 Research Series
 

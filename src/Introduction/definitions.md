@@ -4,7 +4,6 @@
 
 Definitions and abbreviations used in the manual are covered here.
 
-
 ## Definitions
 | Designation | Equipment |
 |------------|-----------|
@@ -23,25 +22,26 @@ Definitions and abbreviations used in the manual are covered here.
 
 ### Notes, Warnings, and Cautions
 
-
 !!! note
-    Indicates important follow on information that is not safety critical.
-
-!!! warning
-    Possibility of a hazardous situation and may require the need for corrective action that is time sensitive and affects safety of flight.
+    Non-safety critical information.
 
 !!! caution
-    Possibility of a situation that is not necessarily time sensitive.
+    Possibile situations that might arise (for example, due to interrelated system operation).
+
+!!! warning
+    Time sensitive hazardous situations that require corrective action to avoid damage to the aircraft or injury to the pilot.
 
 ## Abbreviations
 | Abbreviation | Meaning |
 |-------------|----------|
+| 0PSL | Zero Prediction Sight Line |
 | A/A | Air-to-Air |
 | AAA | Anti-Aircraft Artillery |
 | [AB](../Procedures/Normal/afterburner.md) | Afterburner |
 | [AC](../Electrical/electrical.md) | Alternating Current |
 | ADC | Air Data Computer |
 | [ADF](../ARA-50%20ADF/adf-radio.md) | Automatic Direction Finding |
+| AGL | Above Ground Level |
 | [AGM-45](../Weapon_System/agm-45-shrike.md) | Shrike Anti-Radiation Missile |
 | AIM | Air Intercept Missile |
 | [AIM-9](../Weapon_System/aim-9-sidewinder.md) | Sidewinder Infrared Guided Missile |
@@ -55,6 +55,7 @@ Definitions and abbreviations used in the manual are covered here.
 | DCS | Digital Combat Simulator |
 | ECSL | Electrically Caged Sight Line |
 | EPR | Engine Pressure Ratio |
+| FFAR | Folding Fin Aerial Rockets |
 | FRL | Fuselage Reference Line |
 | GHz | Gigahertz |
 | HI-FLO | High Flow |
@@ -65,19 +66,22 @@ Definitions and abbreviations used in the manual are covered here.
 | KIAS | Knots Indicated Airspeed |
 | kHz | Kilohertz |
 | [LABS](../Weapon_System/low-altitude-bombing-system.md) | Low Altitude Bombing System |
-| LADD | Low Altitude Drogue Delivery |
+| [LADD](../Weapon_System/low-altitude-bombing-system.md#low-altitude-drogue-delivery-ladd) | Low Altitude Drogue Delivery |
 | LORO | Lobe-On-Receive-Only |
 | LWR | Lower |
 | MAIN | Main Receiver Mode |
 | MFBL | Mean Fixed Bore Line |
+| mils | Milliradians |
 | MSL | Mean Sea Level |
 | NATO | North Atlantic Treaty Organization |
 | NM | Nautical Mile |
 | [PLP](../Procedures/Emergency/pel.md) | Precautionary Landing Pattern |
 | POD | Gun Pod Selection |
 | PRF | Pulse Repetition Frequency |
+| psi | Pounds per square inch |
 | PWR | Power |
 | RAM | Ram Air |
+| RAT | Ram Air Turbine |
 | [RHAW](../RHAW/RHAW.md) | Radar Homing and Warning |
 | RKTS | Rockets |
 | RPM | Revolutions Per Minute |
@@ -91,4 +95,4 @@ Definitions and abbreviations used in the manual are covered here.
 | USAF | United States Air Force |
 | VGI | Vertical Gyro Indicator |
 | WX | Weather |
-| 0PSL | Zero Prediction Sight Line |
+| ZELL | Zero-Length Launch |

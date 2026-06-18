@@ -2,25 +2,25 @@
 
 ## Team
 
-- Joe Grinnelli - Team Lead
-- Aero - Aerodynamicist
-- Thomas - Cockpit Artist
-- Josh Nelson - Lead Programmer
-- Sloan Phillippi - Programmer
-- Haydn Boul - Programmer
-- Partario Flynn - Sound Design
-- Andrei (Warped-Studios) - Artist
-- Daniel Clark - Artist
-- JJ Kirby - Video Producer
-- Sean Strike - Artist & Research
-- Spatz - Artist
-- Jamal Ingram - Artist
-- Michael Carter - Artist
-- Evan Ashby - Artist
-- Frog Man (Daniel Kaleikini) - Skins
-- Mach 3 Design Studio - Skins
-- Wireman - Logistics/Server
-- Mxstylie - Research
+- Joe Grinnelli—Team Lead
+- Aero—Aerodynamicist
+- Thomas—Cockpit Artist
+- Josh Nelson—Lead Programmer
+- Sloan Phillippi—Programmer
+- Haydn Boul—Programmer
+- Partario Flynn—Sound Design
+- Andrei (Warped-Studios)—Artist
+- Daniel Clark—Artist
+- JJ Kirby—Video Producer
+- Sean Strike—Artist & Research
+- Spatz—Artist
+- Jamal Ingram—Artist
+- Michael Carter—Artist
+- Evan Ashby—Artist
+- Frog Man (Daniel Kaleikini)—Skins
+- Mach 3 Design Studio—Skins
+- Wireman—Logistics/Server
+- Mxstylie—Research
 
 ## Testers
 
@@ -113,7 +113,7 @@
 
 | Name | Role |
 |------|------|
-| Partario Flynn | Sound Design |
+| Partario Flynn | Sound Designer |
 
 ## Research
 

@@ -128,6 +128,8 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#enable-gun-camera-recording">Enable Gun Camera Recording</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#controls">Controls</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#camera-selection-dial">Camera Selection Dial</a>
@@ -169,8 +171,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -178,6 +178,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -291,11 +293,13 @@
               
                 <h1 id="gun-camera">Gun Camera</h1>
 <h2 id="introduction">Introduction</h2>
-<p>The KB-3 gun camera on the sight, is an electrically driven, magazine-type, 16 mm motion picture camera that photographs the sight reticle
-and target simultaneously.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Due to current limitations in DCS the Gun Camera and Strike Cameras can only record when the view is in the cockpit.</p>
+<p>The KB-3 gun camera on the <a href="../Weapon_System/a-4-gunsight.html">A-4 gunsight</a>, is an electrically-driven, magazine-type, 16 mm motion picture camera that photographs the reticle and target simultaneously.</p>
+<h2 id="enable-gun-camera-recording">Enable Gun Camera Recording</h2>
+<p>Enable recording in the F-100D <a href="../Introduction/special-options.html">Special Options</a> menu.</p>
+<p>Gun camera recordings are generated when the trigger's first detent is pressed. Recordings are saved in <code>%userprofile%/Saved Games/DCS F-100D</code> at the end of the mission.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The gun camera and <a href="../Strike%20Camera/strike_camera.html">strike cameras</a> only record when the view is in the cockpit.</p>
 </div>
 <h2 id="controls">Controls</h2>
 <p><img alt="Gun Camera" src="img/strike_cam_controls.png" /></p>
@@ -304,12 +308,62 @@ and target simultaneously.</p>
 <li><a href="#camera-timer">Camera Timer</a></li>
 </ol>
 <h3 id="camera-selection-dial">Camera Selection Dial</h3>
-<p>This dial was originally the control for adjusting lighting conditions for bright, hazy, and dull but was repurposed for ease of gameplay and changed to which camera you would like to record with. The options of strike, gun, or both are available.</p>
+<p>On a real F-100D, this dial controlled for adjusting the camera under bright, hazy, or dull lighting conditions. In this simulated F-100D, it selects the cameras enabled for recording.</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>STRIKE</strong></td>
+<td>Enables <a href="../Strike%20Camera/strike_camera.html">strike camera</a> recordings.</td>
+</tr>
+<tr>
+<td><strong>GUN</strong></td>
+<td>Enables gun camera recordings.</td>
+</tr>
+<tr>
+<td><strong>BOTH</strong></td>
+<td>Enables <a href="../Strike%20Camera/strike_camera.html">strike camera</a> and gun camera recordings.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="camera-timer">Camera Timer</h3>
-<p>When the gun camera is used during missile firing, a camera timer with two adjustable time intervals controls continued camera operation after the trigger is released. The first time interval, set before missile launch with the large timer knob, labeled <strong>START DELAY ADJUST</strong>, represents camera running time (from 4 to 30 seconds) from trigger release to start of the second time interval. The second time interval represents camera running time (from 2 to 30 seconds) after completion of the first time interval, and is usually set by the ground crew with the small timer knob, labeled <strong>PRESET RUN TIME</strong>. Total camera run time after release of the trigger is the total of both time interval settings (6 to 63 seconds) including the preset overrun time of 0 to 3 seconds. You can turn these dials to adjust the setting or change them in the special options menu.</p>
-<!--### Ground Crew Operation
-
-TODO - How to change film, does film refresh when rearming? -->
+<p>During missile firing, two adjustable timer control recording after the trigger is released. </p>
+<table>
+<thead>
+<tr>
+<th>Interval</th>
+<th>Length (seconds)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>START DELAY</strong></td>
+<td>4–30</td>
+<td>Begins when the trigger is released. Set it using the large timer knob.</td>
+</tr>
+<tr>
+<td><strong>PRESET RUNTIME</strong></td>
+<td>2–30</td>
+<td>Begins after the start delay ends. Set it using the the small timer knob.</td>
+</tr>
+<tr>
+<td><strong>OVERRUN</strong></td>
+<td>0–3</td>
+<td>Begins after the runtime.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can set default intervals in the F-100D <a href="../Introduction/special-options.html">Special Options</a> menu.</p>
+</div>
+<!--### Ground Crew Operation TODO—How to change film, does film refresh when rearming? -->
               
             </div>
           </div><footer>

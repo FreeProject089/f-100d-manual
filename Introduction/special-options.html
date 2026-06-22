@@ -227,8 +227,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -236,6 +234,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -348,8 +348,8 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="special-options">Special Options</h1>
-<p>Various special options have been added for user quality of life and customization. The following parts below will explain each special option in depth. </p>
-<p>These options are located in the xx of DCS World with the DCS: F-100D Super Sabre Selected from the left side module tray.</p>
+<p>Various special options have been added for user quality of life and customization. This section explains each special option in depth. </p>
+<p>These options are located in the open the DCS options from the main menu, open the SPECIAL tab, then select the F-100D from the left column.</p>
 <h2 id="gameplay">Gameplay</h2>
 <p><img alt="special options image" src="img/special_options-1.png" /></p>
 <h3 id="cockpit-camera-shake">Cockpit Camera Shake</h3>
@@ -365,78 +365,95 @@
 </thead>
 <tbody>
 <tr>
-<td>OFF</td>
-<td>None - up to pilot</td>
+<td><strong>OFF</strong></td>
+<td>None—up to pilot</td>
 </tr>
 <tr>
-<td>ON SPAWN</td>
+<td><strong>ON SPAWN</strong></td>
 <td>Set automatically on spawn. After rearming it is up to the pilot to set</td>
 </tr>
 <tr>
-<td>FULL</td>
+<td><strong>FULL</strong></td>
 <td>Set automatically on spawn and after rearming complete.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="autostart-mode">Autostart Mode</h3>
-<p>FULL will opt out of any auto start assistance for a complete cold-and-dark start. ENGINE ONLY sets all other switches, knobs, and settings for start; thus, the engine is the only required item for a complete start.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Startup</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FULL</strong></td>
+<td>Opts out of any auto start assistance for a complete cold-and-dark start.</td>
+</tr>
+<tr>
+<td><strong>ENGINE ONLY</strong></td>
+<td>sets all other switches, knobs, and settings for start; thus, the engine is the only required item for a complete start.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="external-customization-options">External Customization Options</h2>
 <h3 id="victory-kill-markings">Victory Kill Markings</h3>
-<p>Aircraft victory kill markings on the side of the nose portion of the fuselage account (currently) for single player air-to-air and air-to-ground kills. </p>
-<p>Enable Kill/Victory Markings will turn off this feature if unchecked.</p>
+<p>Enables or disables aircraft victory kill markings on the side of the nose portion of the fuselage account (currently) for single player air-to-air and air-to-ground kills. </p>
 <h2 id="cockpit-configuration-options">Cockpit Configuration Options</h2>
 <h3 id="seat-position">Seat Position</h3>
-<p>Adjusting this slide will move the default seat height (and viewpoint). 0 is lowered, while 100 is raised.</p>
+<p>Adjusting this slide moves the default seat height (and viewpoint). 0 is fully lowered, and 100 is fully raised.</p>
 <h3 id="air-start-gun-selector">Air Start Gun Selector</h3>
-<p>This option will adjust the default setting of the Gun Selector Knob. Options are SAFE, GUNS UPPER, GUNS LOWER, GUNS ALL, or MISSILE.</p>
+<p>Adjusts the default setting of the <a href="../Weapon_System/guns.html#gun-missile-switch">Gun Selector Knob</a>.</p>
 <h3 id="gun-camera-selector">Gun Camera Selector</h3>
-<p>To set the default position of the gun camera selector knob, change to Off, GUN CAM ONLY, STRIKE CAM ONLY, OR BOTH. </p>
+<p>Sets the default position of the <a href="../Gun%20Camera/gun_camera.html">Gun Camera Selector Knob</a>. </p>
 <h2 id="cockpit-customization-options">Cockpit Customization Options</h2>
-<p>In order to enable dynamic instrument panel gauge positions, check Enable Custom Instrument Panel. You can then either randomize between known historical layouts, or enter your own custom panel ID. Visit www.GrinnelliDesigns.com/Customize to create a unique layout ID and paste it in the Custom Instrument Panel ID text field.</p>
+<p>Sets dynamic or custom instrument panel gauge positions.</p>
+<p>If you enable the Custom Instrument Panel, you can randomize between known historical layouts, or enter your own custom panel ID code using the <a href="https://grinnellidesigns.com/dash-creator/">Grinnelli Designs F-100D Dash Creator</a>.</p>
 <h2 id="gun-camera-settings">Gun Camera Settings</h2>
 <p><img alt="special options gun" src="img/special_options-2.png" /></p>
 <h3 id="disable-gun-camera-recording">Disable Gun Camera Recording</h3>
-<p>Turning the option to off will disable all gun recording and not generate video files.</p>
+<p>Unchecking the box disables gun camera recording, preventing video file generation.</p>
 <h3 id="gun-camera-effects">Gun Camera Effects</h3>
-<p>To adjust the default gun camera effects, select between off (to remove entirely), or vintage.</p>
+<p>Adjists post-processing effects applied to gun camera recording video files.</p>
 <h3 id="overrun-time">Overrun Time</h3>
-<p>This slider will adjust how long the gun cameras will continue to record after trigger release. Adjust between 0 and 3 seconds.</p>
+<p>Adjusts how long the gun camera records after trigger press, from 0-3 seconds.</p>
 <h3 id="start-delay-adjust">Start Delay Adjust</h3>
-<p>This slider will adjust the time between trigger release and the start of the preset run time. Adjust between 4 to 30 seconds.</p>
+<p>Adjusts the time between trigger release and the start of the preset run time, from 4-30 seconds.</p>
 <h3 id="preset-run-time">Preset Run Time</h3>
-<p>Adjusts the run time of the gun camera after start delay. Adjust from 2 to 30 seconds.</p>
+<p>Adjusts the run time of the gun camera after start delay, from 2–30 seconds.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Total Camera run time after the release of the trigger is the total of both time interval settings (6 to 63 seconds) including the preset overrun time of 0 to 3 seconds.</p>
+<p>Total camera run time after the release of the trigger is the total of both time interval settings (6-63 seconds) including the preset overrun time of 0-3 seconds.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Cameras will save AVI recordings in "%userprofile%/Saved Games/DCS F-100D" in the respective folder for the camera.</p>
+<p>AVI video files are located in <code>%userprofile%/Saved Games/DCS: F-100D</code> in the respective folder for the camera.</p>
 </div>
 <h2 id="strike-camera-settings">Strike Camera Settings</h2>
 <p><img alt="special options strike" src="img/special_options-3.png" /></p>
 <h3 id="disable-strike-camera-recording">Disable Strike Camera Recording</h3>
-<p>Turning the option to off will disable all gun recording and not generate video files.</p>
+<p>Unchecking the box disables strike camera recording, preventing video file generation.</p>
 <h3 id="strike-camera-effects">Strike Camera Effects</h3>
-<p>To adjust the default Strike camera effects, select between off (to remove entirely), or vintage.</p>
+<p>Adjusts post-processing effects applied to strike camera recording video files.</p>
 <h3 id="overrun-time_1">Overrun Time</h3>
-<p>This slider will adjust how long the gun cameras will continue to record after pickle release. Adjust between 0 and 3 seconds.</p>
+<p>Adjusts how long the strike cameras record after trigger press, from 0-3 seconds.</p>
 <h3 id="forward-camera-elevation">Forward Camera Elevation</h3>
-<p>The forward camera elevation can be adjusted from 0 degrees to 20 degrees down.</p>
+<p>The forward camera elevation can be adjusted from 0-20° down.</p>
 <h3 id="forward-camera-focal-length">Forward Camera Focal Length</h3>
-<p>The forward camera uses a variable focal length lens, adjustable from 20mm (wide) to 80mm (narrow).</p>
+<p>The forward camera uses a variable focal length lens, adjustable from 20mm (wide)-80mm (narrow).</p>
 <h3 id="rear-camera-start-delay">Rear Camera Start Delay</h3>
 <p>The delay of the start of the rear camera recording after pickle press.</p>
 <h3 id="rear-camera-elevation-mode">Rear Camera Elevation Mode</h3>
-<p>The rear camera elevation can be adjusted from 0-25 degrees for the upper range, or 45-60 degrees for the lower range.</p>
+<p>The rear camera elevation can be adjusted from 0-25° for the upper range, and 45–60° for the lower range.</p>
 <h3 id="rear-camera-upper-elevation">Rear Camera Upper Elevation</h3>
-<p>Change the camera elevation from 0-25 degrees down.</p>
+<p>Change the camera elevation from 0-25° down.</p>
 <h3 id="rear-camera-lower-elevation">Rear Camera Lower Elevation</h3>
-<p>Change the camera elevation from 45-60 degrees down.</p>
+<p>Change the camera elevation from 45–60° down.</p>
 <h3 id="rear-camera-focal-length">Rear Camera Focal Length</h3>
-<p>The rear camera uses a variable focal length lens, adjustable from 17mm (wide) to 68mm (narrow).</p>
+<p>The rear camera uses a variable focal length lens, adjustable from 17mm (wide)-68mm (narrow).</p>
 <h3 id="rear-camera-speed">Rear Camera Speed</h3>
-<p>This setting will change the playback rate of the output footage. 100% is real-time.</p>
+<p>Adjusts playback rate of the output footage. 100% is real-time.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Lower playback rates increase RAM usage of rear camera.</p>

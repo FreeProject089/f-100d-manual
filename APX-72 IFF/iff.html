@@ -189,8 +189,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -198,6 +196,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -311,12 +311,7 @@
               
                 <h1 id="anapx-72-iff-aims-system">AN/APX-72 IFF AIMS System</h1>
 <h2 id="introduction">Introduction</h2>
-<p>The AIMS system, which utilizes an AN/APX-72 receiver/transmitter (transponder), is used to automatically identify the airplane in response to coded interrogations. Depending on the interrogation mode, the reply is transmitted in modes 1, 2, 3/A, 4, or airplane altitude reporting in mode C.</p>
-<!-- REWORD THIS AND FIGURE OUT WHERE TO PUT IT!!! -->
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Due to engine limitations, the settings on the panel have no effect for DCS. However, they are exposed to external tools, such as SRS.</p>
-</div>
+<p>The AIMS system, which utilizes an AN/APX-72 receiver/transmitter (transponder), is used to automatically identify the aircraft in response to coded interrogations. Depending on interrogation mode, the reply is transmitted in modes 1, 2, 3/A, 4, or aircraft altitude reporting in mode C.</p>
 <h2 id="controls">Controls</h2>
 <p><img alt="iff image" src="img/iff.png" /> <!-- REPLACE THIS IMAGE --></p>
 <!-- Master Switch Mode Selection Switch Test Switches code selectors mode 1 code selectors mode 3A mode 4 enable switch mode 4 code select switch -->
@@ -334,31 +329,104 @@
 <li><a href="#mode-1-code-selectors">Mode 1 Code Selectors</a></li>
 <li><a href="#mode-3a-code-selectors">Mode 3/A Code Selectors</a></li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Settings on the IFF panel have no effect in DCS, but they can be exposed to external tools (for example, SRS).</p>
+</div>
 <h3 id="mode-4-function-switch">Mode 4 Function Switch</h3>
-<p>The mode 4 CODE selector has the following positions: A and B to select either code A or code B;a HOLD position to provide a means of retaining the mode 4
-code for an additional flight (unless intentionally retained, the code is automatically returned to zero when power is removed after landing); and a ZERO position to enable manually zeroizing the mode 4 code. The mode 4 code selector knob must be pulled out to be moved to ZERO.</p>
+<p>The mode 4 CODE selector has the following positions:
+| Selection     | Function
+|---------------|---------
+| <strong>A</strong>         | Code A
+| <strong>B</strong>         | Code B
+| <strong>HOLD</strong>      | Provide a means of retaining the mode 4 code for an additional flight (unless intentionally retained, the code is automatically returned to zero when power is removed after landing)
+| <strong>ZERO</strong>      | Manually zeroize mode 4 code</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The mode 4 code selector knob must be pulled out to be moved to ZERO.</p>
+</div>
 <h3 id="master-switch">Master Switch</h3>
-<p>The rotary type master switch is moved from <strong>OFF</strong> to <strong>STDBY</strong> to turn the system on; <strong>NORM</strong> or <strong>LOW</strong> position selects receiver sensitivity; and the <strong>EMER</strong> position activates emergency operation. <em>The master switch knob must be pulled out to be moved to </em><em>EMER</em><em>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OFF</strong></td>
+<td>System off</td>
+</tr>
+<tr>
+<td><strong>STDBY</strong></td>
+<td>Powered on, in standby</td>
+</tr>
+<tr>
+<td><strong>NORM</strong></td>
+<td>Normal receiver sensetivity</td>
+</tr>
+<tr>
+<td><strong>LOW</strong></td>
+<td>Low receiver sensitivity</td>
+</tr>
+<tr>
+<td><strong>EMER</strong></td>
+<td>Activates emergency operation</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The master switch knob must be pulled out to be moved to the <strong>EMER</strong> position.</p>
+</div>
 <h3 id="reply-light">Reply Light</h3>
-<p>The mode 4 REPLY light (green) comes on when the receiver/transmitter responds properly to a mode 4 interrogation.</p>
+<p>When the transmitter-reciever responds properly to a mode 4 interrogation, the mode 4 REPLY light (green) illuminates.</p>
 <h3 id="test-light">Test Light</h3>
-<p>A green <strong>TEST</strong> light illuminates to indicate proper operation of each tested mode during the self-test. The test light also comes on when the (radiation) monitor switch is placed at <strong>MON</strong> (monitor) if the transponder replies properly to interrogations in modes 1, 2, 3/A, or C.</p>
+<p>A green <strong>TEST</strong> light illuminates to indicate proper operation of each tested mode during the self-test, or when the (radiation) monitor switch is set to the <strong>MON</strong> (monitor) position.</p>
 <h3 id="mode-4-indication-switch">Mode 4 Indication Switch</h3>
-<p>The audio/light switch has been moved from OFF to AUDIO or LIGHT. (There is no audio signal provided in the present circuit.)</p>
+<p>The audio/light switch has been moved from <strong>OFF</strong> to <strong>AUDIO</strong> or <strong>LIGHT</strong> (no audio signal provided).</p>
 <h3 id="mode-selection-switches">Mode Selection Switches</h3>
-<p>The mode selection switches <em>M-1, M-2, M-3/A, and M-C,</em> have a forward momentary <strong>TEST</strong> position, a center <strong>ON</strong> position, and an aft <strong>OUT</strong> position. Holding each mode selection switch at <strong>TEST</strong> initiates a self-test of each respective mode provided the airborne test set is installed.</p>
+<p>The mode selection switches M-1, M-2, M-3/A, and M-C have three positions:</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TEST</strong> (forward, momentary)</td>
+<td>Initiates a self-test of the mode (provided the airborne test set is installed)</td>
+</tr>
+<tr>
+<td><strong>ON</strong> (center)</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>OUT</strong> (aft)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h3 id="monitor-radiation-test-switch">Monitor-Radiation Test Switch</h3>
-<p>The <strong>RAD TEST</strong> position is utilized by maintenance personnel during ground checks and should be set to <strong>OFF</strong> in flight.</p>
+<p>The <strong>RAD TEST</strong> position is used by maintenance personnel during ground checks. In flight, leave this switch in the <strong>OFF</strong> position.</p>
 <h3 id="mode-4-selector-switch">Mode 4 Selector Switch</h3>
-<p>Mode 4 is selected by placing the mode 4 enable switch from OUT to ON. Mode 4 codes are preset in the mode 4 computer prior to the mission by the use of a code
-changer key.</p>
+<p>Mode 4 is selected by placing the mode 4 enable switch from <strong>OUT</strong> to <strong>ON</strong>. Mode 4 codes are preset in the mode 4 computer prior to missions via a code changer key.</p>
 <h3 id="identification-switch">Identification Switch</h3>
-<p>The identifier switch enables transmission of identification of position (I/P) signals in response to interrogations in modes 1, 2, or 3/A, for 15 to 30 seconds. Transmission of I/P signals can be accomplished in three ways: when the switch is momentarily placed at IDENT, or when the switch is at MIC and either the microphone button is momentarily pressed, or the command radio tone button is pressed (while the command radio is on).</p>
+<p>The identifier switch enables transmission of identification of position (I/P) signals in response to interrogations in modes 1, 2, or 3/A, for 15–30 seconds. Transmission of I/P signals can be accomplished in three ways:</p>
+<ul>
+<li>When the switch is momentarily placed in the <strong>IDENT</strong> position</li>
+<li>When the switch is in the <strong>MIC</strong> position, and the microphone button is momentarily pressed</li>
+<li>When the switch is in the <strong>MIC</strong> position, and the command radio tone button is pressed (while command radio is on)</li>
+</ul>
 <h3 id="mode-1-code-selectors">Mode 1 Code Selectors</h3>
 <p>The two mode 1 selectors provide 32 possible code selections.</p>
 <h3 id="mode-3a-code-selectors">Mode 3/A Code Selectors</h3>
 <p>The four mode 3/A selectors provide for 4096 code selections.</p>
 <h2 id="normal-operation">Normal Operation</h2>
+<p><em>Information forthcoming.</em></p>
               
             </div>
           </div><footer>

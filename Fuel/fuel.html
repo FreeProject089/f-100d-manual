@@ -117,7 +117,7 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#fuel-system-shutoff-valve-fail-light">Fuel System Shutoff Valve Fail Light</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#air-to-air-refueling-switch">Air to Air Refueling Switch</a>
+    <li class="toctree-l3"><a class="reference internal" href="#air-refueling-switch">Air Refueling Switch</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#air-refueling-indicator-light">Air Refueling Indicator Light</a>
     </li>
@@ -195,8 +195,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -204,6 +202,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -317,12 +317,11 @@
               
                 <h1 id="fuel-system">Fuel System</h1>
 <h2 id="introduction">Introduction</h2>
-<p>The fuel system includes three main tanks in the fuselage and a tank in each wing. Drop tanks may be installed on any of the six wing pylons.</p>
-<p>Fuel is automatically balanced in the aircraft using a series of valves and float triggered pumps. All fuel ends up in the forward fuselage tank where it is then passed to the engine through the manifold.</p>
-<p>All fuel to the engine passes through a 1.6 gallon inverted flight tank which gives fuel for short periods of negative or zero g.</p>
-<p>The aircraft has a single point pressure refueling system which allows for both ground and air-to-air refueling of all the aircraft's internal tanks. This system also has provisions for filling 275 and 335 gallon drop tanks on the intermediate pylons allowing for in-flight refueling on these tanks on intermediate pylons. Other tanks on other pylons cannot be refueled this way.</p>
+<p>The fuel system includes three main tanks in the fuselage and a tank in each wing. Drop tanks can be installed on any of the six wing pylons.</p>
+<p>A series of valves and float triggered pumps automatically balances fuel in the aircraft by. All fuel ends up in the forward fuselage tank where it is then passed to the engine through the manifold and a 1.6-gallon inverted flight tank which gives fuel for short periods of negative or zero g.</p>
+<p>The aircraft has a single point pressure refueling system which allows for both ground and air-to-air refueling of all the aircraft's internal tanks. This system also has provisions for filling 275- and 335-gallon drop tanks on the intermediate pylons allowing for in-flight refueling on these tanks on intermediate pylons. Other tanks on other pylons cannot be refueled this way.</p>
 <h2 id="fuel-tanks">Fuel Tanks</h2>
-<p>There are 4 primary fuel tanks.</p>
+<p>There are 4 primary fuel tanks:</p>
 <table>
 <thead>
 <tr>
@@ -336,25 +335,25 @@
 <tr>
 <td>Forward Fuselage</td>
 <td>Upper, Centre Left, Centre Right, Lower</td>
-<td>2912</td>
+<td>2,912</td>
 <td>Engine Manifold primarily draws from this tank.</td>
 </tr>
 <tr>
 <td>Intermediate Fuselage</td>
 <td>Left, Right</td>
-<td>1391</td>
+<td>1,391</td>
 <td>These primarily feed into the forward fuselage however in case of <a href="#fuel-transfer-and-scavenge-pumps">transfer pump</a> failure the right cell can directly feed the engine.</td>
 </tr>
 <tr>
 <td>Aft Fuselage</td>
 <td>Centre</td>
 <td>702</td>
-<td>This primarily feeds into the the forward fuselage however in case of <a href="#fuel-transfer-and-scavenge-pumps">transfer pump</a> failure the aft fuselage can gravity transfer to the intermediate fuselage tank.</td>
+<td>This primarily feeds into the forward fuselage however in case of <a href="#fuel-transfer-and-scavenge-pumps">transfer pump</a> failure the aft fuselage can gravity transfer to the intermediate fuselage tank.</td>
 </tr>
 <tr>
 <td>Wing</td>
 <td>Left, Right</td>
-<td>2723</td>
+<td>2,723</td>
 <td>These feed into forward fuselage by gravity and the <a href="#fuel-transfer-and-scavenge-pumps">scavenge pumps</a></td>
 </tr>
 <tr>
@@ -368,12 +367,13 @@
 <p><img alt="fuel system" src="img/fuel-system.png" /></p>
 <h2 id="inverted-flight-tank">Inverted Flight Tank</h2>
 <p>The inverted flight tank is the direct feed to the engine. The inverted flight tank can be fed either from the manifold, which is inturn fed by the upper and lower forward fuselage tank, or the intermediate fuselage tank.</p>
-<p>The geometry of this tank is designed such that when inverted there is still about 1.6 gallons of fuel for short periods of operation. The length of time of operation before flameout depends on the fuel flow as this will directly impact how fast this inverted flight tank is exhausted. Approximate values for afterburner and military thrust are listed below as a rough guideline.</p>
+<p>The geometry of this tank is designed such that when inverted there is still approximately 1.6 gallons of fuel for short periods of operation. The length of time of operation before flameout depends on the fuel flow as this directly impacts how quickly this inverted flight tank is exhausted.</p>
+<p>The following table includes approximate values for afterburner and military thrust:</p>
 <table>
 <thead>
 <tr>
 <th>Power Setting</th>
-<th>Time before Flameout (seconds)</th>
+<th>Time Before Flameout (seconds)</th>
 </tr>
 </thead>
 <tbody>
@@ -391,13 +391,13 @@
 <p>There are a total of three boost pumps, all three are located in the forward tank. Two AC pumps are located in the upper cell and one DC pump is located in the lower cell. These all feed into the fuel supply manifold which can also be gravity fed from the lower forward tank cell.</p>
 <h2 id="fuel-transfer-and-scavenge-pumps">Fuel Transfer (and Scavenge) Pumps</h2>
 <p>There are two transfer pumps. Normally the intermediate and aft tanks transfer to the forward tanks when the level of the forward tank drops. This is to maintain mass balance but also because the primary feed is in the forward tank.</p>
-<p>In case of transfer pump failure it may not be possible to transfer all fuel from the intermediate and aft tanks as such the intermediate tank can directly feed the engine by gravity. The aft tank can also transfer using gravity to the intermediate tank for direct feed to the engine in this scenario.</p>
+<p>In the event of transfer pump failure, it might not be possible to transfer all fuel from the intermediate and aft tanks as such the intermediate tank can directly feed the engine by gravity. The aft tank can also transfer using gravity to the intermediate tank for direct feed to the engine in this scenario.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Due to the volume of fuel flow when the afterburner is operating it is not possible to keep the forward tank full despite transfers from external and internal tanks to the forward tank. Thus the pilot must monitor the forward fuel tank level so as to not cause an engine flame-out due to insufficient fuel in this tank to feed the engine.</p>
+<p>When the afterburner is operating, fuel flow exceeds transfers from external and internal tanks to the forward tank. Monitor the forward fuel tank level and avoid engine flame-outs due to insufficient fuel.</p>
 </div>
 <h2 id="drop-tanks">Drop Tanks</h2>
-<p>Drop tanks can be mounted on any of the wing pylons. However only the 335 gallon and 450 gallon tanks can be refueled when mounted on the intermediate pylons. The list of the available tanks is shown below.</p>
+<p>Drop tanks can be mounted on any of the wing pylons. However only the 335- and 450-gallon tanks can be refueled when mounted on the intermediate pylons. The list of the available tanks is shown below.</p>
 <table>
 <thead>
 <tr>
@@ -429,37 +429,37 @@
 </tr>
 </tbody>
 </table>
-<p>Tanks are pressurized by the engine bleed air when <a href="#drop-tank-selector-switch">drop tank selector switch</a> is set to any position other than <code>OFF</code>. In case of electrical failure the bleed air valves are normally open position allowing fuel transfer from all external tanks simultaneously.</p>
+<p>Tanks are pressurized by the engine bleed air when <a href="#drop-tank-selector-switch">drop tank selector switch</a> is set to any position other than <strong>OFF</strong>. In the event of electrical failure the bleed air valves are normally open position allowing fuel transfer from all external tanks simultaneously.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Due to the volume of fuel flow when the afterburner is operating it is not possible to keep the forward tank full despite transfers from external and internal tanks to the forward tank. Thus the pilot must monitor the forward fuel tank level so as to not cause an engine flame-out due to insufficient fuel in this tank to feed the engine.</p>
+<p>When the afterburner is operating, fuel flow exceeds transfers from external and internal tanks to the forward tank. Monitor the forward fuel tank level and avoid engine flame-outs due to insufficient fuel.</p>
 </div>
 <h2 id="fuel-system-shutoff-valve">Fuel System Shutoff Valve</h2>
-<p>The fuel shutoff valve is an electronically actuated valve which can be used to shut off fuel to the engine. In case of valve failure the <a href="#fuel-system-shutoff-valve-fail-light">fuel system shutoff valve fail light</a> will illuminate.</p>
+<p>The fuel shutoff valve is an electronically actuated valve which can be used to shut off fuel to the engine. In the event of valve failure the <a href="#fuel-system-shutoff-valve-fail-light">fuel system shutoff valve fail light</a> illuminates.</p>
 <h2 id="controls-and-indicators">Controls and Indicators</h2>
 <h3 id="drop-tank-selector-switch">Drop Tank Selector Switch</h3>
-<p>This selects which external tanks are pressurized by the engine bleed air. In case of electrical failure the bleed air valves are normally open position allowing fuel transfer from all external tanks simultaneously.</p>
+<p>This selects which external tanks are pressurized by the engine bleed air. In the event of electrical failure the bleed air valves are normally open position allowing fuel transfer from all external tanks simultaneously.</p>
 <h3 id="drop-tank-empty-indicator-light">Drop Tank Empty Indicator Light</h3>
-<p>This indicates there is no longer any fuel pressure from the drop tanks. However since the external tank fuel line is shared with the internal wing tank scavenge pumps this light will go out again once the wing tanks begin to scavenge at about 4000 pounds of fuel. This light will then illuminate again one the wing tanks are empty at about 1500 pounds of fuel.</p>
+<p>This indicates there is no longer any fuel pressure from the drop tanks. Because the external tank fuel line is shared with the internal wing tank scavenge pumps, this light extinguishes once the wing tanks begin to scavenge at approximately 4,000 pounds of fuel. This light illuminates again once wing tanks are empty (approximately 1,500 pounds of fuel remaining).</p>
 <h3 id="fuel-system-shutoff-valve-fail-light">Fuel System Shutoff Valve Fail Light</h3>
-<p>This light will illuminate if the fuel system shutoff valve is stuck as this could restrict fuel flow to the engine.</p>
-<h3 id="air-to-air-refueling-switch">Air to Air Refueling Switch</h3>
+<p>This light illuminates if the fuel system shutoff valve is stuck as this could restrict fuel flow to the engine.</p>
+<h3 id="air-refueling-switch">Air Refueling Switch</h3>
 <p>This de-energizes the transfer control valves for the internal wing and external fuel tanks, allowing the single point pressure refueling system to refuel these tanks correctly.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Do not position this to <code>READY</code> too soon as this prevents about 25 pounds per minute of fuel from being transferred from the internal wing tanks to the forward tank.</p>
+<p>Do not position this to <strong>READY</strong> too soon as this prevents approximately 25 pounds per minute of fuel from being transferred from the internal wing tanks to the forward tank.</p>
 </div>
 <h3 id="air-refueling-indicator-light">Air Refueling Indicator Light</h3>
-<p>This light simply indicates if the <a href="#air-to-air-refueling-switch">air to air refueling switch</a> is in the ready position. It does not indicate if all the systems are functional.</p>
+<p>This light simply indicates if the <a href="#air-refueling-switch">air refueling switch</a> is in the ready position. It does not indicate if all the systems are functional.</p>
 <h3 id="fuel-flow-indicator">Fuel Flow Indicator</h3>
 <p>The fuel flow indicator shows the rate of fuel flow from the fuel control unit to the engine in pounds per hour.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This gauge does not show fuel flow from the afterburner</p>
+<p>This gauge does not monitor fuel flow to the afterburner.</p>
 </div>
 <p>This gauge is powered by the 26 V AC instrument bus.</p>
 <h3 id="fuel-boost-pump-light">Fuel Boost Pump Light</h3>
-<p>This illuminates if there is less than 5 psi fuel pressure to the engine indicating a condition where one or more fuel boost pumps are non-functional.</p>
+<p>This illuminates if fuel pressure to the engine is less than 5 psi, indicating a condition where one or more fuel boost pumps are non-functional.</p>
 <h3 id="forward-fuel-quantity-gauge">Forward Fuel Quantity Gauge</h3>
 <p>Indicates total quantity of all forward fuselage tanks.</p>
 <h3 id="total-fuel-quantity-gauge">Total Fuel Quantity Gauge</h3>

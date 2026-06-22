@@ -156,11 +156,11 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#controls-and-indicators">Controls and Indicators</a>
         <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#pitch-and-roll-indicator">Pitch and Roll Indicator</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#pullup-light">Pullup Light</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#roll-indicator">Roll Indicator</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#pitch-indicator">Pitch Indicator</a>
+    <li class="toctree-l3"><a class="reference internal" href="#labs-and-ladd-timer-dials">LABS and LADD Timer Dials</a>
     </li>
         </ul>
     </li>
@@ -181,8 +181,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -190,6 +188,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -301,55 +301,46 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="anajb-1-low-altitude-bombing-system">AN/AJB-1 Low Altitude Bombing System</h1>
+                <h1 id="anajb-1-low-altitude-bombing-system-labs">AN/AJB-1 Low Altitude Bombing System (LABS)</h1>
 <h2 id="introduction">Introduction</h2>
-<p>The low altitude bombing system was introduced to assist with nuclear weapons delivery. It helps the pilots follow a pre-determined trajectory to delivery nuclear weapons with delivery profiles to assist with escape from the effects of the blast.</p>
+<p>The Low Altitude Bombing System (LABS) was introduced to assist with nuclear weapons delivery, providing a pre-determined trajectory with delivery profiles to assist with escaping blast effects.</p>
 <h2 id="controls-and-indicators">Controls and Indicators</h2>
+<h3 id="pitch-and-roll-indicator">Pitch and Roll Indicator</h3>
 <p><img alt="labs" src="img/labs.png" /></p>
+<p>The vertical needle indicates the current desired roll from 9 degress to wings level left and right. The horizontal needle indicates both the desired G load in pullup mode and desired pitch angle(straight and level) in pre-pullup mode. You will need to keep the wings level and thus roll at 0 and be on "G" during pull up for a correct auto release for the given LABS or LADD release mode. Maintain correct G by keeping the horizontal bar centered between the lines.</p>
 <h3 id="pullup-light">Pullup Light</h3>
-<p>Active when LABS is active before the pullup. Once pullup occurs this light goes out.</p>
-<h3 id="roll-indicator">Roll Indicator</h3>
-<p>Indicates the current desired roll by the system.</p>
-<h3 id="pitch-indicator">Pitch Indicator</h3>
-<p>Indicates desired G load in pullup mode and desired pitch angle in pre-pullup mode.</p>
+<p><img alt="labs_light" src="img/labs_release_light.png" /></p>
+<p>The LABS release light indicates when pull up should begin once extinguished. The time the light is on for is set on either the LABS and LABS ALT(left) or LADD(right) dials pictured below.</p>
+<h3 id="labs-and-ladd-timer-dials">LABS and LADD Timer Dials</h3>
+<p><img alt="labs_dials" src="img/pullup_release.png" />
+The dials for setting the pull up time for LABS and LABS ALT (Left) and LADD (Right) are shown above. They have a range from 0–28 seconds.</p>
 <h2 id="operation">Operation</h2>
-<p>All LABS delivery modes share the pullup timer. The pullup timer is the time set by the pilot to indicate the time taken for the aircraft to fly from a know identification point (IP) to the pullup point.</p>
-<p>There are two variables which determine pullup timer:</p>
+<p>All LABS delivery modes share the pullup timer. The pullup timer is the time set by the pilot to indicate the time taken for the aircraft to fly from a know identification point (IP) to the pullup point. </p>
+<p>There are two variables which determine what the pullup timer should be set to:</p>
 <ul>
-<li>ground speed</li>
-<li>bomb travel distance</li>
-<li>distance from IP to target</li>
+<li>Ground speed</li>
+<li>Bomb travel distance</li>
+<li>Distance from IP to target</li>
 </ul>
-<p>The formula:</p>
-<p><code>pullup timer = (distance from ip to target - bomb travel distance) / ground speed</code></p>
-<p>can then be used to figure out what should be set for the pullup timer. Both ground speed and distance from IP to target can be easily chosen during mission planning. The identification point (IP) is chosen to be something that is easy to find and navigate to from the air and near the target area.</p>
-<p>Bomb travel distance is determined by the exact release parameters of the bomb: including release angle, true airspeed, target altitude, aircraft altitude, bomb type and wind.</p>
+<p><code>pullup timer = (distance from IP to target—bomb travel distance) / ground speed</code></p>
+<p>Both ground speed and distance from IP to target are determined during mission planning. A good identification point (IP) is something near the target area the pilot can easily locate and navigate to.</p>
+<p>Bomb travel distance is determined by the bomb's release parameters, including:</p>
+<ul>
+<li>Release angle</li>
+<li>True airspeed</li>
+<li>Target altitude</li>
+<li>Aircraft altitude</li>
+<li>Bomb type</li>
+<li>Wind</li>
+</ul>
+<p>Using all this information we can begin using LABS and LADD delivery as they function similarly. Pluging in all the correct data we want to be pointed at the target and press the weapon release at the indentification point (IP), the LABS release light will then illuminate. Once it is extinguished after our LABS timer setting has ended begin pulling and maintain wings level and be on "G" using the LABS gauge. Release will then automatically occur depending on the release mode chosen. 50 degress for LABS and 120  for LABS ALT.</p>
 <h3 id="labs-loft">LABS (Loft)</h3>
-<p>The LABS mode is the one of the normal delivery types for the labs. It is intended for lofting nuclear weapons long distances. The release angle is 50 degrees which lofts the weapon a long distance towards the target.</p>
+<p>The LABS mode is the normal mode, lofting the bomb towards the target over long distances, at a release angle of 50°.</p>
 <h3 id="labs-alt-over-the-shoulder">LABS ALT (Over the Shoulder)</h3>
-<p>The LABS ALT mode is the alternate method for a loft type delivery. It is intended for lofting a nuclear weapon vertically over the target.</p>
-<p>The LABS and LABS ALT mode are identical with the exception of the angle of release. Below is a table of release angles:</p>
-<table>
-<thead>
-<tr>
-<th>Mode</th>
-<th>Delivery Angle (degree)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>LABS</td>
-<td>50 (LOFT)</td>
-</tr>
-<tr>
-<td>LABS ALT</td>
-<td>120 (OVER THE SHOULDER)</td>
-</tr>
-</tbody>
-</table>
+<p>The LABS ALT mode is the alternate method lofts the bomb vertically over the target, at a release angle of 120°.</p>
 <p><img alt="Image of Loft Release" src="img/labs_loft_delivery.png" /></p>
 <h3 id="low-altitude-drogue-delivery-ladd">Low Altitude Drogue Delivery (LADD)</h3>
-<p>Low Altitude drogue Delivery is for delivery drogue assisted nuclear weapons. At the pullup point the pilot is commanded into a 40 degree climb. The release timer determines the release. Once a period longer than the release timer has passed since the pullup point the bombs will be released.</p>
+<p>Low Altitude Drogue Delivery (LADD) is for delivery drogue assisted nuclear weapons. At the pullup point, the pilot is commanded into a 40° climb. The release timer determines the release. The release timer begins at the pullup point. When the timer runs out, the bomb is released.</p>
               
             </div>
           </div><footer>

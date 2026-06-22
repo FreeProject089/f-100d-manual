@@ -157,8 +157,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -166,6 +164,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -277,7 +277,55 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="b-26-navigation-computer">B-26 Navigation Computer</h1>
-<!-- Purchased a B-26 handbook on Ebay and will transpose here...-->
+<h3 id="description">Description</h3>
+<p>The jet computer is essentially a circular slide rule adapted to aid computations in navigation. It solves most dead reckoning navigation problems such as speed, time, distance, fuel consumption, wind problems, conversions, and any numerical and trigonometric computation. The jet computer is operative on both faces with one movable scale on each face. </p>
+<p>Some brief examples for solving basic problems are given and not every use case will be covered.</p>
+<!-- Sometime after release we will make the original B-26 Batori Manual available. -->
+
+<h2 id="navigational-computer-face-scales-and-markings">Navigational Computer Face Scales and Markings</h2>
+<p><img alt="Nav Face" src="img/b26_face1.png" /></p>
+<ul>
+<li>The outer scale is marked <strong>MILES</strong> and represents the distance in statute miles, nautical miles, and kilometers. This scale is also marked <strong>TRUE A.S.</strong> and can be used to represent true air speed.</li>
+<li>The moving scale is marked <strong>MINUTES</strong> where it is adjacent to the outer scale, and <strong>HRS</strong> just inside of the minutes graduations.</li>
+<li>A short scale marked <strong>100 KNOTS A.S. COR.</strong> appears between <strong>13</strong> and <strong>14</strong>. This scale represents air speed correction.</li>
+<li>An arrow marked <strong>FPS</strong> representing feet per second for miles per hour appears between 85–90. Arrows marked <strong>NAUT. STAT.</strong> and <strong>Km</strong> are located at intervals on the minute scale and are used to convert nautical miles, statute miles, and kilometers.</li>
+<li>The upper window, marked <strong>SPEED</strong> and <strong>FUEL</strong>, represents speed in knots or miles per hour, and fuel consumption in gallons or liters per hour.</li>
+<li>The lower window, marked <strong>DENSITY ALTITUDE</strong>, represents the density altitude in thousands of feet.</li>
+<li>The inner fixed scale is marked <strong>PRESSURE ALTITUDE</strong> and represents pressure altitude in thou sands of feet.</li>
+<li>The adjacent moving scale is marked <strong>TEMP. C</strong> for temperature in ° Centigrade.</li>
+<li>Two arrows marked <strong>MACH NO. KNOTS</strong> and <strong>MACH NO. M.P.H.</strong> appear on the adjacent moving scale to the left of the <strong>TEMP. C</strong> graduations. These arrows are used in finding Mach Number against indicated air speed.</li>
+</ul>
+<h2 id="vector-computer-face-scales-and-markings">Vector Computer Face Scales and Markings</h2>
+<p><img alt="Vector Face" src="img/b26_face2.png" /></p>
+<p>Essentially, the vector computer face is the same as the navigational computer face in that it consists of an outer scale, an inner scale, and an intermediate moving scale. However, the vector face contains only one window.</p>
+<p>If 10 on the moving scale is set opposite 10 on the outer scale, the aircraft pointer on the inner scale points to N on the moving scale. The various scales are identified as follows:
+- The outer scale is marked <strong>WIND COMP.</strong> and represents the wind component velocities.
+- The moving scale marked <strong>WIND</strong> is identical to the outer scale and represents the wind velocity. This scale is also marked <strong>TRUE AIR SPEED</strong> representing the true air speed in various wind problems.
+- Arrows marked <strong>FEET</strong>, <strong>POUNDS</strong>, <strong>GALLONS</strong>, <strong>METER</strong>, <strong>LITERS FOR U.S.G.</strong> and <strong>LITERS FOR IMP. G.</strong> are located at intervals on the wind scale and are used for many of the conversion problems.
+- The Short scale marked <strong>LATITUDE</strong> represents latitude in degrees and is used in pressure pattern navigation.
+- The <strong>DRIFT</strong> window exposes three separate scales all calibrated in degrees. These scales are used in wind problems and in the trigonometric calculations. The inner scale which has an aircraft pointer in the 12 o’clock position, is divided into four quadrants of 90° each. The adjacent moving scale is a compass rose graduated from 0–360°. These two scales are used to find wind angle and to apply wind correction angle for heading or drift for track. When set to given conditions, they show a graphical representation of aircraft and wind relation, whether there is a head or tail wind, wind from left or right.</p>
+<h2 id="scale-reading">Scale Reading</h2>
+<p>With the exception of the two innermost scales on the vector face, all scales on both faces of the computer are logarithmic:</p>
+<ul>
+<li>The main graduation lines are numbered, with the numbers representing the various measuring units described in the scale and marking sections above.</li>
+<li>The subgraduations, which are not numbered, can be read by mental estimation in the same manner as any scale with equidistant graduations, such as an ordinary ruler, calibrated in inches.</li>
+<li>A characteristic of logarithmic scales is that the graduations are not equidistant. Instead, they get closer together the higher the number.</li>
+<li>Another characteristic of logarithmic scales is that any number or graduation line representing a number, represents that number and all its multiples by 10. For example, 30 can also represent 0.3, 3.0, 300, 3,000, and so on. On the navigational computer face, the outer scale and the adjacent moving scale are identical and are graduated from 10 to 100. The subgraduations represent fractions of the main graduations and vary according to the section of the scale. On the vector computer face, the outer scale and the adjacent moving scale are identical and are graduated from 10 to 1,000.</li>
+</ul>
+<p><img alt="Scale Reading" src="img/b26_scale.png" /></p>
+<h2 id="solving-basic-problems">Solving Basic Problems</h2>
+<h3 id="solving-ground-speed">Solving Ground Speed</h3>
+<p><img alt="Solve Ground Speed" src="img/solving_basic_gs.png" /></p>
+<h3 id="solving-flight-time">Solving Flight Time</h3>
+<p><img alt="Solve Flight Time" src="img/solving_basic_ft.png" /></p>
+<h3 id="solving-distanced-traveled">Solving Distanced Traveled</h3>
+<p><img alt="Solve Flight Time" src="img/solving_dist.png" /></p>
+<h3 id="solving-wind-angle">Solving Wind Angle</h3>
+<p><img alt="Solve Wind Angle" src="img/solving_wing_ang.png" /></p>
+<h3 id="solving-cross-wind-component">Solving Cross Wind Component</h3>
+<p><img alt="Solve Cross Wind" src="img/solving_cross_wind.png" /></p>
+<h3 id="solving-wind-correction-angle">Solving Wind Correction Angle</h3>
+<p><img alt="Solve Cross Wind" src="img/solving_wind_corr.png" /></p>
               
             </div>
           </div><footer>

@@ -128,12 +128,14 @@
     <li class="toctree-l3"><a class="reference internal" href="#tone-button">Tone Button</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#frequency-card">Frequency Card</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#default-preset-channels">Default Preset Channels</a>
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#remote-channel-indicator">Remote Channel Indicator</a>
+    <li class="toctree-l3"><a class="reference internal" href="#remote-channel-indicator">Remote Channel Indicator</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#default-preset-channels">Default Preset Channels</a>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#normal-operation">Normal Operation</a>
     </li>
@@ -195,8 +197,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -204,6 +204,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -318,8 +320,16 @@
                 <h1 id="arc-34-uhf-command-radio">ARC-34 UHF Command Radio</h1>
 <h2 id="introduction">Introduction</h2>
 <!-- Link the AN/AIC-10 Amp to its own page -->
-<p>The onboard radio, powered by the aircraft’s primary bus, enables voice communication within the 225.0 to 399.9 MHz frequency range. Audio signals are processed through the AN/AIC-10 communication amplifier. The system features a control panel with access to 20 preset channels, while also allowing manual frequency selection without altering any preset values.</p>
-<p>This radio system employs two receivers: a primary receiver responsible for standard communications, and a guard receiver fixed to a dedicated emergency frequency. The guard frequency is factory-set and cannot be changed without removing the remote-control unit from the aircraft. When selecting a new frequency, an automatic tuning mechanism synchronizes both the transmitter and receiver, completing the tuning cycle in approximately four seconds.</p>
+<p>The onboard radio is powered by the aircraft’s primary bus, and enables voice communication within 225.0–399.9 MHz. Audio signals are processed through the AN/AIC-10 communication amplifier. The system features a control panel with access to 20 preset channels. Frequency selection can also be set manually.</p>
+<p>This radio system employs two receivers:</p>
+<ul>
+<li>Primary receiver (responsible for standard communications)</li>
+<li>Guard receiver (fixed to a dedicated emergency frequency)</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p>Guard frequency is factory-set and cannot be changed without removing the remote-control unit from the aircraft. When selecting a new frequency, an automatic tuning mechanism synchronizes both the transmitter and receiver, completing the tuning cycle in approximately 4 seconds.</p>
 <h2 id="controls">Controls</h2>
 <p><img alt="radio image" src="img/command_radio.png" /></p>
 <ol>
@@ -332,9 +342,11 @@
 <li><a href="#frequency-card">Frequency Card</a></li>
 </ol>
 <h3 id="frequency-knobs">Frequency Knobs</h3>
-<p>At the top of the radio panel, just below the four frequency display windows, are four small frequency selector knobs. Each knob, when turned, adjusts the numeral in its corresponding window, changing the overall frequency. This system allows manual selection of any of the 1,750 available frequencies within the 225.0 to 399.9 MHz range. The frequency 243.0 MHz is reserved as a guard channel.</p>
+<p>At the top of the radio panel, just below the four frequency display windows, are four small frequency selector knobs that set the freqency's 100s, 10s, 1s, and 0.1 increments, allowing manual selection of any of the 1,750 available frequencies in the 225.0–399.9 MHz range. 243.0 MHz is reserved as a guard channel.</p>
+<!-- Is there a way to change this in the mission editor? If so are other mentions of 243.0 MHz on this page variable and accounted for? -->
+
 <h3 id="manual-preset-guard-sliding-selector">Manual-Preset-Guard Sliding Selector</h3>
-<p>The sliding selector controls the method of command radio frequency selection. It is operated by sliding the control through a limited arc across the face of the panel. This control has three positions, <strong>MANUAL</strong>, <strong>PRESET</strong>, and <strong>GUARD</strong>, and is arranged so that when it is in any one position, the other two positions are masked by a semitransparent green glass.</p>
+<p>The sliding selector controls the method of command radio frequency selection. It is operated by sliding the control through a limited arc across the face of the panel. This control has three positions arranged so that when it is in any one position, the other two positions are masked by a semitransparent green glass:</p>
 <table>
 <thead>
 <tr>
@@ -353,17 +365,15 @@
 </tr>
 <tr>
 <td><strong>GUARD</strong></td>
-<td>Automatically tunes the transmitter and main receiver to the default guard frequency 243.0 MHz.</td>
+<td>Tunes the transmitter and main receiver to the default guard frequency (243.0 MHz).</td>
 </tr>
 </tbody>
 </table>
 <h3 id="volume-control">Volume Control</h3>
-<p>The volume control regulates the sound level of the signal being heard in the headphones from both command receivers. Adequate control of volume is provided, but the volume may not be reduced below a fixed level.</p>
+<p>The volume control regulates the sound level of the signal in the headset from both command receivers. Adequate control of volume is provided, but audio can't be silenced.</p>
 <h3 id="preset-channel-selector-switch">Preset Channel Selector Switch</h3>
-<p>The channel selector switch controls the selection of <a href="#default-preset-channels">20 preset frequencies</a> by channel number. When the switch is rotated, channel numbers from 1 through 20 appear in the channel indicator window, above the selector. This window is masked when the <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> is placed in any position other than <strong>Preset</strong>.</p>
+<p>The channel selector switch controls the selection of <a href="#default-preset-channels">20 preset frequencies</a> by channel number. When rotated, channel numbers from 1 through 20 appear in the channel indicator window above the selector. This window is masked when the <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> is placed in any position other than the PRESET position.</p>
 <h3 id="function-switch">Function Switch</h3>
-<p>Rotating the command radio function switch from <strong>OFF</strong> turns the command radio on. When the switch is at <strong>MAIN</strong>, only the main receiver is audible in the headphones. In the <strong>BOTH</strong> position, the guard receiver and the main receiver are heard simultaneously. The <strong>ADF</strong> position is operable only with the ADF system and will disconnect the signal from the AN/ARN-6.</p>
-<!-- Perhaps we should better describe the ADF operation?? -->
 <table>
 <thead>
 <tr>
@@ -374,147 +384,159 @@
 <tbody>
 <tr>
 <td><strong>OFF</strong></td>
-<td>The radio is inoperative</td>
+<td>System inoperative</td>
 </tr>
 <tr>
 <td><strong>MAIN</strong></td>
-<td>Only the main receiver is audible in the headphones.</td>
+<td>Main receiver audible</td>
 </tr>
 <tr>
 <td><strong>BOTH</strong></td>
-<td>The guard receiver and the main receiver are heard simultaneously in the headphones.</td>
+<td>Guard and main receivers audible</td>
 </tr>
 <tr>
 <td><strong>ADF</strong></td>
-<td>Direction finding is enabled and will disconnect the signal from the <a href="../ARN-6%20Radio%20Compass/radio-compass.html">AN/ARN-6 Radio Compass</a>.</td>
+<td>Enables Automatic Direction Finding (ADF), and disconnects signals to the <a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Radio Magnetic Indicator</a> from the <a href="../ARN-6%20Radio%20Compass/radio-compass.html">AN/ARN-6 Radio Compass</a></td>
 </tr>
 </tbody>
 </table>
 <h3 id="tone-button">Tone Button</h3>
-<p>When the command radio is operating, a continuous tone signal may be transmitted by pressing the tone button. This occurs on the frequency that is set on the transmitter, and it interrupts reception. A side tone is audible in the headphones while the button is depressed. This feature may be used for direction-finding operations in conjunction with other airplanes and ground stations.</p>
+<p>When the command radio is operating, pressing and holding the tone button transmits a continuous tone to the set frequency, and interrupts reception. A side tone is audible in the headphones while the button is pressed. This feature can be used for direction-finding operations in conjunction with other aircraft and ground stations.</p>
 <h3 id="frequency-card">Frequency Card</h3>
 <p><img alt="freqcard" src="img/freqcard.png" /></p>
-<p>This will be populated with the radio presets for this mission.</p>
-<h2 id="remote-channel-indicator">Remote Channel Indicator</h2>
-<p><img alt="radio image" src="img/remote-channel-indicator.png" /></p>
-<!-- IDK where I should put this yet... -->
-<p>The remote channel indicator is synchronized to the command radio control panel. The face of the indicator has four windows for display of channel number and frequency. When the <a href="#manual-preset-guard-sliding-selector">selector control</a> is at <strong>PRESET</strong>, two of the indicator windows are used to display the number of the preset command radio channel. When the selector control is at <strong>MANUAL</strong>, the four indicator windows display the frequency (in MHz) of the selected channel. With the selector control at <strong>GUARD</strong>, the two center windows show the letters "GD". All indicator windows are blank when power is off.</p>
-<h2 id="default-preset-channels">Default Preset Channels</h2>
-<!-- NOTE: There is an invisible character used to space the table -->
+<p>The frequency card notes channel presets and their frequencies.</p>
+<h4 id="default-preset-channels">Default Preset Channels</h4>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">Preset Channel</th>
-<th style="text-align: center;">Frequency (MHz)</th>
-<th style="text-align: center;">⠀⠀⠀⠀</th>
-<th style="text-align: center;">Preset Channel</th>
-<th style="text-align: center;">Frequency (MHz)</th>
+<th>Preset Channel</th>
+<th>Frequency (MHz)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">Channel 1</td>
-<td style="text-align: center;">225.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 11</td>
-<td style="text-align: center;">235.0</td>
+<td><strong>Channel 1</strong></td>
+<td>225.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 2</td>
-<td style="text-align: center;">226.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 12</td>
-<td style="text-align: center;">236.0</td>
+<td><strong>Channel 2</strong></td>
+<td>226.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 3</td>
-<td style="text-align: center;">227.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 13</td>
-<td style="text-align: center;">237.0</td>
+<td><strong>Channel 3</strong></td>
+<td>227.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 4</td>
-<td style="text-align: center;">228.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 14</td>
-<td style="text-align: center;">238.0</td>
+<td><strong>Channel 4</strong></td>
+<td>228.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 5</td>
-<td style="text-align: center;">229.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 15</td>
-<td style="text-align: center;">239.0</td>
+<td><strong>Channel 5</strong></td>
+<td>229.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 6</td>
-<td style="text-align: center;">230.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 16</td>
-<td style="text-align: center;">240.0</td>
+<td><strong>Channel 6</strong></td>
+<td>230.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 7</td>
-<td style="text-align: center;">231.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 17</td>
-<td style="text-align: center;">241.0</td>
+<td><strong>Channel 7</strong></td>
+<td>231.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 8</td>
-<td style="text-align: center;">232.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 18</td>
-<td style="text-align: center;">242.0</td>
+<td><strong>Channel 8</strong></td>
+<td>232.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 9</td>
-<td style="text-align: center;">233.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 19</td>
-<td style="text-align: center;">243.0</td>
+<td><strong>Channel 9</strong></td>
+<td>233.0</td>
 </tr>
 <tr>
-<td style="text-align: center;">Channel 10</td>
-<td style="text-align: center;">234.0</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Channel 20</td>
-<td style="text-align: center;">244.0</td>
+<td><strong>Channel 10</strong></td>
+<td>234.0</td>
+</tr>
+<tr>
+<td><strong>Channel 11</strong></td>
+<td>235.0</td>
+</tr>
+<tr>
+<td><strong>Channel 12</strong></td>
+<td>236.0</td>
+</tr>
+<tr>
+<td><strong>Channel 13</strong></td>
+<td>237.0</td>
+</tr>
+<tr>
+<td><strong>Channel 14</strong></td>
+<td>238.0</td>
+</tr>
+<tr>
+<td><strong>Channel 15</strong></td>
+<td>239.0</td>
+</tr>
+<tr>
+<td><strong>Channel 16</strong></td>
+<td>240.0</td>
+</tr>
+<tr>
+<td><strong>Channel 17</strong></td>
+<td>241.0</td>
+</tr>
+<tr>
+<td><strong>Channel 18</strong></td>
+<td>242.0</td>
+</tr>
+<tr>
+<td><strong>Channel 19</strong></td>
+<td>243.0</td>
+</tr>
+<tr>
+<td><strong>Channel 20</strong></td>
+<td>244.0</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p>You can set new presets for each F-100D unit in the DCS mission editor.</p>
+<h3 id="remote-channel-indicator">Remote Channel Indicator</h3>
+<p>The remote channel indicator is synchronized to the command radio control panel. When the radio is inoperative, its four display windows are blank. When the radio is in operation, they display information based on the <a href="#manual-preset-guard-sliding-selector">selector control</a> position:</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PRESET</strong></td>
+<td>Preset command radio channel</td>
+</tr>
+<tr>
+<td><strong>MANUAL</strong></td>
+<td>Frequency (in MHz) of the selected channel</td>
+</tr>
+<tr>
+<td><strong>GUARD</strong></td>
+<td>GD</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="radio image" src="img/remote-channel-indicator.png" /></p>
 <h2 id="normal-operation">Normal Operation</h2>
-<p>A complete operational check of the command radio may
-be made as follows:</p>
+<p>A complete operational check of the command radio is performed as follows:</p>
 <ol>
-<li>
-<p>Before takeoff, check frequencies to be used against
-those listed on <a href="#frequency-card">frequency card</a>.</p>
-</li>
-<li>
-<p>Check settings of buttons on frequency control drum
-with frequency card. To do this, open door to which frequency card is attached. The channel number which corresponds to the preset frequency appears in a window at the left of the buttons. The frequency numbers of this channel are listed above the buttons.</p>
-</li>
-<li>
-<p>Check operation of transmitter and main receiver with <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> in each position.</p>
-</li>
-<li>
-<p>Check operation of the guard receiver using the BOTH position of <a href="#function-switch">function switch</a>.</p>
-</li>
-<li>
-<p>For initial channel selection, select a channel other than the one to be used until warm-up is completed, or after warm-up, switch to another channel and then back to the one desired. If the desired channel is selected before warm-up is completed, reduced performance due to mistuning may result.</p>
-</li>
-<li>
-<p>Adjust <a href="#volume-control">volume</a> as desired.</p>
-</li>
-<li>
-<p>For manual selection of a frequency that is not included in the preset channels, moving <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> to MANUAL. Use frequency knobs across top of panel to establish desired frequency. (The function switch
-must be at MAIN or BOTH for this operation.)</p>
-</li>
-<li>
-<p>To obtain transmission and reception of guard frequency only, move <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> to GUARD, and turn <a href="#function-switch">function switch</a> to MAIN. This will prevent unequal or garbled reception by cutting out the guard receiver that operates when the <a href="#function-switch">function switch</a> is at BOTH.</p>
-</li>
+<li>Before takeoff, check frequencies to be used against those listed on <a href="#frequency-card">frequency card</a>.</li>
+<li>Check settings of buttons on frequency control drum with frequency card. To do this, open door to which frequency card is attached. The channel number which corresponds to the preset frequency appears in a window at the left of the buttons. The frequency numbers of this channel are listed above the buttons.</li>
+<li>Check operation of transmitter and main receiver with <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> in each position.</li>
+<li>Check operation of the guard receiver using the <strong>BOTH</strong> position of <a href="#function-switch">function switch</a>.</li>
+<li>For initial channel selection, select a channel other than the one to be used until warm-up is completed, or after warm-up, switch to another channel and then back to the one desired. If the desired channel is selected before warm-up is completed, reduced performance due to mistuning can result.</li>
+<li>Adjust <a href="#volume-control">volume</a> as desired.</li>
+<li>For manual selection of a frequency that is not included in the preset channels, moving <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> to <strong>MANUAL</strong>. Use frequency knobs across top of panel to establish desired frequency. (The function switch
+must be at <strong>MAIN</strong> or <strong>BOTH</strong> for this operation.)</li>
+<li>To obtain transmission and reception of guard frequency only, move <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> to <strong>GUARD</strong>, and turn <a href="#function-switch">function switch</a> to <strong>MAIN</strong>. This  prevent unequal or garbled reception by cutting out the guard receiver that operates when the <a href="#function-switch">function switch</a> is at <strong>BOTH</strong>.</li>
 </ol>
 <h2 id="emergency-operation">Emergency Operation</h2>
 <h3 id="sudden-loss-of-transmission-and-reception">Sudden Loss of Transmission and Reception</h3>
@@ -523,7 +545,7 @@ must be at MAIN or BOTH for this operation.)</p>
 <p>If it is necessary to select another frequency channel, selection should be done as soon as possible after engine shutdown or engine failure, so that
 electrical power is available to complete selection.</p>
 <h3 id="radio-not-operating">Radio Not Operating</h3>
-<p>In the case of apparent failure of command radio, attempt operation in alternate positions of <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> and/or alternate positions of <a href="#function-switch">function switch</a>. Turn equipment off for several minutes; then turn <a href="#function-switch">function switch</a> to type of operation desired. If the protective relay in the tuning mechanism was responsible, this action will restore operation. Check circuit breaker panel for tripped condition of the AN/AIC-10 amplifier.</p>
+<p>In the case of apparent failure of command radio, attempt operation in alternate positions of <a href="#manual-preset-guard-sliding-selector">sliding selector control</a> or alternate positions of <a href="#function-switch">function switch</a>. Turn equipment off for several minutes; then turn <a href="#function-switch">function switch</a> to type of operation desired. If the protective relay in the tuning mechanism was responsible, this action restores operation. Check the circuit breaker panel for tripped condition of the AN/AIC-10 amplifier.</p>
               
             </div>
           </div><footer>

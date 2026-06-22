@@ -189,8 +189,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -198,6 +196,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -311,15 +311,14 @@
               
                 <h1 id="weapon-release-circuitry">Weapon Release Circuitry</h1>
 <h2 id="basic-armament-control-circuitry">Basic Armament Control Circuitry</h2>
-<p>The basic armament control circuitry is used to send release signals to the pylons to release rockets, bombs and dispenser. The basic armament system circuitry is used when the <a href="#anawe-1-aircraft-weapons-release-system-awrs">Aircraft Weapons Release System</a> is <strong>off</strong>.</p>
-<p>The basic armament control circuitry can receive bomb pulses from either the <a href="armament-control-panels.html#mode-selector">manual delivery mode</a>, <a href="a-4-gunsight.html#bomb-air-to-ground-automatic">automatic sight release</a> release cue, or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> release cue. When a bomb pulse is received like the <a href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a> it is up to the <a href="armament-control-panels.html#weapon-selection-circuitry">weapons selection circuitry</a> forward the pulses to the correct pylons to release ordinance.</p>
-<p>All stations which have their respective <a href="armament-control-panels.html">Station Release Selection Switch</a> armed will receive the forwarded bomb pulse. Any stations which instead have jettison selected will instead convert that bomb pulse to a jettison signal jettisoning the ordinance from the pylon (if it can be jettisoned).</p>
+<p>The basic armament control circuitry sends release signals to the pylons to release rockets, bombs and dispenser contents. It can receive bomb pulses from either the <a href="armament-control-panels.html#mode-selector">manual delivery mode</a>, <a href="a-4-gunsight.html#bomb-air-to-ground-automatic">automatic sight release</a> release cue, or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> release cue.</p>
+<p>When a bomb pulse is received from the <a href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a> it is up to the <a href="armament-control-panels.html#weapon-selection-circuitry">weapons selection circuitry</a> forward the pulses to the correct pylons to release ordinance.</p>
+<p>All stations with their <a href="armament-control-panels.html">Station Release Selection Switch</a> armed will receive the forwarded bomb pulse. Any stations which have jettison selected instead will convert the bomb pulse to a jettison signal (if the ordnance can be jettisoned).</p>
 <h2 id="anawe-1-aircraft-weapons-release-system-awrs">AN/AWE-1 Aircraft Weapons Release System (AWRS)</h2>
 <h3 id="introduction">Introduction</h3>
-<p>The AWRS provides selectable weapons release quantity and intervals. The AWRS is active any time the release quantity switch is not in the off position. When the AWRS is active any bomb pulse by the <a href="">bomb-button</a> or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> will result in the AWRS being used to sequence and time bomb or rocket release.</p>
-<p>When the AWRS is not active (<a href="#quantity-selector-switch">Quantity Switch in OFF</a>) the <a href="#basic-armament-control-circuitry">basic armament system circuitry</a> is instead used.</p>
+<p>When the AWRS is active, any bomb pulse from the <a href="">bomb-button</a> or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> is passed to the AWRS to sequence pylons, quantities and timing of bomb or rocket releases.</p>
 <h3 id="station-release-selection-switches">Station Release Selection Switches</h3>
-<p><strong>For the Aircraft Weapons Release System to function correctly all <a href="armament-control-panels.html#station-release-selection-switches">Station Release Selection Switches</a> for the desired weapon type should be moved into either NORM or JETT (depending if armed release or jettison is required).</strong> Failure to do so may result in the Aircraft Weapons Release System getting stuck on a pylon where the ordinance is unable to be released due to the Station Release Selection Switch disconnecting the pylon circuitry.</p>
+<p><strong>For the Aircraft Weapons Release System to function correctly, all <a href="armament-control-panels.html#station-release-selection-switches">Station Release Selection Switches</a> for the desired weapon type should be moved into either the NORM or JETT position (depending if armed release or jettison is required).</strong></p>
 <h3 id="controls">Controls</h3>
 <p><img alt="Aircraft Weapons Release System Panel" src="img/awrs_panel.png" /></p>
 <ol>
@@ -330,15 +329,16 @@
 <li><a href="#modes">Mode Select Switch</a></li>
 </ol>
 <h4 id="quantity-selector-switch">Quantity Selector Switch</h4>
-<p>With the Quantity Selector Switch in the OFF position electrical power is removed from the AWRS system making it inactive. With the Quantity Selector Switch set to any numbered position the AWRS is active and energized.</p>
-<p>The selected number provides the AWRS with the quantity of release pulses in ripple modes: Ripple - Single, Ripple - Pairs, and Ripple - Salvo. See <a href="#operation">operation</a>.</p>
+<p>With the Quantity Selector Switch in the <strong>OFF</strong> position electrical power is removed from the AWRS system and the <a href="#basic-armament-control-circuitry">Basic Armament Control Circuitry</a> is used. With the Quantity Selector Switch set to any numbered position the AWRS is active and energized.</p>
+<p>The selected number provides the AWRS with the quantity of release pulses in ripple modes.</p>
+<p><em>See <a href="#operation">operation</a>.</em></p>
 <h4 id="release-interval-switch">Release Interval Switch</h4>
-<p>The release interval switch selects the time interval in milliseconds between subsequent pulses from the AWRS. The release interval can be multiplied by ten using the <a href="#multiplier-switch-x10">Multiplier Switch</a></p>
+<p>The release interval switch sets the time interval in milliseconds (ms) between AWRS pulses.</p>
 <h4 id="multiplier-switch-x10">Multiplier Switch (x10)</h4>
-<p>The multiplier switch multiplies the <a href="#release-interval-switch">release interval</a> by ten with x10 set and x1 otherwise.</p>
+<p>Setting the multiplier switch to x10 increases the <a href="#release-interval-switch">release interval</a> value by a multiple of 10. Setting it to x1 returns timing to the interval switch's value.</p>
 <h3 id="modes">Modes</h3>
 <h4 id="operation">Operation</h4>
-<p>Release modes are responsible for producing pulses which are then distributed to pylons according to the release type. The table below describes how pulses are produced and forwarded to the release type circuitry upon receiving each input signal - either from the <a href="">manual delivery mode</a> or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> release cue.</p>
+<p>Release modes prouduce pulses distributed to pylons according to the release type. The following table describes how pulses are produced and forwarded to the release type circuitry after receiving each input signal from either the <a href="">manual delivery mode</a> or <a href="low-altitude-bombing-system.html">Low Altitude Bombing System</a> release cue.</p>
 <table>
 <thead>
 <tr>
@@ -348,11 +348,11 @@
 </thead>
 <tbody>
 <tr>
-<td>Step</td>
+<td>STEP</td>
 <td>Input signal produces only one pulse</td>
 </tr>
 <tr>
-<td>Ripple</td>
+<td>RIPPLE</td>
 <td>Input signal produces a sequence of pulses with intervals specified by the <a href="#release-interval-switch">Release Interval Switch</a> and <a href="#multiplier-switch-x10">Multiplier Switch</a>. The sequence length is the setting on the <a href="#quantity-selector-switch">Quantity Selector Switch</a> provided the input signal is held on the entire duration of the sequence. If the input signal is released early (ie bomb-button released) the sequence immediately stops.</td>
 </tr>
 </tbody>
@@ -367,21 +367,21 @@
 </thead>
 <tbody>
 <tr>
-<td>Single</td>
-<td>Single bomb being released from the next valid pylon in the release sequence if one exists.</td>
+<td>SINGLE</td>
+<td>A single bomb is released from the next valid pylon in the release sequence if one exists.</td>
 </tr>
 <tr>
-<td>Pairs</td>
-<td>Pair of bombs/rockets will be released from the next valid pair of pylons in the sequence if one exists.</td>
+<td>PAIRS</td>
+<td>A pair of bombs or rockets is released from the next valid pair of pylons in the sequence.</td>
 </tr>
 <tr>
-<td>Salvo</td>
-<td>Every valid/selected pylon will release a bomb/rocket if the pylon is not empty.</td>
+<td>SALVO</td>
+<td>Every valid selected pylon releases a bomb or rocket if the pylon is not empty.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="examples">Examples</h4>
-<p>To assist in understanding the AWRS, below a few examples are shown. Each example assumes there are enough bombs on the plane in the correct configuration to drop the correct number of bombs/rockets.</p>
+<p>To assist in understanding the AWRS, below a few examples are shown. Each example assumes there are enough bombs on the plane in the correct configuration to drop the correct number of bombs or rockets.</p>
 <table>
 <thead>
 <tr>
@@ -395,50 +395,42 @@
 </thead>
 <tbody>
 <tr>
-<td>Ripple</td>
-<td>Single</td>
+<td>RIPPLE</td>
+<td>SINGLE</td>
 <td>4</td>
 <td>60</td>
 <td>x1</td>
-<td>4 bombs will be dropped with an interval of 60 ms between them.</td>
+<td>4 bombs is dropped with an interval of 60 ms between them.</td>
 </tr>
 <tr>
-<td>Ripple</td>
-<td>Single</td>
+<td>RIPPLE</td>
+<td>SINGLE</td>
 <td>6</td>
 <td>100</td>
 <td>x10</td>
-<td>6 bombs will be dropped with an interval of 1000 ms (due to x10 switch) between them</td>
+<td>6 bombs is dropped with an interval of 1000 ms (due to x10 switch) between them</td>
 </tr>
 <tr>
-<td>Ripple</td>
-<td>Pairs</td>
+<td>RIPPLE</td>
+<td>PAIRS</td>
 <td>3</td>
 <td>150</td>
 <td>x1</td>
-<td>3 pairs of bombs will be dropped (total 6) with an interval of 150 ms between each pair.</td>
+<td>3 pairs of bombs is dropped (total 6) with an interval of 150 ms between each pair.</td>
 </tr>
 <tr>
-<td>Ripple</td>
-<td>Salvo</td>
+<td>RIPPLE</td>
+<td>SALVO</td>
 <td>3</td>
 <td>45 ms</td>
 <td>x1</td>
-<td>Assuming the plane is armed with a 1,1,3,3,1,1 MK-82 on each pylon. The first salvo will drop 6 bombs, leaving 0,0,2,2,0,0 on the aircraft. 45 ms later 2 more bombs will drop leaving 0,0,1,1,0,0 and again 45 ms later the remaining 2 bombs will drop. Resulting in a total of 10 bombs being dropped.</td>
+<td>For example, let's say the aircraft is armed with a 1, 1, 3, 3, 1, 1 MK-82 on each pylon. The first salvo drops 6 bombs, leaving 0, 0, 2, 2, 0, 0 on the aircraft. 45 ms later, 2 more bombss  drop, leaving 0, 0, 1, 1, 0, 0. 45 ms later again, the remaining 2 bombs will drop, resulting in a total of 10 dropped bombs.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="station-priority-and-sequencing">Station Priority and Sequencing</h3>
-<p>Bombs/rockets will drop in order of priority alternating sides if two valid pylons of equal priority exist. The further out from the centre the higher the priority the pylon has. This means the outer wing pylons have the highest priority and the inner wing pylons the lowest. The AWRS does not consider any pylons which are not active: either because they do not have the correct weapon type. Once a pylon is empty it is no longer considered valid.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>Rockets/dispenser pods cannot send an empty signal</strong> so once the outer rocket/dispenser pods are empty the AWRS will not automatically step to the inner rocket/dispenser pods as it still assumes they are valid. To use the inner rocket/dispenser pods either Ripple/Step Salvo can be used instead.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p><strong><a href="#station-release-selection-switches">Station Release Selection Switches</a> do not effect the Aircraft Weapons Release System pylon validity. These switches simply break the circuit between the Aircraft Weapons Release System and the pylon circuitry. This has the unintended side effect of causing the Aircraft Weapons Release System to get stuck if any of these pylons are set to OFF.</strong></p>
-</div>
-<p>Below is the priority of each station with a lower number indicating higher priority.</p>
+<p>Bombs or rockets drop in order of priority, alternating sides if two valid pylons share equal priority. The further a pylon is from the center, the higher its priority. The AWRS does not consider inactive pylons, empty pylons, nor pylons armed with an incorrect weapon type.</p>
+<p>The following table displays each pylon's priority:</p>
 <table>
 <thead>
 <tr>
@@ -461,6 +453,14 @@
 </tr>
 </tbody>
 </table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Rockets/dispenser pods cannot send an empty signal.</strong> Once the outer rocket or dispenser pods are empty, the AWRS will not automatically step to the inner rocket or dispenser pods. Instead, it continues to assume they are valid. To use inner rocket or dispenser pods, use RIPPLE-STEP or RIPPLE-SALVO instead.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong><a href="#station-release-selection-switches">Station Release Selection Switches</a> don't affect the AWRS pylon validity. These switches break the circuit between the AWRS and the pylon, causing the AWRS to get "stuck" if these pylons are set to OFF.</strong></p>
+</div>
               
             </div>
           </div><footer>

@@ -177,8 +177,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -186,6 +184,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -298,177 +298,87 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="instrument-panel">Instrument Panel</h1>
-<p>The instrument panel of the F-100D contains a careful selection of essential gauges for basic operation, navigation, and system monitoring. All gauges suffer from installation error and other errors as a result of wear and tear. During the time period, it was not uncommon to leave a majority of the aircraft's gauges unmaintained. Thus, the pilot will notice frictional spikes and slight reading errors of which are modeled in the DCS: F-100D Super Sabre.</p>
+<p>The instrument panel of the F-100D contains a careful selection of essential gauges for basic operation, navigation, and system monitoring. All gauges suffer from installation error and other errors as a result of wear and tear. During the F-100D's service lifetime, it was common to leave a majority of the aircraft's gauges unmaintained. You might notice occasional frictional spikes and slight reading errors modeled by the simulation.</p>
+<p>This section covers flight instruments needed for basic aircraft operation. For more information, see the respective system's section.</p>
 <p><img alt="replace image" src="img/mainpanel.png" /></p>
-<p>In this section, the primary flight instruments needed for basic operation of the aircraft will be discussed. For more in depth coverage, please visit the respective system's section.</p>
-<table>
-<thead>
-<tr>
-<th>Reference</th>
-<th>Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><a href="../ARC-34%20Command%20Radio/command-radio.html#remote-channel-indicator">Command Radio Remote Channel Indicator</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="#standby-attitude-indicator">Standby Attitude Indicator</a></td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="#clock">Clock</a></td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="../Weapon_System/a-4-gunsight.html#1-sight-selector-switch">Sight Selector Unit</a></td>
-</tr>
-<tr>
-<td>5</td>
-<td><a href="../ARN-72%20TACAN/tacan.html#tacan-range-indicator">Tacan Range Indicator</a></td>
-</tr>
-<tr>
-<td>6</td>
-<td><a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Master Heading Indicator</a></td>
-</tr>
-<tr>
-<td>7</td>
-<td><a href="#airspeed-and-mach-indicator">Airspeed and Mach Indicator</a></td>
-</tr>
-<tr>
-<td>8</td>
-<td><a href="../Electrical/electrical.html#ac-load-meter">AC Load Meter</a></td>
-</tr>
-<tr>
-<td>9</td>
-<td><a href="../Electrical/electrical.html#dc-load-meter">DC Load Meter</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td><a href="lights-overview.html#master-caution-light">Master Caution Light</a></td>
-</tr>
-<tr>
-<td>11</td>
-<td><a href="#attitude-indicator">Attitude Indicator</a></td>
-</tr>
-<tr>
-<td>12</td>
-<td><a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Radio Magnetic Indicator</a></td>
-</tr>
-<tr>
-<td>13</td>
-<td><a href="../ARN-72%20TACAN/tacan.html">Course Indicator</a></td>
-</tr>
-<tr>
-<td>14</td>
-<td>Tacan ILS Light - inoperative</td>
-</tr>
-<tr>
-<td>15</td>
-<td><a href="#altimeter">Altimeter</a></td>
-</tr>
-<tr>
-<td>16</td>
-<td><a href="#vertical-velocity-indicator">Vertical Velocity Indicator</a></td>
-</tr>
-<tr>
-<td>17</td>
-<td><a href="../Weapon_System/guns.html#gun-missile-switch">Gun Missile Switch</a></td>
-</tr>
-<tr>
-<td>18</td>
-<td><a href="#attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</a></td>
-</tr>
-<tr>
-<td>19</td>
-<td><a href="lights-overview.html#other">Fire and Overheat Warning Lights</a></td>
-</tr>
-<tr>
-<td>20</td>
-<td><a href="#turn-and-slip-indicator">Turn and Slip Indicator</a></td>
-</tr>
-<tr>
-<td>21</td>
-<td><a href="../Weapon_System/low-altitude-bombing-system.html#pitch-indicator">LABS Dive and Roll Indicator</a></td>
-</tr>
-<tr>
-<td>22</td>
-<td><a href="../Weapon_System/low-altitude-bombing-system.html#pullup-light">LABS Release Indicator Light</a></td>
-</tr>
-<tr>
-<td>23</td>
-<td><a href="#accelerometer">Accelerometer</a></td>
-</tr>
-<tr>
-<td>24</td>
-<td><a href="../Hydraulics/hydraulic.html#hydraulic-pressure-indicator-and-knob">Hydraulic Pressure Gauge Selector Switch</a></td>
-</tr>
-<tr>
-<td>25</td>
-<td><a href="../Hydraulics/hydraulic.html#hydraulic-pressure-indicator-and-knob">Hydraulic Pressure Gauge</a></td>
-</tr>
-<tr>
-<td>26</td>
-<td><a href="../Engine/engine.html#oil-pressure-gauge">Oil Pressure Gauge</a></td>
-</tr>
-<tr>
-<td>27</td>
-<td><a href="../Engine/engine.html#exhaust-temperature-gauge">Exhaust Temperature Gauge</a></td>
-</tr>
-<tr>
-<td>28</td>
-<td><a href="../Engine/engine.html#tachometer">Tachometer (RPM)</a></td>
-</tr>
-<tr>
-<td>29</td>
-<td><a href="../Engine/engine.html#engine-pressure-ratio-gauge">Engine Pressure Ratio Gauge</a></td>
-</tr>
-<tr>
-<td>30</td>
-<td><a href="../Fuel/fuel.html#fuel-flow-indicator">Fuel Flow Indicator</a></td>
-</tr>
-<tr>
-<td>31</td>
-<td><a href="../Fuel/fuel.html#forward-fuel-quantity-gauge">Fuel Quantity Gauges</a></td>
-</tr>
-<tr>
-<td>32</td>
-<td><a href="../Fuel/fuel.html#fuel-boost-pump-light">Fuel Boost Pump INOP Light</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="airspeed-and-mach-indicator">Airspeed and Mach Indicator</h2>
-<p>The aircraft's air data computer (ADC) computes the velocity based on temperature and pressure signals received by the pitot-static system. Specifically, it takes the difference between measured total and static pressure to compute dynamic pressure. Loss of either the pitot tube or static ports will manifest in inaccurate  airspeed readings. </p>
-<p>The airspeed indicator also introduces installation and position errors which will introduce errors in readings of up to 10 knots.</p>
-<p>The Mach number is computed in the same manner to display the aircraft's velocity as a multiple of the speed of sound at the local pressure altitude.</p>
-<p>These two readings are displayed as a combined Airspeed and Mach indicator. The inner reading displays the Airspeed between x to x and the outer reading displays the Mach number between x to x. An index marker, set by the pilot, can also be used via a push-and-rotate actuation of the index knob.</p>
-<h2 id="attitude-indicator">Attitude Indicator</h2>
-<p>One of the most important instruments is the attitude indicator. Driven by a an electric motor, a double mounted gyro maintains its vertical upright alignment while the aircraft maneuvers. However, the indicator is subject to precession errors, but it re-aligns with a self-erecting mechanism. </p>
-<p>A knob provides the pilot ability to adjust the reference up and down to align the it with the displayed artificial horizon.</p>
-<h2 id="turn-and-slip-indicator">Turn and Slip Indicator</h2>
-<p>A standard turn and slip indicator provides turn direction and rate information via a vertical needle. A standard 4 minute instrument turn places the vertical turn needle over the the corresponding direction's hash mark. </p>
-<p>The slip indicator displays horizontal accelerations in the lateral plane with a slip ball. For coordinated turns, use a combination of the rudder and the aircraft's yaw damper to center the slip ball.</p>
-<h2 id="accelerometer">Accelerometer</h2>
-<p>An accelerometer measures the aircraft's G load in the normal axis. The accelerometer has 3 needles: one for maximum positive G load, one for maximum negative G load, and one for current G load. To reset, use the push-to-reset knob which will zeroize the maximum and minimum G load needles.</p>
-<h2 id="altimeter">Altimeter</h2>
-<p>The altimeter displays the static system's current reading corrected for non standard temperature set by the pilot via a rotate actuation on the Altimeter's pressure setting knob. The current pressure setting is displayed in the Kollsman's window and is usually set to the local sea-level pressure in inches of mercury. Correct application of the local sea-level pressure setting will display the aircraft's mean-sea-level altitude on the altimeter.</p>
-<p>The altimeter can operate in two modes: servoed and standby. In standby mode the altimeter acts as a normal pressure based altimeter with any static port errors. In servoed mode the altimeter instead displays the corrected values from the air data computer.</p>
-<p>To set the altimeter into servoed mode hold the reset switch on the face of the altimeter to the reset position until the standby flag is no longer shown.</p>
-<h2 id="vertical-velocity-indicator">Vertical Velocity Indicator</h2>
-<p>The vertical velocity indicator computes the aircraft's vertical velocity, in feet per minute, via static pressure signals from the ADC. Lag is an inherent consequence of the design of the indicator and can result in readings often delayed up to 6 seconds. Much like the airspeed indicator, the vertical velocity indicator suffers from substantial positional and gauge installation errors and can often read up to 500 feet per minute.</p>
-<h2 id="clock">Clock</h2>
-<p>The ABU-11 clock has two ways of keeping time. On the clock face, you have two hands that work as a regular 12 hour clock with no AM or PM setting. Another set of hands will act as a stopwatch showing you seconds and minutes.</p>
-<p>On the clock, you have two dials. The dial to the bottom left works as time adjustment and the one at the top right works as a START/STOP/RESET function for the stopwatch.</p>
-<h2 id="standby-attitude-indicator">Standby Attitude Indicator</h2>
-<p>The Standby Attitude Indicator is a backup to the <a href="#attitude-indicator">Attitude Indicator</a>. The systems work identically to each other however, they are using independent gyros.</p>
-<p>Like the Attitude Indicator, it has an adjustment knob on the gauge.</p>
-<h2 id="attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</h2>
-<p>This button marked <strong>"PUSH VGI ERECT"</strong>, permits fast erection of the attitude gyros only when the button is depressed. Please note, you may have to hold the button a while depending on how misaligned the gyro has become.</p>
+<ol>
+<li><a href="../ARC-34%20Command%20Radio/command-radio.html#remote-channel-indicator">Command Radio Remote Channel Indicator</a></li>
+<li><a href="#standby-attitude-indicator">Standby Attitude Indicator</a></li>
+<li><a href="#clock">Clock</a></li>
+<li><a href="../Weapon_System/a-4-gunsight.html#1-sight-selector-switch">Sight Selector Unit</a></li>
+<li><a href="../ARN-72%20TACAN/tacan.html#tacan-range-indicator">Tacan Range Indicator</a></li>
+<li><a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Master Heading Indicator</a></li>
+<li><a href="#airspeed-and-mach-indicator">Airspeed and Mach Indicator</a></li>
+<li><a href="../Electrical/electrical.html#ac-load-meter">AC Load Meter</a></li>
+<li><a href="../Electrical/electrical.html#dc-load-meter">DC Load Meter</a></li>
+<li><a href="lights-overview.html#master-caution-light">Master Caution Light</a></li>
+<li><a href="#attitude-indicator">Attitude Indicator</a></li>
+<li><a href="../DirectionGyroCompass/direction-gyro-and-compass.html#direction-gyro">Radio Magnetic Indicator</a></li>
+<li><a href="../ARN-72%20TACAN/tacan.html">Course Indicator</a></li>
+<li><em>Tacan ILS Light (Inoperative)</em></li>
+<li><a href="#altimeter">Altimeter</a></li>
+<li><a href="#vertical-velocity-indicator">Vertical Velocity Indicator</a></li>
+<li><a href="../Weapon_System/guns.html#gun-missile-switch">Gun Missile Switch</a></li>
+<li><a href="#attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</a></li>
+<li><a href="lights-overview.html#other">Fire and Overheat Warning Lights</a></li>
+<li><a href="#turn-and-slip-indicator">Turn and Slip Indicator</a></li>
+<li><a href="../Weapon_System/low-altitude-bombing-system.html#pitch-indicator">LABS Dive and Roll Indicator</a></li>
+<li><a href="../Weapon_System/low-altitude-bombing-system.html#pullup-light">LABS Release Indicator Light</a></li>
+<li><a href="#accelerometer">Accelerometer</a></li>
+<li><a href="../Hydraulics/hydraulic.html#hydraulic-pressure-indicator-and-knob">Hydraulic Pressure Gauge Selector Switch</a></li>
+<li><a href="../Hydraulics/hydraulic.html#hydraulic-pressure-indicator-and-knob">Hydraulic Pressure Gauge</a></li>
+<li><a href="../Engine/engine.html#oil-pressure-gauge">Oil Pressure Gauge</a></li>
+<li><a href="../Engine/engine.html#exhaust-temperature-gauge">Exhaust Temperature Gauge</a></li>
+<li><a href="../Engine/engine.html#tachometer">Tachometer (RPM)</a></li>
+<li><a href="../Engine/engine.html#engine-pressure-ratio-gauge">Engine Pressure Ratio Gauge</a></li>
+<li><a href="../Fuel/fuel.html#fuel-flow-indicator">Fuel Flow Indicator</a></li>
+<li><a href="../Fuel/fuel.html#forward-fuel-quantity-gauge">Fuel Quantity Gauges</a></li>
+<li><a href="../Fuel/fuel.html#fuel-boost-pump-light">Fuel BOOST PUMP INOP Light</a></li>
+</ol>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>You should only use fast erect when the aircraft is flying level and is not accelerating otherwise error will result.</p>
+<p>If you enable the custom dashboard layout in the F-100D <a href="special-options.html">Special Options</a>, you can randomize the instrument panel layout each flight, or select one of your preference using the <a href="https://grinnellidesigns.com/dash-creator/">Grinelli Designs F-100D Dash Creator</a> and entering the code into the menu.</p>
+</div>
+<h2 id="airspeed-and-mach-indicator">Airspeed and Mach Indicator</h2>
+<p>The aircraft's air data computer (ADC) computes velocity based on temperature and pressure signals received by the pitot-static system. Specifically, it takes the difference between measured total and static pressure to compute dynamic pressure. Loss of either the pitot tube or static ports creates inaccurate readings. </p>
+<p>The airspeed indicator also introduces installation and position errors up to 10 knots.</p>
+<p>The Mach number is computed in the same manner, displaying aircraft velocity as a multiple of the speed of sound at local pressure altitude.</p>
+<p>These two readings are displayed as a combined Airspeed and Mach indicator. The inner reading displays the airspeed in knots, and the outer reading displays the Mach number. The plot can set an index marker via a push-and-rotate actuation of the instrument's knob.</p>
+<h2 id="attitude-indicator">Attitude Indicator</h2>
+<p>Driven by an electric motor, a double mounted gyro maintains its vertical upright alignment while the aircraft maneuvers, displaying its attitude. This indicator is subject to precession errors, but re-aligns itself with a self-erecting mechanism. </p>
+<p>A knob provides reference adjustment up and down to align it with the displayed artificial horizon.</p>
+<h2 id="turn-and-slip-indicator">Turn and Slip Indicator</h2>
+<p>The turn and slip indicator provides turn direction and rate information on a vertical needle. A standard 4 minute instrument turn places the vertical turn needle over the corresponding direction's hash mark. </p>
+<p>The slip indicator displays horizontal accelerations in the lateral plane with a slip ball. For coordinated turns, use a combination of rudder input and the aircraft's yaw damper to center the slip ball.</p>
+<h2 id="accelerometer">Accelerometer</h2>
+<p>The accelerometer measures the aircraft's G load in the normal axis. The accelerometer has 3 needles: </p>
+<ul>
+<li>Maximum positive G load</li>
+<li>Maximum negative G load</li>
+<li>Current G load</li>
+</ul>
+<p>A push-to-reset knob zeroes the maximum and minimum G load needles.</p>
+<h2 id="altimeter">Altimeter</h2>
+<p>The altimeter displays the static system's current reading corrected for non standard temperature set by the pilot via a rotate actuation on instrument's pressure setting knob. Current pressure setting is displayed in the Kollsman's window, and is usually set to the local sea-level pressure in inches of mercury. Correct application of local sea-level pressure setting displays the aircraft's mean-sea-level altitude on the altimeter.</p>
+<p>The altimeter can operate in two modes: servoed and standby.
+- In standby mode, the altimeter acts as a normal pressure based altimeter with any static port errors.
+- In servoed mode, the altimeter instead displays the corrected values from the air data computer.</p>
+<p>To set the altimeter into servoed mode, hold the reset switch on the face of the altimeter to the reset position until the standby flag clears.</p>
+<h2 id="vertical-velocity-indicator">Vertical Velocity Indicator</h2>
+<p>The vertical velocity indicator computes the aircraft's vertical velocity from static pressure signals from the ADC, displaying the result in feet per minute. Lag is an inherent consequence of the design of the indicator, so readings delayed up to 6 seconds with substantial positional and gauge installation errors.</p>
+<h2 id="clock">Clock</h2>
+<p>The ABU-11 clock has two ways of keeping time: </p>
+<ul>
+<li>On the clock face, you have two hands that work as a regular 12 hour clock with no AM or PM setting. The dial at the bottom-left of the instrument adjusts the time.</li>
+<li>Another second set of hands act as a stopwatch showing you seconds and minutes. The button at the top-right of the instrument cycles the stopwatch to START, STOP, and RESET.</li>
+</ul>
+<h2 id="standby-attitude-indicator">Standby Attitude Indicator</h2>
+<p>The standby attitude indicator provides redundant function to the <a href="#attitude-indicator">Attitude Indicator</a>. The systems functions identically (including adjustment), but operate on independent gyros.</p>
+<h2 id="attitude-indicator-fast-erection-button">Attitude Indicator Fast Erection Button</h2>
+<p>This button is marked <strong>"PUSH VGI ERECT"</strong>, and permits fast erection of the attitude gyros when pressed. Keep the button pressed for a duration proportional to the amount of suspected gyro misalignment.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>To avoid creating additional misalignment errors, press the button in level flight at constant speed.</p>
 </div>
               
             </div>

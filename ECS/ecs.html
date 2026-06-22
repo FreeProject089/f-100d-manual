@@ -181,8 +181,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -190,6 +188,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -314,42 +314,108 @@
 <li><a href="#iff-antenna-selector-switch">IFF Antenna Selector Switch</a></li>
 <li><a href="#cockpit-temperature-rheostat">Cockpit Temperature Rheostat</a></li>
 <li><a href="#cockpit-temperature-master-switch">Cockpit Temperature Master Switch</a></li>
-<li>Marker Beacon Volume Knob <strong><em>INOP</em></strong></li>
+<li><em>Marker Beacon Volume Knob (INOP)</em></li>
 </ol>
 <h3 id="cockpit-pressure-selector-switch">Cockpit Pressure Selector Switch</h3>
-<p>The Cockpit Pressure Selector Switch has four positions. RAM AIR ON, OFF, 2.75 PSI and 5.00 PSI. </p>
-<p>When the selector is set to 2.75 psi or 5 psi, the main system shutoff valve opens to direct air to some cockpit air outlets and the emergency ram air valve closes. </p>
-<p>When the selector is set to RAM AIR ON, the main system shutoff valve closes and the emergency ram air valve opens to admit ram air to the cockpit.</p>
+<p>The Cockpit Pressure Selector Switch has four positions:</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RAM AIR ON</strong></td>
+<td>Main system shutoff valve closes, and the emergency ram air valve opens to admit ram air to the cockpit.</td>
+</tr>
+<tr>
+<td><strong>OFF</strong></td>
+<td>Closes the main system shutoff valve, the emergency ram-air valve, and the cockpit dump valve, and the cockpit pressure regulator is set to 2.75 psi.</td>
+</tr>
+<tr>
+<td><strong>2.75 PSI</strong></td>
+<td>Main system shutoff valve opens to direct air to the cockpit, and air outlets and the emergency ram air valve closes.</td>
+</tr>
+<tr>
+<td><strong>5.00 PSI</strong></td>
+<td>Main system shutoff valve opens to direct air to the cockpit, and air outlets and the emergency ram air valve closes.</td>
+</tr>
+</tbody>
+</table>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Selecting the Cockpit Pressure Selector Switch to RAM AIR ON will depressurize the cockpit.</p>
+<p>The <strong>OFF</strong> position prevents rapid decompression of the cockpit.</p>
 </div>
-<p>Moving the pressure selector switch to OFF closes the main system shutoff valve, the emergency ram-air valve, and the cockpit dump valve, and the cockpit pressure regulator is
-set to 2.75 psi position.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The OFF position is also used to prevent rapid decompression of the cockpit.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Selecting <strong>*RAM AIR ON</strong> depressurizes the cockpit.</p>
 </div>
 <h3 id="cockpit-pressure-schedule">Cockpit Pressure Schedule</h3>
-<p>Reference image below for how pressure scheduling works.</p>
+<p>This figure describes how pressure scheduling works:</p>
 <p><img alt="Schedule Image" src="img/schedule.png" /></p>
 <h3 id="console-airflow-lever">Console Airflow Lever</h3>
-<p>The Console Airflow Lever controls the flow of air to the outlets along the console and to the outlet behind the seat. Moving the lever forward increases the airflow while moving it back reduces the airflow.</p>
+<p>Controls the flow of air to the outlets along the console and to the outlet behind the seat. Moving the lever forward increases the airflow, and moving it aft reduces the airflow.</p>
 <h3 id="canopy-and-windshield-defrost-lever">Canopy and Windshield Defrost Lever</h3>
-<p>Similarly to the <a href="#console-airflow-lever">Console Airflow Lever</a>, the Canopy and Windshield Defrost Lever controls the distribution of heat to the canopy and windshield.</p>
+<p>Similaly to the <a href="#console-airflow-lever">Console Airflow Lever</a>, this lever controls the distribution of heat to the canopy and windshield, preventing canopy fogging and condensation during descent.</p>
 <h3 id="iff-antenna-selector-switch">IFF Antenna Selector Switch</h3>
-<p>The IFF Antenna Selector Switch has three position, TOP/BOTH/BOTTOM.</p>
-<p>When the switch is positioned in the TOP position, it will only utilize the upper antenna.</p>
-<p>When the switch is positioned in the BOTH position, it will utilize both the upper and lower antenna.</p>
-<p>When the switch is positioned in the BOTTOM position, it will only utilize the lower antenna.</p>
-<p>Reference <a href="../ARN-72%20TACAN/tacan.html">ARN-72 Tacan</a> for more information.</p>
+<p>The IFF Antenna Selector Switch has three position:</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TOP</strong></td>
+<td>Use only the upper antenna.</td>
+</tr>
+<tr>
+<td><strong>BOTH</strong></td>
+<td>Use both upper and lower antenna.</td>
+</tr>
+<tr>
+<td><strong>BOTTOM</strong></td>
+<td>Use only the lower antenna.</td>
+</tr>
+</tbody>
+</table>
+<p><em>See also: <a href="../ARN-72%20TACAN/tacan.html">ARN-72 Tacan</a></em></p>
 <h3 id="cockpit-temperature-rheostat">Cockpit Temperature Rheostat</h3>
-<p>The Cockpit Temperature Rheostat will change the temperature of the cockpit only when the <a href="#cockpit-temperature-master-switch">Cockpit Temperature Master Switch</a> is set to AUTO. It also has a small range that will control the pilots suit temperature.</p>
+<p>Change the temperature of the cockpit when the <a href="#cockpit-temperature-master-switch">Cockpit Temperature Master Switch</a> is set to the <strong>AUTO</strong> position. It also has a small range that controls pilot suit temperature.</p>
 <h3 id="cockpit-temperature-master-switch">Cockpit Temperature Master Switch</h3>
-<p>The Cockpit Temperature Master Switch has four positions, AUTO/OFF/COLD/HOT</p>
-<p>Setting this switch to either position except for OFF will control the temperature of the cockpit.</p>
+<p>The Cockpit Temperature Master Switch has four positions. Setting this switch to any position except <strong>OFF</strong> controls cockpit airflow temperature.</p>
+<table>
+<thead>
+<tr>
+<th>Selection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AUTO</strong></td>
+<td>Will automatically adjust the temperature of the cockpit.</td>
+</tr>
+<tr>
+<td><strong>OFF</strong></td>
+<td>Will turn the temperature control system off.</td>
+</tr>
+<tr>
+<td><strong>COLD</strong></td>
+<td>Will set the temperature of the cockpit to cool.</td>
+</tr>
+<tr>
+<td><strong>HOT</strong></td>
+<td>Will set the temperature of the cockpit to hot.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="cockpit-pressure-altitude-indicator">Cockpit Pressure Altitude Indicator</h2>
-<p>This gauge will tell you what the current cockpit pressure is.</p>
+<p>Indicates cockpit pressure.</p>
 <p><img alt="Cockpit Pressure Alt Gauge" src="img/cockpit_press.png" /></p>
               
             </div>

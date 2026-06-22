@@ -92,12 +92,16 @@
     <li class="toctree-l2"><a class="reference internal" href="#indications">Indications</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#engine-pressure-ratio-gauge">Engine Pressure Ratio Gauge</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#epr-takeoff-index-settings">EPR Takeoff Index Settings</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#tachometer">Tachometer</a>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tachometer-rpm">Tachometer (RPM)</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#oil-pressure-gauge">Oil Pressure Gauge</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#exhaust-temperature-gauge">Exhaust Temperature Gauge</a>
+    <li class="toctree-l3"><a class="reference internal" href="#exhaust-gas-temperature-egt-gauge">Exhaust Gas Temperature (EGT) Gauge</a>
     </li>
         </ul>
     </li>
@@ -171,8 +175,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -180,6 +182,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -293,35 +297,333 @@
               
                 <h1 id="engine">Engine</h1>
 <p><img alt="banner1" src="img/banner1.png" /></p>
-<p>The F-100D is fitted with the Pratt &amp; Whitney J-57 turbojet engine featuring the J-57-P-21 and J-57-P-23 afterburner nozzles. The -21 was the legacy nozzle that suffered from extensive afterburner ignition issues, reliability, and efficiency problems. The -23 nozzle, taken from the F-102, fixed these issues.</p>
-<p>At full military power, the J-57 produces roughly 10,200 pounds of thrust under standard conditions, and 16,000 pounds in maximum afterburner.</p>
-<p>The F-100D Super Sabre requires external air to rotate the core in order to start the engine. Otherwise, pilot's utilized a cartridge start mechanism to rotate the core at sufficient speeds without the use of external air.</p>
+<p>The F-100D is fitted with the Pratt &amp; Whitney J-57 turbojet engine featuring the J-57-P-21 and J-57-P-23 afterburner nozzles. The -21 was the legacy nozzle that suffered from extensive afterburner ignition issues, reliability, and efficiency problems. The -23 nozzle (originally produced for the F-102) fixed these issues.</p>
+<p>At full military power, the J-57 produces apoproximately 10,200 pounds of thrust under standard conditions, and 16,000 pounds in maximum afterburner.</p>
+<p>The F-100D Super Sabre requires external air to rotate the core in order to start the engine. Otherwise, pilots used a cartridge start mechanism to rotate the core at sufficient speeds without the use of external air.</p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>The ignitors will be damaged if operated continuously for more than 5 minutes. They should not be energized longer than required to complete an engine start.</p>
+<p>Engine ignitors can be damaged damaged if operated continuously for more than 5 minutes. Reserve their use only during the time it takes to complete an engine start.</p>
 </div>
 <h2 id="indications">Indications</h2>
+<p>Monitor the engine's status by reading the following four gauges toward the bottom-right of the <a href="../Introduction/instrument-panel.html">instrument panel</a>:</p>
+<ul>
+<li><a href="#engine-pressure-ratio-gauge">Engine Pressure Ratio</a></li>
+<li><a href="#tachometer-RPM">Tachometer (RPM)</a></li>
+<li><a href="#oil-pressure-gauge">Oil Pressure</a></li>
+<li><a href="#exhaust-gas-temperature-RPM-gauge">Exhaust Gas Temperature (EGT)</a></li>
+</ul>
 <p><img alt="engstack" src="img/gaugestack.png" /></p>
-<p>The engine can be monitored using the stack of gauges highlighted above. These include the engine pressure ratio, tachometer (RPM), oil pressure, and exhaust temperature gauge.</p>
 <h3 id="engine-pressure-ratio-gauge">Engine Pressure Ratio Gauge</h3>
 <p><img alt="epr" src="img/epr.png" /></p>
 <p>The engine pressure ratio gauge shows the ratio between the turbine discharge pressure and the pitot pressure. </p>
 <p>The gauge shows two adjustable values for takeoff and cruise pressure ratios. Pushing in and adjusting the knob adjusts the takeoff setting. Pulling out and adjusting the knob adjusts the cruise setting.</p>
-<p>This gauge is powered by the main AC bus.</p>
-<h3 id="tachometer">Tachometer</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The EPR gauge is powered by the main AC bus.</p>
+</div>
+<h4 id="epr-takeoff-index-settings">EPR Takeoff Index Settings</h4>
+<p>Set the takeoff indexer on the instrument based on the type of afterburner nozzle installed on the aircraft, and the external temperature as follows:</p>
+<table>
+<thead>
+<tr>
+<th>-21</th>
+<th>-23</th>
+<th>°F</th>
+<th>°C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.82</td>
+<td>1.79</td>
+<td>122</td>
+<td>50</td>
+</tr>
+<tr>
+<td>1.84</td>
+<td>1.80</td>
+<td>118</td>
+<td>48</td>
+</tr>
+<tr>
+<td>1.85</td>
+<td>1.82</td>
+<td>116</td>
+<td>46</td>
+</tr>
+<tr>
+<td>1.86</td>
+<td>1.83</td>
+<td>111</td>
+<td>44</td>
+</tr>
+<tr>
+<td>1.87</td>
+<td>1.85</td>
+<td>108</td>
+<td>42</td>
+</tr>
+<tr>
+<td>1.88</td>
+<td>1.86</td>
+<td>104</td>
+<td>40</td>
+</tr>
+<tr>
+<td>1.89</td>
+<td>1.88</td>
+<td>100</td>
+<td>38</td>
+</tr>
+<tr>
+<td>1.90</td>
+<td>1.89</td>
+<td>97</td>
+<td>36</td>
+</tr>
+<tr>
+<td>1.91</td>
+<td>1.91</td>
+<td>93</td>
+<td>34</td>
+</tr>
+<tr>
+<td>1.92</td>
+<td>1.93</td>
+<td>90</td>
+<td>32</td>
+</tr>
+<tr>
+<td>1.93</td>
+<td>1.94</td>
+<td>86</td>
+<td>30</td>
+</tr>
+<tr>
+<td>1.94</td>
+<td>1.96</td>
+<td>82</td>
+<td>28</td>
+</tr>
+<tr>
+<td>1.96</td>
+<td>1.97</td>
+<td>79</td>
+<td>26</td>
+</tr>
+<tr>
+<td>1.97</td>
+<td>1.99</td>
+<td>75</td>
+<td>24</td>
+</tr>
+<tr>
+<td>1.98</td>
+<td>2.00</td>
+<td>72</td>
+<td>22</td>
+</tr>
+<tr>
+<td>1.99</td>
+<td>2.02</td>
+<td>68</td>
+<td>20</td>
+</tr>
+<tr>
+<td>2.01</td>
+<td>2.03</td>
+<td>64</td>
+<td>18</td>
+</tr>
+<tr>
+<td>2.02</td>
+<td>2.05</td>
+<td>61</td>
+<td>16</td>
+</tr>
+<tr>
+<td>2.03</td>
+<td>2.06</td>
+<td>57</td>
+<td>14</td>
+</tr>
+<tr>
+<td>2.04</td>
+<td>2.08</td>
+<td>54</td>
+<td>12</td>
+</tr>
+<tr>
+<td>2.05</td>
+<td>2.09</td>
+<td>50</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2.06</td>
+<td>2.10</td>
+<td>46</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2.07</td>
+<td>2.12</td>
+<td>43</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2.09</td>
+<td>2.13</td>
+<td>39</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2.10</td>
+<td>2.15</td>
+<td>36</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2.11</td>
+<td>2.16</td>
+<td>32</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2.13</td>
+<td>2.17</td>
+<td>28</td>
+<td>−2</td>
+</tr>
+<tr>
+<td>2.14</td>
+<td>2.19</td>
+<td>25</td>
+<td>−4</td>
+</tr>
+<tr>
+<td>2.16</td>
+<td>2.20</td>
+<td>21</td>
+<td>−6</td>
+</tr>
+<tr>
+<td>2.17</td>
+<td>2.21</td>
+<td>18</td>
+<td>−9</td>
+</tr>
+<tr>
+<td>2.18</td>
+<td>2.23</td>
+<td>14</td>
+<td>−10</td>
+</tr>
+<tr>
+<td>2.20</td>
+<td>2.24</td>
+<td>10</td>
+<td>−12</td>
+</tr>
+<tr>
+<td>2.21</td>
+<td>2.26</td>
+<td>7</td>
+<td>−14</td>
+</tr>
+<tr>
+<td>2.22</td>
+<td>2.27</td>
+<td>3</td>
+<td>−16</td>
+</tr>
+<tr>
+<td>2.23</td>
+<td>2.28</td>
+<td>0</td>
+<td>−18</td>
+</tr>
+<tr>
+<td>2.25</td>
+<td>2.29</td>
+<td>−4</td>
+<td>−20</td>
+</tr>
+<tr>
+<td>2.27</td>
+<td>2.30</td>
+<td>−8</td>
+<td>−22</td>
+</tr>
+<tr>
+<td>2.28</td>
+<td>2.31</td>
+<td>−11</td>
+<td>−24</td>
+</tr>
+<tr>
+<td>2.29</td>
+<td>2.32</td>
+<td>−15</td>
+<td>−26</td>
+</tr>
+<tr>
+<td>2.30</td>
+<td>2.33</td>
+<td>−18</td>
+<td>−28</td>
+</tr>
+<tr>
+<td>2.32</td>
+<td>2.34</td>
+<td>−22</td>
+<td>−30</td>
+</tr>
+<tr>
+<td>2.34</td>
+<td>2.35</td>
+<td>−25</td>
+<td>−32</td>
+</tr>
+<tr>
+<td>2.35</td>
+<td>2.36</td>
+<td>−29</td>
+<td>−34</td>
+</tr>
+<tr>
+<td>2.37</td>
+<td>2.37</td>
+<td>−33</td>
+<td>−36</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tachometer-rpm">Tachometer (RPM)</h3>
 <p><img alt="tach" src="img/tach.png" /></p>
-<p>The tachometer registers engine speed in percentage of approximate maximum RPM (9980) of the high-speed compressor rotor. The tachometer receives power from a tachometer generator and is therefore independent of the aircraft electrical system.</p>
+<p>The tachometer registers engine speed in percentage of approximate maximum RPM (9980) of the high-speed compressor rotor.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The tachometer receives power from a tachometer generator and is therefore independent of the aircraft electrical system.</p>
+</div>
 <h3 id="oil-pressure-gauge">Oil Pressure Gauge</h3>
 <p><img alt="oil" src="img/oil.png" /></p>
 <p>The oil pressure gauge indicates oil pump discharge pressure above the gear case pressure in pounds per square inch.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Oil pressure will have a tendency to follow the throttle. This condition is normal provided the pressure remains within the limits.</p>
+<p>Oil pressure tends to follow the throttle. This is normal, provided the pressure remains within the limits.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>This gauge is powered by the 26 V AC instrument bus.</p>
-<h3 id="exhaust-temperature-gauge">Exhaust Temperature Gauge</h3>
+</div>
+<h3 id="exhaust-gas-temperature-egt-gauge">Exhaust Gas Temperature (EGT) Gauge</h3>
 <p><img alt="exhtemp" src="img/exhtemp.png" /></p>
-<p>The exhaust temperature gauge shows engine exhaust temperature in degrees celsius. Gauge indications are self-generating type thermocouples which does not need power from the electrical system.</p>
+<p>The exhaust temperature gauge shows engine exhaust temperature in ° C.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Exhaust temperatue gauge indications are self-generating type thermocouples, and don't need power from the electrical system.</p>
+</div>
               
             </div>
           </div><footer>

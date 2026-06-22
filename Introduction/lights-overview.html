@@ -167,8 +167,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -176,6 +174,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -318,7 +318,7 @@
 <p>The three-position indicator light dimmer switch controls the brightness of the indicator, caution, and warning lights when the instrument panel lights are on. The in-flight control tester panel has its own integral brightness control.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The indicator light test switch changes the indicator lights to bright when released. To dim the indicator lights after using the indicator light test switch, move the indicator light dimmer switch to BRIGHT, then to DIM, and release to the center off position.</p>
+<p>The indicator light test switch changes the indicator lights to bright when released. To dim the indicator lights after using the indicator light test switch, move the indicator light dimmer switch to <strong>BRIGHT</strong>, then <strong>DIM</strong>, and release to the center <strong>OFF</strong> position.</p>
 </div>
 <h2 id="indicator-caution-and-warning-light-panel">Indicator, Caution, and Warning Light Panel</h2>
 <p><img alt="replace image" src="img/indicatorlights.png" /></p>
@@ -328,7 +328,6 @@
 <th>Light</th>
 <th>Category</th>
 <th>Cause</th>
-<th>Procedure</th>
 </tr>
 </thead>
 <tbody>
@@ -336,78 +335,66 @@
 <td>GUIDE VANE ANTI-ICE ON</td>
 <td>Caution</td>
 <td>The ice detector unit in the engine guide vane has detected ice or the guide vane anti-ice switch is on</td>
-<td></td>
 </tr>
 <tr>
 <td>ANTI-SKID OFF</td>
 <td>Caution</td>
 <td>The anti-skid switch is off or the system has failed</td>
-<td></td>
 </tr>
 <tr>
 <td>HEAT &amp; VENT OVERHEATED</td>
 <td>Caution</td>
-<td></td>
 <td></td>
 </tr>
 <tr>
 <td>ENG OIL OVERHEATED</td>
 <td>Caution</td>
 <td>Engine oil temperature is higher than 127°C (260°F)</td>
-<td></td>
 </tr>
 <tr>
 <td>EMER FUEL REG ON</td>
 <td>Caution</td>
 <td>Fuel flow is being scheduled by the emergency fuel regulator</td>
-<td></td>
 </tr>
 <tr>
 <td>FLIGHT SYS FAIL</td>
 <td>Caution</td>
 <td>One or both flight control hydraulic systems have failed (system 1 or 2)</td>
-<td></td>
 </tr>
 <tr>
 <td>INST A.C. POWER OFF</td>
 <td>Caution</td>
 <td>AC Instrument Buses are not Receiving sufficient electrical power</td>
-<td></td>
 </tr>
 <tr>
 <td>A.C. GENERATOR OFF</td>
 <td>Caution</td>
 <td>AC generator is off the line</td>
-<td></td>
 </tr>
 <tr>
 <td>D.C. GENERATOR OFF</td>
 <td>Caution</td>
 <td>DC generator is off the line</td>
-<td></td>
 </tr>
 <tr>
 <td>EQUIP AIR OVERHEAT</td>
 <td>Caution</td>
 <td>The aft electronic equipment compartment has overheated\n Indicates possible failure of the equipment cooling or compartment turbine, failure of the turbine control system, or the ram air is not cooling the compartment</td>
-<td></td>
 </tr>
 <tr>
 <td>SEL. DROP TANK EMPTY</td>
 <td>Indicator</td>
 <td>selected drop tanks are empty</td>
-<td></td>
 </tr>
 <tr>
 <td>AIR REFUELING READY</td>
 <td>Indicator</td>
 <td>Air refueling switch is in the ready position, does not indicate that all components in the system are operational</td>
-<td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="indicator-light-test-circuit">Indicator Light Test Circuit</h2>
-<p>The indicator light test circuit is a means of merely testing the integrity and operation of the bulbs. All indicator, caution, and warning lights will illuminate simultaneously to exclude the engine compartment fire "FIRE ENG COMP" and overheat "OVERHEAT ENG BURN" warning lights, of which have a separate test circuit. All lights in the test circuit are powered by the primary bus. </p>
+<p>The indicator light test circuit is a means of merely testing the integrity and operation of the bulbs. All indicator, caution, and warning lights illuminate simultaneously to exclude the engine compartment fire <strong>FIRE ENG COMP</strong> and overheat <strong>OVERHEAT ENG BURN</strong> warning lights, of which have a separate test circuit. All lights in the test circuit are powered by the primary bus. </p>
 <h2 id="master-caution-light">Master Caution Light</h2>
 <p>The master caution light indicated certain indicator or caution lights have illuminated. The master caution light must be put out in order to not inhibit the illumination of additional lights. To extinguish the master caution light, the pilot must press the respective indicator or caution light that caused the master caution to become illuminated.</p>
 <div class="admonition note">
@@ -430,33 +417,28 @@
 <th>Light</th>
 <th>Category</th>
 <th>Cause</th>
-<th>Procedure</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>CANOPY NOT LOCKED</td>
 <td>Warning</td>
-<td>The canopy is not fully closed and locked</td>
-<td></td>
+<td>The canopy is not fully closed and locked.</td>
 </tr>
 <tr>
 <td>FIRE ENG COMP</td>
 <td>Warning</td>
-<td>An overheat or fire has been detected in the forward engine compartment or the fire system is being tested</td>
-<td></td>
+<td>An overheat or fire has been detected in the forward engine compartment or the fire system is being tested.</td>
 </tr>
 <tr>
 <td>OVERHEAT ENG BURN</td>
 <td>Warning</td>
-<td>An overheat or fire has been detected in the aft engine compartment or the fire system is being tested</td>
-<td></td>
+<td>An overheat or fire has been detected in the aft engine compartment or the fire system is being tested.</td>
 </tr>
 <tr>
 <td>TRIMMED FOR TAKEOFF</td>
 <td>Indicator</td>
-<td>The aircraft is trimmed for take off (260 KIAS condition)</td>
-<td></td>
+<td>The aircraft is trimmed for take off (260 KIAS condition).</td>
 </tr>
 </tbody>
 </table>

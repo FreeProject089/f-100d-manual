@@ -130,19 +130,17 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#enable-camera-recording">Enable Camera Recording</a>
+    <li class="toctree-l2"><a class="reference internal" href="#enable-strike-camera-recording">Enable Strike Camera Recording</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#controls">Controls</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#strike-camera-settings-menu">Strike Camera Settings Menu</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#type-n-9-forward-camera-settings">Type N-9 Forward Camera Settings</a>
+    <li class="toctree-l3"><a class="reference internal" href="#type-n-9-forward-camera">Type N-9 Forward Camera</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#dbm-4c-aft-camera-settings">DBM-4C Aft Camera Settings</a>
+    <li class="toctree-l3"><a class="reference internal" href="#dbm-4c-aft-camera">DBM-4C Aft Camera</a>
     </li>
         </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#normal-operation">Normal Operation</a>
     </li>
     </ul>
                   </li>
@@ -175,8 +173,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -184,6 +180,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -297,26 +295,33 @@
               
                 <h1 id="strike-camera">Strike Camera</h1>
 <h2 id="introduction">Introduction</h2>
-<p>Forward and aft photographic documentation of weapon impacts is provided by two motion-picture cameras installed in a nonjettisonable pod on the underside of
-the left wing, approximately midway between the fuselage and inboard wing station.</p>
+<p>Forward and aft photographic documentation of weapon impacts is provided by two motion-picture cameras installed in a non-jettisonable pod on the underside of the left wing, halfway between the fuselage and inboard wing station.</p>
 <p><img alt="Strike Camera" src="img/strike_cam.png" /></p>
-<h2 id="enable-camera-recording">Enable Camera Recording</h2>
-<p>In order to generate recordings you must first enable recording in the F-100D Special options menu.</p>
+<h2 id="enable-strike-camera-recording">Enable Strike Camera Recording</h2>
+<p>Enable recording in the F-100D <a href="../Introduction/special-options.html">Special Options</a> menu.</p>
 <p><img alt="Strike Camera Enable" src="img/special_opt_strike.png" /></p>
+<p>Add the strike camera pod in the mission editor, or have the ground crew perform an installation.</p>
+<p>Strike camera recordings are generated when the bomb button is pressed. Recordings are saved in <code>%userprofile%/Saved Games/DCS F-100D</code> at the end of the mission.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <a href="../Gun%20Camera/gun_camera.html">gun camera</a> and strike cameras only record when the view is in the cockpit.</p>
+</div>
 <h2 id="controls">Controls</h2>
 <ol>
 <li><a href="#strike-camera-settings-menu">Strike Camera Settings Menu</a></li>
-<li><a href="#type-n-9-forward-camera-settings">Type N-9 Forward Camera Settings</a></li>
-<li><a href="#dbm-4c-aft-camera-settings">DBM-4C Aft Camera Settings</a></li>
+<li><a href="#type-n-9-forward-camera">Type N-9 Forward Camera</a></li>
+<li><a href="#dbm-4c-aft-camera">DBM-4C Aft Camera</a></li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Additional camera controls related to the strike cameras are detailed in the <a href="../Gun%20Camera/gun_camera.html">gun camera</a> section.</p>
+</div>
 <h3 id="strike-camera-settings-menu">Strike Camera Settings Menu</h3>
-<p>To access the settings menu the default keybind is Right Ctrl + C.</p>
-<h3 id="type-n-9-forward-camera-settings">Type N-9 Forward Camera Settings</h3>
-<p>The forward camera is a Type N-9, identical to the Type N-9 that is mounted on the sight, except that the pod camera has a 20 to 80 mm variable focal length lens and a larger film magazine. The forward camera is mounted on an adjustable base that permits various elevation adjustments from zero (straight forward) to 20 degrees down.</p>
-<h3 id="dbm-4c-aft-camera-settings">DBM-4C Aft Camera Settings</h3>
-<p>The aft camera is a Type DBM-4C that is an electrically driven, 16 mm internally loaded reel type camera. It has a 17 to 68 mm variable focal-length lens. The aft camera mount is adjustable to permit variations in elevation from zero (straight aft) to 25 degrees down and from 45 to 60 degrees down. Camera operation is completely automatic and is initiated by pressing the trigger to the first and/or second detent, or pressing the bomb button. There are no other wing camera pod system cockpit controls. Adjustment for elevation, light conditions, frame speed, lens aperture, and camera overrun time are preset in the pod before flight.</p>
-<h2 id="normal-operation">Normal Operation</h2>
-<p>With the strike camera recording option enabled clips will be generated and saved when the pickle button is pressed.</p>
+<p>When a strike camera is installed and weight is on the aircraft's wheels, you can use the <code>Strike Camera Config Menu</code> keybind to have the ground crew configure the strike cameras differently than the F-100D <a href="../Introduction/special-options.html">Special Options</a>.</p>
+<h3 id="type-n-9-forward-camera">Type N-9 Forward Camera</h3>
+<p>The forward camera is a Type N-9, identical to the Type N-9 that is <a href="../Gun%20Camera/gun_camera.html">gun camera</a>, except that the pod camera has a 20–80 mm variable focal length lens and a larger film magazine. The forward camera is mounted on an adjustable base that permits various elevation adjustments from zero (straight forward) to 20° down.</p>
+<h3 id="dbm-4c-aft-camera">DBM-4C Aft Camera</h3>
+<p>The aft camera is a Type DBM-4C that is an electrically-driven, 16 mm internally loaded reel type camera. It has a 17–68 mm variable focal-length lens. The aft camera mount is adjustable to permit variations in elevation from 0 (directly aft)–25° down and from 45–60° down.</p>
               
             </div>
           </div><footer>

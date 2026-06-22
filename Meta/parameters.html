@@ -159,8 +159,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -168,6 +166,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -284,54 +284,54 @@
 <table>
 <thead>
 <tr>
-<th>Parameter Name</th>
+<th>Parameter</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>TACAN_CHANNEL</td>
-<td>Number of the tacan channel, note this is only ever an X channel.</td>
+<td>Number of the <a href="../ARN-72%20TACAN/tacan.html">TACAN</a> channel (X-channels only).</td>
 </tr>
 <tr>
 <td>COMM_FREQ</td>
-<td>Frequency of the UHF Radio in Hz</td>
+<td>Frequency of the <a href="../ARC-34%20Command%20Radio/command-radio.html">UHF Radio</a> in Hz</td>
 </tr>
 <tr>
 <td>RADIO_COMPASS_FREQ</td>
-<td>Frequency of the AN/ARN-6 Radio Compass in Hz</td>
+<td>Frequency of the <a href="../ARN-6%20Radio%20Compass/radio-compass.html">AN/ARN-6 Radio Compass</a> in Hz.</td>
 </tr>
 <tr>
 <td>AFTERBURNER_STATE</td>
-<td>0 for unlit -&gt; 1 for AB lit (note if there is AB failure it will not indicate desired AB only the actual AB state ie unlit)</td>
+<td>Afterburner <a href="../Introduction/stick-and-throttle.html#throttle">throttle detent</a> position: <em>(0)</em> Unlit; <em>(1)</em> Lit (Ignition failures failure are not indicated.)</td>
 </tr>
 <tr>
 <td>ENGINE_RPM</td>
-<td>0 -&gt; 100, engine rpm in percent</td>
+<td>0-100, engine RPM in %.</td>
 </tr>
 <tr>
 <td>FLAP_STATE</td>
-<td>0 -&gt; 1, average position where 0 is flaps retracted and 1 fully extended</td>
+<td>0-1, average position: <em>(0)</em> Flaps retracted; <em>(1)</em> Flaps fully extended</td>
 </tr>
 <tr>
 <td>GEAR_STATE</td>
-<td>0 -&gt; 1, average position where 0 is gear retracted and 1 fully extended</td>
+<td>0-1, average position: <em>(0)</em> Gear retracted; <em>(1)</em> Gear extended</td>
 </tr>
 <tr>
 <td>TRANSPONDER_CODE</td>
-<td>Transponder Code given for Mode 3 code given as a number, 0 if the IFF is not able to respond (off or in standby).</td>
+<td>Transponder Code given for Mode 3 code given as a number. If the IFF is unable to respond (off or in standby), the value is 0.</td>
 </tr>
 <tr>
 <td>GUN_MISSILE_SWITCH</td>
-<td>Position of the Gun/Missile Switch with positions: MISSILES (0), SAFE (1), UPPER (2),ALL (3), LWR (4), POD (5)</td>
+<td>Position of the Gun/Missile Switch with positions: <em>(0)</em> MISSILES; <em>(1)</em> SAFE; <em>(2)_UPPER; </em>(3)<em>ALL; </em>(4)<em> LWR; </em>(5)_ POD</td>
 </tr>
 <tr>
 <td>MODE_SELECT_SWITCH</td>
-<td>Position of the Mode Selector with positions OFF (0), SIGHT &amp; RADAR (1), MANUAL (2), LABS (3), LABS ALT (4), LADD (5)</td>
+<td>Position of the Mode Selector with positions: <em>(0)</em> OFF; <em>(1)</em> SIGHT &amp; RADAR; <em>(2)</em> MANUAL; <em>(3)</em> LABS; <em>(4)</em> LABS ALT; <em>(5)</em> LADD</td>
 </tr>
 <tr>
 <td>ARMAMENT_SELECT_SWITCH</td>
-<td>Position of Armament Selector with positions OFF (0), RKTS (1), BOMBS (2), DISP (3), NAPALM (4), SPL STORES (5), INOP/SHRIKE (6), TANK JETT (7), DISP JETT (8), PYLON JETT (9)</td>
+<td>Position of Armament Selector with positions: <em>(0)</em> OFF; <em>(1)</em> RKTS; <em>(2)</em> BOMBS; <em>(3)</em> DISP; <em>(4)</em> NAPALM; <em>(5)</em> SPL STORES; <em>(6)</em> INOP/SHRIKE; <em>(7)</em> TANK JETT; <em>(8)</em> DISP JETT; <em>(9)</em> PYLON JETT</td>
 </tr>
 </tbody>
 </table>

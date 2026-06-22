@@ -175,8 +175,6 @@
               </ul>
               <p class="caption"><span class="caption-text">Normal Procedures</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/preflight.html">Preflight Check</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/start.html">Startup</a>
@@ -184,6 +182,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/taxi.html">Taxiing</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/takeoff.html">Takeoff</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/cruise.html">Cruise</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Procedures/Normal/afterburner.html">Afterburner (AB) Operation During Flight</a>
                   </li>
@@ -296,16 +296,15 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="weapon-selection-circuitry">Weapon Selection Circuitry</h1>
-<p>The weapon release circuitry handle all weapon releases from the aircraft both armed and jettison.</p>
-<p>The F-100D has a novel method of selecting weapons for the time. The pilot selects the release mode and then the weapon type. The system will automatically select the correct pylons provided those pylons are armed. This is facilitated by the <a href="#pylon-loading-control-panel">pylon loading control panel</a> which stores the weapon type mounted on each pylon by method of a multiposition switch.</p>
-<p>Selecting release modes and weapons is achieved by using the <a href="#armament-selector-panel">armament selector panel</a>.</p>
+<p>The weapon release circuitry handles weapon releases from the aircraft both armed and jettison.</p>
+<p>The F-100D had a novel method of selecting weapons for the time: the pilot selects a release mode and weapon type. Selecting release modes and weapons using the <a href="#armament-selector-panel">armament selector panel</a>.</p>
 <h2 id="armament-selector-panel">Armament Selector Panel</h2>
 <p>This panel is responsible for:</p>
 <ul>
 <li>Selecting weapons</li>
-<li>Sight and Bombing Modes</li>
-<li>Fuzing Options</li>
-<li>Pylon Selection</li>
+<li>Sight and bombing modes</li>
+<li>Fuzing options</li>
+<li>Pylon selection</li>
 </ul>
 <p><img alt="Armament Selector Panel" src="img/armament_controls.png" /></p>
 <ol>
@@ -315,9 +314,9 @@
 <li><a href="#station-release-selection-switches">Station Release Selection Switches</a></li>
 </ol>
 <h3 id="stores-selector">Stores Selector</h3>
-<p>This selects the desired weapons to be released. When a store type is selected the pylons selected for release are determined by the <a href="#pylon-loading-control-panel">Pylon Loading Control Panel</a> settings. Stores with matching types are armed for release.</p>
+<p>The Stores Selector sets the desired weapon type. When a store type is selected, armed pylons are selected for release by the <a href="#pylon-loading-control-panel">Pylon Loading Control Panel</a> settings. </p>
 <h3 id="mode-selector">Mode Selector</h3>
-<p>This determines the release type for air-to-ground weapons. The sight and radar are powered in any position other than OFF.</p>
+<p>This determines the release type for air-to-ground weapons. When set to any position other than the OFF position, the sight and radar are powered.</p>
 <table>
 <thead>
 <tr>
@@ -328,27 +327,27 @@
 <tbody>
 <tr>
 <td>OFF</td>
-<td>Weapons, Sight and Radar are unpowered.</td>
+<td>Weapons, sight and radar are unpowered.</td>
 </tr>
 <tr>
 <td>SIGHT &amp; RADAR</td>
-<td>Sight and Radar are Powered and can be used with guns or missiles. Bomb button is energized for release using the <a href="a-4-gunsight.html#bomb-air-to-ground-automatic">gunsight bomb release mode</a>.</td>
+<td>Sight and radar are powered, and can be used with guns or missiles. The bomb button is energized for release using the <a href="a-4-gunsight.html#bomb-air-to-ground-automatic">gunsight bomb release mode</a>.</td>
 </tr>
 <tr>
 <td>MANUAL</td>
-<td>Sight and Radar are Powered. Bomb-button is energized and can send release pulses to either the <a href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a> if on, otherwise the <a href="aircraft-weapons-release-system.html#basic-armament-control-circuitry">Basic Armament Control Circuitry</a>. This mode directly sends pulses to release weapons.</td>
+<td>Sight and radar are powered. The bomb button is energized and can send release pulses to the <a href="aircraft-weapons-release-system.html#basic-armament-control-circuitry">Basic Armament Control Circuitry</a> or <a href="aircraft-weapons-release-system.html">Aircraft Weapons Release System</a>. This mode sends pulses directly to release weapons.</td>
 </tr>
 <tr>
 <td>LABS</td>
-<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the normal LABS mode (LOFT).</td>
+<td>Sight and radar are powered. The bomb button is energized, and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the normal LABS mode (LOFT).</td>
 </tr>
 <tr>
 <td>LABS ALT</td>
-<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the alternate LABS mode (Over-the-Shoulder).</td>
+<td>Sight and radar are powered. The bomb button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the alternate LABS mode (Over-the-Shoulder).</td>
 </tr>
 <tr>
 <td>LADD</td>
-<td>Sight and Radar are Powered. Bomb-button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the low altitude drogue delivery LABS mode.</td>
+<td>Sight and radar are powered. The bomb button is energized and can send activation signals to the <a href="low-altitude-bombing-system.html">LABS</a> for the low altitude drogue delivery LABS mode.</td>
 </tr>
 </tbody>
 </table>
@@ -386,13 +385,17 @@
 </tbody>
 </table>
 <h3 id="station-release-selection-switches">Station Release Selection Switches</h3>
-<p>These 7 switches simply break the circuit between the aircraft systems and the pylon firing or jettisoning circuitry. When a pylon is in the NORM position the release circuitry is used. When a pylon is in the JETT position the jettison circuitry is instead used.  It is advisable to turn all switches to NORM when arming the weapons system as the <a href="#stores-selector">stores selector</a> will select the correct weapons for drop.</p>
+<p>These 7 switches break the circuit between the aircraft systems and the pylon firing and jettisoning circuitry. When a pylon is in the NORM position, release circuitry is active. When a pylon is in the JETT position, the jettison circuitry is active instead.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>When arming the weapons system, keep switches in the NORM position, as the <a href="#stores-selector">stores selector</a> will select the correct weapons for drop.</p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p><strong>Turning these switches off do not remove them from the <a href="aircraft-weapons-release-system.html#station-release-selection-switches">Aircraft Weapons Release System Circuit</a> firing order.</strong> Thus disabling some of these while using the AWRS can result in a hung weapon release sequence.</p>
 </div>
 <h2 id="pylon-loading-control-panel">Pylon Loading Control Panel</h2>
-<p>This panel stores the weapon type information mounted on each pylon as a 7 position switch such that the <a href="#armament-selector-panel">Armament Selector Panel</a> can correctly select pylons by weapon type.</p>
+<p>This panel stores information about the type of weapon mounted on each pylon. Set each 7-position switch so that the <a href="#armament-selector-panel">Armament Selector Panel</a> can correctl selects pylons by their weapon type.</p>
 <p><img alt="Pylon Loading Control Panel" src="img/pylon_loading_panel.png" /></p>
 <ol>
 <li>Left Inboard Weapon Setting</li>
@@ -403,15 +406,7 @@
 <li>Right Outboard Weapon Setting</li>
 <li>Pylon Loading Control Panel Latch and Cover</li>
 </ol>
-<p>The controls 1-6 all control what the wiring considers mounted to the aircraft. These are automatically set by ground grew upon re-arm or spawn (by default see <a href="../Introduction/special-options.html#pylon-control-armament-assistance">special options</a>).</p>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>Setting any of these to incorrect loading may result in in-advertent release of weapons.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If automatic pylon loading control panel setting is set in the <a href="../Introduction/special-options.html">special options</a> then these will be set by the ground crew when the rearming complete radio message is received.</p>
-</div>
+<p>By default, each pylon's dial is set by ground crew upon re-arm or spawn. You can choose to perform this step yourself in the <a href="../Introduction/special-options.html#pylon-control-armament-assistance">special options</a>).</p>
 <p>There are 1-9 possible weapon mountings. These mostly match the weapon types found on the <a href="#stores-selector">Stores Selector</a>.</p>
 <table>
 <thead>
@@ -482,15 +477,15 @@
 <tbody>
 <tr>
 <td>TER EMPTY</td>
-<td>This indicates (if a TER is mounted on an inner pylon) if a TER is empty of bombs</td>
+<td>If a TER is mounted on an inner pylon, indicates it is empty of bombs</td>
 </tr>
 <tr>
 <td>CBU EMPTY</td>
-<td>This indicates (if a CBU Dispenser is mounted) if the CBU dispenser is fully depleted</td>
+<td>If a CBU Dispenser is mounted, indicates if it is fully depleted</td>
 </tr>
 <tr>
 <td>Missile</td>
-<td>This indicates if a missile is ready to be fired. The missiles are listed in firing order.</td>
+<td>Indicates if a <a href="aim-9-sidewinder.html">AIM-9 Sidewinder</a> misile is ready to be fired. Missiles are listed in firing order.</td>
 </tr>
 </tbody>
 </table>
